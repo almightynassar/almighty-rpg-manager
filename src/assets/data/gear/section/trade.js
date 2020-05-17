@@ -1,0 +1,8 @@
+export default [
+  { name: 'Corn', type: 'Trade Good - Farming', cost: 4, weight: 1, properties: [], acdamage: '', effects: [], requirements: [], description: 'Basic food product that is turned into other products. 50% of the corn is lost during the milling process' },
+  { name: 'Fresh Fish', type: 'Trade Good - Fishing', cost: 2, weight: 1, properties: [], acdamage: '', effects: [], requirements: [], description: 'This is a catch all for the local variety of fish native to the location. Just under half of the weight is edible ' },
+  { name: 'Grain - Barley', type: 'Trade Good - Farming', cost: 5, weight: 1, properties: [], acdamage: '', effects: [], requirements: [], description: 'Basic food product that is turned into other beer. 30% of the grain is lost during the milling process. Will roughly create 2.5 times the amount of beer in liters' },
+  { name: 'Grain - Oats', type: 'Trade Good - Farming', cost: 4, weight: 1, properties: [], acdamage: '', effects: [], requirements: [], description: 'Basic food product that is milled to turn into other products. 30% of the grain is lost during the milling process' },
+  { name: 'Grain - Wheat', type: 'Trade Good - Farming', cost: 2, weight: 1, properties: [], acdamage: '', effects: [], requirements: [], description: 'Basic food product that is turned into flour, and then bread. 30% of the grain is lost during the milling process to turn it into flour' },
+  { name: 'Hay', type: 'Trade Good - Farming', cost: 25, weight: 100, properties: [], acdamage: '', effects: [], requirements: [], description: 'Dried grass that is used as food for animals' }
+]
