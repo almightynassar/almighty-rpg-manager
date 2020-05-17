@@ -10,6 +10,7 @@
   "scripts": {
     "build": "quasar build",
     "electron": "quasar build -m electron",
+    "electron-all": "quasar build --mode electron --target all --arch x64",
     "lint": "eslint --ext .js,.vue --ignore-path .gitignore ./",
     "test": "echo \"No test specified\" && exit 0"
   },
