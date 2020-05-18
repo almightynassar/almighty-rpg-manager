@@ -1,4 +1,5 @@
 export default [
+  { name: 'Ammunition', description: 'You can only use this item if you have ammunition for it. Each time you attack, you expend one piece of ammunition (drawing the ammunition is part of the attack). At the end of the battle, you regain half of your expended ammunition by searching for it.' },
   { name: 'Arcane', description: 'Produced by harnessing supernatural or divine energies' },
   { name: 'Armour - Heavy', description: 'Piece of armour that provides lots of protection' },
   { name: 'Armour - Light', description: 'Piece of armour that provides basic protection' },

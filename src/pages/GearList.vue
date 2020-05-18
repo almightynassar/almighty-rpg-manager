@@ -61,6 +61,23 @@
         <q-tr v-show="props.expand" :props="props">
           <q-td colspan="100%">
             <div class="text-left text-primary table-row-wrap">{{ props.row.description }}</div>
+            <div v-if="props.row.acdamage !== ''" class="text-left table-row-wrap">
+              <span v-if="props.row.type.match(/Armour|Shield/g)"><strong>AC:</strong></span>
+              <span v-else><strong>Damage:</strong></span>
+              <span>{{ props.row.acdamage }}</span>
+            </div>
+            <div v-if="props.row.properties.length > 0" class="text-left table-row-wrap">
+              <q-chip dense v-for="p in props.row.properties" :key="props.row.name + p">
+                {{ p }}
+                <q-tooltip anchor="bottom left" self="bottom left">{{ getPropertyDescription(p) }}</q-tooltip>
+              </q-chip>
+            </div>
+            <div v-if="props.row.requirements.length > 0" class="text-left table-row-wrap">
+              <span><strong>Requirements:</strong></span>
+              <q-chip dense color="red" text-color="white" v-for="r in props.row.requirements" :key="props.row.name + r">
+                {{ r }}
+              </q-chip>
+            </div>
           </q-td>
         </q-tr>
       </template>
@@ -70,6 +87,7 @@
 </template>
 
 <script >
+import Gear from 'src/assets/data/gear/list'
 export default {
   name: 'GearList',
   data: function () {
@@ -82,7 +100,7 @@ export default {
       ],
       property: [],
       type: [],
-      gear: [],
+      gear: Gear,
       coinage: '',
       coinageOptions: [],
       filter: '',
@@ -98,6 +116,12 @@ export default {
       })
       return ('description' in local) ? local.description : ''
     },
+    getPropertyDescription (property) {
+      var local = this.property.find(obj => {
+        return obj.name === property
+      })
+      return ('description' in local) ? local.description : ''
+    },
     roundToTwo (num) {
       return +(Math.round(num + 'e+2') + 'e-2')
     }
@@ -110,7 +134,6 @@ export default {
     this.coinageOptions = this.$store.state.coinage.coinage
 
     // Grab our gear lists
-    this.gear = this.$store.state.gear.gear
     this.type = this.$store.state.gear.type
     this.property = this.$store.state.gear.property
   }
