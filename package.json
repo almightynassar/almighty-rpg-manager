@@ -1,6 +1,6 @@
 {
   "name": "almighty-rpg-manager",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "RPG Management App",
   "productName": "almighty-rpg-manager",
   "cordovaId": "org.almightynassar.rpg.manager",
@@ -8,8 +8,8 @@
   "author": "Almighty Nassar <almightynassar@gmail.com>",
   "private": true,
   "scripts": {
-    "build": "quasar build",
-    "electron": "quasar build --mode electron",
+    "build": "npx quasar build",
+    "electron": "npx quasar build --mode electron",
     "package-linux": "npx electron-installer-zip \"dist/electron/$npm_package_productName-linux-x64\" \"dist/$npm_package_productName-linux.zip\"",
     "package-win32": "npx electron-installer-zip \"dist/electron/$npm_package_productName-win32-x64\" \"dist/$npm_package_productName-win32.zip\"",
     "lint": "eslint --ext .js,.vue --ignore-path .gitignore ./",
