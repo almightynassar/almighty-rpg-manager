@@ -6,6 +6,7 @@ const routes = [
     children: [
       { path: '', component: () => import('pages/Index.vue') },
       { path: 'gear-list', component: () => import('pages/GearList.vue') },
+      { path: 'languages', component: () => import('pages/Languages.vue') },
       { path: 'reference', component: () => import('pages/ReferenceList.vue') },
       { path: 'name-generator', component: () => import('pages/NameGenerator.vue') },
       { path: 'settings', component: () => import('pages/Settings.vue') }
