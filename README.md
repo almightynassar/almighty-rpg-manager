@@ -4,6 +4,8 @@
 
 This is an RPG Management App. It is geared for D&D5E and a homebrew campaign, but can be edited via the files located in `src/assets/data` on the [GitHub page](https://github.com/almightynassar/almighty-rpg-manager).
 
+For the latest release you can use on your device, please check the [releases page](https://github.com/almightynassar/almighty-rpg-manager/releases).
+
 Some useful links and resources:
 
 - [A easy to use Player reference webpage](https://crobi.github.io/dnd5e-quickref/preview/quickref.html)
