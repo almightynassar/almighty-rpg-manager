@@ -176,7 +176,7 @@ module.exports = function (/* ctx */) {
 
       packager: {
         // https://github.com/electron-userland/electron-packager/blob/master/docs/api.md#options
-        platform: 'linux, win32, darwin'
+        platform: 'linux, win32'
       },
 
       builder: {

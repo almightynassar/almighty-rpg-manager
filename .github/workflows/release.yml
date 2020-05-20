@@ -15,7 +15,6 @@ jobs:
           node-version: 12
       - run: npm ci
       - run: npm run electron
-      - run: npm run package-darwin
       - run: npm run package-linux
       - run: npm run package-win32
       - name: Create Release
@@ -28,16 +27,6 @@ jobs:
           release_name: Release ${{ github.ref }}
           draft: false
           prerelease: false
-      - name: Upload Darwin Release
-        id: upload-release-darwin 
-        uses: actions/upload-release-asset@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          upload_url: ${{ steps.create_release.outputs.upload_url }} # This pulls from the CREATE RELEASE step above, referencing it's ID to get its outputs object, which include a `upload_url`. See this blog post for more info: https://jasonet.co/posts/new-features-of-github-actions/#passing-data-to-future-steps 
-          asset_path: ./dist/almighty-rpg-manager-darwin.zip
-          asset_name: almighty-rpg-manager-darwin.zip
-          asset_content_type: application/zip
       - name: Upload Linux Release
         id: upload-release-linux 
         uses: actions/upload-release-asset@v1
