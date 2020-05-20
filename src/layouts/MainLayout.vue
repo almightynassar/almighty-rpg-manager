@@ -73,6 +73,12 @@ export default {
           link: '/gear-list'
         },
         {
+          title: 'Languages',
+          caption: 'List of languages in the world',
+          icon: 'text_fields',
+          link: '/languages'
+        },
+        {
           title: 'Name generator',
           caption: 'Generate names using Markov name generators',
           icon: 'accessibility',

@@ -6,7 +6,8 @@ on:
 name: Upload Release
   
 jobs:
-  build:
+  linux-build:
+    name: Linux Release
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -14,9 +15,8 @@ jobs:
         with:
           node-version: 12
       - run: npm ci
-      - run: npm run electron
+      - run: npx quasar build --mode electron --target linux
       - run: npm run package-linux
-      - run: npm run package-win32
       - name: Create Release
         id: create_release
         uses: actions/create-release@v1
@@ -37,6 +37,17 @@ jobs:
           asset_path: ./dist/almighty-rpg-manager-linux.zip
           asset_name: almighty-rpg-manager-linux.zip
           asset_content_type: application/zip
+  win32-build:
+    name: Win32 Release
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v1
+        with:
+          node-version: 12
+      - run: npm ci
+      - run: npx quasar build --mode electron --target win32
+      - run: npm run package-win32
       - name: Upload Win32 Release
         id: upload-release-win32
         uses: actions/upload-release-asset@v1
