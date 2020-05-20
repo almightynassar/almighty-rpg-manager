@@ -15,7 +15,7 @@
           Almighty RPG Manager
         </q-toolbar-title>
 
-        <div><img src="/statics/icons/favicon-128x128.png" style="height: 2.5vw; max-width: 4vw" /></div>
+        <div><img src="~assets/img/icon.png" style="height: 2.5vw; max-width: 4vw" /></div>
       </q-toolbar>
     </q-header>
 

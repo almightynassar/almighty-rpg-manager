@@ -40,10 +40,12 @@
 
       <template v-slot:body="props">
         <q-tr :props="props">
-          <q-td v-for="col in props.cols" :key="col.name" :props="props"
-          >
+          <q-td v-for="col in props.cols" :key="col.name" :props="props">
             <template v-if="col.name == 'cost'">
-                {{ roundToTwo(col.value / coinage.convert) }} {{ coinage.symbol }} <img :src="'/statics/icons/' + coinage.id + '.png'" style="height: 1.5vw; max-width: 2vw" />
+                {{ roundToTwo(col.value / coinage.convert) }} {{ coinage.symbol }}
+                <img v-if="coinage.id === 'bronze'" src='~assets/img/bronze.png' style='height: 1.5vw; max-width: 2vw' />
+                <img v-else-if="coinage.id === 'silver'" src='~assets/img/silver.png' style='height: 1.5vw; max-width: 2vw' />
+                <img v-else-if="coinage.id === 'gold'" src='~assets/img/gold.png' style='height: 1.5vw; max-width: 2vw' />
             </template>
             <template v-else-if="col.name == 'type'">
               {{ col.value }}
