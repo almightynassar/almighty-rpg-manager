@@ -67,10 +67,10 @@ export default {
           link: '/'
         },
         {
-          title: 'Gear',
-          caption: 'View available equipment',
+          title: 'Shopping',
+          caption: 'View equipment & services',
           icon: 'storefront',
-          link: '/gear-list'
+          link: '/shopping'
         },
         {
           title: 'Languages',
@@ -85,7 +85,7 @@ export default {
           link: '/name-generator'
         },
         {
-          title: 'Reference',
+          title: 'Rules Reference',
           caption: 'View rules',
           icon: 'book',
           link: '/reference'

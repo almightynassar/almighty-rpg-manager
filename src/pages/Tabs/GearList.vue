@@ -1,7 +1,7 @@
 <template>
   <div class="q-pa-md">
     <q-table
-      title="Gear"
+      title="Equipment List"
       :data="gear"
       :columns="columns"
       :pagination.sync="pagination"
@@ -88,7 +88,7 @@
   </div>
 </template>
 
-<script >
+<script>
 import Gear from 'src/assets/data/gear/list'
 export default {
   name: 'GearList',

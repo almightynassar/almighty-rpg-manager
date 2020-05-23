@@ -50,14 +50,16 @@ module.exports = function (/* ctx */) {
       components: [
         'QBtn',
         'QCard',
-        'QSelect',
         'QRadio',
+        'QSelect',
         'QSeparator',
-        'QTooltip',
+        'QTab',
         'QTable',
+        'QTabs',
+        'QTd',
         'QTh',
-        'QTr',
-        'QTd'
+        'QTooltip',
+        'QTr'
       ],
       directives: [],
 

@@ -1,7 +1,7 @@
 <template>
   <div class="q-pa-md">
     <q-table
-      title="Reference"
+      title="Rules Reference"
       :data="reference"
       :columns="columns"
       :pagination.sync="pagination"
