@@ -4,6 +4,7 @@ import Vuex from 'vuex'
 import coinage from './coinage'
 import gear from './gear'
 import reference from './reference'
+import service from './service'
 
 Vue.use(Vuex)
 
@@ -21,7 +22,8 @@ export default function (/* { ssrContext } */) {
     modules: {
       coinage,
       gear,
-      reference
+      reference,
+      service
     },
 
     // enable strict mode (adds overhead!)
