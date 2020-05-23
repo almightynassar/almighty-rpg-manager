@@ -1,1 +1,5 @@
+/.github
+/.quasar
 /dist
+/node_modules
+/src-electron
