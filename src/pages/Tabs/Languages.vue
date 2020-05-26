@@ -1,5 +1,6 @@
 <template>
   <div class="q-pa-md">
+    <q-input v-model="size" type="number" label="Example Text font size (px)" />
     <q-input v-model="example" label="Example Text" />
     <q-table
       title="Languages"
@@ -34,7 +35,7 @@
       <template v-slot:body="props">
         <q-tr :props="props">
           <q-td v-for="col in props.cols" :key="col.name" :props="props" >
-            <span v-if="col.name === 'example'" :class="col.value">{{ example }}</span>
+            <span v-if="col.name === 'example'" :class="col.value" :style="'font-size: ' + size + 'px'">{{ example }}</span>
             <span v-else>{{ col.value }}</span>
           </q-td>
         </q-tr>
@@ -61,7 +62,8 @@ export default {
       filter: '',
       pagination: {
         rowsPerPage: 25
-      }
+      },
+      size: 14
     }
   }
 }
