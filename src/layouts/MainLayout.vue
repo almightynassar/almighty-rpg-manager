@@ -73,15 +73,15 @@ export default {
           link: '/shopping'
         },
         {
-          title: 'Languages',
-          caption: 'List of languages in the world',
-          icon: 'text_fields',
-          link: '/languages'
+          title: 'Character',
+          caption: 'Character information like races and languages',
+          icon: 'accessibility',
+          link: '/character'
         },
         {
-          title: 'Name generator',
-          caption: 'Generate names using Markov name generators',
-          icon: 'accessibility',
+          title: 'Generators',
+          caption: 'Generate things like names',
+          icon: 'cached',
           link: '/name-generator'
         },
         {

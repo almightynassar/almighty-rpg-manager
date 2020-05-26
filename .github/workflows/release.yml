@@ -1,22 +1,15 @@
 on:
   push:
     tags:
-    - 'v*'
-  
-name: Upload Release
-  
+      - "v*"
+
+name: Create Release
+
 jobs:
-  linux-build:
-    name: Linux Release
+  release:
+    name: Create Release
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v1
-        with:
-          node-version: 12
-      - run: npm ci
-      - run: npx quasar build --mode electron --target linux
-      - run: npm run package-linux
       - name: Create Release
         id: create_release
         uses: actions/create-release@v1
@@ -27,34 +20,3 @@ jobs:
           release_name: Release ${{ github.ref }}
           draft: false
           prerelease: false
-      - name: Upload Linux Release
-        id: upload-release-linux 
-        uses: actions/upload-release-asset@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          upload_url: ${{ steps.create_release.outputs.upload_url }} # This pulls from the CREATE RELEASE step above, referencing it's ID to get its outputs object, which include a `upload_url`. See this blog post for more info: https://jasonet.co/posts/new-features-of-github-actions/#passing-data-to-future-steps 
-          asset_path: ./dist/almighty-rpg-manager-linux.zip
-          asset_name: almighty-rpg-manager-linux.zip
-          asset_content_type: application/zip
-  win32-build:
-    name: Win32 Release
-    runs-on: windows-latest
-    steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v1
-        with:
-          node-version: 12
-      - run: npm ci
-      - run: npx quasar build --mode electron --target win32
-      - run: npm run package-win32
-      - name: Upload Win32 Release
-        id: upload-release-win32
-        uses: actions/upload-release-asset@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          upload_url: ${{ steps.create_release.outputs.upload_url }} # This pulls from the CREATE RELEASE step above, referencing it's ID to get its outputs object, which include a `upload_url`. See this blog post for more info: https://jasonet.co/posts/new-features-of-github-actions/#passing-data-to-future-steps 
-          asset_path: ./dist/almighty-rpg-manager-win32.zip
-          asset_name: almighty-rpg-manager-win32.zip
-          asset_content_type: application/zip
