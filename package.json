@@ -1,6 +1,6 @@
 {
   "name": "almighty-rpg-manager",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "RPG Management App",
   "productName": "almighty-rpg-manager",
   "cordovaId": "org.almightynassar.rpg.manager",
