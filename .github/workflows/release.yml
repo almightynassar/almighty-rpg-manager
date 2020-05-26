@@ -7,21 +7,7 @@ name: Create Release
 
 jobs:
   release:
-    name: Create Release
-    runs-on: ubuntu-latest
-    steps:
-      - name: Create Release
-        id: create_release
-        uses: actions/create-release@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          tag_name: ${{ github.ref }}
-          release_name: Release ${{ github.ref }}
-          draft: false
-          prerelease: false
-  linux-build:
-    name: Linux Asset
+    name: Create Linux Release
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -31,13 +17,23 @@ jobs:
       - run: npm ci
       - run: npx quasar build --mode electron --target linux
       - run: npm run package-linux
+      - name: Create Linux Release
+        id: create_linux_release
+        uses: actions/create-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: ${{ github.ref }}
+          release_name: Linux Release ${{ github.ref }}
+          draft: false
+          prerelease: false
       - name: Upload Linux Release
         id: upload-release-linux
         uses: actions/upload-release-asset@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          upload_url: ${{ github.event.release.upload_url }}
+          upload_url: ${{ steps.create_linux_release.outputs.upload_url }}
           asset_path: ./dist/almighty-rpg-manager-linux.zip
           asset_name: almighty-rpg-manager-linux.zip
           asset_content_type: application/zip
@@ -52,13 +48,23 @@ jobs:
       - run: npm ci
       - run: npx quasar build --mode electron --target win32
       - run: npm run package-win32
+      - name: Create Win32 Release
+        id: create_win32_release
+        uses: actions/create-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: ${{ github.ref }}
+          release_name: Win32 Release ${{ github.ref }}
+          draft: false
+          prerelease: false
       - name: Upload Win32 Release
         id: upload-release-win32
         uses: actions/upload-release-asset@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          upload_url: ${{ github.event.release.upload_url }}
+          upload_url: ${{ steps.create_win32_release.outputs.upload_url }}
           asset_path: ./dist/almighty-rpg-manager-win32.zip
           asset_name: almighty-rpg-manager-win32.zip
           asset_content_type: application/zip
