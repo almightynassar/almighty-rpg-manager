@@ -53,6 +53,8 @@
 </template>
 
 <script >
+import Reference from 'src/assets/data/Reference'
+
 export default {
   name: 'ReferenceList',
   data: function () {
@@ -63,16 +65,12 @@ export default {
         { name: 'short', required: true, label: 'Short', align: 'left', field: row => row.short, format: val => `${val}`, sortable: false },
         { name: 'source', required: true, label: 'Source', align: 'right', field: row => row.source, format: val => `${val}`, sortable: false }
       ],
-      reference: [],
+      reference: Reference,
       filter: '',
       pagination: {
         rowsPerPage: 25
       }
     }
-  },
-  created () {
-    // Grab our reference lists
-    this.reference = this.$store.state.reference.reference
   }
 }
 </script>
