@@ -1,5 +1,9 @@
 export default {
-  name: 'Avians',
+  id: 'avians',
+  singular: 'Avian',
+  adjective: 'Avian',
+  plural: 'Avians',
+  name: 'Avians (Birdfolk)',
   traits: [
     { id: 'movement+9', quantity: 1, overwriteName: false, name: '', overwriteDescription: false, description: '', extra: null },
     { id: 'size+medium', quantity: 1, overwriteName: false, name: '', overwriteDescription: false, description: '', extra: null },
@@ -15,7 +19,7 @@ export default {
     age: { min: 12, max: 60 },
     height: { min: 1.3, max: 1.7 },
     weight: { min: 25, max: 65 },
-    names: { female: 'italian-female', male: 'italian-male' }
+    names: { female: 'italianFemale', male: 'italianMale' }
   },
   fluff: [
     { title: 'Flightless Birdfolk', description: 'Avians were created when Artra, in the form of different birds, coupled with humans. Although the Avians did not inherit the ability to fly, their lighter bones and muscles mean that Avians have an incredible burst speed.' },

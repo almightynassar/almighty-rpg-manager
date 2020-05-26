@@ -1,4 +1,8 @@
 export default {
+  id: 'humans',
+  singular: 'Human',
+  adjective: 'Human',
+  plural: 'Humans',
   name: 'Humans',
   traits: [
     { id: 'movement+9', quantity: 1, overwriteName: false, name: '', overwriteDescription: false, description: '', extra: null },
@@ -12,7 +16,7 @@ export default {
     age: { min: 20, max: 90 },
     height: { min: 1.4, max: 1.9 },
     weight: { min: 50, max: 125 },
-    names: { female: 'french-female', male: 'french-male' }
+    names: { female: 'frenchFemale', male: 'frenchMale' }
   },
   fluff: [
     { title: 'The First People', description: 'After the Sundering, the Gods created Humans in the image of the defeated Gauld. Humans were made to be physically smaller and less focused, but they are still the cunning problem solvers that the Gauld were.' },

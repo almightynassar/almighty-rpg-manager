@@ -1,4 +1,8 @@
 export default {
+  id: 'dwarves',
+  singular: 'Dwarf',
+  adjective: 'Dwarven',
+  plural: 'Dwarves',
   name: 'Dwarves',
   traits: [
     { id: 'movement+7.5', quantity: 1, overwriteName: false, name: '', overwriteDescription: false, description: '', extra: null },
@@ -7,7 +11,7 @@ export default {
     { id: 'asi+3', quantity: 1, overwriteName: true, name: 'Ability Score Increase', overwriteDescription: true, description: 'Increase your Constitution Score by 2, and your Strength Score by 1', extra: null },
     { id: 'darkvision+18', quantity: 1, overwriteName: false, name: '', overwriteDescription: false, description: '', extra: null },
     { id: 'resistance+common', quantity: 1, overwriteName: true, name: 'Poison Resistance', overwriteDescription: false, description: '', extra: null },
-    { id: 'advantage+situational', quantity: 1, overwriteName: true, name: 'Poison Saving Throws', overwriteDescription: false, description: 'You have advantage on saving throws against Poison', extra: null },
+    { id: 'advantage+situational', quantity: 1, overwriteName: true, name: 'Poison Saving Throws', overwriteDescription: true, description: 'You have advantage on saving throws against Poison', extra: null },
     { id: 'tool', quantity: 1, overwriteName: false, name: '', overwriteDescription: true, description: 'You are proficient in a tool of your choice', extra: null },
     { id: 'toughness', quantity: 1, overwriteName: false, name: '', overwriteDescription: false, description: '', extra: null }
   ],
@@ -15,7 +19,7 @@ export default {
     age: { min: 50, max: 350 },
     height: { min: 1.1, max: 1.4 },
     weight: { min: 60, max: 105 },
-    names: { female: 'scottish-female', male: 'scottish-male' }
+    names: { female: 'scottishFemale', male: 'scottishMale' }
   },
   fluff: [
     { title: 'Avaracious Traders', description: 'Dwarves, in general, measure their self-worth by the value of their treasures. The more rare and exotic a piece is, the more valuable it is to a Dwarf. Dwarves will go to great lengths to own something special, and will dig deep into the Bounty mountains and travel the three seas to find them.' },
