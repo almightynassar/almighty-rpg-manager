@@ -15,6 +15,7 @@
             :key="race.id"
             :name="race.id"
             :label="race.name"
+            style="justify-content:initial"
           />
         </q-tabs>
       </template>
@@ -82,7 +83,7 @@ export default {
       selectedFemale: 'frenchFemale',
       selectedMale: 'frenchMale',
       sets: Names,
-      splitterModel: 15,
+      splitterModel: 20,
       tab: 'humans',
       traits: Traits
     }

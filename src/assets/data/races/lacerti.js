@@ -1,7 +1,7 @@
 export default {
   id: 'lacerti',
-  singular: 'Lacertian',
-  adjective: 'Lacertian',
+  singular: 'Lacertus',
+  adjective: 'Lacertan',
   plural: 'Lacerti',
   name: 'Lacerti (Lizardfolk)',
   traits: [
@@ -23,7 +23,7 @@ export default {
     names: { female: 'akkadian', male: 'akkadian' }
   },
   fluff: [
-    { title: 'Badland Wanderers', description: 'The Lacerti were created when Artra, in the form of different reptiles, coupled with humans. Lacertian thoughts are alien to the other races, and caused widespread unease. Eventually, many Lacerti decided to find a land of their own and underwent a pilgrammage that took them past Phalanxis and Al-Khaleeri. They eventually settled on the hot plains of the Naati Badlands.' },
+    { title: 'Badland Wanderers', description: 'The Lacerti were created when Artra, in the form of different reptiles, coupled with humans. Lacertan thoughts are alien to the other races, and caused widespread unease. Eventually, many Lacerti decided to find a land of their own and underwent a pilgrammage that took them past Phalanxis and Al-Khaleeri. They eventually settled on the hot plains of the Naati Badlands.' },
     { title: 'Competent Warriors', description: 'The Lacerti are a competitive race, and make capable warriors and hunters. Their win-at-all-cost attitude has often put them at odds with the other races' },
     { title: 'Caste-based society', description: 'The nation of Illumi Naati was formed by humans and lacerti, and is segregated into different castes. Pure humans and lacerti are the lowest caste, while the lacinum are the highest.' }
   ]
