@@ -54,9 +54,9 @@
             <q-separator />
             <div class="text-h6 q-mb-md text-primary"><u>Example Names</u></div>
             <p><strong>Female:</strong></p>
-            <p><span v-for="(n,i) in namesFemale" :key="'male-'+i">{{ n }}<span v-if="(i < (namesFemale.length - 1))">, </span></span></p>
+            <p><span v-for="(n,i) in namesFemale" :key="'male-'+i">{{ n | capitalize }}<span v-if="(i < (namesFemale.length - 1))">, </span></span></p>
             <p><strong>Male:</strong></p>
-            <p><span v-for="(n,i) in namesMale" :key="'male-'+i">{{ n }}<span v-if="(i < (namesFemale.length - 1))">, </span></span></p>
+            <p><span v-for="(n,i) in namesMale" :key="'male-'+i">{{ n | capitalize }}<span v-if="(i < (namesFemale.length - 1))">, </span></span></p>
             <q-separator />
             <p><small><em>This race has a power of {{ getTraitScore(race.traits) }}. Please note that power does not take into account synergy or flexibity.</em></small></p>
           </q-tab-panel>
@@ -123,6 +123,13 @@ export default {
   watch: {
     tab (newS, oldS) {
       this.generate()
+    }
+  },
+  filters: {
+    capitalize: function (value) {
+      if (!value) return ''
+      value = value.toString()
+      return value.charAt(0).toUpperCase() + value.slice(1)
     }
   },
   mounted () {

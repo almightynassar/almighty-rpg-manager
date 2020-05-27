@@ -50,6 +50,7 @@ function markovChain (type) {
 function constructChain (list) {
   var chain = {
     meta: {},
+    ending: {},
     scnd: {},
     word: {}
   }
@@ -70,13 +71,19 @@ function constructChain (list) {
 
       var c = lastC
 
-      while (string.length > 0) {
+      while (string.length > 1) {
         c = string.substr(0, 1)
         chain = incrementChain(chain, priorC, lastC, c)
 
         string = string.substr(1)
         priorC = lastC
         lastC = c
+      }
+
+      // Add the ending
+      if (string.length === 1) {
+        c = string.substr(0, 1)
+        chain = incrementEnding(chain, lastC, c)
       }
     }
   }
@@ -109,6 +116,21 @@ function incrementSecondary (chain, key, token) {
   } else {
     chain.scnd[key] = {}
     chain.scnd[key][token] = 1
+  }
+  return chain
+}
+
+// Update chain second-letter
+function incrementEnding (chain, key, token) {
+  if (chain.ending[key]) {
+    if (chain.ending[key][token]) {
+      chain.ending[key][token]++
+    } else {
+      chain.ending[key][token] = 1
+    }
+  } else {
+    chain.ending[key] = {}
+    chain.ending[key][token] = 1
   }
   return chain
 }
@@ -183,14 +205,33 @@ function markovName (chain) {
     var lastC = selectScnd(chain, priorC)
     var c = priorC + lastC
     var name = c
+    var endingFound = false
+    var attempts = 0
 
-    while (name.length < nameLen) {
+    while (!endingFound) {
       c = selectLink(chain, priorC, lastC)
-      if (lastC === '~' || c === '~') { break }
-      name += c
-      priorC = lastC
-      lastC = c
+      var endC = selectEnding(chain, lastC)
+      // Build the name
+      if (c !== '~' && name.length <= nameLen) {
+        name += c
+        priorC = lastC
+        lastC = c
+      // End the sentence
+      } else if (endC !== '~') {
+        name += endC
+        endingFound = true
+      // Cannot continue; redo 5 times, then quit
+      } else {
+        attempts += 1
+        name = name.substring(0, name.length - 1)
+        lastC = name.charAt(name.length - 1)
+        priorC = name.charAt(name.length - 2)
+        if (attempts > 5) {
+          endingFound = true
+        }
+      }
     }
+
     names.push(name)
   }
   return names.join(' ')
@@ -219,6 +260,21 @@ function selectScnd (chain, key) {
   var t = 0
   for (var token in chain.scnd[key]) {
     t += chain.scnd[key][token]
+    if (idx < t) {
+      return token
+    }
+  }
+  return '~'
+}
+
+// Randomly select the second letter
+function selectEnding (chain, key) {
+  var len = chain.tableLen.ending[key] || 1
+  var idx = Math.floor(Math.random() * len)
+
+  var t = 0
+  for (var token in chain.ending[key]) {
+    t += chain.ending[key][token]
     if (idx < t) {
       return token
     }
