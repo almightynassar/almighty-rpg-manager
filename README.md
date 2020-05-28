@@ -1,7 +1,5 @@
 # Almighty RPG Manager (almighty-rpg-manager)
 
-![Upload Release](https://github.com/almightynassar/almighty-rpg-manager/workflows/Upload%20Release/badge.svg)
-
 This is an RPG Management App. It is geared for D&D5E and a homebrew campaign, but can be edited via the files located in `src/assets/data` on the [GitHub page](https://github.com/almightynassar/almighty-rpg-manager).
 
 For the latest release you can use on your device, please check the [releases page](https://github.com/almightynassar/almighty-rpg-manager/releases).
