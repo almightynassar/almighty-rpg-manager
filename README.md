@@ -55,3 +55,4 @@ This application uses [Quasar](https://quasar.dev/). To customise the settings, 
 ### Images
 - [Axe Icon](https://opengameart.org/content/axe-survival-tool)
 - [Coin Icons](https://www.medievalcollectibles.com/product/capitol-coin-set/)
+- [Game Icons](https://game-icons.net/)
