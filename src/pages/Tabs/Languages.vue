@@ -9,6 +9,7 @@
       :pagination.sync="pagination"
       :filter="filter"
       row-key="id"
+      flat
     >
 
       <template v-slot:top-right>

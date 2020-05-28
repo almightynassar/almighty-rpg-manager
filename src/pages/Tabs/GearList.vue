@@ -7,6 +7,8 @@
       :pagination.sync="pagination"
       :filter="filter"
       row-key="name"
+      color="secondary"
+      flat
     >
 
       <template v-slot:top-right>
