@@ -1,13 +1,13 @@
 export default [
-  { id: 'aquan', name: 'Aquan', script: 'qijomi', description: 'The language of Mermen, Locanth, and rare water-based species' },
-  { id: 'auran', name: 'Auran', script: 'gargish', description: 'The language of Birdfolk and rare air-based species' },
-  { id: 'common', name: 'Common', script: 'middleearth', description: 'The language of humans, and it is also the default trade language' },
-  { id: 'draconic', name: 'Draconic', script: 'iokharic', description: 'The language of Dragons and Lizardfolk' },
-  { id: 'dwarvish', name: 'Dwarvish', script: 'elderfuthark', description: 'The language of dwarves' },
-  { id: 'gauldish', name: 'Gauldish', script: 'davek', description: 'Lost language that is referenced to in texts, but is not widely spoken or understood' },
-  { id: 'goblin', name: 'Goblin', script: 'barazhad', description: 'The language of goblins and hobgoblins' },
-  { id: 'ignan', name: 'Ignan', script: 'rellanic', description: 'Exotic, ancient language of fire creatures. Spoken only by academics and rare species' },
-  { id: 'orcish', name: 'Orcish', script: 'klingon', description: 'The language of orcs' },
-  { id: 'snvertish', name: 'Snvertish', script: 'hylianTP', description: 'The language of snvert' },
-  { id: 'terran', name: 'Terran', script: 'hylian64', description: 'Exotic, ancient language of earth creatures. Spoken only by academics and rare species' }
+  { id: 'aquan', name: 'Aquan', rarity: 'Common', script: 'qijomi', description: 'A language designed for folk that spend most of their time immersed in water. This is the default language of Mermen, Locanth, Teztecs and other rare water-based species' },
+  { id: 'auran', name: 'Auran', rarity: 'Common', script: 'gargish', description: 'A language designed for folk that spend most of their time in the air. This is the default language of Avians and other rare air-based species' },
+  { id: 'common', name: 'Common', rarity: 'Common', script: 'middleearth', description: 'The language of humans, and it is also the default trade language' },
+  { id: 'draconic', name: 'Draconic', rarity: 'Common', script: 'iokharic', description: 'The language of Dragons, and adopted by the Lacerti and Lacinum' },
+  { id: 'dwarvish', name: 'Dwarvish', rarity: 'Common', script: 'elderfuthark', description: 'The language of dwarves, designed to be easily engraved into metal' },
+  { id: 'gauldish', name: 'Gauldish', rarity: 'Rare', script: 'davek', description: 'An ancient language spoken by the ancient Gauld and Elementals. It is largely forgotten, kept alive only through texts and dedicated academic orders' },
+  { id: 'goblin', name: 'Goblin', rarity: 'Common', script: 'barazhad', description: 'The language of goblins and hobgoblins, designed to be carved into objects' },
+  { id: 'ignan', name: 'Ignan', rarity: 'Uncommon', script: 'rellanic', description: 'A language designed for folk that live with or among fire. Largely kept alive by some intelligent monsters, academics, and Shadowrealm cultists' },
+  { id: 'orcish', name: 'Orcish', rarity: 'Common', script: 'klingon', description: 'The language of orcs, designed to invoke feelings of awe and fear' },
+  { id: 'snvertish', name: 'Snvertish', rarity: 'Common', script: 'hylianTP', description: 'The language of snvert, designed to be engraved into their machines' },
+  { id: 'terran', name: 'Terran', rarity: 'Uncommon', script: 'hylian64', description: 'A language designed for creatures of the earth. Spoken by Giants, academics, and rare earth-based creatures' }
 ]

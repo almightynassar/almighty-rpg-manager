@@ -69,7 +69,7 @@ export default {
         {
           title: 'Shopping',
           caption: 'View equipment & services',
-          icon: 'storefront',
+          icon: 'game-icon:price-tag',
           link: '/shopping'
         },
         {
@@ -81,13 +81,19 @@ export default {
         {
           title: 'Generators',
           caption: 'Generate things like names',
-          icon: 'cached',
+          icon: 'game-icon:magic-swirl',
           link: '/name-generator'
+        },
+        {
+          title: 'World',
+          caption: 'Information about the setting of Terrea',
+          icon: 'game-icon:world',
+          link: '/world'
         },
         {
           title: 'Rules Reference',
           caption: 'View rules',
-          icon: 'book',
+          icon: 'game-icon:secret-book',
           link: '/reference'
         },
         {

@@ -9,7 +9,8 @@ const routes = [
       { path: 'reference', component: () => import('pages/ReferenceList.vue') },
       { path: 'name-generator', component: () => import('pages/NameGenerator.vue') },
       { path: 'settings', component: () => import('pages/Settings.vue') },
-      { path: 'shopping', component: () => import('pages/Shopping.vue') }
+      { path: 'shopping', component: () => import('pages/Shopping.vue') },
+      { path: 'world', component: () => import('pages/World.vue') }
     ]
   }
 ]

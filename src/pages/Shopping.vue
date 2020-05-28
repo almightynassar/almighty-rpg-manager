@@ -9,8 +9,8 @@
       align="justify"
       narrow-indicator
     >
-      <q-tab name="gear" icon="storefront" label="Gear" />
-      <q-tab name="service" icon="build" label="Services" />
+      <q-tab name="gear" icon="game-icon:battle-gear" label="Gear" />
+      <q-tab name="service" icon="game-icon:anvil-impact" label="Services" />
     </q-tabs>
 
     <q-separator />

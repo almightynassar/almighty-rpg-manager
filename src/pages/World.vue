@@ -9,37 +9,37 @@
       align="justify"
       narrow-indicator
     >
-      <q-tab name="races" icon="group" label="Races" />
-      <q-tab name="languages" icon="game-icon:talk" label="Languages" />
+      <q-tab name="realms" icon="game-icon:portal" label="Realms" />
+      <q-tab name="service" icon="game-icon:all-seeing-eye" label="Deities" />
     </q-tabs>
 
     <q-separator />
 
     <q-tab-panels v-model="tab" animated>
-      <q-tab-panel name="races">
-        <races />
+      <q-tab-panel name="realms">
+        <realms />
       </q-tab-panel>
 
-      <q-tab-panel name="languages">
-        <languages />
+      <q-tab-panel name="service">
+        <deities />
       </q-tab-panel>
     </q-tab-panels>
   </div>
 </template>
 
 <script>
-import Languages from './Tabs/Languages'
-import Races from './Tabs/Races'
+import Realms from './Tabs/Realms'
+import Deities from './Tabs/Deities'
 
 export default {
-  name: 'Character',
+  name: 'WorldSetting',
   components: {
-    Languages,
-    Races
+    Realms,
+    Deities
   },
   data: function () {
     return {
-      tab: 'races'
+      tab: 'realms'
     }
   }
 }

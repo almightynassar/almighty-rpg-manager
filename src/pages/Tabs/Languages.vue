@@ -9,6 +9,7 @@
       :pagination.sync="pagination"
       :filter="filter"
       row-key="id"
+      flat
     >
 
       <template v-slot:top-right>
@@ -54,6 +55,7 @@ export default {
     return {
       columns: [
         { name: 'name', required: true, label: 'Name', align: 'left', field: row => row.name, format: val => `${val}`, sortable: true },
+        { name: 'rarity', required: true, label: 'Rarity', align: 'left', field: row => row.rarity, format: val => `${val}`, sortable: true },
         { name: 'description', required: true, label: 'Description', align: 'left', field: row => row.description, format: val => `${val}`, sortable: true },
         { name: 'example', required: true, label: 'Example', align: 'left', field: row => row.script, format: val => `${val}`, sortable: false }
       ],
