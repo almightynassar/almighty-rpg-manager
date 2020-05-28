@@ -1,8 +1,8 @@
 <template>
-  <div class="fixed-center text-center">
+  <div class="fixed-center text-center text-primary">
     <p>
       <img
-        src="~assets/sad.svg"
+        src="~assets/img/sad.svg"
         style="width:30vw;max-width:150px;"
       >
     </p>
@@ -10,7 +10,7 @@
       Sorry, nothing here...<strong>(404)</strong>
     </p>
     <q-btn
-      color="secondary"
+      color="primary"
       style="width:200px;"
       to="/"
       label="Go back"
