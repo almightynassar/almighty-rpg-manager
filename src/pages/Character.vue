@@ -10,7 +10,7 @@
       narrow-indicator
     >
       <q-tab name="races" icon="group" label="Races" />
-      <q-tab name="languages" icon="text_fields" label="Languages" />
+      <q-tab name="languages" icon="game-icon:talk" label="Languages" />
     </q-tabs>
 
     <q-separator />
