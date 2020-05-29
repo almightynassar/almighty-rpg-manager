@@ -6,7 +6,7 @@
     <q-markup-table flat wrap-cells>
       <thead>
         <th>Class</th>
-        <th>Income / day</th>
+        <th>Min. Income / day</th>
         <th>Description</th>
       </thead>
       <tbody>
@@ -21,8 +21,13 @@
           <td>This class has access to simple lodgings and food, and do without some comforts.</td>
         </tr>
         <tr>
+          <td>Working Class</td>
+          <td>60 CP</td>
+          <td>The working class no longer have to struggle to survive, but they are not wholly comfortable.</td>
+        </tr>
+        <tr>
           <td>Middle class</td>
-          <td>100 CP</td>
+          <td>120 CP</td>
           <td>People in this class have access to decent accomodation and food, can maintain expensive equipment, and still save enough for a modest retirement.</td>
         </tr>
         <tr>
@@ -37,7 +42,7 @@
         </tr>
         <tr>
           <td>Aristocratic</td>
-          <td>1000 CP (min.)</td>
+          <td>1000 CP</td>
           <td>This class generally do not experience hardship of any kind, and generally consists of the most powerful people in society.</td>
         </tr>
       </tbody>
@@ -150,6 +155,8 @@ export default {
         return 'Upper Middle Class'
       } else if (income >= 100) {
         return 'Middle Class'
+      } else if (income >= 60) {
+        return 'Working Class'
       } else if (income >= 20) {
         return 'Poor'
       }
