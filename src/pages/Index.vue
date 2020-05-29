@@ -10,7 +10,7 @@
       narrow-indicator
     >
       <q-tab name="home" icon="home" label="Introduction" />
-      <q-tab name="credits" icon="settings" label="Credits" />
+      <q-tab name="credits" icon="settings" label="About & Resources" />
     </q-tabs>
 
     <q-separator />
@@ -23,22 +23,36 @@
       </q-tab-panel>
 
       <q-tab-panel name="credits">
-        <div class="text-h4 q-mb-md text-primary">Credits</div>
+        <div class="text-h4 q-mb-md text-primary">About & Resources</div>
         <p>This is an RPG Management App. It is geared for D&D5E and a homebrew campaign, but can be edited via the files located in <span class="text-primary">src/assets/data</span> on the <a target="_blank" href="https://github.com/almightynassar/almighty-rpg-manager">GitHub page</a>.
-        <p>Some useful links and resources:</p>
+        <div class="text-h6 text-primary">Rules Reference</div>
         <ul>
           <li><a target="_blank" href="https://crobi.github.io/dnd5e-quickref/preview/quickref.html">A easy to use Player reference webpage</a></li>
           <li><a target="_blank" href="https://www.dnd-compendium.com/">The D&D Compendium, a massive resource</a></li>
-          <li><a target="_blank" href="http://autorolltables.github.io/#">A flexible roll-table that covers a lot of bases</a></li>
-          <li><a target="_blank" href="https://davesmapper.com/">Dave's mapper, a simple to use battle-map generator</a></li>
+          <li><a target="_blank" href="https://5e.tools/">5E tools, which is this manager but more comprehensive. Not sure about the legality, though... Use at your own risk</a></li>
+        </ul>
+        <div class="text-h6 text-primary">Game Tools & Generators</div>
+        <ul>
           <li><a target="_blank" href="https://donjon.bin.sh/">donjon.sh, a premier source of random generators and DM resources</a></li>
+          <li><a target="_blank" href="http://autorolltables.github.io/#">A flexible roll-table that covers a lot of bases</a></li>
+          <li><a target="_blank" href="https://kobold.club/fight/#">Kobold Fight Club, Encounter Generator & Initiative Tracker</a></li>
+          <li><a target="_blank" href="http://rolladvantage.com/tokenstamp/">Token Maker</a></li>
+        </ul>
+        <div class="text-h6 text-primary">Mapping</div>
+        <ul>
+          <li><a target="_blank" href="https://inkarnate.com/login/">Inkarnate, a really nice world & regional map maker</a></li>
+          <li><a target="_blank" href="https://davesmapper.com/">Dave's mapper, a simple to use battle-map generator</a></li>
+          <li><a target="_blank" href="https://azgaar.github.io/Fantasy-Map-Generator/">Fantasy world map generator</a></li>
+          <li><a target="_blank" href="http://pyromancers.com/">Dungeon map maker</a></li>
+        </ul>
+        <div class="text-h6 text-primary">Homebrew & Worldbuilding</div>
+        <ul>
           <li><a target="_blank" href="https://homebrewery.naturalcrit.com/">Homebrewery, where you can make your homebrew look official</a></li>
-          <li><a target="_blank" href="https://inkarnate.com/login/">Inkarnate, a really nice map maker</a></li>
           <li><a target="_blank" href="http://n.bellok.de/wikibox/">Wikibox, which makes wikipedia style battle summaries</a></li>
           <li><a target="_blank" href="http://kennethjorgensen.com/worldbuilding/resources">A big Worldbuilding resource compiled by Kenneth Jorgensen</a></li>
           <li><a target="_blank" href="https://watabou.itch.io/medieval-fantasy-city-generator/devlog/85275/070-districts">City generator software</a></li>
-          <li><a target="_blank" href="https://azgaar.github.io/Fantasy-Map-Generator/">Fantasy world map generator</a></li>
-          <li><a target="_blank" href="https://5e.tools/">5E tools, which is this manager but more comprehensive. Not sure about the legality, though...</a></li>
+          <li><a target="_blank" href="https://drive.google.com/file/d/0B3jTpp41Jz9VbUZZa29YcVYwLU0/view">Homebrew Monster Harvesting Rules</a></li>
+          <li><a target="_blank" href="https://drive.google.com/file/d/0B8XAiXpOfz9cMWt1RTBicmpmUDg/view">Homebrew Sane Magical Prices</a></li>
         </ul>
       </q-tab-panel>
     </q-tab-panels>
