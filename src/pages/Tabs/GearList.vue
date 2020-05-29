@@ -7,7 +7,6 @@
       :pagination.sync="pagination"
       :filter="filter"
       row-key="name"
-      color="secondary"
       flat
     >
 
@@ -50,6 +49,7 @@
                 <img v-else-if="coinage.id === 'gold'" src='~assets/img/gold.png' style='height: 1.5vw; max-width: 2vw' />
             </template>
             <template v-else-if="col.name == 'type'">
+              <q-icon font-size="2em" color="primary" :name="getTypeIcon(col.value)" />&nbsp;
               {{ col.value }}
               <q-tooltip anchor="bottom left" self="bottom left">{{ getTypeDescription(col.value) }}</q-tooltip>
             </template>
@@ -65,27 +65,37 @@
         <q-tr v-show="props.expand" :props="props">
           <q-td colspan="100%">
             <div class="text-left text-primary table-row-wrap">{{ props.row.description }}</div>
+            <br />
+            <div v-if="props.row.effects.length > 0" class="text-left table-row-wrap">
+              <p><strong>Special Effects</strong></p>
+              <ul>
+                <li v-for="(e,i) in props.row.effects" :key="props.row.name + i">{{e}}</li>
+              </ul>
+              <br />
+            </div>
             <div v-if="props.row.acdamage !== ''" class="text-left table-row-wrap">
               <span v-if="props.row.type.match(/Armour|Shield/g)"><strong>AC:</strong></span>
               <span v-else><strong>Damage:</strong></span>
               <span>{{ props.row.acdamage }}</span>
-            </div>
-            <div v-if="props.row.properties.length > 0" class="text-left table-row-wrap">
-              <q-chip dense v-for="p in props.row.properties" :key="props.row.name + p">
-                {{ p }}
-                <q-tooltip anchor="bottom left" self="bottom left">{{ getPropertyDescription(p) }}</q-tooltip>
-              </q-chip>
+              <br />
             </div>
             <div v-if="props.row.requirements.length > 0" class="text-left table-row-wrap">
               <span><strong>Requirements:</strong></span>
               <q-chip dense color="red" text-color="white" v-for="r in props.row.requirements" :key="props.row.name + r">
                 {{ r }}
               </q-chip>
+              <br />
+            </div>
+            <div v-if="props.row.properties.length > 0" class="text-left table-row-wrap">
+              <q-chip dense v-for="p in props.row.properties" :key="props.row.name + p">
+                {{ p }}
+                <q-tooltip anchor="bottom left" self="bottom left">{{ getPropertyDescription(p) }}</q-tooltip>
+              </q-chip>
+              <br />
             </div>
           </q-td>
         </q-tr>
       </template>
-
     </q-table>
   </div>
 </template>
@@ -109,11 +119,19 @@ export default {
       coinageOptions: [],
       filter: '',
       pagination: {
-        rowsPerPage: 25
+        page: 1,
+        rowsPerPage: 30,
+        sortBy: 'name'
       }
     }
   },
   methods: {
+    getTypeIcon (type) {
+      var local = this.type.find(obj => {
+        return obj.name === type
+      })
+      return ('icon' in local) ? local.icon : 'help_outline'
+    },
     getTypeDescription (type) {
       var local = this.type.find(obj => {
         return obj.name === type
@@ -128,6 +146,11 @@ export default {
     },
     roundToTwo (num) {
       return +(Math.round(num + 'e+2') + 'e-2')
+    }
+  },
+  computed: {
+    pagesNumber () {
+      return Math.ceil(this.gear.length / this.pagination.rowsPerPage)
     }
   },
   created () {
