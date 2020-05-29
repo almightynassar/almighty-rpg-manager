@@ -9,18 +9,23 @@
       align="justify"
       narrow-indicator
     >
+      <q-tab name="histories" icon="game-icon:newspaper" label="History" />
       <q-tab name="realms" icon="game-icon:portal" label="Realms" />
-      <q-tab name="service" icon="game-icon:all-seeing-eye" label="Deities" />
+      <q-tab name="deities" icon="game-icon:all-seeing-eye" label="Deities" />
     </q-tabs>
 
     <q-separator />
 
     <q-tab-panels v-model="tab" animated>
+      <q-tab-panel name="histories">
+        <histories />
+      </q-tab-panel>
+
       <q-tab-panel name="realms">
         <realms />
       </q-tab-panel>
 
-      <q-tab-panel name="service">
+      <q-tab-panel name="deities">
         <deities />
       </q-tab-panel>
     </q-tab-panels>
@@ -28,18 +33,20 @@
 </template>
 
 <script>
+import Histories from './Tabs/Histories'
 import Realms from './Tabs/Realms'
 import Deities from './Tabs/Deities'
 
 export default {
   name: 'WorldSetting',
   components: {
+    Histories,
     Realms,
     Deities
   },
   data: function () {
     return {
-      tab: 'realms'
+      tab: 'histories'
     }
   }
 }
