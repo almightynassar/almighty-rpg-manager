@@ -27,9 +27,9 @@ export default [
   Lacinum,
   Lefantian,
   Locanth,
+  Mermen,
   Minotaurs,
   Orcs,
-  Mermen,
   Snvert,
   Teztecs
 ]

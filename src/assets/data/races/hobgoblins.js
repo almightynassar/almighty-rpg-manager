@@ -8,10 +8,11 @@ export default {
     { id: 'movement+9', quantity: 1, overwriteName: false, name: '', overwriteDescription: false, description: '', extra: null },
     { id: 'size+medium', quantity: 1, overwriteName: false, name: '', overwriteDescription: false, description: '', extra: null },
     { id: 'language+1', quantity: 1, overwriteName: false, name: '', overwriteDescription: true, description: 'You speak Goblin, in addition to Common', extra: null },
-    { id: 'asi+3', quantity: 1, overwriteName: true, name: 'Ability Score Increase', overwriteDescription: true, description: 'Increase your Charisma Score by 2, and your Constitution Score by 1', extra: null },
-    { id: 'skill+choice', quantity: 1, overwriteName: true, name: 'Intermediary', overwriteDescription: true, description: 'You are proficient in a skill of your choice from the following: Deception, Intimidation, Performance, or Persuasion', extra: null },
-    { id: 'skill', quantity: 1, overwriteName: true, name: 'Orchish Physique', overwriteDescription: true, description: 'You are proficient in the Athletics skill.', extra: null },
-    { id: 'stone-endurance', quantity: 1, overwriteName: false, name: '', overwriteDescription: false, description: '', extra: null }
+    { id: 'asi+3', quantity: 1, overwriteName: true, name: 'Ability Score Increase', overwriteDescription: true, description: 'Increase your Dexterity, Charisma, and Constitution Score by 1', extra: null },
+    { id: 'darkvision+18', quantity: 1, overwriteName: false, name: '', overwriteDescription: false, description: '', extra: null },
+    { id: 'skill+limited', quantity: 1, overwriteName: true, name: 'Intermediary', overwriteDescription: true, description: 'You are proficient in a skill of your choice from the following: Athletics, Deception, Intimidation, Persuasion', extra: null },
+    { id: 'stone-endurance', quantity: 1, overwriteName: true, name: 'Orcish Endurance', overwriteDescription: false, description: '', extra: null },
+    { id: 'surprise-attack', quantity: 1, overwriteName: false, name: '', overwriteDescription: false, description: '', extra: null }
   ],
   ranges: {
     age: { min: 10, max: 60 },

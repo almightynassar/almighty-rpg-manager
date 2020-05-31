@@ -9,7 +9,7 @@ export default {
     { id: 'size+medium', quantity: 1, overwriteName: false, name: '', overwriteDescription: false, description: '', extra: null },
     { id: 'asi+3', quantity: 1, overwriteName: true, name: 'Ability Score Increase', overwriteDescription: true, description: 'Increase your Intelligence Score by 2, and your Constitution Score by 1', extra: null },
     { id: 'construct', quantity: 1, overwriteName: false, name: '', overwriteDescription: false, description: '', extra: null },
-    { id: 'expertise+rare', quantity: 1, overwriteName: true, name: 'Gauldian Experts', overwriteDescription: true, description: 'Whenever you make an Intelligence (History) check related to ancient gauldian culture, objects, or technological devices, you can add twice your proficiency bonus, instead of any proficiency bonus you normally apply.', extra: null },
+    { id: 'expertise', quantity: 1, overwriteName: true, name: 'Gauldian Experts', overwriteDescription: true, description: 'Whenever you make an Intelligence (History) check related to ancient gauldian culture, objects, or technological devices, you can add twice your proficiency bonus, instead of any proficiency bonus you normally apply.', extra: null },
     { id: 'skill+choice', quantity: 1, overwriteName: true, name: 'Purpose Built', overwriteDescription: true, description: 'You are proficient in one skill of your choice', extra: null },
     { id: 'sentry-rest', quantity: 1, overwriteName: false, name: '', overwriteDescription: false, description: '', extra: null }
   ],

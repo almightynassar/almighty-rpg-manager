@@ -8,9 +8,9 @@ export default {
     { id: 'movement+9', quantity: 1, overwriteName: false, name: '', overwriteDescription: false, description: '', extra: null },
     { id: 'size+medium', quantity: 1, overwriteName: false, name: '', overwriteDescription: false, description: '', extra: null },
     { id: 'language+choice', quantity: 1, overwriteName: false, name: '', overwriteDescription: false, description: '', extra: null },
-    { id: 'asi+1choice', quantity: 3, overwriteName: true, name: 'Ability Score Increase', overwriteDescription: true, description: 'Increase three different Ability Scores by 1', extra: null },
-    { id: 'skill+choice', quantity: 2, overwriteName: true, name: 'Ingenuity', overwriteDescription: true, description: 'You are proficient in two skills of your choice', extra: null },
-    { id: 'tool', quantity: 1, overwriteName: false, name: '', overwriteDescription: true, description: 'You are proficient in a tool of your choice', extra: null }
+    { id: 'asi+1all', quantity: 1, overwriteName: true, name: 'Ability Score Increase', overwriteDescription: true, description: 'Increase all Ability Scores by 1', extra: null },
+    { id: 'skill+choice', quantity: 1, overwriteName: true, name: 'Ingenuity', overwriteDescription: true, description: 'You are proficient in one skill of your choice', extra: null },
+    { id: 'tenacity', quantity: 1, overwriteName: false, name: '', overwriteDescription: false, description: '', extra: null }
   ],
   ranges: {
     age: { min: 20, max: 90 },
