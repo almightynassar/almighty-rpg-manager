@@ -1,0 +1,48 @@
+export default {
+  id: 'ocearus',
+  name: 'City State of Ocearus',
+  short: 'Ocearus',
+  type: 'Meritocratic Hierachy',
+  capital: 'ocearus',
+  title: 'Most Capable',
+  // In km^2
+  area: 76000,
+  // In %
+  usage: {
+    arable: 60,
+    wilderness: 39
+  },
+  // Population Total
+  population: 650000,
+  // Ruins & towns
+  ruins: 5,
+  towns: 10,
+  // Distribution (in %)
+  distribution: {
+    avians: 0,
+    dwarves: 0,
+    elderforged: 0,
+    forged: 0,
+    goblins: 0,
+    hobgoblins: 0,
+    humans: 0,
+    lacerti: 0,
+    lacinum: 0,
+    lefantians: 0,
+    locanth: 80,
+    mermen: 2.5,
+    minotaurs: 0,
+    orcs: 0,
+    'shifter-avians': 0,
+    'shifter-lacerti': 0,
+    'shifter-lefantians': 0,
+    'shifter-locanth': 10,
+    'shifter-mermen': 0,
+    'shifter-minotaurs': 0,
+    snvert: 0,
+    teztecs: 0
+  },
+  fluff: [
+    { title: 'Underwater', description: 'Ocearus is the only underwater nation' }
+  ]
+}

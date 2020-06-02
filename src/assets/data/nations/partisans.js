@@ -21,10 +21,10 @@ export default {
   distribution: {
     avians: 15,
     dwarves: 0,
-    elderforged: 2,
-    forged: 2.5,
-    goblins: 0,
-    hobgoblins: 0,
+    elderforged: 2.5,
+    forged: 7.5,
+    goblins: 2.5,
+    hobgoblins: 2.5,
     humans: 5,
     lacerti: 0,
     lacinum: 0,
@@ -32,15 +32,15 @@ export default {
     locanth: 0,
     mermen: 0,
     minotaurs: 0,
-    orcs: 0,
+    orcs: 3,
     'shifter-avians': 5,
     'shifter-lacerti': 0,
     'shifter-lefantians': 5,
     'shifter-locanth': 0,
     'shifter-mermen': 0,
-    'shifter-minotaur': 0,
+    'shifter-minotaurs': 0,
     snvert: 0,
-    teztecs: 30
+    teztecs: 20
   },
   fluff: [
     { title: 'Freedom Fighters', description: 'The Partisans are groups of various refugees fleeing the Hentergrey Empire. They are originally from Azia, Lefantia, and Teztev' }
