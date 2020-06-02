@@ -12,6 +12,8 @@
       <q-tab name="histories" icon="game-icon:newspaper" label="History" />
       <q-tab name="realms" icon="game-icon:portal" label="Realms" />
       <q-tab name="deities" icon="game-icon:all-seeing-eye" label="Deities" />
+      <q-tab name="nations" icon="game-icon:tattered-banner" label="Nations" />
+
     </q-tabs>
 
     <q-separator />
@@ -28,11 +30,16 @@
       <q-tab-panel name="deities">
         <deities />
       </q-tab-panel>
+
+      <q-tab-panel name="nations">
+        <nations />
+      </q-tab-panel>
     </q-tab-panels>
   </div>
 </template>
 
 <script>
+import Nations from './Tabs/Nations'
 import Histories from './Tabs/Histories'
 import Realms from './Tabs/Realms'
 import Deities from './Tabs/Deities'
@@ -42,6 +49,7 @@ export default {
   components: {
     Histories,
     Realms,
+    Nations,
     Deities
   },
   data: function () {
