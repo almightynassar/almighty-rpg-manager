@@ -1,6 +1,6 @@
 {
   "name": "almighty-rpg-manager",
-  "version": "0.0.7",
+  "version": "0.1.1",
   "description": "RPG Management App",
   "productName": "almighty-rpg-manager",
   "cordovaId": "org.almightynassar.rpg.manager",
@@ -17,6 +17,7 @@
   },
   "dependencies": {
     "@quasar/extras": "^1.8.1",
+    "axios": "^0.19.2",
     "quasar": "^1.11.3"
   },
   "devDependencies": {

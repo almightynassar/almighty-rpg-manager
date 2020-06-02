@@ -71,7 +71,8 @@
 
       <q-tab-panel name="credits">
         <div class="text-h4 q-mb-md text-primary">About &amp; Resources</div>
-        <p>This is an RPG Management App. It is geared for D&amp;D5E and a homebrew campaign, but can be edited via the files located in <span class="text-primary">src/assets/data</span> on the <a target="_blank" href="https://github.com/almightynassar/almighty-rpg-manager">GitHub page</a>.
+        <p>You are using version v{{ version }}</p>
+        <p>This is an RPG Management App. It can be edited via the files located in <span class="text-primary">src/assets/data</span> on the <a target="_blank" href="https://github.com/almightynassar/almighty-rpg-manager">GitHub page</a>.
         <div class="text-h6 text-primary">Rules Reference</div>
         <ul>
           <li><a target="_blank" href="https://crobi.github.io/dnd5e-quickref/preview/quickref.html">A easy to use Player reference webpage</a></li>
@@ -107,12 +108,45 @@
 </template>
 
 <script>
+import { version } from '../../package.json'
+
 export default {
   name: 'PageIndex',
   data: function () {
     return {
-      tab: 'home'
+      tab: 'home',
+      tag: null,
+      version: 'v' + version
     }
+  },
+  mounted () {
+    this.$axios.get('https://api.github.com/repos/almightynassar/almighty-rpg-manager/releases/latest')
+      .then((response) => {
+        this.tag = response.data.tag_name
+      })
+      .finally(() => {
+        if (this.tag) {
+          if (this.tag !== this.version) {
+            this.$q.notify({
+              position: 'top',
+              timeout: 20000,
+              color: 'negative',
+              caption: 'Your version is ' + this.version + ', while the latest version is ' + this.tag,
+              icon: 'report_problem',
+              message: 'Warning: Version does not match'
+            })
+          }
+        } else {
+          this.$q.notify({
+            position: 'top',
+            timeout: 20000,
+            color: 'negative',
+            caption: 'Could not get the latest version number; Is your internet on?',
+            icon: 'report_problem',
+            message: 'Error: Version Number'
+          })
+        }
+      })
   }
 }
 </script>
