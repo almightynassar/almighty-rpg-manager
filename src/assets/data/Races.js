@@ -12,6 +12,12 @@ import Locanth from './races/locanth'
 import Minotaurs from './races/minotaurs'
 import Orcs from './races/orcs'
 import Mermen from './races/mermen'
+import ShifterAvians from './races/shifter-avians'
+import ShifterLacerti from './races/shifter-lacerti'
+import ShifterLefantians from './races/shifter-lefantians'
+import ShifterLocanth from './races/shifter-locanth'
+import ShifterMermen from './races/shifter-mermen'
+import ShifterMinotaur from './races/shifter-minotaurs'
 import Snvert from './races/snvert'
 import Teztecs from './races/teztecs'
 
@@ -30,6 +36,12 @@ export default [
   Mermen,
   Minotaurs,
   Orcs,
+  ShifterAvians,
+  ShifterLacerti,
+  ShifterLefantians,
+  ShifterLocanth,
+  ShifterMermen,
+  ShifterMinotaur,
   Snvert,
   Teztecs
 ]
