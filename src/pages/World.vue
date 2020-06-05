@@ -13,6 +13,7 @@
       <q-tab name="realms" icon="game-icon:portal" label="Realms" />
       <q-tab name="deities" icon="game-icon:all-seeing-eye" label="Deities" />
       <q-tab name="nations" icon="game-icon:tattered-banner" label="Nations" />
+      <q-tab name="map" icon="game-icon:treasure-map" label="Map" />
 
     </q-tabs>
 
@@ -34,23 +35,29 @@
       <q-tab-panel name="nations">
         <nations />
       </q-tab-panel>
+
+      <q-tab-panel name="map">
+        <world-map />
+      </q-tab-panel>
     </q-tab-panels>
   </div>
 </template>
 
 <script>
-import Nations from './Tabs/Nations'
-import Histories from './Tabs/Histories'
-import Realms from './Tabs/Realms'
 import Deities from './Tabs/Deities'
+import Histories from './Tabs/Histories'
+import Nations from './Tabs/Nations'
+import Realms from './Tabs/Realms'
+import WorldMap from './Tabs/Map'
 
 export default {
   name: 'WorldSetting',
   components: {
+    Deities,
     Histories,
-    Realms,
     Nations,
-    Deities
+    Realms,
+    WorldMap
   },
   data: function () {
     return {

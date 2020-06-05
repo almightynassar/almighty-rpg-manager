@@ -1,6 +1,6 @@
 {
   "name": "almighty-rpg-manager",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "RPG Management App",
   "productName": "almighty-rpg-manager",
   "cordovaId": "org.almightynassar.rpg.manager",
@@ -16,15 +16,15 @@
     "test": "echo \"No test specified\" && exit 0"
   },
   "dependencies": {
-    "@quasar/extras": "^1.8.1",
+    "@quasar/extras": "^1.8.2",
     "axios": "^0.19.2",
-    "quasar": "^1.11.3"
+    "quasar": "^1.12.3"
   },
   "devDependencies": {
-    "@quasar/app": "^1.8.10",
+    "@quasar/app": "^1.9.6",
     "babel-eslint": "^10.0.1",
     "devtron": "^1.4.0",
-    "electron": "^8.3.0",
+    "electron": "^8.3.1",
     "electron-debug": "^3.1.0",
     "electron-devtools-installer": "^2.2.4",
     "electron-installer-zip": "^0.1.2",
