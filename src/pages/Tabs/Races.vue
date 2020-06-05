@@ -88,6 +88,14 @@
             <br />
             <q-separator />
             <div class="text-h6 q-mb-md text-primary"><u>Example Names</u></div>
+            <q-btn
+              color="primary"
+              label="Generate New"
+              icon="cached"
+              aria-label="Generate"
+              @click="generate"
+              class="col-md-2 col-sm-5"
+            />
             <p><strong>Female:</strong></p>
             <p><span v-for="(n,i) in namesFemale" :key="'male-'+i">{{ n | capitalize }}<span v-if="(i < (namesFemale.length - 1))">, </span></span></p>
             <p><strong>Male:</strong></p>
