@@ -4,22 +4,7 @@ This is an RPG Management App. It is geared for D&D5E and a homebrew campaign, b
 
 For the latest release you can use on your device, please check the [releases page](https://github.com/almightynassar/almighty-rpg-manager/releases).
 
-Some useful links and resources:
-
-- [A easy to use Player reference webpage](https://crobi.github.io/dnd5e-quickref/preview/quickref.html)
-- [The D&D Compendium, a massive resource](https://www.dnd-compendium.com/)
-- [A flexible roll-table that covers a lot of bases](http://autorolltables.github.io/#)
-- [Dave's mapper, a simple to use battle-map generator](https://davesmapper.com/)
-- [donjon.sh, a premier source of random generators and DM resources](https://donjon.bin.sh/)
-- [Homebrewery, where you can make your homebrew look official](https://homebrewery.naturalcrit.com/)
-- [Inkarnate, a really nice map maker](https://inkarnate.com/login/)
-- [Wikibox, which makes wikipedia style battle summaries](http://n.bellok.de/wikibox/)
-- [A big Worldbuilding resource compiled by Kenneth Jorgensen](http://kennethjorgensen.com/worldbuilding/resources)
-- [City generator software](https://watabou.itch.io/medieval-fantasy-city-generator/devlog/85275/070-districts)
-- [Fantasy world map generator](https://azgaar.github.io/Fantasy-Map-Generator/)
-- [5E tools, which is this manager but more comprehensive. Not sure about the legality, though...](https://5e.tools/)
-
-## Getting Start
+## Getting Started
 Install the dependencies:
 ```bash
 npm install
@@ -44,7 +29,34 @@ This application uses [Quasar](https://quasar.dev/). To customise the settings, 
 
 ## Resources
 
-### References
+### Rules References
+- [D&D 5E SRD (open5e)](https://open5e.com/)
+- [D&D 5E SRD (5esrd)](https://www.5esrd.com/)
+- [DnD Compendium](https://www.dnd-compendium.com/)
+- [A easy to use Player reference webpage](https://crobi.github.io/dnd5e-quickref/preview/quickref.html)
+- [D&D Beyond (link goes to spell list, but other rules are here)](https://www.dndbeyond.com/spells)
+- [5E tools, which is this manager but more comprehensive. Not sure about the legality, though...](https://5e.tools/)
+
+### Tools & Generators
+- [donjon.sh, a premier source of random generators and DM resources](https://donjon.bin.sh/)
+- [Chaotic Shiny, has a whole heap of narrative focused generators](http://chaoticshiny.com/)
+- [A flexible roll-table that covers a lot of bases](http://autorolltables.github.io/#)
+- [Kobold Fight Club - Encounter builder](https://kobold.club/fight/#)
+- [Token Maker](http://rolladvantage.com/tokenstamp/)
+
+### Mapping
+- [Dave's mapper, a simple to use battle-map generator](https://davesmapper.com/)
+- [Inkarnate, a really nice map maker](https://inkarnate.com/login/)
+- [Fantasy world map generator](https://azgaar.github.io/Fantasy-Map-Generator/)
+- [Dungeon Map Maker](http://pyromancers.com/)
+
+### Worldbuilding References
+- [A big Worldbuilding resource compiled by Kenneth Jorgensen](http://kennethjorgensen.com/worldbuilding/resources)
+- [Homebrewery, where you can make your homebrew look official](https://homebrewery.naturalcrit.com/)
+- [Wikibox, which makes wikipedia style battle summaries](http://n.bellok.de/wikibox/)
+- [City generator software](https://watabou.itch.io/medieval-fantasy-city-generator/devlog/85275/070-districts)
+- [Homebrew Monster Harvesting Rules](https://drive.google.com/file/d/0B3jTpp41Jz9VbUZZa29YcVYwLU0/view)
+- [Homebrew Sane Magical Prices](https://drive.google.com/file/d/0B8XAiXpOfz9cMWt1RTBicmpmUDg/view)
 - "Grain into Gold - A Fantasy World Economy" by Board Enterprises. [Purchase Here](http://www.warehouse23.com/products/BEN3610)
 
 ### Data
