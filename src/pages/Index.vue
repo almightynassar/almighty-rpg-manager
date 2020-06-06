@@ -71,9 +71,9 @@
 
       <q-tab-panel name="credits">
         <div class="text-h4 q-mb-md text-primary">About &amp; Resources</div>
-        <p>You are using version v{{ version }}</p>
+        <p>You are using version v{{ version }}. You can see the available version at the <a href="https://github.com/almightynassar/almighty-rpg-manager/releases">releases page</a></p>
         <p>This is an RPG Management App. It can be edited via the files located in <span class="text-primary">src/assets/data</span> on the <a target="_blank" href="https://github.com/almightynassar/almighty-rpg-manager">GitHub page</a>.
-        <div class="text-h6 text-primary">Rules Reference</div>
+        <div class="text-h6 text-primary">Rules References</div>
         <ul>
           <li><a target="_blank" href="https://crobi.github.io/dnd5e-quickref/preview/quickref.html">A easy to use Player reference webpage</a></li>
           <li><a target="_blank" href="https://www.dnd-compendium.com/">The D&amp;D Compendium, a massive resource</a></li>
@@ -131,7 +131,7 @@ export default {
               position: 'top',
               timeout: 20000,
               color: 'negative',
-              caption: 'Your version is ' + this.version + ', while the latest version is ' + this.tag,
+              caption: 'Your version is ' + this.version + ', while the latest version is ' + this.tag + '. Please check the "About & Resources" tab for a link to the releases page.',
               icon: 'report_problem',
               message: 'Warning: Version does not match'
             })

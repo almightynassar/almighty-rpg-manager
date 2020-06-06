@@ -13,7 +13,7 @@
       <q-tab name="realms" icon="game-icon:portal" label="Realms" />
       <q-tab name="deities" icon="game-icon:all-seeing-eye" label="Deities" />
       <q-tab name="nations" icon="game-icon:tattered-banner" label="Nations" />
-      <q-tab name="map" icon="game-icon:treasure-map" label="Map" />
+      <q-tab name="map" icon="game-icon:treasure-map" label="Maps" />
 
     </q-tabs>
 
