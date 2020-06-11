@@ -1,6 +1,8 @@
 # Almighty RPG Manager (almighty-rpg-manager)
 
-This is an RPG Management App. It is geared for D&D5E and a homebrew campaign, but can be edited via the files located in `src/assets/data` on the [GitHub page](https://github.com/almightynassar/almighty-rpg-manager).
+This is the source code for the RPG Management App. You can use the app directly by [visiting this url](https://almightynassar.github.io/almighty-rpg-manager/index.html#/)
+
+This app is geared for D&D5E and a homebrew campaign, but can be edited via the files located in `src/assets/data` on [GitHub](https://github.com/almightynassar/almighty-rpg-manager).
 
 For the latest release you can use on your device, please check the [releases page](https://github.com/almightynassar/almighty-rpg-manager/releases).
 

@@ -9,6 +9,7 @@
   "private": true,
   "scripts": {
     "build": "npx quasar build",
+    "pages": "npx quasar build --mode spa && cp -R dist/spa docs",
     "electron": "npx quasar build --mode electron",
     "package-linux": "npx electron-installer-zip \"dist/electron/almighty-rpg-manager-linux-x64\" \"dist/almighty-rpg-manager-linux.zip\"",
     "package-win32": "npx electron-installer-zip \"dist/electron/almighty-rpg-manager-win32-x64\" \"dist/almighty-rpg-manager-win32.zip\"",
