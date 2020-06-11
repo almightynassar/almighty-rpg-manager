@@ -85,6 +85,50 @@
     </q-markup-table>
     <br />
     <q-separator />
+    <div class="text-h4 q-mb-md text-primary">Lodging</div>
+    <p>See the Lifestyle description for more information about what each tier of lodging offers.</p>
+    <p>Lodging may include breakfast, laundry, and access to facilities such as a bathroom.</p>
+    <q-markup-table flat wrap-cells>
+      <thead>
+        <th>Lodging</th>
+        <th>Cost per day</th>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Squalid</td>
+          <td>7 CP</td>
+          <td>People in this class have shelter from the elements, but live in a desperate and stressful environment. They often find themselves going hungry.</td>
+        </tr>
+        <tr>
+          <td>Poor</td>
+          <td>10 CP</td>
+        </tr>
+        <tr>
+          <td>Working Class</td>
+          <td>30 CP</td>
+        </tr>
+        <tr>
+          <td>Middle class</td>
+          <td>50 CP</td>
+          <td>People in this class have access to decent accomodation and food, can maintain expensive equipment, and still save enough for a modest retirement.</td>
+        </tr>
+        <tr>
+          <td>Upper Middle class</td>
+          <td>80 CP</td>
+          <td>This class bridges the average citizen and the weathly. They have enough disposable income to spend on and maintain a few luxuries.</td>
+        </tr>
+        <tr>
+          <td>Wealthy</td>
+          <td>200 CP</td>
+          <td>This class has enough wealth that they can hire servants to do chores for them, and begin to purchase power in other forms.</td>
+        </tr>
+        <tr>
+          <td>Aristocratic</td>
+          <td>400 CP</td>
+          <td>This class generally do not experience hardship of any kind, and generally consists of the most powerful people in society.</td>
+        </tr>
+      </tbody>
+    </q-markup-table>
   </div>
 </template>
 
