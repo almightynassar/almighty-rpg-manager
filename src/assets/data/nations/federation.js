@@ -19,30 +19,26 @@ export default {
   towns: 21,
   // Distribution (in %)
   distribution: {
-    avians: 0,
     dwarves: 80,
-    elderforged: 0,
-    forged: 0,
-    goblins: 0,
-    hobgoblins: 0,
-    humans: 0,
-    lacerti: 0,
-    lacinum: 0,
-    lefantians: 0,
     locanth: 5,
-    mermen: 2.5,
-    minotaurs: 0,
-    orcs: 0,
-    'shifter-avians': 0,
-    'shifter-lacerti': 0,
-    'shifter-lefantians': 0,
-    'shifter-locanth': 0,
-    'shifter-mermen': 0,
-    'shifter-minotaurs': 0,
-    snvert: 0,
-    teztecs: 0
+    mermen: 2.5
   },
   fluff: [
-    { title: 'Industrialists', description: 'The Federation is made up of family clans that run family factories that sell quality goods all across Terrea' }
+    {
+      title: 'Dwarven Confederacy',
+      description: 'While the Prime Chieftain is the nominated head of the Federation, the real power is held by the member dwarven clans. The federal government determines foreign policy and defence matters, and is rarely allowed to do more than that by the member clans.'
+    },
+    {
+      title: 'Familial Clans',
+      description: 'Dwarven society is heavily based around the extended family unit, and dwarves will usually know the names of all their cousins (and second cousins). The head of a clan is known as the Chief, and is the last word on all family matters.'
+    },
+    {
+      title: 'Industrial Powerhouse',
+      description: 'The Federation manufactures and exports most of the goods in Terrea. Dwarven wares are highly sort for their quality and workmanship.'
+    },
+    {
+      title: 'Indentured Servitude',
+      description: 'Debts in the Federation are settled with a sort of slavery. The person in debt is bounded to serve out the value of their debt, and have some legal protections. But the debtor must work off their debt in a manner acceptable to the owner. Slave contracts can be bought and sold, and forms an important basis for dwarven society'
+    }
   ]
 }

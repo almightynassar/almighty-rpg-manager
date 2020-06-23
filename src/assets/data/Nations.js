@@ -1,3 +1,4 @@
+import Collectors from './nations/collectors'
 import Federation from './nations/federation'
 import Hentergrey from './nations/hentergrey'
 import IllumiNaati from './nations/illuminaati'
@@ -9,6 +10,7 @@ import Snvert from './nations/snvert'
 import Tau from './nations/tau'
 
 export default [
+  Collectors,
   Federation,
   Hentergrey,
   IllumiNaati,
