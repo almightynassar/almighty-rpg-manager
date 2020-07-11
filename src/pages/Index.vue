@@ -71,7 +71,7 @@
 
       <q-tab-panel name="credits">
         <div class="text-h4 q-mb-md text-primary">About &amp; Resources</div>
-        <p>You are using version v{{ version }}. You can see the available version at the <a href="https://github.com/almightynassar/almighty-rpg-manager/releases">releases page</a></p>
+        <p>You are using version {{ version }}. You can see the available version at the <a href="https://github.com/almightynassar/almighty-rpg-manager/releases">releases page</a></p>
         <div class="text-h6 text-primary">Rules References</div>
         <ul>
           <li><a target="_blank" href="https://open5e.com/">D&amp;D 5E System Reference Document (open5e)</a></li>
