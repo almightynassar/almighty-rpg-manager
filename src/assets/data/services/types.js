@@ -1,7 +1,6 @@
 export default [
   { name: 'Carpenter', description: "These jobs mainly work with wood, and will be proficient in Carpenter's Tools" },
-  { name: 'Cook', description: "These jobs mainly work with preparing food, and will be proficient in Cook's Utensils" },
-  { name: 'Labourer', description: 'Generally unskilled work' },
+  { name: 'Food Produce', description: "These jobs mainly work with preparing food, and will be proficient in Cook's Utensils" },
   { name: 'Leather', description: "These jobs mainly work with leather, and will be proficient in Leatherworker's Tools" },
   { name: 'Potter', description: "These jobs work with ceramics, and will be proficient in Potter's Tools" },
   { name: 'Scholar', description: 'These jobs are academic in nature, and may be proficient in a tool or kit' },

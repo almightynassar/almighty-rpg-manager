@@ -5,7 +5,7 @@
     <br />
     <q-separator />
     <q-table
-      title="Hirelings"
+      title="Professionals"
       :data="service"
       :columns="columns"
       :pagination.sync="pagination"
@@ -19,6 +19,15 @@
             <q-icon name="search" />
           </template>
         </q-input>
+        <q-select
+          v-model="rate"
+          :options="['Daily', 'Hourly']"
+          option-label="name"
+          label="Rate"
+          map-options
+          options-dense
+        />
+        &nbsp;
         <q-select
           v-model="coinage"
           :options="coinageOptions"
@@ -38,18 +47,19 @@
           >
             {{ col.label }}
           </q-th>
-          <q-th auto-width />
         </q-tr>
       </template>
 
       <template v-slot:body="props">
         <q-tr :props="props">
           <q-td v-for="col in props.cols" :key="col.name" :props="props">
-            <template v-if="col.name == 'cost' || col.name == 'hourly'">
-                {{ roundToTwo(col.value / coinage.convert) }} {{ coinage.symbol }}
-                <img v-if="coinage.id === 'bronze'" src='~assets/img/bronze.png' style='height: 1.5vw; max-width: 2vw' />
-                <img v-else-if="coinage.id === 'silver'" src='~assets/img/silver.png' style='height: 1.5vw; max-width: 2vw' />
-                <img v-else-if="coinage.id === 'gold'" src='~assets/img/gold.png' style='height: 1.5vw; max-width: 2vw' />
+            <template v-if="col.name == 'cost'">
+                {{ determineCost(col.value / coinage.convert) }} {{ coinage.symbol }}
+                <span class='float-right'>
+                  <img v-if="coinage.id === 'bronze'" src='~assets/img/bronze.png' style='height: 1.5vw; max-width: 2vw' />
+                  <img v-else-if="coinage.id === 'silver'" src='~assets/img/silver.png' style='height: 1.5vw; max-width: 2vw' />
+                  <img v-else-if="coinage.id === 'gold'" src='~assets/img/gold.png' style='height: 1.5vw; max-width: 2vw' />
+                </span>
             </template>
             <template v-else-if="col.name == 'type'">
               {{ col.value }}
@@ -59,15 +69,6 @@
               {{ col.value }}
             </template>
           </q-td>
-          <q-td auto-width>
-            <q-btn size="sm" round dense @click="props.expand = !props.expand" :icon="props.expand ? 'keyboard_arrow_down' : 'keyboard_arrow_right'" />
-          </q-td>
-        </q-tr>
-
-        <q-tr v-show="props.expand" :props="props">
-          <q-td colspan="100%">
-            <div class="text-left text-primary table-row-wrap">{{ props.row.description }}</div>
-          </q-td>
         </q-tr>
       </template>
 
@@ -76,57 +77,54 @@
 </template>
 
 <script>
+import Lifestyles from 'src/assets/data/Lifestyle'
 import Service from 'src/assets/data/services/list'
+import Types from 'src/assets/data/services/types'
 export default {
   name: 'Hirelings',
   data: function () {
     return {
-      columns: [
-        { name: 'name', required: true, label: 'Name', align: 'left', field: row => row.name, format: val => `${val}`, sortable: true },
-        { name: 'type', required: true, label: 'Type', align: 'left', field: row => row.type, format: val => `${val}`, sortable: true },
-        { name: 'cost', required: true, label: 'Min. Cost / Day', align: 'right', field: row => row.cost, format: val => `${val}`, sortable: true },
-        { name: 'hourly', required: true, label: 'Hourly Rate', align: 'right', field: row => row.cost, format: val => `${this.determineHourly(val)}`, sortable: true },
-        { name: 'class', required: true, label: 'Class', align: 'right', field: row => row.cost, format: val => `${this.determineClass(val)}`, sortable: true }
-      ],
-      type: [],
+      lifestyles: Lifestyles,
+      types: Types,
       service: Service,
       coinage: '',
       coinageOptions: [],
       filter: '',
+      rate: 'Daily',
       pagination: {
         page: 1,
         rowsPerPage: 0
       }
     }
   },
+  computed: {
+    columns () {
+      return [
+        { name: 'name', required: true, label: 'Name', align: 'left', field: row => row.name, format: val => `${val}`, sortable: true },
+        { name: 'type', required: true, label: 'Type', align: 'left', field: row => row.type, format: val => `${val}`, sortable: true },
+        { name: 'supportValue', required: true, label: 'Support Value', align: 'left', field: row => row.supportValue, format: val => `${val}`, sortable: true },
+        { name: 'cost', required: true, label: this.rate + ' Rate', align: 'left', field: row => row.cost, format: val => `${val}`, sortable: true, sort: (a, b) => parseInt(a) - parseInt(b) },
+        { name: 'class', required: true, label: 'Class', align: 'left', field: row => row.cost, format: val => `${this.determineClass(val).name}`, sortable: true },
+        { name: 'description', required: true, label: 'Description', align: 'left', field: row => row.description, format: val => `${val}`, sortable: false }
+      ]
+    }
+  },
   methods: {
     determineClass (income) {
-      if (income >= 1000) {
-        return 'Aristocratic'
-      } else if (income >= 400) {
-        return 'Wealthy'
-      } else if (income >= 200) {
-        return 'Upper Middle Class'
-      } else if (income >= 100) {
-        return 'Middle Class'
-      } else if (income >= 60) {
-        return 'Working Class'
-      } else if (income >= 20) {
-        return 'Poor'
-      }
-      return 'Squalid'
+      var local = this.lifestyles.find(obj => {
+        return (obj.min <= income && income < obj.max) || (obj.name === 'Aristocratic' && income >= obj.max)
+      })
+      return local
     },
-    determineHourly (income) {
-      return income / 8
+    determineCost (income) {
+      var cost = this.rate === 'Daily' ? income : income / 8
+      return +(Math.round(cost + 'e+2') + 'e-2')
     },
     getTypeDescription (type) {
-      var local = this.type.find(obj => {
+      var local = this.types.find(obj => {
         return obj.name === type
       })
       return ('description' in local) ? local.description : ''
-    },
-    roundToTwo (num) {
-      return +(Math.round(num + 'e+2') + 'e-2')
     }
   },
   created () {
@@ -135,9 +133,6 @@ export default {
 
     // Grab our default coinage array
     this.coinageOptions = this.$store.state.coinage.coinage
-
-    // Grab our service lists
-    this.type = this.$store.state.service.type
   }
 }
 </script>

@@ -3,7 +3,6 @@ import Vuex from 'vuex'
 
 import coinage from './coinage'
 import gear from './gear'
-import service from './service'
 
 Vue.use(Vuex)
 
@@ -20,8 +19,7 @@ export default function (/* { ssrContext } */) {
   const Store = new Vuex.Store({
     modules: {
       coinage,
-      gear,
-      service
+      gear
     },
 
     // enable strict mode (adds overhead!)
