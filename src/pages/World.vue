@@ -63,6 +63,12 @@ export default {
     return {
       tab: 'histories'
     }
+  },
+  mounted () {
+    var param = this.$route.query.world
+    if (param !== undefined && param !== null) {
+      this.tab = param
+    }
   }
 }
 </script>

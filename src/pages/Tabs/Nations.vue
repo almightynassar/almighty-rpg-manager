@@ -156,6 +156,12 @@ export default {
     numberWithCommas (x) {
       return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',')
     }
+  },
+  mounted () {
+    var param = this.$route.query.nation
+    if (param !== undefined && param !== null) {
+      this.tab = param
+    }
   }
 }
 </script>

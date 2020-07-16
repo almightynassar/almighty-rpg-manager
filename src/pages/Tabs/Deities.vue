@@ -57,6 +57,12 @@ export default {
       splitterModel: 20,
       tab: 'intro'
     }
+  },
+  mounted () {
+    var param = this.$route.query.deity
+    if (param !== undefined && param !== null) {
+      this.tab = param
+    }
   }
 }
 </script>

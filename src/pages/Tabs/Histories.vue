@@ -52,6 +52,12 @@ export default {
       splitterModel: 20,
       tab: 'realms'
     }
+  },
+  mounted () {
+    var param = this.$route.query.history
+    if (param !== undefined && param !== null) {
+      this.tab = param
+    }
   }
 }
 </script>
