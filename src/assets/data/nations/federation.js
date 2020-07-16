@@ -40,5 +40,8 @@ export default {
       title: 'Indentured Servitude',
       description: 'Debts in the Federation are settled with a sort of slavery. The person in debt is bounded to serve out the value of their debt, and have some legal protections. But the debtor must work off their debt in a manner acceptable to the owner. Slave contracts can be bought and sold, and forms an important basis for dwarven society'
     }
+  ],
+  regions: [
+    'bounty'
   ]
 }
