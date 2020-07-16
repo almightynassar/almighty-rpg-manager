@@ -63,6 +63,7 @@ This application uses [Quasar](https://quasar.dev/). To customise the settings, 
 
 ### Data
 - [2000 names](http://www.20000-names.com/)
+- [Food origins](https://blog.ciat.cgiar.org/origin-of-crops/)
 
 ### Images
 - [Axe Icon](https://opengameart.org/content/axe-survival-tool)
