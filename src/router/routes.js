@@ -7,8 +7,6 @@ const routes = [
       { path: '', component: () => import('pages/Index.vue') },
       { path: 'character', component: () => import('pages/Character.vue') },
       { path: 'reference', component: () => import('pages/ReferenceList.vue') },
-      { path: 'name-generator', component: () => import('pages/NameGenerator.vue') },
-      { path: 'settings', component: () => import('pages/Settings.vue') },
       { path: 'shopping', component: () => import('pages/Shopping.vue') },
       { path: 'world', component: () => import('pages/World.vue') }
     ]

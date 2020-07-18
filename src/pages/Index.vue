@@ -10,7 +10,8 @@
       narrow-indicator
     >
       <q-tab name="home" icon="home" label="Introduction" />
-      <q-tab name="credits" icon="settings" label="About &amp; Resources" />
+      <q-tab name="settings" icon="settings" label="Settings &amp; Tools" />
+      <q-tab name="credits" icon="help" label="About" />
     </q-tabs>
 
     <q-separator />
@@ -199,7 +200,9 @@
         <p>The most powerful specter user is unknown, since many of the schools are secretive and avoid displaying their prowess so that their enemies cannot learn their secrets.</p>
 
       </q-tab-panel>
-
+      <q-tab-panel name="settings">
+        <settings></settings>
+      </q-tab-panel>
       <q-tab-panel name="credits">
         <div class="text-h4 q-mb-md text-primary">About &amp; Resources</div>
         <p>You are using version {{ version }}. You can see the available version at the <a href="https://github.com/almightynassar/almighty-rpg-manager/releases">releases page</a></p>
@@ -243,9 +246,13 @@
 
 <script>
 import { version } from '../../package.json'
+import Settings from './Settings'
 
 export default {
   name: 'PageIndex',
+  components: {
+    Settings
+  },
   data: function () {
     return {
       tab: 'home',

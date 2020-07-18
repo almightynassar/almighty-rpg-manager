@@ -1,10 +1,35 @@
 <template>
   <div class="q-pa-md">
-    <div class="q-pa-md row items-start q-gutter-md">
-      <q-card class="settings-card" flat bordered>
-        <q-card-section horizontal>
-          <q-card-section>
-            <p class="text-primary"><strong>Gear</strong></p>
+    <q-splitter v-model="splitterModel">
+      <template v-slot:before>
+        <q-tabs
+          v-model="tab"
+          align="left"
+          vertical
+          class="text-grey"
+          active-color="primary"
+          indicator-color="primary"
+        >
+          <q-tab
+            v-for="t in tabs"
+            :key="t.id"
+            :name="t.id"
+            :label="t.name"
+            style="justify-content:initial"
+          />
+        </q-tabs>
+      </template>
+
+      <template v-slot:after>
+        <q-tab-panels
+          v-model="tab"
+          animated
+          swipeable
+          vertical
+          transition-prev="jump-up"
+          transition-next="jump-up"
+        >
+          <q-tab-panel key="coinage" name="coinage">
             <q-select
               v-model="coinage"
               :options="coinageOptions"
@@ -14,47 +39,35 @@
             />
             <q-separator spaced />
             <q-btn color="primary" label="Save" icon="save" @click="saving" />
-          </q-card-section>
-        </q-card-section>
-      </q-card>
+          </q-tab-panel>
 
-      <q-card class="settings-card" flat bordered>
-        <q-card-section horizontal>
-          <q-card-section>
-            <p class="text-primary"><strong>Fonts</strong></p>
-            <q-input v-model="example" label="Example Text" />
-            <q-input v-model="size" type="number" label="Font Size (px)" />
-            <q-select
-              v-model="selected"
-              :options="fonts"
-              option-value="id"
-              option-label="name"
-              label="Font"
-              map-options
-              emit-value
-            />
-            <q-separator spaced />
-            <span :class="selected" :style="'font-size: ' + size + 'px'">{{ example }}</span>
-          </q-card-section>
-        </q-card-section>
-      </q-card>
-    </div>
+          <q-tab-panel key="names" name="names">
+            <name-generator></name-generator>
+          </q-tab-panel>
+        </q-tab-panels>
+      </template>
+    </q-splitter>
   </div>
 </template>
 
 <script >
-import Fonts from 'src/assets/data/Fonts'
+import NameGenerator from './NameGenerator'
 
 export default {
   name: 'Settings',
+  components: {
+    NameGenerator
+  },
   data: function () {
     return {
       coinage: '',
       coinageOptions: [],
-      example: 'This is an example text',
-      fonts: Fonts,
-      selected: 'barazhad',
-      size: 14
+      splitterModel: 20,
+      tab: 'coinage',
+      tabs: [
+        { id: 'coinage', name: 'Coinage' },
+        { id: 'names', name: 'Name Generator' }
+      ]
     }
   },
   methods: {

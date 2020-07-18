@@ -79,12 +79,6 @@ export default {
           link: '/character'
         },
         {
-          title: 'Generators',
-          caption: 'Generate things like names',
-          icon: 'game-icon:magic-swirl',
-          link: '/name-generator'
-        },
-        {
           title: 'World',
           caption: 'Information about the setting of Terrea',
           icon: 'game-icon:world',
@@ -95,12 +89,6 @@ export default {
           caption: 'View rules',
           icon: 'game-icon:secret-book',
           link: '/reference'
-        },
-        {
-          title: 'Settings',
-          caption: 'Change various settings in the app',
-          icon: 'settings',
-          link: '/settings'
         }
       ]
     }
