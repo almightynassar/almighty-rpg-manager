@@ -48,6 +48,12 @@ export default {
     return {
       tab: 'gear'
     }
+  },
+  mounted () {
+    var param = this.$route.query.shopping
+    if (param !== undefined && param !== null) {
+      this.tab = param
+    }
   }
 }
 </script>
