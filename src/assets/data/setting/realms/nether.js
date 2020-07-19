@@ -1,5 +1,5 @@
 export default {
-  id: 'neather',
+  id: 'nether',
   name: 'Nether',
   paragraphs: [
     'The Nether is the realm of entropy, death, finality, apathy, and certainty. It is where all things go when they die, the final chapter of their story. No matter what type of life you lived, whether you were a force for good or evil, it is certain that you will end up in the Nether.',
