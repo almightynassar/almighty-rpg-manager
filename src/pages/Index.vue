@@ -19,43 +19,40 @@
     <q-tab-panels v-model="tab" animated>
       <q-tab-panel name="home">
         <div class="text-h4 q-mb-md text-primary">Welcome to Terrea</div>
-        <p>Terrea is a low-magic world that is split into multiple overlapping realms. The Gods of these realms are temperamental and fickle, but are united against threats to the standing order. The Shadow Realm stands as a refuge for the last peoples to rise up against the Gods, and their magic-powered technological wonders are still scattered in decaying ruins across the world. The uprising also left behind the terrible monsters that the Gods used to fight against the mortals.</p>
-        <p>As adventurers in Terrea you can choose to fight back against the monstrous terrors that plague the good and honest citizens, or delve deep into ancient ruins and plunder their powerful secrets. You can take part in the politics of the day, making sure that the people are well-looked after or bowing down in servitude to their betters. You can join the struggle alongside freedom fighters, stand firm with the Hentergrey Empire to maintain order, or go plundering with Orcish raiders. And if that all seems too grand for you, simply try to make an honest living as a humble adventurer that will eventually settle down with family and friends.</p>
-        <q-separator />
-        <div class="text-h4 q-mb-md text-primary">FAQ</div>
+        <p>
+          Terrea is a low-magic world that is split into three overlapping realms known as the <a href="/#/world?world=realms&realm=aether">Aether</a>,
+          <a href="/#/world?world=realms&realm=nether">Nether</a>, and <a href="/#/world?world=realms&realm=midrealm">Mid-Realm</a>. Each realm is ruled
+          over by a temperamental and fickle <a href="/#/world?world=deities">God</a>, who are constantly bickering with each other. The Gods are not
+          bound by mortal ethics and morality, and are solely concerned with protecting their realms and their power.
+        </p>
+        <p>
+          The first sentient peoples were the ancient Gauld, and they were intelligent and cunning. They flourished all across Mid-Realm by creating many
+          wonders and reaching cultural heights that drew the attention of the immortal <a href="/#/world?world=deities&deity=primus">Primus</a>, the
+          creator and source of magical Essence. Primus and the Gauld eventually rose up against the Gods, and the Gods retaliated by birthing the monsters
+          that are now endemic to Terrea. The Gods eventually triumphed, and they banished the Gauld and Primus to the
+          <a href="/#/world?world=realms&realm=shadowrealm">Shadow Realm</a>. The ruins and technology of the Gauld remained behind, reminders of what once was.
+        </p>
+        <p>
+          As adventurers in Terrea you can choose to fight back against the monstrous terrors that plague the good and honest citizens, or delve deep into
+          ancient ruins and plunder their powerful secrets. You can take part in the politics of the day, making sure that the people are well-looked after
+          or bowing down in servitude to their betters. You can join the struggle alongside <a href="/#/world?world=nations&nation=partisans">freedom fighters</a>,
+          stand firm with the <a href="/#/world?world=nations&nation=hentergrey">Hentergrey Empire</a> to maintain order, or go plundering with Orcish raiders.
+          And if that all seems too grand for you, simply try to make an honest living as a humble adventurer that will eventually settle down with family
+          and friends.
+        </p>
 
+        <q-separator />
+
+        <div class="text-h4 q-mb-md text-primary">FAQ</div>
         <p class="text-primary"><strong>1. What's the deal with religion on Terrea?</strong></p>
-        <p>The Gods of Terrea act based on their whims, and are less concerned with morality or concepts of good and evil. Mortals simply try to appease the Gods to avoid their ire, and occassionally petition their favour for a good harvest or some other boon. For the Clerics and Paladins of Terrea, this means that their power does not come directly from the Gods but instead from their steadfast faith and belief. Their faith is so true that it allows the Cleric or Paladin to manipulate the aether directly and bend reality to their will.</p>
-        <q-markup-table flat dense wrap-cells>
-          <thead>
-            <th>Deity</th>
-            <th>Domain</th>
-            <th>Positive</th>
-            <th>Negative</th>
-          </thead>
-          <tbody>
-            <tr>
-              <td style="width: 10%"><strong class="text-primary">Artra</strong></td>
-              <td style="width: 10%">Creation</td>
-              <td>Birth; New life; Farming &amp; Harvest</td>
-              <td>The conception, realization and evolution of terrible weapons, monsters and disasters</td>
-            </tr>
-            <tr>
-              <td style="width: 10%"><strong class="text-primary">Baltha</strong></td>
-              <td style="width: 10%">Entropy</td>
-              <td>Resolution; History</td>
-              <td>Death; Destruction</td>
-            </tr>
-            <tr>
-              <td style="width: 10%"><strong class="text-primary">Rulik</strong></td>
-              <td style="width: 10%">Balance</td>
-              <td>Moderation; Redemption; Healing; Law &amp; Legislation</td>
-              <td>Turning a blind eye to misdeeds in order to maintain the status quo</td>
-            </tr>
-          </tbody>
-        </q-markup-table>
-        <br />
-        <p>While technically not a deity in the classic sense, <strong class="text-primary">Primus</strong> the first Primordial is sometimes considered worthy of worship by mortals. Followers are usually drawn to the ideals of freedom, independence, and self-realistion. Opponents to Primus argue that the immortal represents self-indulgent pride and hubris.</p>
+        <p>
+          The <a href="/#/world?world=deities">Gods</a> of Terrea act based on their whims, and are less concerned with morality or concepts of good and evil.
+          Mortals simply try to appease the Gods to avoid their ire, and occassionally petition their favour for a good harvest or some other boon.
+        </p>
+        <p>
+          For the Clerics and Paladins of Terrea, this means that their power does not come directly from the Gods. Instead from their steadfast faith and
+          belief in a singular cause. Their faith is so true that it allows them to manipulate the aether directly and bend reality to their will.
+        </p>
 
         <p class="text-primary"><strong>2. What about magic?</strong></p>
         <p>There are three forms of magic on Terrea: Primordial (powers ancient Gauldian and modern technological devices), Spectral (the most common form of magic), and Natural (use the primordial essence found in living things). In terms of D&amp;D Mechanics, these distinctions are just for flavour.</p>
@@ -66,7 +63,7 @@
         <p>For magical or technological equipment, you will only find (or sell) them in the larger settlements such as cities. You may be able to find buyers that are rich enough outside of these locations, but there is no guarantee that they will be interested in the piece that you have to offer.</p>
 
         <p class="text-primary"><strong>4. Where can we go to get armour custom fitted for this monster or beast I just befriended?</strong></p>
-        <p>You can't use any old blacksmith for highly custom pieces. You will need to seek out a master of the craft, which can usually be found in the larger settlements. The Federation of Guilds in the land of Bounty are especially known for their high quality and masterwork gear.</p>
+        <p>You can't use any old blacksmith for highly custom pieces. You will need to seek out a master of the craft, which can usually be found in the larger settlements. The <a href="/#/world?world=nations&nation=federation">Federation of Guilds</a> in the land of Bounty are especially known for their high quality and masterwork gear.</p>
 
         <p class="text-primary"><strong>5. Where can we go for healing?</strong></p>
         <p>Most settlements will have a healer (or someone who does healing part-time), but for more serious injuries you will either need to send for experienced doctors or transport the patient to them. Most local healers should be able to deal with most common versions of poisons and dieseases.</p>
@@ -78,13 +75,13 @@
         <p>Yes, but again it will involve taking a soul back from the nether and therefore draw Baltha's attention. Baltha does not care for the undead themselves, and they can be destroyed without drawing the attention of the God.</p>
 
         <p class="text-primary"><strong>8. Are there any places where swords are illegal, magic is outlawed, or other notable hassles from the law?</strong></p>
-        <p>Most large settlements frown on or restrict the open-carry of weapons while inside the settlement. But the only major thing is to not go into debt with a dwarf; the Federation of Guilds in the land of Bounty have legalised slavery as an acceptable form of debt-recovery.</p>
+        <p>Most large settlements frown on or restrict the open-carry of weapons while inside the settlement. But the only major thing is to not go into debt with a dwarf; the <a href="/#/world?world=nations&nation=federation">Federation of Guilds</a> in the land of Bounty have legalised slavery as an acceptable form of debt-recovery.</p>
 
         <p class="text-primary"><strong>9. What monsters are terrorizing the countryside sufficiently that if I kill them I will become famous?</strong></p>
         <p>There are monsters everywhere on Terrea, but of particular note are: Aboleths, Dragons, Giants, Krakens, Remorhazes', Vampires</p>
 
         <p class="text-primary"><strong>10. Are there any wars we can fight in?</strong></p>
-        <p>The Partisans are freedom fighters trying to liberate the nations of the Lefantia, Teztec, and Azia from the expansionist Hentergrey Empire. The Orcs are currently raiding both the Mermen and the Snvert, but it is not a war of conquest.</p>
+        <p>The Partisans are freedom fighters trying to liberate the nations of the Lefantia, Teztec, and Azia from the expansionist <a href="/#/world?world=nations&nation=hentergrey">Hentergrey Empire</a>. The Orcs are currently raiding both the Mermen and the Snvert, but it is not a war of conquest.</p>
 
         <p class="text-primary"><strong>11. How about gladitorial arenas to compete in and with glory and fabulous prizes?</strong></p>
         <p>The Orc Tribes and Goblin city-states love their combat games (especially those that go to the death), while the Hentergrey Empire indulges in formalised tournaments. The other nations may sometimes dabble in combat-based entertainment, but it is not a regular part of their culture.</p>
@@ -111,83 +108,310 @@
         <q-markup-table flat dense wrap-cells>
           <thead>
             <th>Region</th>
-            <th>Crops</th>
+            <th>Foods</th>
             <th>Meats</th>
-            <th>Other</th>
           </thead>
           <tbody>
             <tr>
               <td style="width: 10%"><strong class="text-primary">World Center</strong></td>
-              <td>Wheat</td>
-              <th>Apples; Artichokes; Asparagus; Cabbages; Carrots; Figs; Hazelnuts; Hops; Leeks; Lettuce; Peas; Sugar Beets; Wheat</th>
-              <td>Beef; Fish; Lamb; Pork; Poultry (Chicken &amp; Duck); Game (Boar, Deer, Rabbit, Pheasant, Quail)</td>
-              <td>Clover; Eggs; Honey; Milk; Mustard Seed</td>
+              <td>
+                <ul>
+                  <li>Apples</li>
+                  <li>Artichokes</li>
+                  <li>Asparagus</li>
+                  <li>Cabbages</li>
+                  <li>Carrots</li>
+                  <li>Clover</li>
+                  <li>Figs</li>
+                  <li>Hazelnuts</li>
+                  <li>Honey</li>
+                  <li>Hops</li>
+                  <li>Leeks</li>
+                  <li>Lettuce</li>
+                  <li>Mustard SeedM</li>
+                  <li>Peas</li>
+                  <li>Sugar Beets</li>
+                  <li>Wheat</li>
+                </ul>
+              <td>
+                <ul>
+                  <li>Beef</li>
+                  <li>Fish</li>
+                  <li>Game (Boar, Deer, Rabbit, Pheasant, Quail)</li>
+                  <li>Lamb</li>
+                  <li>Pork</li>
+                  <li>Poultry (Chicken &amp; Duck)</li>
+                </ul>
+              </td>
             </tr>
             <tr>
               <td style="width: 10%"><strong class="text-primary">The Levengeti</strong></td>
-              <td>Barley; Cabbages; Coffee; Grapes; Hops; Olives; Rye</td>
-              <td>Beef; Fish; Lamb; Poultry (Chicken); Game (Antelope, Impala, Ostrich)</td>
-              <td>Aniseed; Chickpeas; Cumin; Dates; Parsely; Milk</td>
+              <td>
+                <ul>
+                  <li>Aniseed</li>
+                  <li>Barley</li>
+                  <li>Cabbages</li>
+                  <li>Chickpeas</li>
+                  <li>Coffee</li>
+                  <li>Cumin</li>
+                  <li>Dates</li>
+                  <li>Grapes</li>
+                  <li>Hops</li>
+                  <li>Olives</li>
+                  <li>Parsely</li>
+                  <li>Rye</li>
+                </ul>
+              </td>
+              <td>
+                <ul>
+                  <li>Beef</li>
+                  <li>Fish</li>
+                  <li>Game (Antelope, Impala, Ostrich)</li>
+                  <li>Lamb</li>
+                  <li>Poultry (Chicken)</li>
+                </ul>
+              </td>
             </tr>
             <tr>
               <td style="width: 10%"><strong class="text-primary">Tezonian Jungle</strong></td>
-              <td>Cassava; Corn (Maize); Papaya; Pineapple; Pumpkin; Sweet Potato; Yams</td>
-              <td>Fish; Poultry (Turkey &amp; Duck); Game (Fowl, Crayfish, Gophers)</td>
-              <td>Cacao (Cocoa beans); Chilli peppers; Peanuts; Vanilla</td>
+              <td>
+                <ul>
+                  <li>Cacao (Cocoa beans)</li>
+                  <li>Cassava</li>
+                  <li>Chilli peppers</li>
+                  <li>Corn (Maize)</li>
+                  <li>Papaya</li>
+                  <li>Peanuts</li>
+                  <li>Pineapple</li>
+                  <li>Pumpkin</li>
+                  <li>Sweet Potato</li>
+                  <li>Vanilla</li>
+                  <li>Yams</li>
+                </ul>
+              </td>
+              <td>
+                <ul>
+                  <li>Fish</li>
+                  <li>Game (Fowl, Crayfish, Gophers)</li>
+                  <li>Poultry (Turkey &amp; Duck)</li>
+                </ul>
+              </td>
             </tr>
             <tr>
               <td style="width: 10%"><strong class="text-primary">Azia Desert</strong></td>
-              <td>Olives; Peas; Sesame; Sorghum</td>
-              <td>Fish; Goat; Lamb; Poultry (Chicken); Game (Camel)</td>
-              <td>Milk; Peppercorn; Sumac</td>
+              <td>
+                <ul>
+                  <li>Olives</li>
+                  <li>Peas</li>
+                  <li>Peppercorn</li>
+                  <li>Sesame</li>
+                  <li>Sorghum</li>
+                  <li>Sumac</li>
+                </ul>
+              </td>
+              <td>
+                <ul>
+                  <li>Fish</li>
+                  <li>Game (Camel)</li>
+                  <li>Goat</li>
+                  <li>Lamb</li>
+                  <li>Poultry (Chicken)</li>
+                </ul>
+              </td>
             </tr>
             <tr>
               <td style="width: 10%"><strong class="text-primary">Naati Badlands</strong></td>
-              <td>Alfafa; Almonds; Asparagus; Cherries; Hops; Lettuce; Onions; Spinach; Rye</td>
-              <td>Fish; Goat; Lamb; Poultry (Chicken); Game (Camel)</td>
-              <td>Clover; Garlic; Hazelnuts; </td>
+              <td>
+                <ul>
+                  <li>Alfafa</li>
+                  <li>Almonds</li>
+                  <li>Asparagus</li>
+                  <li>Cherries</li>
+                  <li>Clover</li>
+                  <li>Garlic</li>
+                  <li>Hazelnuts</li>
+                  <li>Hops</li>
+                  <li>Lettuce</li>
+                  <li>Onions</li>
+                  <li>Rye</li>
+                  <li>Spinach</li>
+                </ul>
+              </td>
+              <td>
+                <ul>
+                  <li>Fish</li>
+                  <li>Game (Camel)</li>
+                  <li>Goat</li>
+                  <li>Lamb</li>
+                  <li>Poultry (Chicken)</li>
+                </ul>
+              </td>
             </tr>
             <tr>
               <td style="width: 10%"><strong class="text-primary">Tauria</strong></td>
-              <td>Alfafa; Almonds; Asparagus; Barley; Carrots; Cherries; Fava Beans; Hops; Lentils; Onions; Peas; Rye; Spinach; Wheat</td>
-              <td>Beef; Fish; Lamb; Pork; Poultry (Chicken &amp; Duck); Game (Boar, Deer, Rabbit, Pheasant, Quail)</td>
-              <td>Chickpeas; Clover; Hazelnuts</td>
+              <td>
+                <ul>
+                  <li>Alfafa</li>
+                  <li>Almonds</li>
+                  <li>Asparagus</li>
+                  <li>Barley</li>
+                  <li>Carrots</li>
+                  <li>Cherries</li>
+                  <li>Chickpeas</li>
+                  <li>Clover</li>
+                  <li>Fava Beans</li>
+                  <li>Hazelnuts</li>
+                  <li>Hops</li>
+                  <li>Lentils</li>
+                  <li>Onions</li>
+                  <li>Peas</li>
+                  <li>Rye</li>
+                  <li>Spinach</li>
+                  <li>Wheat</li>
+                </ul>
+              </td>
+              <td>
+                <ul>
+                  <li>Beef</li>
+                  <li>Fish</li>
+                  <li>Game (Boar, Deer, Rabbit, Pheasant, Quail)</li>
+                  <li>Lamb</li>
+                  <li>Pork</li>
+                  <li>Poultry (Chicken &amp; Duck)</li>
+                </ul>
+              </td>
             </tr>
             <tr>
               <td style="width: 10%"><strong class="text-primary">Snvert Icelands</strong></td>
-              <td>Cabbage; Mushrooms</td>
-              <td>Goats; Poultry (Chicken); Game (Seabirds, Reindeer, Seals)</td>
-              <td>Eggs; Milk</td>
+              <td>
+                <ul>
+                  <li>Cabbage</li>
+                  <li>Mushrooms</li>
+                </ul>
+              </td>
+              <td>
+                <ul>
+                  <li>Fish</li>
+                  <li>Game (Seabirds, Reindeer, Seals)</li>
+                  <li>Goats</li>
+                  <li>Poultry (Chicken)</li>
+                </ul>
+              </td>
             </tr>
             <tr>
               <td style="width: 10%"><strong class="text-primary">Shattered Isles</strong></td>
-              <td>Apricots; Cabbages; Cucumber; Eggplant; Grapefruit; Grapers; Hops; Lemon; Melons; Oranges; Peaches; Rice; Soyabean; Taro root</td>
-              <td>Fish; Game (Deer)</td>
-              <td>Cinnamon; Tea</td>
+              <td>
+                <ul>
+                  <li>Apricots</li>
+                  <li>Cabbages</li>
+                  <li>Cinnamon</li>
+                  <li>Cucumber</li>
+                  <li>Eggplant</li>
+                  <li>Grapefruit</li>
+                  <li>Grapers</li>
+                  <li>Hops</li>
+                  <li>Lemon</li>
+                  <li>Melons</li>
+                  <li>Oranges</li>
+                  <li>Peaches</li>
+                  <li>Rice</li>
+                  <li>Soyabean</li>
+                  <li>Taro root</li>
+                  <li>Tea</li>
+                </ul>
+              </td>
+              <td>
+                <ul>
+                  <li>Fish</li>
+                  <li>Game (Deer)</li>
+                </ul>
+              </td>
             </tr>
             <tr>
               <td style="width: 10%"><strong class="text-primary">Treasure Islands</strong></td>
-              <td>Bananas; Chickpeas; Coconuts; Cucumber; Eggplant; Mangos; Melons; Pigeonpeas; Rice; Sugarcane; Yams</td>
-              <td>Fish; Game (Deer)</td>
-              <td>Cinnamon; Clover; Dates; Ginger; Tea</td>
+              <td>
+                <ul>
+                  <li>Bananas</li>
+                  <li>Chickpeas</li>
+                  <li>Cinnamon</li>
+                  <li>Clover</li>
+                  <li>Coconuts</li>
+                  <li>Cucumber</li>
+                  <li>Dates</li>
+                  <li>Eggplant</li>
+                  <li>Ginger</li>
+                  <li>Mangos</li>
+                  <li>Melons</li>
+                  <li>Pigeonpeas</li>
+                  <li>Rice</li>
+                  <li>Sugarcane</li>
+                  <li>Tea</li>
+                  <li>Yams</li>
+                </ul>
+              </td>
+              <td>
+                <ul>
+                  <li>Fish</li>
+                  <li>Game (Deer)</li>
+                </ul>
+              </td>
             </tr>
             <tr>
               <td style="width: 10%"><strong class="text-primary">Bounty</strong></td>
-              <td>Mushrooms; Fungi; Moss; Sorghum; Watermelon</td>
-              <td>Fish</td>
-              <td>Tea</td>
+              <td>
+                <ul>
+                  <li>Fungi</li>
+                  <li>Moss</li>
+                  <li>Mushrooms</li>
+                  <li>Sorghum</li>
+                  <li>Watermelon</li>
+                </ul>
+              </td>
+              <td>
+                <ul>
+                  <li>Fish</li>
+                </ul>
+              </td>
             </tr>
             <tr>
               <td style="width: 10%"><strong class="text-primary">Orland</strong></td>
-              <td>Avacado; Beans; Blueberries; Corn (Maize); Cranberries; Papayas; Pumpkin; Strawberries</td>
-              <td>Beef; Fish; Lamb; Poultry (Chicken); Game (Bison, Deer)</td>
-              <td>Cacao (Cocoa Beans); Vanilla</td>
+              <td>
+                <ul>
+                  <li>Avacado</li>
+                  <li>Beans</li>
+                  <li>Blueberries</li>
+                  <li>Cacao (Cocoa Beans)</li>
+                  <li>Corn (Maize)</li>
+                  <li>Cranberries</li>
+                  <li>Papayas</li>
+                  <li>Pumpkin</li>
+                  <li>Strawberries</li>
+                  <li>Vanilla</li>
+                </ul>
+              </td>
+              <td>
+                <ul>
+                  <li>Beef</li>
+                  <li>Fish</li>
+                  <li>Game (Bison, Deer)</li>
+                  <li>Lamb</li>
+                  <li>Poultry (Chicken)</li>
+                </ul>
+              </td>
             </tr>
             <tr>
               <td style="width: 10%"><strong class="text-primary">Crystalis</strong></td>
-              <td>Fungi; Moss</td>
-              <td>Fish</td>
-              <td>-</td>
+              <td>
+                <ul>
+                  <li>Fungi</li>
+                  <li>Moss</li>
+                </ul>
+              </td>
+              <td>
+                <ul>
+                  <li>Fish</li>
+                </ul>
+              </td>
             </tr>
           </tbody>
         </q-markup-table>
