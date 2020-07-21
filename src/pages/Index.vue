@@ -57,6 +57,7 @@
         <p class="text-primary"><strong>2. What about magic?</strong></p>
         <p>There are three forms of magic on Terrea: Primordial (powers ancient Gauldian and modern technological devices), Spectral (the most common form of magic), and Natural (use the primordial essence found in living things). In terms of D&amp;D Mechanics, these distinctions are just for flavour.</p>
         <p>On Terrea, Primordial magic is sometimes called Elemental magic.</p>
+        <p>Sorcerers, Warlocks, and Wizards are not available as playable classes on Terrea. Mystics from Unearther Arcana is used to mimic Spectral abilities. Artificers use Primordial essence to power their magic-like technology.</p>
 
         <p class="text-primary"><strong>3. Where can we go to buy equipment?</strong></p>
         <p>Most mundane piecies of equipment are available at settlements as long as an appropriate trade building is available (for example, weapons and armour require a blacksmith). The Gear list in the Shopping section will give you an idea of an average price for an item, but it may change depending on local factors.</p>
