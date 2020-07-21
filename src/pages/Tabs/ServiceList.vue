@@ -124,6 +124,12 @@ export default {
 
     // Grab our default coinage array
     this.coinageOptions = this.$store.state.coinage.coinage
+  },
+  mounted () {
+    var param = this.$route.query.service
+    if (param !== undefined && param !== null) {
+      this.tab = param
+    }
   }
 }
 </script>

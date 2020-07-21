@@ -59,17 +59,17 @@
         <p>On Terrea, Primordial magic is sometimes called Elemental magic.</p>
 
         <p class="text-primary"><strong>3. Where can we go to buy equipment?</strong></p>
-        <p>Most mundane piecies of equipment are available at settlements as long as an approriate trade building is available (for example, weapons and armour require a blacksmith). The Gear list in the Shopping section will give you an idea of an average price for an item, but it may change depending on local factors.</p>
+        <p>Most mundane piecies of equipment are available at settlements as long as an appropriate trade building is available (for example, weapons and armour require a blacksmith). The Gear list in the Shopping section will give you an idea of an average price for an item, but it may change depending on local factors.</p>
         <p>For magical or technological equipment, you will only find (or sell) them in the larger settlements such as cities. You may be able to find buyers that are rich enough outside of these locations, but there is no guarantee that they will be interested in the piece that you have to offer.</p>
 
         <p class="text-primary"><strong>4. Where can we go to get armour custom fitted for this monster or beast I just befriended?</strong></p>
         <p>You can't use any old blacksmith for highly custom pieces. You will need to seek out a master of the craft, which can usually be found in the larger settlements. The <a href="/#/world?world=nations&nation=federation">Federation of Guilds</a> in the land of Bounty are especially known for their high quality and masterwork gear.</p>
 
         <p class="text-primary"><strong>5. Where can we go for healing?</strong></p>
-        <p>Most settlements will have a healer (or someone who does healing part-time), but for more serious injuries you will either need to send for experienced doctors or transport the patient to them. Most local healers should be able to deal with most common versions of poisons and dieseases.</p>
+        <p>Most settlements will have a healer (or someone who does healing part-time), but for more serious injuries you will either need to send for an experienced doctor or transport the patient to them. Most local healers should be able to deal with most common versions of poisons and dieseases. Take a look at the <a href="/#/shopping?shopping=service&service=healing">healing services</a> for a rough guide on what is available.</p>
 
         <p class="text-primary"><strong>6. Is resurrection possible?</strong></p>
-        <p>Yes, although it will draw the attention and ire of Baltha. The God does not appreciate when a soul is taken from their domain. Because of this, people with the knowledge of how to resurrect the dead either need a very good reason or be very well compensated.</p>
+        <p>Yes, although it will draw the attention and ire of <a href="/#/world?world=deities&deity=baltha">Baltha</a>. The God does not appreciate when a soul is taken from their domain. Because of this, people with the knowledge of how to resurrect the dead either need a very good reason or be very well compensated.</p>
 
         <p class="text-primary"><strong>7. Is there a cure for undeath (zombies, ghouls and vampires)?</strong></p>
         <p>Yes, but again it will involve taking a soul back from the nether and therefore draw Baltha's attention. Baltha does not care for the undead themselves, and they can be destroyed without drawing the attention of the God.</p>
@@ -81,7 +81,7 @@
         <p>There are monsters everywhere on Terrea, but of particular note are: Aboleths, Dragons, Giants, Krakens, Remorhazes', Vampires</p>
 
         <p class="text-primary"><strong>10. Are there any wars we can fight in?</strong></p>
-        <p>The Partisans are freedom fighters trying to liberate the nations of the Lefantia, Teztec, and Azia from the expansionist <a href="/#/world?world=nations&nation=hentergrey">Hentergrey Empire</a>. The Orcs are currently raiding both the Mermen and the Snvert, but it is not a war of conquest.</p>
+        <p>The <a href="/#/world?world=nations&nation=partisans">Partisans</a> are freedom fighters trying to liberate the nations of the Lefantia, Teztec, and Azia from the expansionist <a href="/#/world?world=nations&nation=hentergrey">Hentergrey Empire</a>. The Orcs are currently raiding both the Mermen of <a href="/#/world?world=nations&nation=myrmiddon">Myrmiddon</a> and the <a href="/#/world?world=nations&nation=snvert">Snvert</a>, but it is not a war of conquest.</p>
 
         <p class="text-primary"><strong>11. How about gladitorial arenas to compete in and with glory and fabulous prizes?</strong></p>
         <p>The Orc Tribes and Goblin city-states love their combat games (especially those that go to the death), while the Hentergrey Empire indulges in formalised tournaments. The other nations may sometimes dabble in combat-based entertainment, but it is not a regular part of their culture.</p>
