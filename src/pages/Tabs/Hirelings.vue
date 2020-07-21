@@ -1,6 +1,12 @@
 <template>
   <div class="q-pa-md">
     <p>You can hire NPCs for a wide range of tasks. The costs presented here is the <em>minimum</em> cost of <strong>the labour only</strong> for the service rendered. Any additional material costs involved from the service will be paid by you. A working day is considered to be 8 hours (8am until 6pm, with regular breaks in between).</p>
+    <p>You can select the mastery level which will adjust the hirelings cost accordingly.</p>
+    <ul>
+      <li><strong>Apprentice</strong> - Someone who has basic proficiency and is working towards a deeper understanding. Generally requires some supervision.</li>
+      <li><strong>Journeyman</strong> - Someone with a high degree of proficiency, and can generally make most items. They generally lack the mastery to pull off highly complex work.</li>
+      <li><strong>Master</strong> - This level implies the ability to innovate, and will use their tools and knowledge in creative ways. They are able to create masterwork items.</li>
+    </ul>
     <p>For any service not listed, any unskilled labour will cost 20 CP / day (or 2.5 CP / hour, rounded up) while trained professionals can demand at least 100 CP / day (or 12.5 CP / hour, rounded up)</p>
     <br />
     <q-separator />
@@ -20,9 +26,17 @@
           </template>
         </q-input>
         <q-select
+          v-model="mastery"
+          :options="masteryLevels"
+          label="Mastery"
+          emit-value
+          map-options
+          options-dense
+        />
+        &nbsp;
+        <q-select
           v-model="rate"
           :options="['Daily', 'Hourly']"
-          option-label="name"
           label="Rate"
           map-options
           options-dense
@@ -94,7 +108,13 @@ export default {
       pagination: {
         page: 1,
         rowsPerPage: 0
-      }
+      },
+      mastery: 'journeyman',
+      masteryLevels: [
+        { value: 'apprentice', label: 'Apprentice', multiplier: 0.5 },
+        { value: 'journeyman', label: 'Journeyman', multiplier: 1 },
+        { value: 'master', label: 'Master', multiplier: 2 }
+      ]
     }
   },
   computed: {
@@ -110,14 +130,20 @@ export default {
     }
   },
   methods: {
+    determineMastery () {
+      return this.masteryLevels.find(obj => {
+        return obj.value === this.mastery
+      })
+    },
     determineClass (income) {
+      var adjusted = income * this.determineMastery().multiplier
       var local = this.lifestyles.find(obj => {
-        return (obj.min <= income && income < obj.max) || (obj.name === 'Aristocratic' && income >= obj.max)
+        return (obj.min <= adjusted && adjusted < obj.max) || (obj.name === 'Aristocratic' && adjusted >= obj.max)
       })
       return local
     },
     determineCost (income) {
-      var cost = this.rate === 'Daily' ? income : income / 8
+      var cost = (this.rate === 'Daily' ? income : income / 8) * this.determineMastery().multiplier
       return +(Math.round(cost + 'e+2') + 'e-2')
     },
     getTypeDescription (type) {
