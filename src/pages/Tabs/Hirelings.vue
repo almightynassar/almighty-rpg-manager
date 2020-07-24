@@ -20,17 +20,19 @@
       flat
     >
       <template v-slot:top-right>
-        <q-input borderless dense debounce="300" v-model="filter" placeholder="Search">
+        <q-input dense debounce="300" v-model="filter" placeholder="Search">
           <template v-slot:append>
             <q-icon name="search" />
           </template>
         </q-input>
+        <span style="width: 1em;"></span>
         <q-select
           v-model="mastery"
           :options="masteryLevels"
           label="Mastery"
           emit-value
           map-options
+          dense
           options-dense
         />
         &nbsp;
@@ -39,6 +41,7 @@
           :options="['Daily', 'Hourly']"
           label="Rate"
           map-options
+          dense
           options-dense
         />
         &nbsp;
@@ -48,6 +51,7 @@
           option-label="name"
           label="Coinage"
           map-options
+          dense
           options-dense
         />
       </template>

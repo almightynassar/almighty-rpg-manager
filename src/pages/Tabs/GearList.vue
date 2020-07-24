@@ -11,11 +11,12 @@
     >
 
       <template v-slot:top-right>
-        <q-input borderless dense debounce="300" v-model="filter" placeholder="Search">
+        <q-input dense debounce="300" v-model="filter" placeholder="Search">
           <template v-slot:append>
             <q-icon name="search" />
           </template>
         </q-input>
+        <span style="width: 1em;"></span>
         <q-select
           v-model="coinage"
           :options="coinageOptions"
@@ -23,6 +24,7 @@
           label="Coinage"
           map-options
           options-dense
+          dense
         />
       </template>
 
