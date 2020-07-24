@@ -44,6 +44,10 @@
           <q-tab-panel key="names" name="names">
             <name-generator></name-generator>
           </q-tab-panel>
+
+          <q-tab-panel key="music" name="music">
+            <music-tab></music-tab>
+          </q-tab-panel>
         </q-tab-panels>
       </template>
     </q-splitter>
@@ -52,10 +56,12 @@
 
 <script >
 import NameGenerator from './NameGenerator'
+import MusicTab from './Tabs/Music'
 
 export default {
   name: 'Settings',
   components: {
+    MusicTab,
     NameGenerator
   },
   data: function () {
@@ -66,6 +72,7 @@ export default {
       tab: 'coinage',
       tabs: [
         { id: 'coinage', name: 'Coinage' },
+        { id: 'music', name: 'Music' },
         { id: 'names', name: 'Name Generator' }
       ]
     }
