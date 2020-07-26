@@ -464,6 +464,10 @@
           <li><a target="_blank" href="https://drive.google.com/file/d/0B3jTpp41Jz9VbUZZa29YcVYwLU0/view">Homebrew Monster Harvesting Rules</a></li>
           <li><a target="_blank" href="https://drive.google.com/file/d/0B8XAiXpOfz9cMWt1RTBicmpmUDg/view">Homebrew Sane Magical Prices</a></li>
         </ul>
+        <div class="text-h6 test-primary">Other</div>
+        <ul>
+          <li><a target="_blank" href="https://www.youtube.com/channel/UCDed9jQ1Y1gKeyjvkyFGkCA">Michael Ghelfi - RPG Ambiences &amp; Music</a></li>
+        </ul>
       </q-tab-panel>
     </q-tab-panels>
   </div>
