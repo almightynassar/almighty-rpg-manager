@@ -431,38 +431,41 @@
       <q-tab-panel name="credits">
         <div class="text-h4 q-mb-md text-primary">About &amp; Resources</div>
         <p>You are using version {{ version }}. You can see the available version at the <a href="https://github.com/almightynassar/almighty-rpg-manager/releases">releases page</a></p>
-        <div class="text-h6 text-primary">Rules References</div>
+        <div class="text-h6 text-primary">Rules, References &amp; Resources</div>
         <ul>
-          <li><a target="_blank" href="https://open5e.com/">D&amp;D 5E System Reference Document (open5e)</a></li>
-          <li><a target="_blank" href="https://www.5esrd.com/">D&amp;D 5E System Reference Document (5esrd)</a></li>
-          <li><a target="_blank" href="https://www.dnd-compendium.com/">The D&amp;D Compendium, a massive resource</a></li>
-          <li><a target="_blank" href="https://crobi.github.io/dnd5e-quickref/preview/quickref.html">A easy to use Player reference webpage</a></li>
-          <li><a target="_blank" href="https://www.dndbeyond.com/spells">D&amp;D Beyond (link goes to spell list, but other rules are here)</a></li>
-          <li><a target="_blank" href="https://5e.tools/">5E tools, which is this manager but more comprehensive. Not sure about the legality, though... Use at your own risk</a></li>
+          <li>D&amp;D 5E System Reference Document (<a target="_blank" href="https://open5e.com/">open5e</a> &amp; <a target="_blank" href="https://www.5esrd.com/">5esrd</a>)</li>
+          <li><a target="_blank" href="https://www.dnd-compendium.com/">The D&amp;D Compendium</a>, a collection of tabletop RPG resources across the web</li>
+          <li>An easy to use <a target="_blank" href="https://crobi.github.io/dnd5e-quickref/preview/quickref.html">Player Reference</a></li>
+          <li><a target="_blank" href="https://www.dndbeyond.com/">D&amp;D Beyond</a>, the official online resource for D&amp;D</li>
         </ul>
         <div class="text-h6 text-primary">Game Tools &amp; Generators</div>
         <ul>
-          <li><a target="_blank" href="https://donjon.bin.sh/">donjon.sh, a premier source of random generators and DM resources</a></li>
-          <li><a target="_blank" href="http://chaoticshiny.com/">Chaotic Shiny, has a whole heap of narrative focused generators</a></li>
-          <li><a target="_blank" href="http://autorolltables.github.io/#">A flexible roll-table that covers a lot of bases</a></li>
-          <li><a target="_blank" href="https://kobold.club/fight/#">Kobold Fight Club, Encounter Generator &amp; Initiative Tracker</a></li>
-          <li><a target="_blank" href="http://rolladvantage.com/tokenstamp/">Token Maker</a></li>
+          <li><a target="_blank" href="https://donjon.bin.sh/">donjon.sh</a>, the premier source of random generators and other DM tools</li>
+          <li><a target="_blank" href="http://chaoticshiny.com/">Chaotic Shiny</a> has a whole heap of narrative focused generators</li>
+          <li><a target="_blank" href="http://autorolltables.github.io/#">Autorolltables</a> is a flexible roll-table that covers a lot of bases</li>
+          <li><a target="_blank" href="https://kobold.club/fight/#">Kobold Fight Club</a> is an Encounter Generator &amp; Initiative Tracker</li>
+          <li><a target="_blank" href="http://rolladvantage.com/tokenstamp/">Token Maker</a> that can be used for Roll20 and other tools</li>
+          <li><a target="_blank" href="http://rpgtinker.com/">RPG Tinker</a> generates NPCs on the fly</li>
         </ul>
         <div class="text-h6 text-primary">Mapping</div>
         <ul>
-          <li><a target="_blank" href="https://inkarnate.com/login/">Inkarnate, a really nice world &amp; regional map maker</a></li>
-          <li><a target="_blank" href="https://davesmapper.com/">Dave's mapper, a simple to use battle-map generator</a></li>
-          <li><a target="_blank" href="https://azgaar.github.io/Fantasy-Map-Generator/">Fantasy world map generator</a></li>
-          <li><a target="_blank" href="http://pyromancers.com/">Dungeon map maker</a></li>
+          <li><a target="_blank" href="https://inkarnate.com/login/">Inkarnate</a> is a really nice world &amp; regional map maker</li>
+          <li><a target="_blank" href="https://davesmapper.com/">Dave's mapper</a>, a simple to use battle-map generator</li>
+          <li><a target="_blank" href="https://azgaar.github.io/Fantasy-Map-Generator/">Fantasy world map generator</a> for quickly creating a fantasy world</li>
+          <li><a target="_blank" href="http://pyromancers.com/">Dungeon map maker</a> is a tool for creating nice looking battle-maps</li>
+          <li><a target="_blank" href="https://watabou.itch.io/medieval-fantasy-city-generator">City generator software</a> by watabou</li>
         </ul>
-        <div class="text-h6 text-primary">Homebrew &amp; Worldbuilding</div>
+        <div class="text-h6 text-primary">Homebrew</div>
         <ul>
-          <li><a target="_blank" href="http://kennethjorgensen.com/worldbuilding/resources">A big Worldbuilding resource compiled by Kenneth Jorgensen</a></li>
-          <li><a target="_blank" href="https://homebrewery.naturalcrit.com/">Homebrewery, where you can make your homebrew look official</a></li>
-          <li><a target="_blank" href="http://n.bellok.de/wikibox/">Wikibox, which makes wikipedia style battle summaries</a></li>
-          <li><a target="_blank" href="https://watabou.itch.io/medieval-fantasy-city-generator/devlog/85275/070-districts">City generator software</a></li>
-          <li><a target="_blank" href="https://drive.google.com/file/d/0B3jTpp41Jz9VbUZZa29YcVYwLU0/view">Homebrew Monster Harvesting Rules</a></li>
-          <li><a target="_blank" href="https://drive.google.com/file/d/0B8XAiXpOfz9cMWt1RTBicmpmUDg/view">Homebrew Sane Magical Prices</a></li>
+          <li><a target="_blank" href="https://homebrewery.naturalcrit.com/">Homebrewery</a>, where you can make your homebrew look official</li>
+          <li><a target="_blank" href="https://drive.google.com/file/d/0B3jTpp41Jz9VbUZZa29YcVYwLU0/view">Monster Harvesting Rules</a></li>
+          <li><a target="_blank" href="https://drive.google.com/file/d/0B8XAiXpOfz9cMWt1RTBicmpmUDg/view">Sane Magical Prices</a></li>
+        </ul>
+        <div class="text-h6 text-primary">Worldbuilding</div>
+        <ul>
+          <li><a target="_blank" href="http://kennethjorgensen.com/worldbuilding/resources">A big Worldbuilding resource</a> compiled by Kenneth Jorgensen</li>
+          <li><a target="_blank" href="http://n.bellok.de/wikibox/">Wikibox</a> makes wikipedia style battle summaries</li>
+          <li>"Grain into Gold - A Fantasy World Economy" by Board Enterprises. <a target="_blank" href="http://www.warehouse23.com/products/BEN3610">Purchase Here</a></li>
         </ul>
         <div class="text-h6 test-primary">Other</div>
         <ul>
