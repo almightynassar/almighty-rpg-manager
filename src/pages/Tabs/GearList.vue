@@ -68,27 +68,28 @@
           <q-td colspan="100%">
             <div class="text-left text-primary table-row-wrap">{{ props.row.description }}</div>
             <br />
-            <div v-if="props.row.effects.length > 0" class="text-left table-row-wrap">
-              <p><strong>Special Effects</strong></p>
-              <ul>
-                <li v-for="(e,i) in props.row.effects" :key="props.row.name + i">{{e}}</li>
-              </ul>
+            <div v-if="props.row.hasOwnProperty('effects')" class="text-left table-row-wrap">
+              <p><strong>Effects</strong></p>
+              <p v-for="(e,i) in props.row.effects" :key="props.row.name + i">{{e}}</p>
               <br />
             </div>
-            <div v-if="props.row.acdamage !== ''" class="text-left table-row-wrap">
-              <span v-if="props.row.type.match(/Armour|Shield/g)"><strong>AC:</strong></span>
-              <span v-else><strong>Damage:</strong></span>
-              <span>{{ props.row.acdamage }}</span>
+            <div v-if="props.row.hasOwnProperty('ac')" class="text-left table-row-wrap">
+              <span><strong>AC:</strong></span>
+              <span>{{ props.row.ac }}</span>
+            </div>
+            <div v-if="props.row.hasOwnProperty('damage')" class="text-left table-row-wrap">
+              <span><strong>Damage:</strong></span>
+              <span>{{ props.row.damage }}</span>
               <br />
             </div>
-            <div v-if="props.row.requirements.length > 0" class="text-left table-row-wrap">
+            <div v-if="props.row.hasOwnProperty('requirements')" class="text-left table-row-wrap">
               <span><strong>Requirements:</strong></span>
               <q-chip dense color="red" text-color="white" v-for="r in props.row.requirements" :key="props.row.name + r">
                 {{ r }}
               </q-chip>
               <br />
             </div>
-            <div v-if="props.row.properties.length > 0" class="text-left table-row-wrap">
+            <div v-if="props.row.hasOwnProperty('properties')" class="text-left table-row-wrap">
               <q-chip dense v-for="p in props.row.properties" :key="props.row.name + p">
                 {{ p }}
                 <q-tooltip anchor="bottom left" self="bottom left">{{ getPropertyDescription(p) }}</q-tooltip>
