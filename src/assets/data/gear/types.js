@@ -18,10 +18,10 @@ export default [
   { name: 'Ranged - Simple', description: 'A weapon that is designed for self-defence and general use', icon: 'game-icon:sling' },
   { name: 'Shield', description: 'Gear that is designed to protect the user from attacks', icon: 'game-icon:round-shield' },
   { name: 'Tools', description: 'Products designed to help the user', icon: 'game-icon:chisel' },
-  { name: 'Trade Good - Farming', description: 'Substances produced on farmland', icon: 'game-icon:farmer' },
-  { name: 'Trade Good - Foraging', description: 'Substances gathered from natural sources such as forests. Includes hunting and fishing.', icon: 'game-icon:forest-camp' },
-  { name: 'Trade Good - Manufacturing', description: 'Intermediary substances that will go on to be a finished product', icon: 'game-icon:anvil-impact' },
-  { name: 'Trade Good - Mining', description: 'Substances produced in mines', icon: 'game-icon:miner' },
-  { name: 'Trade Good - Textiles', description: 'Substances used in fabrics and textiles', icon: 'game-icon:rolled-cloth' },
+  { name: 'Farming', description: 'Substances produced on farmland', icon: 'game-icon:farmer' },
+  { name: 'Foraging', description: 'Substances gathered from natural sources such as forests. Includes hunting and fishing.', icon: 'game-icon:forest-camp' },
+  { name: 'Manufacturing', description: 'Intermediary substances that will go on to be a finished product', icon: 'game-icon:anvil-impact' },
+  { name: 'Mining', description: 'Substances produced in mines', icon: 'game-icon:miner' },
+  { name: 'Textiles', description: 'Substances used in fabrics and textiles', icon: 'game-icon:rolled-cloth' },
   { name: 'Vehicle', description: 'Form of bulk transportation', icon: 'game-icon:old-wagon' }
 ]
