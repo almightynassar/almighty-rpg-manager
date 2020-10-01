@@ -20,17 +20,17 @@
       <q-tab-panel name="home">
         <div class="text-h4 q-mb-md text-primary">Welcome to Terrea</div>
         <p>
-          Terrea is a low-magic world that is split into three overlapping realms known as the <a href="/#/world?world=realms&realm=aether">Aether</a>,
-          <a href="/#/world?world=realms&realm=nether">Nether</a>, and <a href="/#/world?world=realms&realm=midrealm">Mid-Realm</a>. Each realm is ruled
-          over by a temperamental and fickle <a href="/#/world?world=deities">God</a>, who are constantly bickering with each other. The Gods are not
+          Terrea is a low-magic world that is split into three overlapping realms known as the <a href="/#/world?world=cosmology&cosmology=realms">Aether</a>,
+          <a href="/#/world?world=cosmology&cosmology=realms">Nether</a>, and <a href="/#/world?world=cosmology&cosmology=realms">Mid-Realm</a>. Each realm is ruled
+          over by a temperamental and fickle <a href="/#/world?world=cosmology&cosmology=deities">God</a>, who are constantly bickering with each other. The Gods are not
           bound by mortal ethics and morality, and are solely concerned with protecting their realms and their power.
         </p>
         <p>
           The first sentient peoples were the ancient Gauld, and they were intelligent and cunning. They flourished all across Mid-Realm by creating many
-          wonders and reaching cultural heights that drew the attention of the immortal <a href="/#/world?world=deities&deity=primus">Primus</a>, the
+          wonders and reaching cultural heights that drew the attention of the immortal <a href="/#/world?world=cosmology&cosmology=deities">Primus</a>, the
           creator and source of magical Essence. Primus and the Gauld eventually rose up against the Gods, and the Gods retaliated by birthing the monsters
           that are now endemic to Terrea. The Gods eventually triumphed, and they banished the Gauld and Primus to the
-          <a href="/#/world?world=realms&realm=shadowrealm">Shadow Realm</a>. The ruins and technology of the Gauld remained behind, reminders of what once was.
+          <a href="/#/world?world=cosmology&cosmology=realms">Shadow Realm</a>. The ruins and technology of the Gauld remained behind, reminders of what once was.
         </p>
         <p>
           As adventurers in Terrea you can choose to fight back against the monstrous terrors that plague the good and honest citizens, or delve deep into
@@ -46,7 +46,7 @@
         <div class="text-h4 q-mb-md text-primary">FAQ</div>
         <p class="text-primary"><strong>1. What's the deal with religion on Terrea?</strong></p>
         <p>
-          The <a href="/#/world?world=deities">Gods</a> of Terrea act based on their whims, and are less concerned with morality or concepts of good and evil.
+          The <a href="/#/world?world=cosmology&cosmology=deities">Gods</a> of Terrea act based on their whims, and are less concerned with morality or concepts of good and evil.
           Mortals simply try to appease the Gods to avoid their ire, and occassionally petition their favour for a good harvest or some other boon.
         </p>
         <p>
@@ -70,7 +70,7 @@
         <p>Most settlements will have a healer (or someone who does healing part-time), but for more serious injuries you will either need to send for an experienced doctor or transport the patient to them. Most local healers should be able to deal with most common versions of poisons and dieseases. Take a look at the <a href="/#/shopping?shopping=service&service=healing">healing services</a> for a rough guide on what is available.</p>
 
         <p class="text-primary"><strong>6. Is resurrection possible?</strong></p>
-        <p>Yes, although it will draw the attention and ire of <a href="/#/world?world=deities&deity=baltha">Baltha</a>. The God does not appreciate when a soul is taken from their domain. Because of this, people with the knowledge of how to resurrect the dead either need a very good reason or be very well compensated.</p>
+        <p>Yes, although it will draw the attention and ire of <a href="/#/world?world=cosmology&cosmology=deities">Baltha</a>. The God does not appreciate when a soul is taken from their domain. Because of this, people with the knowledge of how to resurrect the dead either need a very good reason or be very well compensated.</p>
 
         <p class="text-primary"><strong>7. Is there a cure for undeath (zombies, ghouls and vampires)?</strong></p>
         <p>Yes, but again it will involve taking a soul back from the nether and therefore draw Baltha's attention. Baltha does not care for the undead themselves, and they can be destroyed without drawing the attention of the God.</p>

@@ -11,10 +11,10 @@
           indicator-color="primary"
         >
           <q-tab
-            v-for="deity in deities"
-            :key="deity.id"
-            :name="deity.id"
-            :label="deity.name"
+            v-for="cosmology in cosmologies"
+            :key="cosmology.id"
+            :name="cosmology.id"
+            :label="cosmology.name"
             style="justify-content:initial"
           />
         </q-tabs>
@@ -29,16 +29,8 @@
           transition-prev="jump-up"
           transition-next="jump-up"
         >
-          <q-tab-panel v-for="deity in deities" :key="deity.id" :name="deity.id">
-            <div class="text-h4 q-mb-md text-primary">{{ deity.name }}</div>
-            <div v-for="(p,i) in deity.paragraphs" :key="'p-' + i">
-              <p>{{ p }}</p>
-            </div>
-            <div v-if="deity.domains">
-              <ul>
-                <li v-for="(d,i) in deity.domains" :key="'d-' + i">{{ d }}</li>
-              </ul>
-            </div>
+          <q-tab-panel v-for="cosmology in cosmologies" :key="cosmology.id" :name="cosmology.id">
+            <q-markdown :src="cosmology.markdown"></q-markdown>
           </q-tab-panel>
         </q-tab-panels>
       </template>
@@ -47,19 +39,19 @@
 </template>
 
 <script >
-import Deities from 'src/assets/data/setting/Deities'
+import Cosmologies from 'src/assets/data/setting/Cosmology'
 
 export default {
-  name: 'Deities',
+  name: 'Cosmologies',
   data: function () {
     return {
-      deities: Deities,
+      cosmologies: Cosmologies,
       splitterModel: 20,
-      tab: 'intro'
+      tab: 'deities'
     }
   },
   mounted () {
-    var param = this.$route.query.deity
+    var param = this.$route.query.cosmology
     if (param !== undefined && param !== null) {
       this.tab = param
     }

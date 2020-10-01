@@ -11,10 +11,10 @@
           indicator-color="primary"
         >
           <q-tab
-            v-for="(history, i) in histories"
+            v-for="history in histories"
             :key="history.id"
             :name="history.id"
-            :label="(i + 1) + '. ' +history.name"
+            :label="history.name"
             style="justify-content:initial"
           />
         </q-tabs>
