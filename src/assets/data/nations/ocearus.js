@@ -44,8 +44,5 @@ export default {
   },
   fluff: [
     { title: 'Underwater', description: 'Ocearus is the only underwater nation' }
-  ],
-  regions: [
-    'crystalis'
   ]
 }
