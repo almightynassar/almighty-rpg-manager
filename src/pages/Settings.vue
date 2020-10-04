@@ -29,6 +29,10 @@
           transition-prev="jump-up"
           transition-next="jump-up"
         >
+          <q-tab-panel key="about" name="about">
+            <p>You are using version {{ version }}. You can see the available version at the <a href="https://github.com/almightynassar/almighty-rpg-manager/releases">releases page</a></p>
+          </q-tab-panel>
+
           <q-tab-panel key="coinage" name="coinage">
             <q-select
               v-model="coinage"
@@ -55,6 +59,7 @@
 </template>
 
 <script >
+import { version } from '../../package.json'
 import NameGenerator from './NameGenerator'
 import MusicTab from './Tabs/Music'
 
@@ -69,12 +74,14 @@ export default {
       coinage: '',
       coinageOptions: [],
       splitterModel: 20,
-      tab: 'coinage',
+      tab: 'about',
       tabs: [
+        { id: 'about', name: 'About' },
         { id: 'coinage', name: 'Coinage' },
         { id: 'music', name: 'Music' },
         { id: 'names', name: 'Name Generator' }
-      ]
+      ],
+      version: 'v' + version
     }
   },
   methods: {
@@ -88,6 +95,35 @@ export default {
 
     // Grab our default coinage array
     this.coinageOptions = this.$store.state.coinage.coinage
+  },
+  mounted () {
+    this.$axios.get('https://api.github.com/repos/almightynassar/almighty-rpg-manager/releases/latest')
+      .then((response) => {
+        this.tag = response.data.tag_name
+      })
+      .finally(() => {
+        if (this.tag) {
+          if (this.tag !== this.version) {
+            this.$q.notify({
+              position: 'top',
+              timeout: 20000,
+              color: 'negative',
+              caption: 'Your version is ' + this.version + ', while the latest version is ' + this.tag + '. Please check the "About & Resources" tab for a link to the releases page.',
+              icon: 'report_problem',
+              message: 'Warning: Version does not match'
+            })
+          }
+        } else {
+          this.$q.notify({
+            position: 'top',
+            timeout: 20000,
+            color: 'negative',
+            caption: 'Could not get the latest version number; Is your internet on?',
+            icon: 'report_problem',
+            message: 'Error: Version Number'
+          })
+        }
+      })
   }
 }
 </script>
