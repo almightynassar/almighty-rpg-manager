@@ -82,9 +82,7 @@ Picken - (Everywhere) A medium domesticated fowl that lays eggs. It's meat can b
 
 We classify the animals by the region in which they can be found
 
-## Azia
-
-A cold and dry desert, that is dotted with few dunes. Rainfall is infrequent, and is noted for it's hot summers but cold winters.
+## Azia Desert
 
  - Camex
  - Catowl
@@ -92,19 +90,16 @@ A cold and dry desert, that is dotted with few dunes. Rainfall is infrequent, an
 
 ## Bounty
 
-A hot and humid desert with occasional oasis' dotted throughout. Surrounded by active volcanoes.
-
  - Camex
  - Catowl
  - Vultasp
 
 ## Crystalis
 
-The entire continent is formed from a crystal that can take on many shapes and colours.
+*The crystal caves are home to mostly fungus, insects, and small rodents*
 
 ## Levengeti
 
-Flat, featureless grassy plains that has a temperate climate.
 
  - Batterflies
  - Catowl
@@ -115,14 +110,10 @@ Flat, featureless grassy plains that has a temperate climate.
 
 ## Naati
 
-A rocky and harsh continent that has active volcanoes. It also experiences cold winters due to it's proximity to the artic north.
-
  - Catowl
  - Sparrowkeet
 
 ## Orland
-
-A temperate continent that has varied biomes such as forests and grasslands.
 
  - Batterflies
  - Catowl
@@ -131,8 +122,6 @@ A temperate continent that has varied biomes such as forests and grasslands.
 
 ## Shattered Islands
 
-Islands that has a temperate climate.
-
  - Batterflies
  - Catowl
  - Cranefish
@@ -140,15 +129,11 @@ Islands that has a temperate climate.
 
 ## Snvert
 
-An icy and snow-covered continent that has extremely cold winters.
-
  - Cariffalo
  - Otguin
  - Yakmel
 
 ## Tauria
-
-A cold continent that experiences snowy winters.
 
  - Batterflies
  - Cariffalo
@@ -156,8 +141,6 @@ A cold continent that experiences snowy winters.
  - Yakmel
 
 ## Tezonian Jungle
-
-A hot, humid jungle.
 
  - Batterflies
  - Catowl
@@ -167,16 +150,12 @@ A hot, humid jungle.
 
 ## Treasure Islands
 
-Tropical islands.
-
  - Batterflies
  - Catowl
  - Cranefish
  - Sparrowkeet
 
 ## World Center
-
-Temperate continent.
 
  - Batterflies
  - Boarcupine
