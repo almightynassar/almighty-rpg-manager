@@ -10,8 +10,8 @@
       narrow-indicator
     >
       <q-tab name="histories" icon="game-icon:newspaper" label="History" />
-      <q-tab name="realms" icon="game-icon:portal" label="Realms" />
-      <q-tab name="deities" icon="game-icon:all-seeing-eye" label="Deities" />
+      <q-tab name="cosmology" icon="game-icon:portal" label="Cosmology" />
+      <q-tab name="ecology" icon="game-icon:tree-branch" label="Ecology" />
       <q-tab name="nations" icon="game-icon:tattered-banner" label="Nations" />
       <q-tab name="map" icon="game-icon:treasure-map" label="Maps" />
 
@@ -24,12 +24,12 @@
         <histories />
       </q-tab-panel>
 
-      <q-tab-panel name="realms">
-        <realms />
+      <q-tab-panel name="cosmology">
+        <cosmology />
       </q-tab-panel>
 
-      <q-tab-panel name="deities">
-        <deities />
+      <q-tab-panel name="ecology">
+        <ecology />
       </q-tab-panel>
 
       <q-tab-panel name="nations">
@@ -44,19 +44,19 @@
 </template>
 
 <script>
-import Deities from './Tabs/Deities'
+import Cosmology from './Tabs/Cosmology'
+import Ecology from './Tabs/Ecology'
 import Histories from './Tabs/Histories'
 import Nations from './Tabs/Nations'
-import Realms from './Tabs/Realms'
 import WorldMap from './Tabs/Map'
 
 export default {
   name: 'WorldSetting',
   components: {
-    Deities,
+    Cosmology,
+    Ecology,
     Histories,
     Nations,
-    Realms,
     WorldMap
   },
   data: function () {

@@ -31,21 +31,22 @@
       />
     </div>
     <div class="q-pa-md row items-start q-gutter-md">
-      <q-card flat bordered>
-        <q-card-section horizontal>
-          <q-card-section>
-            <p class="text-primary"><strong>Generated Names</strong></p>
-            <p v-for="(n,i) in names" :key="i">{{ n | capitalize}}</p>
-          </q-card-section>
-
-          <q-separator vertical />
-
-          <q-card-section>
-            <p class="text-primary"><strong>Real Names</strong></p>
-            <p v-for="(n,i) in realNames" :key="i">{{ n | capitalize}}</p>
-          </q-card-section>
-        </q-card-section>
-      </q-card>
+      <q-markup-table flat dense wrap-cells>
+        <thead>
+          <th class="text-primary"><strong>Generated Names</strong></th>
+          <th class="text-primary"><strong>Real Names</strong></th>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <p v-for="(n,i) in names" :key="i">{{ n | capitalize}}</p>
+            </td>
+            <td>
+              <p v-for="(n,i) in realNames" :key="i">{{ n | capitalize}}</p>
+            </td>
+          </tr>
+        </tbody>
+      </q-markup-table>
     </div>
   </div>
 </template>

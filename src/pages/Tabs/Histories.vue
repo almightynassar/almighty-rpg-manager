@@ -11,10 +11,10 @@
           indicator-color="primary"
         >
           <q-tab
-            v-for="(history, i) in histories"
+            v-for="history in histories"
             :key="history.id"
             :name="history.id"
-            :label="(i + 1) + '. ' +history.name"
+            :label="history.name"
             style="justify-content:initial"
           />
         </q-tabs>
@@ -30,10 +30,7 @@
           transition-next="jump-up"
         >
           <q-tab-panel v-for="history in histories" :key="history.id" :name="history.id">
-            <div class="text-h4 q-mb-md text-primary">{{ history.name }}</div>
-            <div v-for="(p,i) in history.paragraphs" :key="'p-' + i">
-              <p>{{ p }}</p>
-            </div>
+            <q-markdown :src="history.markdown"></q-markdown>
           </q-tab-panel>
         </q-tab-panels>
       </template>

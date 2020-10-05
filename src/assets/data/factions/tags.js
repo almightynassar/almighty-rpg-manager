@@ -9,5 +9,9 @@ export default [
   { id: 'mercenary', name: 'Mercenary', description: 'This faction sells its services to the highest bidder, and is an extremely mobile organization', effect: 'All faction assets gain the following special ability: As an action, the asset may move itself to any region within one hex' },
   { id: 'pirates', name: 'Pirates', description: 'The scourge of trade and merchants. They steal and refit equipment with vicious ingenuity.', effect: 'ANy movement of an asset into a region that has a Base of Influence for this faction costs one extra FacCred, paid to this faction' },
   { id: 'government', name: 'Government', description: 'This faction is a legitimate government for a region or settlement.', effect: 'Other factions must request permission from this faction when they wish to build assets that are marked as requiring permission' },
-  { id: 'plutocratic', name: 'Plutocratic', description: 'This faction prizes wealth.', effect: 'Once per turn, this faction can roll an additional d10 when making a Wealth attack' }
+  { id: 'plutocratic', name: 'Plutocratic', description: 'This faction prizes wealth.', effect: 'Once per turn, this faction can roll an additional d10 when making a Wealth attack' },
+  { id: 'scavengers', name: 'Scavengers', description: 'They survive by scavenging and raiding others', effect: 'Whenever the faction destroys an asset or has one of their assets destroyed, they gain 1 Credit.' },
+  { id: 'secretive', name: 'Secretive', description: 'This faction desires to remain unknown to the general populace', effect: 'All assets purchased by this faction automatically begin Stealthed. See the list of Cunning assets for details on Stealth.' },
+  { id: 'theocratic', name: 'Theocratic', description: 'They have a fierce certainity in their beliefs, making it hard to infiltrate or subvert', effect: 'Once per turn, this faction can roll an extra d10 when defending against a Cunning attack' },
+  { id: 'warlike', name: 'Warlike', description: 'This faction lives for battle', effect: 'Once per turn, this faction can roll an additional d10 when making a Force attack.' }
 ]

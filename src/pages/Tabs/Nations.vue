@@ -89,19 +89,6 @@
             </div>
             <br />
             <q-separator />
-            <div class="text-h6 q-mb-md text-primary"><u>Regions</u></div>
-            <q-markup-table flat dense wrap-cells>
-              <thead>
-                <th>Region</th>
-                <th>Description</th>
-              </thead>
-              <tbody>
-                <tr v-for="r in nation.regions" :key="r">
-                  <td>{{ (findRegion(r)).name }}</td>
-                  <td>{{ (findRegion(r)).description }}</td>
-                </tr>
-              </tbody>
-            </q-markup-table>
             <br />
             <q-separator />
             <div class="text-h6 q-mb-md text-primary"><u>Cities</u></div>
@@ -131,7 +118,6 @@
 </template>
 
 <script >
-import Regions from 'src/assets/data/Regions'
 import Races from 'src/assets/data/Races'
 import Nations from 'src/assets/data/Nations'
 import Cities from 'src/assets/data/Cities'
@@ -141,7 +127,6 @@ export default {
   data: function () {
     return {
       races: Races,
-      regions: Regions,
       nations: Nations,
       splitterModel: 20,
       tab: 'hentergrey',
@@ -157,9 +142,6 @@ export default {
     },
     findRace (id) {
       return this.races.find(t => t.id === id)
-    },
-    findRegion (id) {
-      return this.regions.find(t => id === t.id)
     },
     getOtherPop (pop, distribution) {
       let majority = 0

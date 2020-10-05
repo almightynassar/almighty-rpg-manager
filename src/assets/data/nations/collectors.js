@@ -32,8 +32,5 @@ export default {
   },
   fluff: [
     { title: 'Guardian Spectres', description: 'The collectors exists to jealously guard the secrets of Spectres' }
-  ],
-  regions: [
-    'treasureislands'
   ]
 }

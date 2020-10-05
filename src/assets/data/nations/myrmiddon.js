@@ -44,8 +44,5 @@ export default {
   },
   fluff: [
     { title: 'Conquerers', description: 'The Empire has recently conquered the territories of Lefantia, Teztec, and Azia' }
-  ],
-  regions: [
-    'treasureislands'
   ]
 }

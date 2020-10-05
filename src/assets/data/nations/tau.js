@@ -44,8 +44,5 @@ export default {
   },
   fluff: [
     { title: 'Peaceful Democrats', description: 'The only example of democracy on Terrea' }
-  ],
-  regions: [
-    'tauria'
   ]
 }

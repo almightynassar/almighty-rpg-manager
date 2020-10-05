@@ -44,8 +44,5 @@ export default {
   },
   fluff: [
     { title: 'Technologists', description: 'The Snvert raid ancient Gauldian ruins for whatever tech they can find' }
-  ],
-  regions: [
-    'icelands'
   ]
 }
