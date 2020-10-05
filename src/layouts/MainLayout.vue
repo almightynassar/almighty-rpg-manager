@@ -79,6 +79,12 @@ export default {
           link: '/character'
         },
         {
+          title: 'Campaign',
+          caption: 'Campaign details',
+          icon: 'game-icon:wax-tablet',
+          link: '/campaign'
+        },
+        {
           title: 'World',
           caption: 'Information about the setting of Terrea',
           icon: 'game-icon:world',
