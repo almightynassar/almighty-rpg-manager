@@ -17,6 +17,8 @@ import IrishFemale from 'src/assets/data/names/irish-female'
 import IrishMale from 'src/assets/data/names/irish-male'
 import ItalianFemale from 'src/assets/data/names/italian-female'
 import ItalianMale from 'src/assets/data/names/italian-male'
+import LatinFemale from 'src/assets/data/names/latin-female'
+import LatinMale from 'src/assets/data/names/latin-male'
 import JapaneseFemale from 'src/assets/data/names/japanese-female'
 import JapaneseMale from 'src/assets/data/names/japanese-male'
 import NativeAmericanFemale from 'src/assets/data/names/native-american-female'
@@ -52,6 +54,8 @@ export default {
   irishMale: IrishMale,
   italianFemale: ItalianFemale,
   italianMale: ItalianMale,
+  latinFemale: LatinFemale,
+  latinMale: LatinMale,
   japaneseFemale: JapaneseFemale,
   japaneseMale: JapaneseMale,
   nativeAmericanFemale: NativeAmericanFemale,
