@@ -17,7 +17,7 @@ export default {
     age: { min: 1, max: 500 },
     height: { min: 1.7, max: 2.1 },
     weight: { min: 120, max: 140 },
-    names: { female: 'hinduFemale', male: 'hinduMale' }
+    names: { female: 'latinFemale', male: 'latinMale' }
   },
   fluff: [
     { title: 'Creations of Sesom', description: 'Sesom the Wanderer, last of the Gauld, made a journey to Phalanxis in a hope to revive his lost brothers and sisters. Instead, all he found was more questions and the forged. In an attempt to continue his quest, Sesom modified many of the Forged to have increased memory storage and data processing capacity. These changes mean that the Elder Forged "live" for longer, and many continue searching for answers on how to bring the Gauld back.' },

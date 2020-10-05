@@ -17,7 +17,7 @@ export default {
     age: { min: 1, max: 200 },
     height: { min: 1.7, max: 2.1 },
     weight: { min: 120, max: 140 },
-    names: { female: 'hinduFemale', male: 'hinduMale' }
+    names: { female: 'latinFemale', male: 'latinMale' }
   },
   fluff: [
     { title: 'Eternal Constructs', description: 'The Forged were created by the ancient Gauld to be cheap and disposable labour. But since the Forged were left behind when the Gauld passed into the Shadowrealm at the end of the Sundering, the machines left behind must now forge their own destiny.' },
