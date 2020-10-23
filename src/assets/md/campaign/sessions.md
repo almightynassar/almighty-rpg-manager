@@ -18,4 +18,6 @@ Raorik, Bendris and Geliah ventured deep into Mandevrath to find out secrets wit
 
 ## Session 5: Kruxas & Handeep
 
+Having ascertained the murky nature of the tragedy that had befallen the researchers of Mandevrath, the party proceeded into the two-keycard sealed vault (that had been hereto unopened for potentially hundreds of years). As soon as the doors opened, they were presented with what appeared to be an attempted jailbreak - Kobolds had been enslaved by Vampire Kobolds (who were overseen by the three remaining surviving researchers who had become Vampires of their own). At that moment, only one Head Vampire was present alongside a handful of VK who were attempting to restrain and even kill the escaping Kobolds. The party leapt into action, and after a very nearly deadly battle, successfully killed the Head Vampire (who was identified as Kruxas) and the VK. They then freed the caged Kobolds, as well as a curiously Undead Spectral (whose powers were manifested through sheer will of vengeance), then set about planning for an expedition into the now-uncovered Kobold caves to free the remaining Kobolds (which potentially means slaying the Vampires).
+
 ## Session 6: Moixa and the Kobold City
