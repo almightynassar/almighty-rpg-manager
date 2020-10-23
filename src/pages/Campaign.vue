@@ -35,6 +35,9 @@
           <q-tab-panel key="session" name="session">
             <q-markdown :src="markdown.sessions"></q-markdown>
           </q-tab-panel>
+          <q-tab-panel key="notes" name="notes">
+            <q-markdown :src="markdown.notes"></q-markdown>
+          </q-tab-panel>
         </q-tab-panels>
       </template>
     </q-splitter>
@@ -44,20 +47,23 @@
 <script >
 import People from 'src/assets/md/campaign/people.md'
 import Sessions from 'src/assets/md/campaign/sessions.md'
+import Notes from 'src/assets/md/campaign/notes.md'
 
 export default {
-  name: 'Sampaign',
+  name: 'Campaign',
   data: function () {
     return {
       splitterModel: 20,
       tab: 'people',
       tabs: [
         { id: 'people', name: 'Dramatis Personae' },
-        { id: 'session', name: 'Sessions' }
+        { id: 'session', name: 'Sessions' },
+        { id: 'notes', name: 'Notes' }
       ],
       markdown: {
         people: People,
-        sessions: Sessions
+        sessions: Sessions,
+        notes: Notes
       }
     }
   }
