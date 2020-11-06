@@ -19,7 +19,7 @@ PT-117 has hearing and sight of up to 18m, and has no will of it's own. Knows ex
 
 ## Hentergrey Deserters (501st)
 
-These Deserters were formally part of the Hentergrey 501st legion. The leader of the band is Perron Sebasté. The others are Cléon Evand, Haman Ulin, Bastin Golorbas, and Galeb Erren. They are all human.
+These Deserters were formally part of the Hentergrey 501st company. The leader of the band is Perron Sebasté. The others are Cléon Evand, Haman Ulin, Bastin Golorbas, and Galeb Erren. They are all human.
 
 ## Kobolds
 

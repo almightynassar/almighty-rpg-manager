@@ -1,3 +1,22 @@
+# Hentergrey
+
+## Army structure
+
+The forces are structured as follows:
+
+ - The **Marshal** is in charge of co-ordinating all of the nations forces
+ - The **General** is in charge of an **Army** in the field, including camps & logistics. ~3-10 platoons.
+ - The **Commander** is in charge of the **Garrison** forces within a city, castle, or other defendable point
+ - An army is composed of one or more **Companies**, led by a **Captain**. ~3-10 platoons.
+ - The **Lieutenant** is the 2nd-in-charge of a Company, and when not standing in for the Captain they are in charge of their own platoon
+ - The **Sargeant** is in charge of a **Platoon**, which is the backbone of the army. ~60-160 men.
+ - A **Patrol** is the smallest military unit, but is usually only formed on an ad-hoc basis for special purposes (such as scouting). They are led by an **Ensign** if no higher ranks are available. ~4-20 men.
+
+The navy structure is as follows:
+
+ - The **Admiral** is in charge of a **Fleet** of ships
+ - The **Captain** is in charge of a single ship
+
 # Mandevrath
 
 ## Aetherdeck instructions
