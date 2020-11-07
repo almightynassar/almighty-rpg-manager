@@ -4,6 +4,10 @@
       <img src="~assets/img/World.jpg" />
       <p class="text-primary text-center"><strong>World Map</strong></p>
     </div>
+    <div class="image">
+      <img src="~assets/img/dessingrove.png" />
+      <p class="text-primary text-center"><strong>Dessingrove, Orland</strong></p>
+    </div>
   </div>
 </template>
 
