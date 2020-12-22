@@ -33,3 +33,9 @@ Bendris, and his Kobold sidekick Bamo, went into the Aetherdeck to explore one o
 # Dessingrove
 
 ## Session 8: On the road again
+
+Geliah had a breakthrough with the party, detailing his past with the shadowy Hentergrey special forces unit called the Blood Fangs. Perron and his deserters used to work with the Blood Fangs and let the party know that the Blood Fangs were tasked with creating Specters as weapons for the Empire. The party came across the town of Leadengold, which Bendris recognised as being similar to the town he encountered in the Aetherdeck. This led the party to the mines, where they discovered the dead body of a Blood Fang and a thinning between the veils of the realms. They also had the surprise of Ulrich entering their realm using a special spear.
+
+## Session 9: La Orida Mesigisto
+
+Ulrich was cagey and distrustful of the party, which led the party to corner Ulrich and force the otherworldy knight to use their spear to escape to potentially another realm and be a problem there. Upon leaving the cave, they encountered the Blood Fang Sahntah, a Specter user that could create ice around them and had some mild charm abilities. Before the party could defeat Sahntah, an adult dragon landed and claimed the Blood Fang as their own. Through some questioning the party learned that Raorik was known to the dragons as "La Orida Mesagisto", or the Little Golden Messanger. Raorik's job was to broker a peace between the Gauld and the Dragons.

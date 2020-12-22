@@ -1,5 +1,20 @@
 # Hentergrey
 
+## Blood Fangs
+
+The following note was discovered on Sahntah before they were taken away by the Dragon:
+
+```
+Lfi xorvmgh wvhriv gl xizxp lkvm gsv ivzonh hl gszg gsvb nzb vmgvi.
+Gsv Prmt wvhrivh gsv fmrlm lu lfi kvlkovh.
+Dv droo xszoovmtv gsv hfkivnzxb lu gsv Tlwh.
+Yfg z hzxirurxv mvvwh gl yv nzwv, gl gsrm gsv yziirvi yvgdvvm lfi dliowh.
+
+
+Tvmvizo Wizufh Nzourfn
+Ovzwvi lu gsv Yollw Uzmth
+```
+
 ## Army structure
 
 The forces are structured as follows:
