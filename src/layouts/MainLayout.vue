@@ -1,6 +1,9 @@
 <template>
-  <q-layout view="lHh Lpr lFf">
-    <q-header elevated>
+  <q-layout view="hHh Lpr lFf">
+    <q-header
+      bordered
+      elevated
+    >
       <q-toolbar>
         <q-btn
           flat
@@ -15,28 +18,43 @@
           Almighty RPG Manager
         </q-toolbar-title>
 
-        <div><img src="~assets/img/icon.png" style="height: 2.5vw; max-width: 4vw" /></div>
+        <q-btn flat round dense to="/">
+          <img src="~assets/img/icon.png" style="height: 2em; max-width: 4em" />
+        </q-btn>
       </q-toolbar>
     </q-header>
 
     <q-drawer
       v-model="leftDrawerOpen"
-      show-if-above
       bordered
-      content-class="bg-secondary"
+      overlay
+      elevated
+      content-class="bg-dark"
     >
-      <q-list>
-        <q-item-label
-          header
-          class="text-primary"
-        >
-          Menu
-        </q-item-label>
-        <Menu
-          v-for="link in menu"
-          :key="link.title"
-          v-bind="link"
-        />
+      <q-list
+        dark
+        separator
+      >
+        <template v-for="item in menu">
+          <item-link
+            v-if="item.link"
+            :key="item.title"
+            v-bind="item"
+          />
+          <q-expansion-item
+            v-else
+            clickable
+            :icon="item.icon"
+            :label="item.title"
+            :key="item.title"
+          >
+            <q-list
+              class="bg-grey-9"
+            >
+              <item-link v-for="sub in item.submenu" :key="sub.title" v-bind="sub" />
+            </q-list>
+          </q-expansion-item>
+        </template>
       </q-list>
     </q-drawer>
 
@@ -47,52 +65,55 @@
 </template>
 
 <script>
-import Menu from 'components/Menu'
+import ItemLink from 'src/components/ItemLink.vue'
 
 export default {
   name: 'MainLayout',
-
   components: {
-    Menu
+    ItemLink
   },
-
   data () {
     return {
       leftDrawerOpen: false,
       menu: [
         {
-          title: 'Home',
-          caption: 'The main dashboard',
-          icon: 'home',
-          link: '/'
-        },
-        {
-          title: 'Shopping',
-          caption: 'View equipment & services',
+          title: 'Store',
           icon: 'game-icon:price-tag',
-          link: '/shopping'
+          submenu: [
+            {
+              title: 'Gear',
+              icon: 'game-icon:battle-gear',
+              link: '/gear'
+            },
+            {
+              title: 'Hirelings',
+              icon: 'game-icon:guards',
+              link: '/hirelings'
+            },
+            {
+              title: 'Services',
+              icon: 'game-icon:anvil-impact',
+              link: '/services'
+            }
+          ]
         },
         {
           title: 'Character',
-          caption: 'Character information like races and languages',
           icon: 'accessibility',
           link: '/character'
         },
         {
           title: 'Campaign',
-          caption: 'Campaign details',
           icon: 'game-icon:wax-tablet',
           link: '/campaign'
         },
         {
           title: 'World',
-          caption: 'Information about the setting of Terrea',
           icon: 'game-icon:world',
           link: '/world'
         },
         {
           title: 'Rules Reference',
-          caption: 'View rules',
           icon: 'game-icon:secret-book',
           link: '/reference'
         }
