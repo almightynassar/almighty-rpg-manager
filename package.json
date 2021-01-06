@@ -1,8 +1,8 @@
 {
   "name": "almighty-rpg-manager",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "RPG Management App",
-  "productName": "almighty-rpg-manager",
+  "productName": "Almighty RPG Manager",
   "cordovaId": "org.almightynassar.rpg.manager",
   "capacitorId": "",
   "author": "Almighty Nassar <almightynassar@gmail.com>",
