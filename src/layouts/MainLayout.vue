@@ -77,23 +77,28 @@ export default {
       leftDrawerOpen: false,
       menu: [
         {
-          title: 'Store',
+          title: 'Economy',
           icon: 'game-icon:price-tag',
           submenu: [
+            {
+              title: 'Lifestyle',
+              icon: 'game-icon:park-bench',
+              link: '/lifestyle'
+            },
             {
               title: 'Gear',
               icon: 'game-icon:battle-gear',
               link: '/gear'
             },
             {
+              title: 'Healing',
+              icon: 'game-icon:healing',
+              link: '/healing'
+            },
+            {
               title: 'Hirelings',
               icon: 'game-icon:guards',
               link: '/hirelings'
-            },
-            {
-              title: 'Services',
-              icon: 'game-icon:anvil-impact',
-              link: '/services'
             }
           ]
         },

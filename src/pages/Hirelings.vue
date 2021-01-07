@@ -1,6 +1,6 @@
 <template>
   <div class="q-pa-md">
-    <p>You can hire NPCs for a wide range of tasks. The costs presented here is the <em>minimum</em> cost of <strong>the labour only</strong> for the service rendered. Any additional material costs involved from the service will be paid by you. A working day is considered to be 8 hours (8am until 6pm, with regular breaks in between).</p>
+    <p>You can hire NPCs for a wide range of tasks. The costs presented here is the <em>minimum</em> cost of <strong>the labour only</strong>. Any additional material costs involved from the service will be paid by you. A working day is considered to be 8 hours (8am until 6pm, with regular breaks in between).</p>
     <p>You can select the mastery level which will adjust the hirelings cost accordingly.</p>
     <ul>
       <li><strong>Apprentice</strong> - Someone who has basic proficiency and is working towards a deeper understanding. Generally requires some supervision.</li>
