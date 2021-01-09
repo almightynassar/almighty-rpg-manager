@@ -18,13 +18,7 @@
       <tbody>
         <tr v-for="heal in healing" :key="heal.name">
           <td>{{ heal.name }}</td>
-          <td>{{ heal.cost / coinage.convert }} {{ coinage.symbol }}
-                <span class='float-right'>
-                  <img v-if="coinage.id === 'bronze'" src='~assets/img/bronze.png' style='height: 1.5vw; max-width: 2vw' />
-                  <img v-else-if="coinage.id === 'silver'" src='~assets/img/silver.png' style='height: 1.5vw; max-width: 2vw' />
-                  <img v-else-if="coinage.id === 'gold'" src='~assets/img/gold.png' style='height: 1.5vw; max-width: 2vw' />
-                </span>
-          </td>
+          <td>{{ heal.cost / coinage.convert }} {{ coinage.symbol }}</td>
           <td>{{ heal.description }}</td>
         </tr>
       </tbody>
@@ -45,10 +39,10 @@ export default {
   },
   created () {
     // Set our default coinage to what is set in our store
-    this.coinage = this.$store.getters['coinage/getCoinageByID'](this.$store.state.coinage.defaultCoinage)
+    this.coinage = this.$coinage.find(this.$store.state.coinage.defaultCoinage)
 
     // Grab our default coinage array
-    this.coinageOptions = this.$store.state.coinage.coinage
+    this.coinageOptions = this.$coinage.coins
   }
 }
 </script>

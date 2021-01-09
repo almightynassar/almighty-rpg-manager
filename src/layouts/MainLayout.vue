@@ -27,7 +27,6 @@
     <q-drawer
       v-model="leftDrawerOpen"
       bordered
-      overlay
       elevated
       content-class="bg-dark"
     >

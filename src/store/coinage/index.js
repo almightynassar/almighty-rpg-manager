@@ -1,18 +1,10 @@
-import Coinage from 'src/assets/data/Coinage'
 import { LocalStorage } from 'quasar'
 
 const state = {
-  defaultCoinage: 'bronze',
-  coinage: Coinage
+  defaultCoinage: 'coin'
 }
 
-const getters = {
-  getCoinageByID: (state) => (id) => {
-    return state.coinage.find(obj => {
-      return obj.id === id
-    })
-  }
-}
+const getters = {}
 
 const actions = {
   initialise: (context) => {

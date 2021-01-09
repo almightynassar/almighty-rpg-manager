@@ -11,9 +11,10 @@ module.exports = function (/* ctx */) {
   return {
     // app boot file (/src/boot)
     // --> boot files are part of "main.js"
-    // https://quasar.dev/quasar-cli/cli-documentation/boot-files
+    // https://quasar.dev/quasar-cli/boot-files
     boot: [
       'axios',
+      'coinage',
       'localstorage'
     ],
 

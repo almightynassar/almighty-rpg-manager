@@ -91,10 +91,10 @@ export default {
   },
   created () {
     // Set our default coinage to what is set in our store
-    this.coinage = this.$store.getters['coinage/getCoinageByID'](this.$store.state.coinage.defaultCoinage)
+    this.coinage = this.$coinage.find(this.$store.state.coinage.defaultCoinage)
 
     // Grab our default coinage array
-    this.coinageOptions = this.$store.state.coinage.coinage
+    this.coinageOptions = this.$coinage.coins
   },
   mounted () {
     this.$axios.get('https://api.github.com/repos/almightynassar/almighty-rpg-manager/releases/latest')
