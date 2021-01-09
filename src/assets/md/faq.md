@@ -16,7 +16,7 @@ Sorcerers, Warlocks, and Wizards are not available as playable classes on Terrea
 
 ## Where can we go to buy equipment?
 
-Most mundane piecies of equipment are available at settlements as long as an appropriate trade building is available (for example, weapons and armour require a blacksmith). The Gear list in the [Shopping](/#/shopping) section will give you an idea of an average price for an item, but it may change depending on local factors.
+Most mundane piecies of equipment are available at settlements as long as an appropriate trade building is available (for example, weapons and armour require a blacksmith). The [Gear list](/#/gear) section will give you an idea of an average price for an item, but it may change depending on local factors.
 
 For magical or technological equipment, you will only find (or sell) them in the larger settlements such as cities. You may be able to find buyers that are rich enough outside of these locations, but there is no guarantee that they will be interested in the piece that you have to offer.
 
@@ -26,7 +26,7 @@ You can't use any old blacksmith for highly custom pieces. You will need to seek
 
 ## Where can we go for healing?
 
-Most settlements will have a healer (or someone who does healing part-time), but for more serious injuries you will either need to send for an experienced doctor or transport the patient to them. Most local healers should be able to deal with most common versions of poisons and dieseases. Take a look at the [healing services](/#/shopping?shopping=service&service=healing) for a rough guide on what is available.
+Most settlements will have a healer (or someone who does healing part-time), but for more serious injuries you will either need to send for an experienced doctor or transport the patient to them. Most local healers should be able to deal with most common versions of poisons and dieseases. Take a look at the [healing services](/#/healing) for a rough guide on what is available.
 
 ## Is resurrection possible?
 

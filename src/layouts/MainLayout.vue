@@ -109,7 +109,23 @@ export default {
         {
           title: 'Campaign',
           icon: 'game-icon:wax-tablet',
-          link: '/campaign'
+          submenu: [
+            {
+              title: 'People',
+              icon: 'game-icon:backup',
+              link: '/people'
+            },
+            {
+              title: 'Sessions',
+              icon: 'game-icon:gamepad',
+              link: '/sessions'
+            },
+            {
+              title: 'Notes',
+              icon: 'game-icon:stabbed-note',
+              link: '/notes'
+            }
+          ]
         },
         {
           title: 'World',
