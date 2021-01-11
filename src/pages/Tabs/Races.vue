@@ -113,19 +113,16 @@
 import Races from 'src/assets/data/Races'
 import Traits from 'src/assets/data/RaceTraits'
 import Names from 'src/assets/data/Names'
-import Markov from 'src/js/markov'
 
 export default {
   name: 'Races',
   data: function () {
     return {
-      markov: new Markov(),
       namesFemale: [],
       namesMale: [],
       races: Races,
       selectedFemale: 'frenchFemale',
       selectedMale: 'frenchMale',
-      sets: Names,
       splitterModel: 20,
       tab: 'humans',
       traits: Traits
@@ -149,10 +146,10 @@ export default {
       return total
     },
     generate () {
-      this.markov.addNameArray(this.selectedRace.ranges.names.female, this.sets[this.selectedRace.ranges.names.female])
-      this.markov.addNameArray(this.selectedRace.ranges.names.male, this.sets[this.selectedRace.ranges.names.male])
-      this.namesFemale = this.markov.generateList(this.selectedRace.ranges.names.female, 10)
-      this.namesMale = this.markov.generateList(this.selectedRace.ranges.names.male, 10)
+      this.$markov.addNameArray(this.selectedRace.ranges.names.female, Names[this.selectedRace.ranges.names.female])
+      this.$markov.addNameArray(this.selectedRace.ranges.names.male, Names[this.selectedRace.ranges.names.male])
+      this.namesFemale = this.$markov.generateList(this.selectedRace.ranges.names.female, 10)
+      this.namesMale = this.$markov.generateList(this.selectedRace.ranges.names.male, 10)
       this.namesFemale.sort()
       this.namesMale.sort()
     }

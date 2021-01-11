@@ -43,18 +43,15 @@
 
 <script >
 import Names from 'src/assets/data/Names'
-import Markov from 'src/js/markov'
 
 export default {
-  name: 'NamesList',
+  name: 'NameGenerator',
   data: function () {
     return {
-      sets: Names,
       selected: 'germanicFemale',
       names: [],
       options: [],
-      realNames: [],
-      markov: new Markov()
+      realNames: []
     }
   },
   methods: {
@@ -66,8 +63,8 @@ export default {
       return this.convertName(name) + ' (' + set.length + ' names)'
     },
     generate () {
-      this.names = this.markov.generateList(this.selected, 10)
-      this.realNames = this.markov.getRandomList(this.selected, 10)
+      this.names = this.$markov.generateList(this.selected, 10)
+      this.realNames = this.$markov.getRandomList(this.selected, 10)
       this.names.sort()
       this.realNames.sort()
     },
@@ -88,8 +85,8 @@ export default {
   computed: {
     setOptions () {
       var options = []
-      for (var key in this.sets) {
-        var setName = this.makeSetName(key, this.sets[key])
+      for (var key in Names) {
+        var setName = this.makeSetName(key, Names[key])
         options.push({ value: key, label: setName })
       }
       return options
@@ -97,7 +94,7 @@ export default {
   },
   watch: {
     selected (newS, oldS) {
-      this.markov.addNameArray(newS, this.sets[newS])
+      this.$markov.addNameArray(newS, Names[newS])
       this.generate()
     }
   },
@@ -109,7 +106,7 @@ export default {
     }
   },
   mounted () {
-    this.markov.addNameArray('germanicFemale', this.sets.germanicFemale)
+    this.$markov.addNameArray('germanicFemale', Names.germanicFemale)
     this.generate()
     this.options = this.setOptions
   }

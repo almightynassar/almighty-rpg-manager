@@ -1,8 +1,5 @@
 // ---------------------------------------------------------------
-// markov.js
-//
-// Base off of:
-// name_generator.js
+// Based off of name_generator.js
 // written and released to the public domain by drow <drow@bin.sh>
 // http://creativecommons.org/publicdomain/zero/1.0/
 
@@ -318,8 +315,8 @@ function getRandomList (type, num) {
   return list
 }
 
-export default function () {
-  return {
+export default ({ Vue }) => {
+  Vue.prototype.$markov = {
     // Generate names from a chain
     generate (type) {
       return generate(type)
