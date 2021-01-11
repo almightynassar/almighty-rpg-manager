@@ -5,13 +5,13 @@
 </template>
 
 <script>
-import Intro from 'src/assets/md/intro.md'
+import Faq from 'src/assets/md/faq.md'
 
 export default {
-  name: 'Home',
+  name: 'FAQ',
   data: function () {
     return {
-      markdown: Intro
+      markdown: Faq
     }
   }
 }

@@ -18,9 +18,29 @@
           Almighty RPG Manager
         </q-toolbar-title>
 
-        <q-btn flat round dense to="/">
-          <img src="~assets/img/icon.png" style="height: 2em; max-width: 4em" />
-        </q-btn>
+        <q-btn-dropdown flat round dense>
+          <template v-slot:label>
+            <img src="~assets/img/icon.png" style="height: 2em; max-width: 4em" />
+          </template>
+          <q-list>
+            <q-item clickable to="/">
+              <q-item-section>Home</q-item-section>
+            </q-item>
+            <q-item clickable to="/resources">
+              <q-item-section>Resources</q-item-section>
+            </q-item>
+            <q-item clickable to="/generators">
+              <q-item-section>Generators</q-item-section>
+            </q-item>
+            <q-item clickable @click="settings = true">
+              <q-item-section>Settings</q-item-section>
+            </q-item>
+            <q-separator />
+            <q-item clickable @click="dialog = true">
+              <q-item-section>About</q-item-section>
+            </q-item>
+          </q-list>
+        </q-btn-dropdown>
       </q-toolbar>
     </q-header>
 
@@ -60,20 +80,42 @@
     <q-page-container>
       <router-view />
     </q-page-container>
+
+    <q-dialog v-model="dialog">
+      <q-card>
+        <q-card-section>
+          <div class="text-h6">About</div>
+        </q-card-section>
+        <q-card-section class="q-pt-none">
+          <about />
+        </q-card-section>
+        <q-card-actions align="right" class="bg-white text-teal">
+          <q-btn flat label="Close" v-close-popup />
+        </q-card-actions>
+      </q-card>
+    </q-dialog>
+
+    <settings v-model="settings" />
   </q-layout>
 </template>
 
 <script>
+import About from 'src/components/About.vue'
 import ItemLink from 'src/components/ItemLink.vue'
+import Settings from 'src/components/Settings.vue'
 
 export default {
   name: 'MainLayout',
   components: {
-    ItemLink
+    About,
+    ItemLink,
+    Settings
   },
   data () {
     return {
       leftDrawerOpen: false,
+      dialog: false,
+      settings: false,
       menu: [
         {
           title: 'Economy',
@@ -136,6 +178,11 @@ export default {
           title: 'Rules Reference',
           icon: 'game-icon:secret-book',
           link: '/reference'
+        },
+        {
+          title: 'FAQ',
+          icon: 'help',
+          link: '/faq'
         }
       ]
     }

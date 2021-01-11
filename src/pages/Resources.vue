@@ -5,13 +5,13 @@
 </template>
 
 <script>
-import Intro from 'src/assets/md/intro.md'
+import Resources from 'src/assets/md/resources.md'
 
 export default {
-  name: 'Home',
+  name: 'Resources',
   data: function () {
     return {
-      markdown: Intro
+      markdown: Resources
     }
   }
 }
