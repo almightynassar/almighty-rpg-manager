@@ -30,7 +30,7 @@
           transition-next="jump-up"
         >
           <q-tab-panel v-for="ecology in ecologies" :key="ecology.id" :name="ecology.id">
-            <q-markdown :src="ecology.markdown"></q-markdown>
+            <q-markdown :src="ecology.markdown" no-heading-anchor-links></q-markdown>
           </q-tab-panel>
         </q-tab-panels>
       </template>

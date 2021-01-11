@@ -52,5 +52,6 @@ Subjects exploring rooms. Code and results are given. Each room seems to reset o
 - 1-1-2: Subjects never return.
 - 1-1-3: Caves rich in metal ores.
 - 1-1-4: Subjects never return.
+- 3-2-3: Ulrich's Home (and the Eldritch Being)
 
 Due to the loss of so many subjects to the Aetherdeck, we are suspending active exploration. We are looking at utilising droids manufactured upstairs to continue exploration.

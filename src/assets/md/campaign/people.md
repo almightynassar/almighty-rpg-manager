@@ -1,6 +1,4 @@
-# Living
-
-## The Party
+# The Party
 
 - **Bendris Snvertson**, a Snvert Artificier looking for useful tech to take home
 - **Geliah Sivvith**, a Lacinum Specter that is running from his past
@@ -8,14 +6,6 @@
 - **Nekol**, a Teztec Druid with a lust for adventure and an interest in death
 - **Sigmane Clanless**, an Orc fighter that was exiled from their clan
 - **Bamo**, a Kobold that is seeking a new life outside of their small world
-
-## Blood Fangs
-
-The Blood Fangs are a special forces group within the Hentergrey army. They are rumoured to include many Spectre specialists, and are sent deep into enemy territory to perform deniable operations.
-
-## Collectors
-
-The team of Collectors were sent to Mandevrath to acertain whether it's secrets will be helpful to the Collector cause. The team includes two human Spectres (**Avervand** & **Pastance**), a Lacinum diplomat (**Nabur**), and two Orc guards (**Oska** & **Torge**).
 
 ## Droids
 
@@ -30,7 +20,7 @@ Professor Tablet 117 is the size of piece of paper and is as thick as a book. Th
 
 PT-117 has hearing and sight of up to 18m, and has no will of it's own. Knows extensive information about Dragons, Vampires, Virology, and the Aetherdeck. This means it gets a +9 bonus to areas of it's expertise. PT-117 has a limited form of movement via in-built hoverjets.
 
-## Hentergrey Deserters (501st)
+## Deserters (501st)
 
 These Deserters were formerly part of the Hentergrey 501st company. They are all human, and come from the city of Walla, far to the east on the north-western shores of the World Center. They worked as guards and jailors for the Blood Fangs, a mysterious special forces unit that allegedly creates Spectres for the Hentergrey army.
 
@@ -40,13 +30,37 @@ These Deserters were formerly part of the Hentergrey 501st company. They are all
 - **Bastin Golorbas:** The chef of the band, and an avid musician and dancer.
 - **Galeb Erren:** Has the brains for all things technical, but didn’t have the money for an education.
 
-## Kobolds of Koburg
+---
+
+# Hentergrey Empire
+
+## Blood Fangs
+
+The Blood Fangs are a special forces group within the Hentergrey army. They are rumoured to include many Spectre specialists, and are sent deep into enemy territory to perform deniable operations.
+
+## S.R.D (Spectral Research Division)
+
+The S.R.D. are a special quasi-military group of the Hentergrey Empire, who have been tasked with researching Spectral abilities throughout Terrea.
+
+---
+
+# Collectors
+
+The team of Collectors were sent to Mandevrath to acertain whether it's secrets will be helpful to the Collector cause. The team includes two human Spectres (**Avervand** & **Pastance**), a Lacinum diplomat (**Nabur**), and two Orc guards (**Oska** & **Torge**).
+
+---
+
+# Kobolds of Koburg
 
 The Kobolds are the half-dragon, half-gauld creations of the Mandevrath Science Team. They were subjected to experimentations that tested dragon-killing weapons.
 
 The only Kobold city in all of Terrea is hidden underground, underneath the Gauldian ruins of Mandevrath. The elder Kobold who effectively runs the city is **Mudran**, uncle of the parties’ Kobold **Bamo**. Koburg is now effectively under the protection of the Collectors, who conduct their research on the secrets of Mandevrath and the Aetherdeck.
 
 Kobolds saved from Kruxas were Mudran (leader), Praba, Vinda, and Bamo.
+
+---
+
+# Missing
 
 ## Dr Drafus Malfium 
 
@@ -55,6 +69,8 @@ A DNA specialist for the MST (Mandevrath Science Team). Actually a vampire, and 
 ## Ulrich Von Lichtenstien
 
 A Human Knight from another reality, with a spear that can transport the user to another realm.
+
+---
 
 # Dead
 

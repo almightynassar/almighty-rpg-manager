@@ -30,7 +30,7 @@
           transition-next="jump-up"
         >
           <q-tab-panel v-for="history in histories" :key="history.id" :name="history.id">
-            <q-markdown :src="history.markdown"></q-markdown>
+            <q-markdown :src="history.markdown" no-heading-anchor-links></q-markdown>
           </q-tab-panel>
         </q-tab-panels>
       </template>

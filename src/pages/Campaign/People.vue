@@ -1,6 +1,6 @@
 <template>
   <div class="q-pa-md">
-    <q-markdown :src="markdown"></q-markdown>
+    <q-markdown :src="markdown" no-heading-anchor-links></q-markdown>
   </div>
 </template>
 

@@ -24,13 +24,17 @@ Having ascertained the murky nature of the tragedy that had befallen the researc
 
 The party entered Koburg, the Kobold town underneath Mandevrath. They tried to stealthily enter, but instead started a kobold insurrection against their vampire masters. The vampires were eventually overwhelmed by the combined might of the party and the kobolds, and Moixa tried to use her shapeshifting ability to escape. The party saw through the ruse, and gave Handeep the revenge he craved for so long.
 
+---
+
 # Intermission
 
 ## Session 7: Into the Aetherdeck
 
 Bendris, and his Kobold sidekick Bamo, went into the Aetherdeck to explore one of the artificial realities (code: 3-2-3). They were immediately greeted by a quaint village, and an argument between the village elder and a nobleman. They also met Ulrich Von Liectenstein, who constantly mentioned that they were a true and proper knight. They discovered that there were weird happenings in the village, where the miners were compelled to work or suffered spontaneous head combustion. Bendris, Bamo, and Ulrich visited the mine where they met a cultist priest. The Cultist priest showed the trio a portal that opened to a realm inhabited by an Eldritch being. The Eldritch demanded that the trio submit to it, but Bendris and Bamo were pulled out of the Aetherdeck, just in time....
 
-# Dessingrove
+---
+
+# Towards Dessingrove Arc
 
 ## Session 8: On the road again
 
@@ -39,3 +43,7 @@ Geliah had a breakthrough with the party, detailing his past with the shadowy He
 ## Session 9: La Orida Mesigisto
 
 Ulrich was cagey and distrustful of the party, which led the party to corner Ulrich and force the otherworldy knight to use their spear to escape to potentially another realm and be a problem there. Upon leaving the cave, they encountered the Blood Fang Sahntah, a Specter user that could create ice around them and had some mild charm abilities. Before the party could defeat Sahntah, an adult dragon landed and claimed the Blood Fang as their own. Through some questioning the party learned that Raorik was known to the dragons as "La Orida Mesagisto", or the Little Golden Messanger. Raorik's job was to broker a peace between the Gauld and the Dragons.
+
+## Session 10: The Man in Armour
+
+The party were on the road, and on the way they met an group fleeing from a large man in a suit of armour. The man in armour claimed that the group had kidnapped their brother, and was on a bloody rampage. The party joined the man in armour, and discovered they were fighting against the Spectral Research Division (or S.R.D). During the pitched battle, the camp leader noticed Geliah using his spectral abilities and ordered his men to try to capture him (along with the armoured man). But the camp was ultimately defeated, and then the armoured man indicated that he thought his brother was being held behind a massive door carved into the side of the mountain.

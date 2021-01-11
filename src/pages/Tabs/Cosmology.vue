@@ -30,7 +30,7 @@
           transition-next="jump-up"
         >
           <q-tab-panel v-for="cosmology in cosmologies" :key="cosmology.id" :name="cosmology.id">
-            <q-markdown :src="cosmology.markdown"></q-markdown>
+            <q-markdown :src="cosmology.markdown" no-heading-anchor-links></q-markdown>
           </q-tab-panel>
         </q-tab-panels>
       </template>
