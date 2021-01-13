@@ -1,9 +1,12 @@
+import Markdown from 'src/assets/md/races/goblins.md'
+
 export default {
   id: 'goblins',
   singular: 'Goblin',
   adjective: 'Goblinoid',
   plural: 'Goblins',
   name: 'Goblins',
+  short: 'Short, cunning and green',
   traits: [
     { id: 'movement+9', quantity: 1, overwriteName: false, name: '', overwriteDescription: false, description: '', extra: null },
     { id: 'size+small', quantity: 1, overwriteName: false, name: '', overwriteDescription: false, description: '', extra: null },
@@ -19,8 +22,5 @@ export default {
     weight: { min: 15, max: 20 },
     names: { female: 'aztecFemale', male: 'aztecMale' }
   },
-  fluff: [
-    { title: 'Cunning and Quick', description: 'Although the average goblin is small, they make up for it with the quickness and agility. They are notoriously hard to catch, and are sometimes viewed by the other races as natural thieves and hooligans.' },
-    { title: 'Friends with Orcs', description: 'The Goblinoid races share the Shattered Isles with the Orcs. The Goblins create the settlements, while the Orcs live off the land in wandering tribes.' }
-  ]
+  markdown: Markdown
 }

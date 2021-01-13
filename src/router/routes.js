@@ -14,6 +14,7 @@ const routes = [
       { path: 'lifestyle', name: 'lifestyle', component: () => import('pages/Economy/Lifestyle.vue') },
       { path: 'notes', name: 'notes', component: () => import('pages/Campaign/Notes.vue') },
       { path: 'people', name: 'people', component: () => import('pages/Campaign/People.vue') },
+      { path: 'races/:id', name: 'races', component: () => import('pages/Races.vue') },
       { path: 'reference', name: 'reference', component: () => import('pages/ReferenceList.vue') },
       { path: 'resources', name: 'resources', component: () => import('pages/Resources.vue') },
       { path: 'sessions', name: 'sessions', component: () => import('pages/Campaign/Sessions.vue') },

@@ -1,9 +1,12 @@
+import Markdown from 'src/assets/md/races/merfolk.md'
+
 export default {
-  id: 'mermen',
+  id: 'merfolk',
   singular: 'Merman',
-  adjective: 'Mermen',
-  plural: 'Mermen',
-  name: 'Mermen',
+  adjective: 'Mermish',
+  plural: 'Merfolk',
+  name: 'Merfolk',
+  short: 'Humanoids of the sea',
   traits: [
     { id: 'movement+9', quantity: 1, overwriteName: false, name: '', overwriteDescription: false, description: '', extra: null },
     { id: 'swim+9', quantity: 1, overwriteName: false, name: '', overwriteDescription: false, description: '', extra: null },
@@ -22,9 +25,5 @@ export default {
     weight: { min: 40, max: 110 },
     names: { female: 'japaneseFemale', male: 'japaneseMale' }
   },
-  fluff: [
-    { title: 'Men of the Sea', description: 'Mermen were created when Artra, in the form of different cetaceans, coupled with humans in a competition with Baltha. Mermen look like scaly skinned humans with gills.' },
-    { title: 'Equality on the Waves', description: 'Mermen believe that every being should have an equal opportunity for success, just like how the ocean is available equally to everyone. And like how the ocean rewards those who strive to tame the waves, Mermen believe that an individuals deserves the outcome of their efforts.' },
-    { title: 'Master Traders', description: 'Mermen compete with the Dwarves for trade on Terrea. Where the Dwarves entice deals with their industrial output, Mermen have mastered the art of the deal. Mermen were the first to introduce coinage, and the Mermen standard is used all throughout Terrea' }
-  ]
+  markdown: Markdown
 }

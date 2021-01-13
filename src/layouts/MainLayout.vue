@@ -175,6 +175,11 @@ export default {
           link: '/world'
         },
         {
+          title: 'Races',
+          icon: 'game-icon:elf-ear',
+          submenu: []
+        },
+        {
           title: 'Rules Reference',
           icon: 'game-icon:secret-book',
           link: '/reference'
@@ -186,6 +191,18 @@ export default {
         }
       ]
     }
+  },
+  mounted () {
+    const raceMenu = this.menu.find(obj => {
+      return obj.title === 'Races'
+    })
+    this.$races.races.forEach(race => {
+      raceMenu.submenu.push({
+        title: race.name,
+        icon: '',
+        link: '/races/' + race.id
+      })
+    })
   }
 }
 </script>

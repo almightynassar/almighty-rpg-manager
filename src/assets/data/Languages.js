@@ -5,7 +5,7 @@ export default [
   { id: 'draconic', name: 'Draconic', rarity: 'Common', script: 'iokharic', description: 'The language of Dragons, and adopted by the Lacerti and Lacinum' },
   { id: 'dwarvish', name: 'Dwarvish', rarity: 'Common', script: 'elderfuthark', description: 'The language of dwarves, designed to be easily engraved into metal' },
   { id: 'gauldish', name: 'Gauldish', rarity: 'Rare', script: 'davek', description: 'An ancient language spoken by the ancient Gauld and Primordials. It is largely forgotten, kept alive only through texts and dedicated academic orders' },
-  { id: 'goblin', name: 'Goblin', rarity: 'Common', script: 'barazhad', description: 'The language of goblins and hobgoblins, designed to be carved into objects' },
+  { id: 'goblin', name: 'Goblin', rarity: 'Common', script: 'barazhad', description: 'The language of goblins, designed to be carved into objects' },
   { id: 'ignan', name: 'Ignan', rarity: 'Uncommon', script: 'rellanic', description: 'A language designed for folk that live with or among fire. Largely kept alive by some intelligent monsters, academics, and Shadowrealm cultists' },
   { id: 'orcish', name: 'Orcish', rarity: 'Common', script: 'klingon', description: 'The language of orcs, designed to invoke feelings of awe and fear' },
   { id: 'snvertish', name: 'Snvertish', rarity: 'Common', script: 'hylianTP', description: 'The language of snvert, designed to be engraved into their machines' },

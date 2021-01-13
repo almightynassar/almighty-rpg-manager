@@ -25,7 +25,7 @@ export default {
     humans: 10,
     lefantians: 8,
     locanth: 8,
-    mermen: 10,
+    merfolk: 10,
     minotaurs: 8,
     snvert: 8,
     teztecs: 10

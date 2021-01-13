@@ -1,9 +1,12 @@
+import Markdown from 'src/assets/md/races/lefantians.md'
+
 export default {
   id: 'lefantians',
   singular: 'Lefantian',
   adjective: 'Lefantian',
   plural: 'Lefantians',
-  name: 'Lefantians (Elephantfolk)',
+  name: 'Lefantians',
+  short: 'Elephantfolk',
   traits: [
     { id: 'movement+9', quantity: 1, overwriteName: false, name: '', overwriteDescription: false, description: '', extra: null },
     { id: 'size+medium', quantity: 1, overwriteName: false, name: '', overwriteDescription: false, description: '', extra: null },
@@ -22,9 +25,5 @@ export default {
     weight: { min: 130, max: 170 },
     names: { female: 'dutchFemale', male: 'dutchMale' }
   },
-  fluff: [
-    { title: 'Kings of the Savanna', description: 'Lefantians were created when Artra, in the form of different elephants, coupled with humans. Like their beastial bretheren, the Lefantia rule over the Levengeti savannas of Middle Girth.' },
-    { title: 'Long Memories', description: '"A Lefantian never forgets" is a common saying on Terrea, and for good reason. The Lefantians have always had a keen interest in the ancient Gauldian ruins of Phalanxis and the Forged that dwell there, and have a strong oral tradition that preserves knowledge uncovered in the study of the ruins.' },
-    { title: 'Gentle Giants', description: 'The largest of the sentient mortal races, the Lefantians prefer to work our peaceful resolutions to conflict. But if slighted or wronged, a Lefantian is known to hold a grudge for decades.' }
-  ]
+  markdown: Markdown
 }

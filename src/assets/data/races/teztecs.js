@@ -1,9 +1,12 @@
+import Markdown from 'src/assets/md/races/teztecs.md'
+
 export default {
   id: 'teztecs',
   singular: 'Teztec',
   adjective: 'Teztec',
   plural: 'Teztecs',
-  name: 'Teztecs (Tortoise race)',
+  name: 'Teztecs',
+  short: 'Tortoise race',
   traits: [
     { id: 'movement+9', quantity: 1, overwriteName: false, name: '', overwriteDescription: false, description: '', extra: null },
     { id: 'size+medium', quantity: 1, overwriteName: false, name: '', overwriteDescription: false, description: '', extra: null },
@@ -21,9 +24,5 @@ export default {
     weight: { min: 60, max: 135 },
     names: { female: 'nativeAmericanFemale', male: 'nativeAmericanMale' }
   },
-  fluff: [
-    { title: 'Jungle Wardens', description: 'A core part of Teztec culture is living alongside and nuturing nature. Their home among the vast and dense Tezonian jungles, and are fierce protectors of their natural home.' },
-    { title: 'Eco-friendly Builders', description: 'The Teztec pride themselves on being able to integrate nature with social and living spaces, and it can be hard to distinguish where a Teztec city ends and the wild jungle begins.' },
-    { title: 'Masters of Nature', description: 'While the primordial and spectral magics of the Gauld are highly sought after, the Teztecs have discovered that they could harness the power of aether in all living things.' }
-  ]
+  markdown: Markdown
 }

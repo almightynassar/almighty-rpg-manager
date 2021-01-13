@@ -16,7 +16,8 @@ module.exports = function (/* ctx */) {
       'axios',
       'coinage',
       'localstorage',
-      'markov'
+      'markov',
+      'races'
     ],
 
     // https://quasar.dev/quasar-cli/quasar-conf-js#Property%3A-css

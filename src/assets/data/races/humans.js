@@ -1,9 +1,12 @@
+import Markdown from 'src/assets/md/races/human.md'
+
 export default {
   id: 'humans',
   singular: 'Human',
   adjective: 'Human',
   plural: 'Humans',
   name: 'Humans',
+  short: 'The stock standard humanoid',
   traits: [
     { id: 'movement+9', quantity: 1, overwriteName: false, name: '', overwriteDescription: false, description: '', extra: null },
     { id: 'size+medium', quantity: 1, overwriteName: false, name: '', overwriteDescription: false, description: '', extra: null },
@@ -18,8 +21,5 @@ export default {
     weight: { min: 50, max: 125 },
     names: { female: 'frenchFemale', male: 'frenchMale' }
   },
-  fluff: [
-    { title: 'The First People', description: 'After the Sundering, the Gods created Humans in the image of the defeated Gauld. Humans were made to be physically smaller and less focused, but they are still the cunning problem solvers that the Gauld were.' },
-    { title: 'Diversity and Flexibility', description: 'Humans are diverse in all senses of the word, with a penchant for migration and conquest. There is no typical human, but they are by far the most ambitious and adaptable of the races.' }
-  ]
+  markdown: Markdown
 }

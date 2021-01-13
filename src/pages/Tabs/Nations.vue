@@ -118,7 +118,6 @@
 </template>
 
 <script >
-import Races from 'src/assets/data/Races'
 import Nations from 'src/assets/data/Nations'
 import Cities from 'src/assets/data/Cities'
 
@@ -126,7 +125,6 @@ export default {
   name: 'Nations',
   data: function () {
     return {
-      races: Races,
       nations: Nations,
       splitterModel: 20,
       tab: 'hentergrey',
@@ -141,7 +139,8 @@ export default {
       return this.cities.filter(t => t.owner === id)
     },
     findRace (id) {
-      return this.races.find(t => t.id === id)
+      console.log(this.$races)
+      return this.$races.races.find(t => t.id === id)
     },
     getOtherPop (pop, distribution) {
       let majority = 0

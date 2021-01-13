@@ -21,7 +21,7 @@ export default {
   distribution: {
     dwarves: 80,
     locanth: 5,
-    mermen: 2.5
+    merfolk: 2.5
   },
   fluff: [
     {

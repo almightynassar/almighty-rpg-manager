@@ -1,9 +1,12 @@
+import Markdown from 'src/assets/md/races/minotaurs.md'
+
 export default {
   id: 'minotaurs',
   singular: 'Minotaur',
   adjective: 'Minotaurian',
   plural: 'Minotaurs',
-  name: 'Minotaurs (Yak people)',
+  name: 'Minotaurs',
+  short: 'Bovine humanoids',
   traits: [
     { id: 'movement+9', quantity: 1, overwriteName: false, name: '', overwriteDescription: false, description: '', extra: null },
     { id: 'size+medium', quantity: 1, overwriteName: false, name: '', overwriteDescription: false, description: '', extra: null },
@@ -20,8 +23,5 @@ export default {
     weight: { min: 90, max: 160 },
     names: { female: 'spanishFemale', male: 'spanishMale' }
   },
-  fluff: [
-    { title: 'Pastoral Herders', description: 'The Minotaurs tend to the tundra and plains of continent of Tauria, leading their herds from pasture to pasture. They have also learned a great deal about the healing properties of different plants and substances, as they strive to get the most out of their land.' },
-    { title: 'Humble Giants', description: 'One of the largest races on Terrea, alongside the Lefantians, the Minotaurians are generally peaceable. They also are largely vegetarian by choice, choosing to use their herds for milk and wool.' }
-  ]
+  markdown: Markdown
 }
