@@ -40,3 +40,4 @@
 ## Other
 
  - [Michael Ghelfi - RPG Ambiences &amp; Music](https://www.youtube.com/channel/UCDed9jQ1Y1gKeyjvkyFGkCA)
+ - [Character Generator](https://app.reroll.co/)
