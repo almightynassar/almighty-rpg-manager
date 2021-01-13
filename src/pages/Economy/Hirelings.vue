@@ -136,10 +136,9 @@ export default {
     },
     determineClass (income) {
       var adjusted = income * this.determineMastery().multiplier
-      var local = this.lifestyles.find(obj => {
+      return this.lifestyles.find(obj => {
         return (obj.min <= adjusted && adjusted < obj.max) || (obj.name === 'Aristocratic' && adjusted >= obj.max)
       })
-      return local
     },
     determineCost (income) {
       var cost = (this.rate === 'Daily' ? income : income / 8) * this.determineMastery().multiplier
