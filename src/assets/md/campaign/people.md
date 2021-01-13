@@ -38,9 +38,9 @@ These Deserters were formerly part of the Hentergrey 501st company. They are all
 
 The Blood Fangs are a special forces group within the Hentergrey army. They are rumoured to include many Spectre specialists, and are sent deep into enemy territory to perform deniable operations.
 
-## S.R.D (Spectral Research Division)
+## S.R.D (Special Research Division)
 
-The S.R.D. are a special quasi-military group of the Hentergrey Empire, who have been tasked with researching Spectral abilities throughout Terrea.
+The S.R.D. are a special quasi-military group of the Hentergrey Empire, who have been tasked with researching curious items and abilities throughout Terrea.
 
 ---
 

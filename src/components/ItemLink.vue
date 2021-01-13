@@ -1,6 +1,7 @@
 <template>
   <q-item
     :to="link"
+    exact
   >
     <q-item-section
       v-if="icon"
