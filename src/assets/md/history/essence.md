@@ -1,5 +1,3 @@
-## Age of Essence
-
 But as the Gauld were progressing and advancing, Primus was beginning to feel Artra’s jealousy of the Gauld. Primus was limited to creating ‘miracles’ through their direct connection with the aether, and was feeling stagnant. Primus wanted to create as the Gauld did. To that end the immortal was able to gather up a devoted following who saw Primus as a God, calling themselves the Primordialists. Primus then left Hirst with his followers, travelling to a nearby land and creating a new city called Citadel.
 
 In the Citadel, Primus experimented on the Primordialists in an attempt to create something new. They achieved this by eventually fusing primordial essence into a Gauld, creating the first Primordials. Each new primordial only had a limited connection with the aether and could only control a part of the natural world. But the Primordials also inherited mortality and reproduction from the Gauld, and could propagate their species. The Primordials soon set out from the Citadel and spread across Terrea, living among the Gauld.

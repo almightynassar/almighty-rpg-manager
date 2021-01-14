@@ -1,5 +1,3 @@
-## Age of Realms
-
 Life always has a beginning, a middle, and an end. All three are necessary and complement each other. And so, the world is composed of three equal parts; the aether, the Mid-Realm, and the nether. The aether is the beginning of all things, and is known as the plane of creation and growth. The Mid-Realm is where everything exists, and where every story is told. And the nether is where all things must end, either remembered or forgotten, and is known as the plane of entropy and decay.
 
 Each of these realms overlap each other, as they are different aspects of the same entity. No realm could exist on it’s own, and the realms became mirrors of each other. Where a mountain is formed in one realm, it will then appear in the others.

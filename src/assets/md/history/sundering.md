@@ -1,5 +1,3 @@
-## The Sundering
-
 Primus finally achieved creation without solely relying on the aether after the birth of the Primordial race with the help of the Primordialists. The Gauld took notes from this event and used it to drive their knowledge about creating fantastical devices powered by Primoridal shards, to the point that the Gauld essentially met or surpassed modern technology feats (they don't need electronics and computers when they have 'magic' power). So the Gauld were already on their way to achieving new heights, and Primus already felt left behind.
 
 Primus wanted everything, and to this end he believed there was only one solution; Godhood. But they could not achieve this alone, and so Primus secretly sought help from allies among the Gauld. This was kept hidden, because there was already tensions (and sometimes outright violence) between Gauld factions. Primus headed a massive world-wide conspiracy with one goal; how to turn someone into a God.

@@ -1,5 +1,3 @@
-## Age of Rebirth
-
 The victory celebration of the Gods was brief as the Gauldish population dwindled in the Mid-Realm, and Terrea fell silent. Their hearts ached for what they had lost, as the Gauld and Primordials were still their children. With a heavy heart the Gods watched the remaining Gauld and Forged retreat into the crumbling citadels of Phalanxis, Trellisanthe, and Al-Khaleera.
 
 In their quest for redemption and self-forgiveness, the Gods fashioned the human race in the image of the Gauld. The humans were shorter, less intelligent and less capable than the Gauld, but they retained a sense of Gauldish inquisitiveness. The first humans emerged out of the World-Center into Mid-Realm, and journeyed out and inhabited the citadel of Hirst.

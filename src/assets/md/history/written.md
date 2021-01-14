@@ -1,5 +1,3 @@
-## The Written Age
-
 The Written Age was coined by the burgeoning Academy, a decentralized collective of academics and sages that actively pursued and categorised knowledge. They began to write the histories of Terrea, and began formal study of ancient Gauldish technology to see if they could recreate it. Official branches of the Academy can be found in almost all cities of Terrea, but their main headquarters can be found in Hirst.
 
 The city of Hirst also experienced a massive political change, as King Perlio was nearing the end of his life and he had no heir. His lifespan was already unnaturally long, and there were many rumours that the King had help from supernatural forces. The Kingdom of Hentergrey became increasingly militarized and expansionist, and the King sent out his forces in search of artifacts that were connected to the Shadowrealm. People braced themselves for something dark and foreboding, not knowing what exactly was coming next.
