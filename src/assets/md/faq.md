@@ -22,7 +22,7 @@ For magical or technological equipment, you will only find (or sell) them in the
 
 ## Where can we go to get armour custom fitted for this monster or beast I just befriended?
 
-You can't use any old blacksmith for highly custom pieces. You will need to seek out a master of the craft, which can usually be found in the larger settlements. The [Federation of Guilds](/#/world?world=nations&nation=federation) in the land of Bounty are especially known for their high quality and masterwork gear.
+You can't use any old blacksmith for highly custom pieces. You will need to seek out a master of the craft, which can usually be found in the larger settlements. The [Federation of Guilds](/#/nations/federation) in the land of Bounty are especially known for their high quality and masterwork gear.
 
 ## Where can we go for healing?
 
@@ -38,7 +38,7 @@ Yes, but again it will involve taking a soul back from the nether and therefore 
 
 ## Are there any places where swords are illegal, magic is outlawed, or other notable hassles from the law?
 
-Most large settlements frown on or restrict the open-carry of weapons while inside the settlement. But the only major thing is to not go into debt with a dwarf; the [Federation of Guilds](/#/world?world=nations&nation=federation) have legalised slavery as an acceptable form of debt-recovery.
+Most large settlements frown on or restrict the open-carry of weapons while inside the settlement. But the only major thing is to not go into debt with a dwarf; the [Federation of Guilds](/#/nations/federation) have legalised slavery as an acceptable form of debt-recovery.
 
 ## What monsters are terrorizing the countryside sufficiently that if I kill them I will become famous?
 
@@ -46,7 +46,7 @@ There are monsters everywhere on Terrea, but of particular note are: Aboleths, D
 
 ## Are there any wars we can fight in?
 
-The [Partisans](/#/world?world=nations&nation=partisans) are freedom fighters trying to liberate the nations of the Lefantia, Teztec, and Azia from the expansionist [Hentergrey Empire](/#/world?world=nations&nation=hentergrey). The Orcs are currently raiding both the Mermen of [Myrmiddon](/#/world?world=nations&nation=myrmiddon) and the [Snvert](/#/world?world=nations&nation=snvert), but it is not a war of conquest.
+The [Partisans](/#/nations/partisans) are freedom fighters trying to liberate the nations of the Lefantia, Teztec, and Azia from the expansionist [Hentergrey Empire](/#/nations/hentergrey). The Orcs are currently raiding both the Mermen of [Myrmiddon](/#/nations/myrmiddon) and the [Snvert](/#/nations/snvert), but it is not a war of conquest.
 
 ## How about gladitorial arenas to compete in and with glory and fabulous prizes?
 

@@ -13,7 +13,7 @@
       </div>
 
       <q-timeline-entry
-        v-for="h in histories"
+        v-for="h in history"
         :key="h.id"
         :title="h.name"
         :subtitle="h.date"
@@ -25,13 +25,13 @@
 </template>
 
 <script >
-import Histories from 'src/assets/data/setting/History'
+import History from 'src/assets/data/setting/History'
 
 export default {
-  name: 'Histories',
+  name: 'History',
   data: function () {
     return {
-      histories: Histories
+      history: History
     }
   }
 }

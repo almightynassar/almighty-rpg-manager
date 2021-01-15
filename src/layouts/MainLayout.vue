@@ -118,6 +118,27 @@ export default {
       settings: false,
       menu: [
         {
+          title: 'Campaign',
+          icon: 'game-icon:wax-tablet',
+          submenu: [
+            {
+              title: 'People',
+              icon: 'game-icon:backup',
+              link: '/people'
+            },
+            {
+              title: 'Sessions',
+              icon: 'game-icon:gamepad',
+              link: '/sessions'
+            },
+            {
+              title: 'Notes',
+              icon: 'game-icon:stabbed-note',
+              link: '/notes'
+            }
+          ]
+        },
+        {
           title: 'Economy',
           icon: 'game-icon:price-tag',
           submenu: [
@@ -144,37 +165,6 @@ export default {
           ]
         },
         {
-          title: 'Character',
-          icon: 'accessibility',
-          link: '/character'
-        },
-        {
-          title: 'Campaign',
-          icon: 'game-icon:wax-tablet',
-          submenu: [
-            {
-              title: 'People',
-              icon: 'game-icon:backup',
-              link: '/people'
-            },
-            {
-              title: 'Sessions',
-              icon: 'game-icon:gamepad',
-              link: '/sessions'
-            },
-            {
-              title: 'Notes',
-              icon: 'game-icon:stabbed-note',
-              link: '/notes'
-            }
-          ]
-        },
-        {
-          title: 'World',
-          icon: 'game-icon:world',
-          link: '/world'
-        },
-        {
           title: 'Nations',
           icon: 'game-icon:tattered-banner',
           submenu: []
@@ -183,6 +173,47 @@ export default {
           title: 'Races',
           icon: 'game-icon:elf-ear',
           submenu: []
+        },
+        {
+          title: 'World',
+          icon: 'game-icon:world',
+          submenu: [
+            {
+              title: 'Animals',
+              icon: 'game-icon:lion',
+              link: '/ecology/animals'
+            },
+            {
+              title: 'Botany',
+              icon: 'game-icon:pear',
+              link: '/ecology/plants'
+            },
+            {
+              title: 'Cosmology',
+              icon: 'game-icon:portal',
+              link: '/cosmology/deities'
+            },
+            {
+              title: 'Geography',
+              icon: 'game-icon:island',
+              link: '/ecology/regions'
+            },
+            {
+              title: 'History',
+              icon: 'game-icon:newspaper',
+              link: '/history'
+            },
+            {
+              title: 'Languages',
+              icon: 'game-icon:talk',
+              link: '/languages'
+            },
+            {
+              title: 'Maps',
+              icon: 'game-icon:treasure-map',
+              link: 'maps'
+            }
+          ]
         },
         {
           title: 'Rules Reference',
