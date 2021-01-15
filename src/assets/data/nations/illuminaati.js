@@ -1,10 +1,13 @@
+import Markdown from 'src/assets/md/nations/illuminaati.md'
+
 export default {
   id: 'illuminaati',
   name: 'The Illumi Naati',
   short: 'Illumi Naati',
   type: 'Eugenic Oligarchy',
-  capital: 'illuminaati',
+  capital: 'freemason',
   title: 'High Speech',
+  description: 'Nation dedicated to finding the ultimate Lacerti-Human hybrid',
   // In km^2
   area: 135000,
   // In %
@@ -34,8 +37,5 @@ export default {
     snvert: 0,
     teztecs: 0
   },
-  fluff: [
-    { title: 'College of Speechcraft', description: 'The Illumi Naati highly value speechcraft and rhetoric, and have diplomats throughout Terrea' },
-    { title: 'The Great Pilgramage', description: 'Ancient stories tell how the first humans and lacerti made an epic pilgramage from the World-Centre, through Phalanxis up through Al-Khaleera and finally to the continent of Naati. This pilgramage is a source of pride for the nation, and many citizens undergo the pilgramage themselves at least once during their lives.' }
-  ]
+  markdown: Markdown
 }

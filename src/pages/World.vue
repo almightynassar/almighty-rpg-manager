@@ -12,7 +12,6 @@
       <q-tab name="histories" icon="game-icon:newspaper" label="History" />
       <q-tab name="cosmology" icon="game-icon:portal" label="Cosmology" />
       <q-tab name="ecology" icon="game-icon:tree-branch" label="Ecology" />
-      <q-tab name="nations" icon="game-icon:tattered-banner" label="Nations" />
       <q-tab name="map" icon="game-icon:treasure-map" label="Maps" />
 
     </q-tabs>
@@ -32,10 +31,6 @@
         <ecology />
       </q-tab-panel>
 
-      <q-tab-panel name="nations">
-        <nations />
-      </q-tab-panel>
-
       <q-tab-panel name="map">
         <world-map />
       </q-tab-panel>
@@ -47,7 +42,6 @@
 import Cosmology from './Tabs/Cosmology'
 import Ecology from './Tabs/Ecology'
 import Histories from './Tabs/Histories'
-import Nations from './Tabs/Nations'
 import WorldMap from './Tabs/Map'
 
 export default {
@@ -56,7 +50,6 @@ export default {
     Cosmology,
     Ecology,
     Histories,
-    Nations,
     WorldMap
   },
   data: function () {

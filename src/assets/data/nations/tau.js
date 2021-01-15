@@ -1,3 +1,5 @@
+import Markdown from 'src/assets/md/nations/tau.md'
+
 export default {
   id: 'tau',
   name: 'Tau Serenity',
@@ -5,6 +7,7 @@ export default {
   type: 'Representative Democracy',
   capital: 'deadrum',
   title: 'Prime Minister',
+  description: 'Democracy of Minotaurs',
   // In km^2
   area: 169000,
   // In %
@@ -34,7 +37,5 @@ export default {
     snvert: 0,
     teztecs: 0
   },
-  fluff: [
-    { title: 'Peaceful Democrats', description: 'The only example of democracy on Terrea' }
-  ]
+  markdown: Markdown
 }

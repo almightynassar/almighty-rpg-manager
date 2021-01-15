@@ -1,3 +1,5 @@
+import Markdown from 'src/assets/md/nations/partisans.md'
+
 export default {
   id: 'partisans',
   name: 'The Partisans',
@@ -5,6 +7,7 @@ export default {
   type: 'Meritocratic Militocracy',
   capital: 'dessingrove',
   title: 'Governor-General',
+  description: 'Frontier nation that is flooded with war refugees',
   // In km^2
   area: 92900,
   // In %
@@ -34,7 +37,5 @@ export default {
     snvert: 0,
     teztecs: 20
   },
-  fluff: [
-    { title: 'Freedom Fighters', description: 'The Partisans are groups of various refugees fleeing the Hentergrey Empire. They are originally from Azia, Lefantia, and Teztev' }
-  ]
+  markdown: Markdown
 }

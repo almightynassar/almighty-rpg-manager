@@ -1,3 +1,5 @@
+import Markdown from 'src/assets/md/nations/snvert.md'
+
 export default {
   id: 'snvert',
   name: 'Technocracy of Snvert',
@@ -5,6 +7,7 @@ export default {
   type: 'Technocratic Meritocracy',
   capital: 'snvert',
   title: 'Prime Snvert',
+  description: 'Technological nation of Ice Gnomes',
   // In km^2
   area: 313000,
   // In %
@@ -33,7 +36,5 @@ export default {
     snvert: 85,
     teztecs: 0
   },
-  fluff: [
-    { title: 'Technologists', description: 'The Snvert raid ancient Gauldian ruins for whatever tech they can find' }
-  ]
+  markdown: Markdown
 }

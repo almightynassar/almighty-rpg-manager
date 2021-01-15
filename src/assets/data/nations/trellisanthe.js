@@ -1,10 +1,13 @@
+import Markdown from 'src/assets/md/nations/trellisanthe.md'
+
 export default {
-  id: 'collectors',
-  name: 'The Collectors',
-  short: 'Collectors',
+  id: 'trellisanthe',
+  name: 'City State of Trellisanthe',
+  short: 'Trellisanthe',
   type: 'Meritocratic Autocracy',
   capital: 'trellisanthe',
   title: 'Chancellor',
+  description: 'Secretive nation hoarding Spectral secrets',
   // In km^2
   area: 137000,
   // In %
@@ -30,7 +33,5 @@ export default {
     snvert: 8,
     teztecs: 10
   },
-  fluff: [
-    { title: 'Guardian Spectres', description: 'The collectors exists to jealously guard the secrets of Spectres' }
-  ]
+  markdown: Markdown
 }

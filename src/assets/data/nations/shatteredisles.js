@@ -1,3 +1,5 @@
+import Markdown from 'src/assets/md/nations/shatteredisles.md'
+
 export default {
   id: 'shatteredisles',
   name: 'The Shattered Isles',
@@ -5,6 +7,7 @@ export default {
   type: 'Anarchy',
   capital: 'angarth',
   title: 'Supreme Leader',
+  description: 'Loose grouping of various Orc & Goblin tribes',
   // In km^2
   area: 135000,
   // In %
@@ -33,7 +36,5 @@ export default {
     snvert: 0,
     teztecs: 0
   },
-  fluff: [
-    { title: 'Orcs & Goblins', description: 'The Isles are ruled by various scattered tribes that tend to raid their neighbours' }
-  ]
+  markdown: Markdown
 }

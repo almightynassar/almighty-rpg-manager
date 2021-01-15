@@ -1,3 +1,5 @@
+import Markdown from 'src/assets/md/nations/ocearus.md'
+
 export default {
   id: 'ocearus',
   name: 'City State of Ocearus',
@@ -5,6 +7,7 @@ export default {
   type: 'Meritocratic Hierachy',
   capital: 'ocearus',
   title: 'Most Capable',
+  description: 'Underwater crystal nation',
   // In km^2
   area: 76000,
   // In %
@@ -34,7 +37,5 @@ export default {
     snvert: 0,
     teztecs: 0
   },
-  fluff: [
-    { title: 'Underwater', description: 'Ocearus is the only underwater nation' }
-  ]
+  markdown: Markdown
 }

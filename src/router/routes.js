@@ -12,6 +12,7 @@ const routes = [
       { path: 'healing', name: 'healing', component: () => import('pages/Economy/Healing.vue') },
       { path: 'hirelings', name: 'hirelings', component: () => import('pages/Economy/Hirelings.vue') },
       { path: 'lifestyle', name: 'lifestyle', component: () => import('pages/Economy/Lifestyle.vue') },
+      { path: 'nations/:id', name: 'nations', component: () => import('pages/Nations.vue') },
       { path: 'notes', name: 'notes', component: () => import('pages/Campaign/Notes.vue') },
       { path: 'people', name: 'people', component: () => import('pages/Campaign/People.vue') },
       { path: 'races/:id', name: 'races', component: () => import('pages/Races.vue') },

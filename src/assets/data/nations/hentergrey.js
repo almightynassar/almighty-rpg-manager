@@ -1,3 +1,5 @@
+import Markdown from 'src/assets/md/nations/hentergrey.md'
+
 export default {
   id: 'hentergrey',
   name: 'Hentergrey Empire',
@@ -5,6 +7,7 @@ export default {
   type: 'Feudalist Monarchy',
   capital: 'hirst',
   title: 'Emperor',
+  description: 'Imperial conquerors and colonisers',
   // In km^2
   area: 1772400,
   // In %
@@ -34,10 +37,5 @@ export default {
     snvert: 0,
     teztecs: 12.5
   },
-  fluff: [
-    {
-      title: 'Conquerers',
-      description: 'The Empire has recently conquered the territories of Lefantia, Teztec, and Azia. They have not yet secured their rule, and the Partisan forces wage a guerilla war against their oppressors.'
-    }
-  ]
+  markdown: Markdown
 }

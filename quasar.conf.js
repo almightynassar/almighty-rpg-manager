@@ -17,6 +17,7 @@ module.exports = function (/* ctx */) {
       'coinage',
       'localstorage',
       'markov',
+      'nations',
       'races'
     ],
 

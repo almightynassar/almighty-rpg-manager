@@ -175,6 +175,11 @@ export default {
           link: '/world'
         },
         {
+          title: 'Nations',
+          icon: 'game-icon:tattered-banner',
+          submenu: []
+        },
+        {
           title: 'Races',
           icon: 'game-icon:elf-ear',
           submenu: []
@@ -201,6 +206,17 @@ export default {
         title: race.name,
         icon: '',
         link: '/races/' + race.id
+      })
+    })
+
+    const nationMenu = this.menu.find(obj => {
+      return obj.title === 'Nations'
+    })
+    this.$nations.nations.forEach(nation => {
+      nationMenu.submenu.push({
+        title: nation.short,
+        icon: '',
+        link: '/nations/' + nation.id
       })
     })
   }

@@ -1,6 +1,6 @@
 export default {
-  id: 'illuminaati',
-  name: 'Illumi Naati',
+  id: 'freemason',
+  name: 'Free Mason',
   owner: 'illuminaati',
   population: 29000,
   fluff: [

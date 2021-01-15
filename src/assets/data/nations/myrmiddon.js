@@ -1,3 +1,5 @@
+import Markdown from 'src/assets/md/nations/myrmiddon.md'
+
 export default {
   id: 'myrmiddon',
   name: 'Republic of Myrmiddon',
@@ -5,6 +7,7 @@ export default {
   type: 'Capitalist Republic',
   capital: 'amphirus',
   title: 'Grand Doge',
+  description: 'Free nation of traders and merchants',
   // In km^2
   area: 76000,
   // In %
@@ -34,7 +37,5 @@ export default {
     snvert: 0,
     teztecs: 0
   },
-  fluff: [
-    { title: 'Conquerers', description: 'The Empire has recently conquered the territories of Lefantia, Teztec, and Azia' }
-  ]
+  markdown: Markdown
 }
