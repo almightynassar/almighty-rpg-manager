@@ -2,13 +2,13 @@
 
 ## What's the deal with religion on Terrea?
 
-The [Gods](/#/world?world=cosmology&cosmology=deities) of Terrea act based on their whims, and are less concerned with morality or concepts of good and evil. Mortals simply try to appease the Gods to avoid their ire, and occassionally petition their favour for a good harvest or some other boon.
+The [Gods](/#/cosmology/deities) of Terrea act based on their whims, and are less concerned with morality or concepts of good and evil. Mortals simply try to appease the Gods to avoid their ire, and occassionally petition their favour for a good harvest or some other boon.
 
 ## What about magic?
 
-There are three forms of [magic](/#/world?world=cosmology&cosmology=magic) on Terrea:
+There are three forms of [magic](/#/cosmology/magic) on Terrea:
 
- - **Primordial**: Also known as **Elemental**. Raw energy from the [Aether](/#/world?world=cosmology&cosmology=realms) is manifested on Terrea as Shards, and can be used in devices to produce magical or technological effects.
+ - **Primordial**: Also known as **Elemental**. Raw energy from the [Aether](/#/cosmology/realms) is manifested on Terrea as Shards, and can be used in devices to produce magical or technological effects.
  - **Spectral**:  The most common form of magic. Through sheer willpower, an individual can manifest a particular effect.
  - **Natural**: Because all lifeforce on Terrea originated from the Aether, some scholars are able to manipulate that energy directly.
 
@@ -30,7 +30,7 @@ Most settlements will have a healer (or someone who does healing part-time), but
 
 ## Is resurrection possible?
 
-Yes, although it will draw the attention and ire of [Baltha](/#/world?world=cosmology&cosmology=deities). The God does not appreciate when a soul is taken from their domain. Because of this, people with the knowledge of how to resurrect the dead either need a very good reason or be very well compensated.
+Yes, although it will draw the attention and ire of [Baltha](/#/cosmology/deities). The God does not appreciate when a soul is taken from their domain. Because of this, people with the knowledge of how to resurrect the dead either need a very good reason or be very well compensated.
 
 ## Is there a cure for undeath (zombies, ghouls and vampires)?
 
@@ -75,7 +75,7 @@ Secret societies are secret for a reason, but there are some rumours and conspir
 
 ## What food is there to eat?
 
-Most modern food exist in Terrea, and are traded widely. It shouldn't be hard to find your favourite dish, although substitute ingredients may be used. Regional dishes can be informed by checking out what [animals](/#/world?world=ecology&ecology=animals) and [plants](/#/world?world=ecology&ecology=plants) are avialable to the region.
+Most modern food exist in Terrea, and are traded widely. It shouldn't be hard to find your favourite dish, although substitute ingredients may be used. Regional dishes can be informed by checking out what [animals](/#/ecology/animals) and [plants](/#/ecology/plants) are avialable to the region.
 
 ## Who is the most powerful person? The greatest warrior? The richest person?
 
