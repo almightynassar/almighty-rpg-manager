@@ -104,8 +104,6 @@ export default {
     return {
       namesFemale: [],
       namesMale: [],
-      selectedFemale: 'frenchFemale',
-      selectedMale: 'frenchMale',
       race: null
     }
   },
