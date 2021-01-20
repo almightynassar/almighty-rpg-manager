@@ -44,7 +44,6 @@ export default {
     }
   },
   created () {
-    console.log(this.$coinage.coins)
     // Grab our default coinage array
     this.coinageOptions = this.$coinage.coins
     // Set our default coinage to what is set in our store
