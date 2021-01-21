@@ -8,14 +8,14 @@
     <span class="q-ma-md">
       <span v-if="curHex">q: {{ curHex.q + offset.q + (offset.q * longitude) }}; r: {{ curHex.r + offset.r + (offset.r * latitude) }}</span>
       <div>
-        <q-btn flat label="-" @click="longitude += 1; latitude -= 1; clear(); curHex = null; drawMap()" />
+        <q-btn flat label="-" @click="incLong(1)" />
         Longitude
-        <q-btn flat label="+" @click="longitude -= 1; latitude += 1; clear(); curHex = null; drawMap()" />
+        <q-btn flat label="+" @click="incLong(-1)" />
       </div>
       <div>
-        <q-btn flat label="-" @click="latitude -= 1; clear(); curHex = null; drawMap()" />
+        <q-btn flat label="-" @click="incLat(-1)" />
         Latitude
-        <q-btn flat label="+" @click="latitude += 1; clear(); curHex = null; drawMap()" />
+        <q-btn flat label="+" @click="incLat(1)" />
       </div>
     </span>
   </div>
@@ -67,7 +67,6 @@ export default {
     },
     drawMap  () {
       const self = this
-      this.clear()
       this.grid.map.map((h) => {
         const mm = HexMaps.find(obj => obj.q === (h.q + self.offset.q + (self.offset.q * self.longitude)) && obj.r === (h.r + self.offset.r + (self.offset.r * self.latitude)))
         const fill = mm && mm.type ? Hex.terrain[mm.type] : Hex.terrain.ocean
@@ -103,36 +102,47 @@ export default {
       this.ctx.fillText(text, center.x - (textWidth / 2), center.y + (textHeight / 2))
       this.ctx.stroke()
     },
-    loaded () {
-      this.canvas = document.querySelector('#canvas')
-      this.ctx = this.canvas.getContext('2d')
-      this.grid = Grid({
-        hexSize: this.hexSize,
-        cols: this.cols,
-        rows: this.rows,
-        type: this.type,
-        origin: {
-          x: this.width / 2,
-          y: this.height / 2
-        }
-      })
-      this.drawMap()
-    },
     setHex ({ x, y }) {
       const hex = this.grid.hexAtPoint({ x, y })
       // no need to re-render inside the same hex.
       if (this.curHex && `${hex.q}.${hex.r}.${hex.s}` === `${this.curHex.q}.${this.curHex.r}.${this.curHex.s}`) return
       this.curHex = hex
+    },
+    incLong (factor) {
+      this.longitude += factor
+      this.latitude -= factor
+      this.clear()
+      this.curHex = null
+      this.drawMap()
+    },
+    incLat (factor) {
+      this.latitude += factor
+      this.clear()
+      this.curHex = null
+      this.drawMap()
     }
   },
   mounted () {
+    this.canvas = document.querySelector('#canvas')
+    this.ctx = this.canvas.getContext('2d')
+    this.grid = Grid({
+      hexSize: this.hexSize,
+      cols: this.cols,
+      rows: this.rows,
+      type: this.type,
+      origin: {
+        x: this.width / 2,
+        y: this.height / 2
+      }
+    })
     const self = this
     window.addEventListener('load', (event) => {
-      this.loaded()
+      this.drawMap()
       this.canvas.addEventListener('click', ({ offsetX: x, offsetY: y }) => self.setHex({ x, y }))
     })
   },
   updated () {
+    this.clear()
     this.drawMap()
   }
 }
