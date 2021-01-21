@@ -25,24 +25,30 @@
       <q-tab-panel key="names" name="names">
         <name-generator></name-generator>
       </q-tab-panel>
+      <q-tab-panel key="words" name="words">
+        <word-generator></word-generator>
+      </q-tab-panel>
     </q-tab-panels>
   </div>
 </template>
 
 <script >
 import NameGenerator from 'src/pages/Generators/NameGenerator.vue'
+import WordGenerator from 'src/pages/Generators/WordGenerator.vue'
 
 export default {
   name: 'Generators',
   components: {
-    NameGenerator
+    NameGenerator,
+    WordGenerator
   },
   data: function () {
     return {
       splitterModel: 20,
       tab: 'names',
       tabs: [
-        { id: 'names', name: 'Names', icon: 'game-icon:family-tree' }
+        { id: 'names', name: 'Names', icon: 'game-icon:family-tree' },
+        { id: 'words', name: 'Words', icon: 'game-icon:rolling-dices' }
       ]
     }
   }
