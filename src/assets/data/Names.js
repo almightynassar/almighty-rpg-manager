@@ -35,39 +35,75 @@ import WelshFemale from 'src/assets/data/names/welsh-female'
 import WelshMale from 'src/assets/data/names/welsh-male'
 
 export default {
-  akkadian: Akkadian,
-  aztecFemale: AztecFemale,
-  aztecMale: AztecMale,
-  chineseFemale: ChineseFemale,
-  chineseMale: ChineseMale,
-  dutchFemale: DutchFemale,
-  dutchMale: DutchMale,
-  frenchFemale: FrenchFemale,
-  frenchMale: FrenchMale,
-  germanicFemale: GermanicFemale,
-  germanicMale: GermanicMale,
-  hinduFemale: HinduFemale,
-  hinduMale: HinduMale,
-  hungarianFemale: HungarianFemale,
-  hungarianMale: HungarianMale,
-  irishFemale: IrishFemale,
-  irishMale: IrishMale,
-  italianFemale: ItalianFemale,
-  italianMale: ItalianMale,
-  latinFemale: LatinFemale,
-  latinMale: LatinMale,
-  japaneseFemale: JapaneseFemale,
-  japaneseMale: JapaneseMale,
-  nativeAmericanFemale: NativeAmericanFemale,
-  nativeAmericanMale: NativeAmericanMale,
-  scandinavianFemale: ScandinavianFemale,
-  scandinavianMale: ScandinavianMale,
-  scottishFemale: ScottishFemale,
-  scottishMale: ScottishMale,
-  spanishFemale: SpanishFemale,
-  spanishMale: SpanishMale,
-  swedishFemale: SwedishFemale,
-  swedishMale: SwedishMale,
-  welshFemale: WelshFemale,
-  welshMale: WelshMale
+  akkadian: {
+    neutral: Akkadian
+  },
+  aztec: {
+    female: AztecFemale,
+    male: AztecMale
+  },
+  chinese: {
+    female: ChineseFemale,
+    male: ChineseMale
+  },
+  dutch: {
+    female: DutchFemale,
+    male: DutchMale
+  },
+  french: {
+    female: FrenchFemale,
+    male: FrenchMale
+  },
+  germanic: {
+    female: GermanicFemale,
+    male: GermanicMale
+  },
+  hindu: {
+    female: HinduFemale,
+    male: HinduMale
+  },
+  hungarian: {
+    female: HungarianFemale,
+    male: HungarianMale
+  },
+  irish: {
+    female: IrishFemale,
+    male: IrishMale
+  },
+  italian: {
+    female: ItalianFemale,
+    male: ItalianMale
+  },
+  latin: {
+    female: LatinFemale,
+    male: LatinMale
+  },
+  japanese: {
+    female: JapaneseFemale,
+    male: JapaneseMale
+  },
+  nativeAmerican: {
+    female: NativeAmericanFemale,
+    male: NativeAmericanMale
+  },
+  scandinavian: {
+    female: ScandinavianFemale,
+    male: ScandinavianMale
+  },
+  scottish: {
+    female: ScottishFemale,
+    male: ScottishMale
+  },
+  spanish: {
+    female: SpanishFemale,
+    male: SpanishMale
+  },
+  swedish: {
+    female: SwedishFemale,
+    male: SwedishMale
+  },
+  welsh: {
+    female: WelshFemale,
+    male: WelshMale
+  }
 }

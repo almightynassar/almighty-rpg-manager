@@ -22,7 +22,7 @@ export default {
     age: { min: 25, max: 200 },
     height: { min: 1.3, max: 1.8 },
     weight: { min: 60, max: 135 },
-    names: { female: 'nativeAmericanFemale', male: 'nativeAmericanMale' }
+    names: 'nativeAmerican'
   },
   markdown: Markdown
 }

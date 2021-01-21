@@ -9,7 +9,7 @@ export default ({ Vue }) => {
         name: 'Dragons',
         description: 'Large, immortal flying lizards',
         sentient: true,
-        names: { female: 'akkadian', male: 'akkadian' },
+        names: 'akkadian',
         markdown: Dragons
       },
       {
@@ -17,7 +17,7 @@ export default ({ Vue }) => {
         name: 'Vampires',
         description: 'Blood-sucking, stealthy assassins',
         sentient: true,
-        names: { female: 'latinFemale', male: 'latinMale' },
+        names: 'latin',
         markdown: Vampires
       }
     ]

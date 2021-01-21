@@ -23,7 +23,7 @@ export default {
     age: { min: 50, max: 350 },
     height: { min: 1.1, max: 1.4 },
     weight: { min: 60, max: 105 },
-    names: { female: 'scottishFemale', male: 'scottishMale' }
+    names: 'scottish'
   },
   markdown: Markdown
 }

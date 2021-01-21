@@ -23,7 +23,7 @@ export default {
     age: { min: 20, max: 90 },
     height: { min: 1.3, max: 1.8 },
     weight: { min: 40, max: 110 },
-    names: { female: 'japaneseFemale', male: 'japaneseMale' }
+    names: 'japanese'
   },
   markdown: Markdown
 }

@@ -57,28 +57,24 @@
                             </tbody>
                         </q-markup-table>
                         <div class="q-mt-sm">
-                            <p><strong>Female Names:</strong></p>
+                          <div v-for="name in names" :key="name.type">
+                            <p><strong>{{name.type | capitalize}} Names:</strong></p>
                             <p>
-                                <span v-for="(n, i) in namesFemale" :key="'female-' + i">
-                                    {{ n | capitalize}}<span v-if="i < namesFemale.length - 1">, </span>
+                                <span v-for="(n, i) in name.names" :key="name.type + '-' + i">
+                                    {{ n | capitalize}}<span v-if="i < name.names.length - 1">, </span>
                                 </span>
                             </p>
-                            <p><strong>Male Names:</strong></p>
-                            <p>
-                                <span v-for="(n, i) in namesMale" :key="'male-' + i">
-                                    {{ n | capitalize}}<span v-if="i < namesFemale.length - 1">, </span>
-                                </span>
-                            </p>
-                            <q-btn
-                                align="around"
-                                dense
-                                color="primary"
-                                label="Generate Names"
-                                icon="cached"
-                                aria-label="Generate"
-                                @click="generate"
-                                class="text-center"
-                            />
+                          </div>
+                          <q-btn
+                              align="around"
+                              dense
+                              color="primary"
+                              label="Generate Names"
+                              icon="cached"
+                              aria-label="Generate"
+                              @click="generate"
+                              class="text-center"
+                          />
                         </div>
                     </q-card-section>
                 </q-card>
@@ -102,8 +98,7 @@ export default {
   },
   data: function () {
     return {
-      namesFemale: [],
-      namesMale: [],
+      names: [],
       race: null
     }
   },
@@ -133,12 +128,16 @@ export default {
       return total
     },
     generate () {
-      this.$markov.addNameArray(this.race.ranges.names.female, Names[this.race.ranges.names.female])
-      this.$markov.addNameArray(this.race.ranges.names.male, Names[this.race.ranges.names.male])
-      this.namesFemale = this.$markov.generateList(this.race.ranges.names.female, 10)
-      this.namesMale = this.$markov.generateList(this.race.ranges.names.male, 10)
-      this.namesFemale.sort()
-      this.namesMale.sort()
+      this.names = []
+      for (var key in Names[this.race.ranges.names]) {
+        this.$markov.addNameArray(this.race.ranges.names + '+' + key, Names[this.race.ranges.names][key])
+        const names = this.$markov.generateList(this.race.ranges.names + '+' + key, 10)
+        names.sort()
+        this.names.push({
+          type: key,
+          names: names
+        })
+      }
     }
   },
   filters: {

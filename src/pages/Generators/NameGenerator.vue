@@ -1,6 +1,6 @@
 <template>
   <div class="q-pa-md">
-    <div class="q-gutter-sm row">
+    <div class="q-pb-md row">
       <q-select
         filled
         use-input
@@ -25,15 +25,23 @@
         class="col-md-2 col-sm-5"
       />
     </div>
-    <div class="q-pa-md row items-start">
-      <div class="col-md-6 col-sm-12 col-xs-12">
-        <h6 class="text-primary">Generated {{convertName(selected)}} Names</h6>
-        <p v-for="(n,i) in names" :key="i">{{ n | capitalize}}</p>
-      </div>
-      <div class="col-md-6 col-sm-12 col-xs-12">
-        <h6 class="text-primary">Real Names</h6>
-        <p v-for="(n,i) in realNames" :key="i">{{ n | capitalize}}</p>
-      </div>
+    <div class="text-h4">{{convertName(selected)}}</div>
+    <div class="q-pa-md" v-for="name in names" :key="name.type">
+      <p class="text-h5 text-primary">Type: {{name.type | capitalize}}</p>
+      <p class="text-h6">Generated</p>
+      <p>
+        <span v-for="(n,i) in name.names" :key="i">
+          {{ n | capitalize}}
+          <span v-if="i < name.names.length - 1">, </span>
+        </span>
+      </p>
+      <p class="text-h6">Real</p>
+      <p>
+        <span v-for="(n,i) in name.real" :key="i">
+          {{ n | capitalize}}
+          <span v-if="i < name.real.length - 1">, </span>
+        </span>
+      </p>
     </div>
     <div class="q-gutter-sm">
       <p><small><em>DISCLAIMER: Generated names are all gibberish, and are not actual names from the culture. This system only makes names that <strong>sound</strong> like they come from that culture.</em></small></p>
@@ -48,7 +56,7 @@ export default {
   name: 'NameGenerator',
   data: function () {
     return {
-      selected: 'germanicFemale',
+      selected: 'germanic',
       names: [],
       options: [],
       realNames: []
@@ -60,13 +68,23 @@ export default {
       return name.charAt(0).toUpperCase() + name.slice(1)
     },
     makeSetName (name, set) {
-      return this.convertName(name) + ' (' + set.length + ' names)'
+      return this.convertName(name)
     },
     generate () {
-      this.names = this.$markov.generateList(this.selected, 10)
-      this.realNames = this.$markov.getRandomList(this.selected, 10)
-      this.names.sort()
-      this.realNames.sort()
+      this.names = []
+      // Loop through the options
+      for (var key in Names[this.selected]) {
+        this.$markov.addNameArray(this.selected + '.' + key, Names[this.selected][key])
+        const names = this.$markov.generateList(this.selected + '.' + key, 10)
+        const real = this.$markov.getRandomList(this.selected + '.' + key, 10)
+        names.sort()
+        real.sort()
+        this.names.push({
+          type: key,
+          names: names,
+          real: real
+        })
+      }
     },
     searchFilter (val, update) {
       if (val === '') {
@@ -94,7 +112,6 @@ export default {
   },
   watch: {
     selected (newS, oldS) {
-      this.$markov.addNameArray(newS, Names[newS])
       this.generate()
     }
   },
@@ -106,7 +123,6 @@ export default {
     }
   },
   mounted () {
-    this.$markov.addNameArray('germanicFemale', Names.germanicFemale)
     this.generate()
     this.options = this.setOptions
   }

@@ -20,7 +20,7 @@ export default {
     age: { min: 8, max: 60 },
     height: { min: 0.8, max: 1.1 },
     weight: { min: 15, max: 20 },
-    names: { female: 'aztecFemale', male: 'aztecMale' }
+    names: 'aztec'
   },
   markdown: Markdown
 }

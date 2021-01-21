@@ -21,7 +21,7 @@ export default {
     age: { min: 12, max: 50 },
     height: { min: 1.6, max: 2 },
     weight: { min: 80, max: 150 },
-    names: { female: 'scandinavianFemale', male: 'scandinavianMale' }
+    names: 'scandinavian'
   },
   markdown: Markdown
 }

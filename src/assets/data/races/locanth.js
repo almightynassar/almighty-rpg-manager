@@ -24,7 +24,7 @@ export default {
     age: { min: 3, max: 50 },
     height: { min: 0.8, max: 1 },
     weight: { min: 15, max: 25 },
-    names: { female: 'chineseFemale', male: 'chineseMale' }
+    names: 'chinese'
   },
   markdown: Markdown
 }

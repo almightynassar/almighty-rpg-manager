@@ -21,7 +21,7 @@ export default {
     age: { min: 12, max: 60 },
     height: { min: 1.3, max: 1.7 },
     weight: { min: 25, max: 65 },
-    names: { female: 'italianFemale', male: 'italianMale' }
+    names: 'italian'
   },
   markdown: Markdown
 }
