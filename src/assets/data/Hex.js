@@ -2,11 +2,12 @@ export default {
   font: '2em game-icons',
   terrain: {
     desert: '#e7ce5a',
-    forest: '#7aad43',
-    grassland: '#e7f79c',
-    jungle: '#2f7621',
-    marsh: '#84ce94',
+    forest: '#678b00',
+    grassland: '#aabd3d',
+    tropical: '#2f7621',
+    marsh: '#546823',
     ocean: '#069',
+    savannah: '#aeb582',
     wasteland: '#cd9b00',
     water: '#9cf'
   },

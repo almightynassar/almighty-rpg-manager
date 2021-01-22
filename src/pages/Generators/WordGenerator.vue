@@ -10,8 +10,9 @@
         class="col-md-2 col-sm-5"
       />
     </div>
+    <p class="text-h6 text-primary">Taverns</p>
     <div class="q-pa-md" v-for="(word,i) in words" :key="i">
-      <p>{{ word | capitalize}}</p>
+      <div>{{ word | capitalize}}</div>
     </div>
   </div>
 </template>

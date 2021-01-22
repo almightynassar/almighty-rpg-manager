@@ -15,7 +15,6 @@
         :name="t.id"
         :label="t.name"
         :icon="t.icon"
-        style="justify-content:initial"
       />
     </q-tabs>
 

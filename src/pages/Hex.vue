@@ -4,19 +4,17 @@
       id="canvas"
       :width='cols%2 === 0 ? (width * (cols / 2)) + ((width/2) * (cols/2)) + (width/4) : (width * Math.ceil(cols/2)) + ((width/2) * Math.floor(cols/2))'
       :height='(height * rows) + (height / 2)'
+      @click="({ offsetX: x, offsetY: y }) => setHex({ x, y })"
+      @keydown="keydown"
     />
     <span class="q-ma-md">
       <span v-if="curHex">q: {{ curHex.q + offset.q + (offset.q * longitude) }}; r: {{ curHex.r + offset.r + (offset.r * latitude) }}</span>
-      <div>
-        <q-btn flat label="-" @click="incLong(1)" />
-        Longitude
-        <q-btn flat label="+" @click="incLong(-1)" />
-      </div>
-      <div>
-        <q-btn flat label="-" @click="incLat(-1)" />
-        Latitude
-        <q-btn flat label="+" @click="incLat(1)" />
-      </div>
+      <q-btn-group>
+        <q-btn flat icon="keyboard_arrow_left" @click="incLong(1)" />
+        <q-btn flat icon="keyboard_arrow_up" @click="incLat(1)" />
+        <q-btn flat icon="keyboard_arrow_down" @click="incLat(-1)" />
+        <q-btn flat icon="keyboard_arrow_right" @click="incLong(-1)" />
+      </q-btn-group>
     </span>
   </div>
 </template>
@@ -30,6 +28,7 @@ import Hex from 'src/assets/data/Hex'
 import HexMaps from 'src/assets/data/HexMaps'
 
 export default {
+  name: 'Hex',
   data: function () {
     return {
       grid: null,
@@ -75,6 +74,8 @@ export default {
           this.drawText(h, Hex.legend[mm.feature], Hex.font)
         }
       })
+      this.canvas.tabIndex = 1
+      this.canvas.focus()
     },
     drawHex (h, fill = false, color = '#000') {
       const self = this
@@ -120,6 +121,21 @@ export default {
       this.clear()
       this.curHex = null
       this.drawMap()
+    },
+    keydown (e) {
+      switch (e.key) {
+        case 'ArrowUp':
+          this.incLat(1)
+          break
+        case 'ArrowDown':
+          this.incLat(-1)
+          break
+        case 'ArrowLeft':
+          this.incLong(1)
+          break
+        case 'ArrowRight':
+          this.incLong(-1)
+      }
     }
   },
   mounted () {
@@ -135,10 +151,9 @@ export default {
         y: this.height / 2
       }
     })
-    const self = this
+    this.drawMap()
     window.addEventListener('load', (event) => {
       this.drawMap()
-      this.canvas.addEventListener('click', ({ offsetX: x, offsetY: y }) => self.setHex({ x, y }))
     })
   },
   updated () {
