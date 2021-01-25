@@ -56,7 +56,7 @@ export default {
     offset () {
       return {
         q: -Math.floor(this.cols / 2),
-        r: -Math.floor(this.cols / 4)
+        r: -Math.floor(this.rows / 2) + Math.floor(this.cols / 4)
       }
     }
   },
@@ -152,7 +152,7 @@ export default {
       }
     })
     this.drawMap()
-    window.addEventListener('load', (event) => {
+    window.addEventListener('load', () => {
       this.drawMap()
     })
   },
