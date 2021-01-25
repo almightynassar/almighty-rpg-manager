@@ -47,3 +47,7 @@ Ulrich was cagey and distrustful of the party, which led the party to corner Ulr
 ## Session 10: The Man in Armour
 
 The party were on the road, and on the way they met an group fleeing from a large man in a suit of armour. The man in armour claimed that the group had kidnapped their brother, and was on a bloody rampage. The party joined the man in armour, and discovered they were fighting against the Special Research Division (or S.R.D). During the pitched battle, the camp leader noticed Geliah using his spectral abilities and ordered his men to try to capture him (along with the armoured man). But the camp was ultimately defeated, and then the armoured man indicated that he thought his brother was being held behind a massive door carved into the side of the mountain.
+
+## Session 11: Inquisitor Krieg
+
+The party entered the mountain cave, and discovered Krieg and his macabre work. It turns out that Mark was actually a Specter placed into a mechanical body, and his "brother" was a Spectral user named Reinhardt. The Inquisitor was in the process of transferring more Specters into mechanical bodies, using the bodies left behind as collatoral to keep the Spectral spirits in line. The party battled Krieg and his machines, unfortunately killing two before figuring out how to save the Specters and their linked users. They also saved Krist and Reinhardt before Krieg initiated the self-destruct mechanism of his lab and warning the rest of the S.R.D in Dessingrove.

@@ -30,6 +30,14 @@ These Deserters were formerly part of the Hentergrey 501st company. They are all
 - **Bastin Golorbas:** The chef of the band, and an avid musician and dancer.
 - **Galeb Erren:** Has the brains for all things technical, but didn’t have the money for an education.
 
+### Reinhardt & Mark I
+
+Adventurer and Mercenary, taken by the SRD and experimented on. Mark I is his specter, and was ripped from Reinhardt. Reinhardt tries to spend time away from major cities and hubs of civilization, knowing that his Specter abilities can often make him a target of the Empire. Mark I can jump good.
+
+### Krist 
+
+A Dessingrove healer, prized for her knowledge and abilities (which are generally reserved for emergency situations).
+
 ---
 
 # Hentergrey Empire
@@ -40,7 +48,19 @@ The Blood Fangs are a special forces group within the Hentergrey army. They are 
 
 ## S.R.D (Special Research Division)
 
-The S.R.D. are a special quasi-military group of the Hentergrey Empire, who have been tasked with researching curious items and abilities throughout Terrea.
+The S.R.D. are a special quasi-military group of the Hentergrey Empire, who have been tasked with acquiring and using ancient Gauldian tech for the benifit of the Empire. They are known by various different names based on the "S" (such as the Spectre Research Division), and a popular rumour within the Hentergrey military is because the division bought the embrodiered uniforms before settling on a name. The S.R.D is often in direct competition with the Bloodfangs for both resources and favour from the Emperor.
+
+As with many tech hunters they are often found investigating ruins and are surprising adept at using Gauldian tech for combat purposes.
+
+List of known S.R.D members:
+
+#### Inquisitor Krieg
+
+A member of the S.R.D’s Dessingrove group, and a proficient user of Gauldian combat technology. Krieg had discovered a Gauldian consciousness transfer unit, originally used on the Forged to transfer a consciousness from one body to the next. With some minor experimentation and tweaks, Krieg managed to separate the Specter from their user and trap it in a mechinal body. Supposedly this was to create obedient, unstoppable soldiers for the Hentigrey Army. The first successful transfer was Mark I, however the Specter retained their free will and broke free. The following Mark II units required a link to the Specter's original body to be controlled properly. If the Specter's mechanical body was destroyed without being physically linked back to their original body, both the Specter and the User would die.
+
+### Grand Inquisitor Petrus
+
+Potentially has a close connection to the Emperor, and could be in Dessingrove. They are usually based in Hirst, the capital of the Hentergrey Empire. Not much is known except that they have a high interest in the discovery of new Gauldian Technology.
 
 ---
 
