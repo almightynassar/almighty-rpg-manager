@@ -20,6 +20,7 @@
 ## Mapping
 
  - [Inkarnate](https://inkarnate.com/login/) is a really nice world &amp; regional map maker
+ - [Hexographer](http://www.hexographer.com/) is a hex mapping tool
  - [Dave's mapper](https://davesmapper.com/), a simple to use battle-map generator
  - [Fantasy world map generator](https://azgaar.github.io/Fantasy-Map-Generator/) for quickly creating a fantasy world
  - [Dungeon map maker](http://pyromancers.com/) is a tool for creating nice looking battle-maps
