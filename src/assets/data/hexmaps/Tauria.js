@@ -1,9 +1,22 @@
 export default [
-  { q: -5, r: -3, type: 'grassland', feature: 'capitol', text: 'Deadrum' },
   { q: -4, r: -4, type: 'grassland' },
+  { q: -4, r: -5, type: 'tundra' },
+  { q: -4, r: -6, type: 'tundra' },
+  { q: -4, r: -7, type: 'artic' },
+  { q: -5, r: -3, type: 'grassland', feature: 'capitol', text: 'Deadrum' },
+  { q: -5, r: -4, type: 'grassland' },
+  { q: -5, r: -5, type: 'tundra' },
+  { q: -5, r: -6, type: 'artic' },
   { q: -6, r: -1, type: 'grassland' },
+  { q: -6, r: -3, type: 'grassland' },
+  { q: -6, r: -4, type: 'tundra' },
+  { q: -6, r: -5, type: 'tundra' },
+  { q: -6, r: -6, type: 'artic' },
   { q: -7, r: -1, type: 'grassland' },
-  { q: -8, r: -1, type: 'grassland' },
+  { q: -7, r: -3, type: 'grassland' },
+  { q: -7, r: -4, type: 'tundra' },
+  { q: -7, r: -5, type: 'artic' },
+  { q: -7, r: 0, type: 'grassland', feature: 'city', text: 'Caelan' },
   { q: -8, r: -0, type: 'grassland' },
-  { q: -7, r: 0, type: 'grassland', feature: 'city', text: 'Caelan' }
+  { q: -8, r: -1, type: 'grassland' }
 ]
