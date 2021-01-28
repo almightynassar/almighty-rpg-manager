@@ -1,0 +1,21 @@
+export default [
+  { q: 20, r: -1, type: 'wasteland' },
+  { q: 20, r: 0, type: 'wasteland' },
+  { q: 20, r: 1, type: 'wasteland' },
+  { q: 21, r: -2, type: 'wasteland' },
+  { q: 21, r: -1, type: 'wasteland' },
+  { q: 21, r: 0, type: 'wasteland' },
+  { q: 21, r: 1, type: 'wasteland' },
+  { q: 22, r: -3, type: 'wasteland' },
+  { q: 22, r: -2, type: 'wasteland' },
+  { q: 22, r: -1, type: 'grassland', feature: 'mountains', text: 'Mount Primus' },
+  { q: 22, r: 0, type: 'wasteland' },
+  { q: 22, r: 1, type: 'wasteland' },
+  { q: 23, r: -3, type: 'wasteland' },
+  { q: 23, r: -2, type: 'wasteland' },
+  { q: 23, r: -1, type: 'wasteland' },
+  { q: 23, r: 0, type: 'wasteland' },
+  { q: 24, r: -3, type: 'wasteland' },
+  { q: 24, r: -2, type: 'wasteland' },
+  { q: 24, r: -1, type: 'wasteland' }
+]
