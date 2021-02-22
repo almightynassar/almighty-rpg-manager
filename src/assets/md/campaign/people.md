@@ -22,7 +22,7 @@ PT-117 has hearing and sight of up to 18m, and has no will of it's own. Knows ex
 
 ## Deserters (501st)
 
-These Deserters were formerly part of the Hentergrey 501st company. They are all human, and come from the city of Walla, far to the east on the north-western shores of the World Center. They worked as guards and jailors for the Blood Fangs, a mysterious special forces unit that allegedly creates Spectres for the Hentergrey army.
+These Deserters were formerly part of the Hentergrey 501st Company. They are all human, and come from the city of Walla, far to the east on the north-western shores of the World Center. They worked as guards and jailors for the Blood Fangs, a mysterious special forces unit that allegedly creates Spectres for the Hentergrey army.
 
 - **Perron Sebasté:** Leader of the band.
 - **Cléon Evand:** A scout, hunter and naturalist, has a keen interest in learning about the world around them.
@@ -41,6 +41,14 @@ A Dessingrove healer, prized for her knowledge and abilities (which are generall
 ---
 
 # Hentergrey Empire
+
+## Magistrate Mofkeen and the 5th Eagle Army
+
+Magistrate Mofkeen is mandated by the Emperor to bring the rebellious elements of the empire back into the fold. The Magistrate made this speech in an attempt to convince the citizens of Dessingrove to reject the Partisan cause and peacefully join the Empire. He is a tall, thin and gaunt human male with wispy grey hair and sunken eyes that burst with intelligence.
+
+He is protected by the 5th Eagle Army, led by General Marget Bourdeau. She is a short and stocky human woman with short, blood-red locks and a piercing gaze. She is known to be a expert marksman.
+
+The 5th Eagle Army contains the 501st Company, the former unit of Perrone Sabaste and his gang.
 
 ## Blood Fangs
 

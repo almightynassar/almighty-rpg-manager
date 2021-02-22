@@ -15,22 +15,30 @@ Tvmvizo Wizufh Nzourfn
 Ovzwvi lu gsv Yollw Uzmth
 ```
 
-## Army structure
+Translated when Sigmane paid a code cracker in Dessingrove:
 
-The forces are structured as follows:
+```
+Our clients desire to crack open the realms so that they may enter.
+The King desires the union of our peoples.
+We will challenge the supremacy of the Gods.
+But a sacrifice needs to be made, to thin the barrier between our worlds.
 
- - The **Marshal** is in charge of co-ordinating all of the nations forces
- - The **General** is in charge of an **Army** in the field, including camps & logistics. ~3-10 platoons.
- - The **Commander** is in charge of the **Garrison** forces within a city, castle, or other defendable point
- - An army is composed of one or more **Companies**, led by a **Captain**. ~3-10 platoons.
- - The **Lieutenant** is the 2nd-in-charge of a Company, and when not standing in for the Captain they are in charge of their own platoon
- - The **Sargeant** is in charge of a **Platoon**, which is the backbone of the army. ~60-160 men.
- - A **Patrol** is the smallest military unit, but is usually only formed on an ad-hoc basis for special purposes (such as scouting). They are led by an **Ensign** if no higher ranks are available. ~4-20 men.
 
-The navy structure is as follows:
+General Drafus Malfium
+Leader of the Blood Fangs
+```
 
- - The **Admiral** is in charge of a **Fleet** of ships
- - The **Captain** is in charge of a single ship
+## Magistrate Wilhum Mofkeen Speech
+
+```
+The factor that contributed most to the demise of the Three Kingdoms was not the war, but rampant self-interest. The insidious pursuit of self-enrichment by the patrician class grew only more pervasive through the long centuries, and in the end left the body politic feckless and corrupt. The ambitious nobility sought only status and opportunity, and were unwavering in their exploitation of the outer regions for resources.
+
+The reason our Imperial court was able to avoid the dark waters that characterized the terminal years of the Three Kingdoms is that they have never been interested in status or self-glorification. On the contrary, they have been tireless in their devotion to unify Midrealm and assure the well-being of its myriad populations. Now, by partitioning the empire into regions, we actually achieve a unity previously absent; where once our loyalties and allegiances were divided, they now serve one goal: a cohesive world in which everyone prospers. Under the Imperial court our governors will not be working solely to enrich the patrician class, but to advance the quality of life in the regions that make up each state. It is through this system that the Empire improves every region it touches, judged by any metric you use: safety, prosperity, peace.
+
+Now, this bold vision of the future requires not only the service of those of immaculate reputation and consummate skill in the just exercise of power, but also the service of a vast military dedicated to upholding the laws necessary to ensure harmony. It may appear to some that the enactment of universal laws and the widespread deployment of a heavily armed military are steps toward world domination, but these actions are taken merely to protect us from those who would invade, enslave, exploit, or foment political dissent, and to punish accordingly any who engage in such acts. Look on our military not as trespassers or interlopers, but as gatekeepers, here to shore up the Emperor's vision of a prosperous world.
+
+I, Magistrate Mofkeen, have been mandated by the Emperor to bring this vision to you and to help you enact it within the colonies of Orland. The Emperor does not ask for your fealty, but only a cessation of hostilities so that we may all prosper together.
+```
 
 # Mandevrath
 
