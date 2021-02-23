@@ -15,7 +15,7 @@ Tvmvizo Wizufh Nzourfn
 Ovzwvi lu gsv Yollw Uzmth
 ```
 
-Translated when Sigmane paid a code cracker in Dessingrove:
+The result when Sigmane intimidated Inspector Krieg into decoding the message:
 
 ```
 Our clients desire to crack open the realms so that they may enter.
