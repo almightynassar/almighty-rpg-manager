@@ -20,6 +20,10 @@ Professor Tablet 117 is the size of piece of paper and is as thick as a book. Th
 
 PT-117 has hearing and sight of up to 18m, and has no will of it's own. Knows extensive information about Dragons, Vampires, Virology, and the Aetherdeck. This means it gets a +9 bonus to areas of it's expertise. PT-117 has a limited form of movement via in-built hoverjets.
 
+---
+
+# Dessingrove, Orland
+
 ## Deserters (501st)
 
 These Deserters were formerly part of the Hentergrey 501st Company. They are all human, and come from the city of Walla, far to the east on the north-western shores of the World Center. They worked as guards and jailors for the Blood Fangs, a mysterious special forces unit that allegedly creates Spectres for the Hentergrey army.
@@ -30,43 +34,53 @@ These Deserters were formerly part of the Hentergrey 501st Company. They are all
 - **Bastin Golorbas:** The chef of the band, and an avid musician and dancer.
 - **Galeb Erren:** Has the brains for all things technical, but didn’t have the money for an education.
 
-### Reinhardt & Mark I
+## Reinhardt
 
-Adventurer and Mercenary, taken by the SRD and experimented on. Mark I is his specter, and was ripped from Reinhardt. Reinhardt tries to spend time away from major cities and hubs of civilization, knowing that his Specter abilities can often make him a target of the Empire. Mark I can jump good.
+Adventurer and Mercenary, taken by the SRD and experimented on. Mark I is his specter, and was ripped from Reinhardt by Inspector Krieg of the SRD. Reinhardt tries to spend time away from major cities and hubs of civilization, knowing that his Specter abilities can often make him a target of the Empire.
 
-### Krist 
+He is currently staying with Krist on the outskirts of Dessingrove.
 
-A Dessingrove healer, prized for her knowledge and abilities (which are generally reserved for emergency situations).
+## Krist 
+
+A healer prized for her knowledge and abilities (which are generally reserved for emergency situations). She lives on the outskirts of Dessingrove with Reinhardt and the other survivors of Krieg's experiments.
 
 ---
 
 # Hentergrey Empire
 
-## Magistrate Mofkeen and the 5th Eagle Army
+## Magistrate Wilhum Mofkeen
 
 Magistrate Mofkeen is mandated by the Emperor to bring the rebellious elements of the empire back into the fold. The Magistrate made this speech in an attempt to convince the citizens of Dessingrove to reject the Partisan cause and peacefully join the Empire. He is a tall, thin and gaunt human male with wispy grey hair and sunken eyes that burst with intelligence.
 
-He is protected by the 5th Eagle Army, led by General Marget Bourdeau. She is a short and stocky human woman with short, blood-red locks and a piercing gaze. She is known to be a expert marksman.
+## General Marget Bourdeau, 5th Eagle Army
+
+The general leads the 5th Eagle Army, currently assigned to protect Magistrate Mofkeen in Orland. She is a short and stocky human woman with short, blood-red locks and a piercing gaze. She is known to be a expert marksman.
 
 The 5th Eagle Army contains the 501st Company, the former unit of Perrone Sabaste and his gang.
 
-## Blood Fangs
+---
+
+# Blood Fangs
 
 The Blood Fangs are a special forces group within the Hentergrey army. They are rumoured to include many Spectre specialists, and are sent deep into enemy territory to perform deniable operations.
 
-## S.R.D (Special Research Division)
+## Dr Drafus Malfium 
+
+A DNA specialist for the MST (Mandevrath Science Team). Was seen as the purest form of evil in the Kobold pantheon in Koburg. Currently a General in the Hentergrey army, leading the Blood Fangs in the drive to bring the Gauld back into Midrealm.
+
+---
+
+# S.R.D (Special Research Division)
 
 The S.R.D. are a special quasi-military group of the Hentergrey Empire, who have been tasked with acquiring and using ancient Gauldian tech for the benifit of the Empire. They are known by various different names based on the "S" (such as the Spectre Research Division), and a popular rumour within the Hentergrey military is because the division bought the embrodiered uniforms before settling on a name. The S.R.D is often in direct competition with the Bloodfangs for both resources and favour from the Emperor.
 
 As with many tech hunters they are often found investigating ruins and are surprising adept at using Gauldian tech for combat purposes.
 
-List of known S.R.D members:
+## Inquisitor Krieg
 
-#### Inquisitor Krieg
+A member of the S.R.D’s Dessingrove group, and a proficient user of Gauldian combat technology. Krieg had discovered a Gauldian consciousness transfer unit, originally used on the Forged to transfer a consciousness from one body to the next. With some minor experimentation and tweaks, Krieg managed to separate the Specter from their user and trap it in a mechanical body. Supposedly this was to create obedient, unstoppable soldiers for the Hentigrey Army. The first successful transfer was Mark I, however the Specter retained their free will and broke free. The following Mark II units required a link to the Specter's original body to be controlled properly. If the Specter's mechanical body was destroyed without being physically linked back to their original body, both the Specter and the User would die.
 
-A member of the S.R.D’s Dessingrove group, and a proficient user of Gauldian combat technology. Krieg had discovered a Gauldian consciousness transfer unit, originally used on the Forged to transfer a consciousness from one body to the next. With some minor experimentation and tweaks, Krieg managed to separate the Specter from their user and trap it in a mechinal body. Supposedly this was to create obedient, unstoppable soldiers for the Hentigrey Army. The first successful transfer was Mark I, however the Specter retained their free will and broke free. The following Mark II units required a link to the Specter's original body to be controlled properly. If the Specter's mechanical body was destroyed without being physically linked back to their original body, both the Specter and the User would die.
-
-### Grand Inquisitor Petrus
+## Grand Inquisitor Petrus
 
 Potentially has a close connection to the Emperor, and could be in Dessingrove. They are usually based in Hirst, the capital of the Hentergrey Empire. Not much is known except that they have a high interest in the discovery of new Gauldian Technology.
 
@@ -74,7 +88,15 @@ Potentially has a close connection to the Emperor, and could be in Dessingrove. 
 
 # Collectors
 
-The team of Collectors were sent to Mandevrath to acertain whether it's secrets will be helpful to the Collector cause. The team includes two human Spectres (**Avervand** & **Pastance**), a Lacinum diplomat (**Nabur**), and two Orc guards (**Oska** & **Torge**).
+Collectors aim to contain and preserve Gauldian technology, believing that it is dangerous in the wrong hands and that it caused the banishment of the Gauld to the Shadowrealm. By regulating and restricting access to Gauldian technology, the Collectors believe that the modern races can avoid a similar fate.
+
+## Mandevrath Chapter
+
+These Collectors were sent to Mandevrath to acertain whether it's secrets will be helpful to the Collector cause. The team includes two human Spectres (**Avervand** & **Pastance**), a Lacinum diplomat (**Nabur**), and two Orc guards (**Oska** & **Torge**).
+
+## Dessingrove Chapter
+
+The leader is the Lefantian Jerts Dina, a short fellow with sunken eyes and tattered ears. The public liason is the Teztec Chu'si Nateri, who has spottled emerald green skin and she is missing part of her left thumb. Jerts is ably assisted by the Forged Seidel Iteration 3, who has a bronze-coloured chassis that is engraved with decorative patterns.
 
 ---
 
@@ -88,11 +110,15 @@ Kobolds saved from Kruxas were Mudran (leader), Praba, Vinda, and Bamo.
 
 ---
 
+# Dragons
+
+## Shanaphuin
+
+This red-coloured dragon took Sahntah away from the party outside Leadengold, looking for Mandevrath. The dragon did tell Raorik that he used to serve the Gauld as a peace emmissary.
+
+---
+
 # Missing
-
-## Dr Drafus Malfium 
-
-A DNA specialist for the MST (Mandevrath Science Team). Actually a vampire, and is currently at large. Was seen as the purest form of evil in the Kobold pantheon.
 
 ## Ulrich Von Lichtenstien
 

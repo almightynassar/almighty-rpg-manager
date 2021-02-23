@@ -34,7 +34,7 @@ Bendris, and his Kobold sidekick Bamo, went into the Aetherdeck to explore one o
 
 ---
 
-# Towards Dessingrove Arc
+# Leadengold Arc
 
 ## Session 8: On the road again
 
@@ -51,3 +51,13 @@ The party were on the road, and on the way they met an group fleeing from a larg
 ## Session 11: Inquisitor Krieg
 
 The party entered the mountain cave, and discovered Krieg and his macabre work. It turns out that Mark was actually a Specter placed into a mechanical body, and his "brother" was a Spectral user named Reinhardt. The Inquisitor was in the process of transferring more Specters into mechanical bodies, using the bodies left behind as collatoral to keep the Spectral spirits in line. The party battled Krieg and his machines, unfortunately killing two before figuring out how to save the Specters and the remaining 5 linked users. They also saved Krist and Reinhardt before Krieg initiated the self-destruct mechanism of his lab and warning the rest of the S.R.D in Dessingrove.
+
+---
+
+# Dessingrove arc
+
+## Session 12: Magistrate Mofkeen
+
+A month has passed since the party first arrived at Mandevrath, and there was some reflection as some of their friends parted ways to take care of the survivors of Krieg's experiments (promising to stay in touch using GauldMail). Perrone stayed on to keep his promise of guiding the party to the Collectors in Dessingrove. Raorik conversed with Reinhardt about the nature of Specters while reading the manuals for his droids, Bendris plied the prisoner Krieg for information about the SRD (and earned the former Inspector's professional respect), Sigmane managed to decode Sahntah's message, and Geliah dreamed of getting bigger and better weapons.
+
+However, on arrival to Dessingrove the party discovered that a small Hentergrey army was camped nearby. The camp has been set up during the week, putting the city of Dessingrove on edge. The party managed to get inside the city walls with Krieg still in custody, convincing the former Inspector that it was better to stay with the party than be turned over to the Partisans. Inside the city, the party experienced the electrifying effects of the Magistrate's speech and the range of emotions they evoked.
