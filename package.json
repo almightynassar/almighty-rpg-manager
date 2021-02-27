@@ -15,19 +15,19 @@
     "test": "echo \"No test specified\" && exit 0"
   },
   "dependencies": {
-    "@quasar/extras": "^1.9.13",
+    "@quasar/extras": "^1.9.17",
     "axios": "^0.21.1",
-    "core-js": "^3.8.2",
+    "core-js": "^3.9.0",
     "hexapi": "^1.0.4",
-    "quasar": "^1.15.0",
+    "quasar": "^1.15.4",
     "v-viewer": "^1.5.1"
   },
   "devDependencies": {
-    "@quasar/app": "^2.1.14",
+    "@quasar/app": "^2.1.15",
     "@quasar/quasar-app-extension-qmarkdown": "^1.4.1",
     "babel-eslint": "^10.0.1",
     "devtron": "^1.4.0",
-    "electron": "^9.4.0",
+    "electron": "^9.4.3",
     "electron-debug": "^3.2.0",
     "electron-devtools-installer": "^2.2.4",
     "electron-installer-zip": "^0.1.2",
@@ -37,7 +37,7 @@
     "eslint-loader": "^3.0.3",
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-node": "^11.0.0",
-    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-promise": "^4.3.1",
     "eslint-plugin-standard": "^4.1.0",
     "eslint-plugin-vue": "^6.1.2"
   },
