@@ -89,12 +89,11 @@
 
 <script>
 import Names from 'src/assets/data/Names'
-import RaceImage from 'src/components/RaceImage.vue'
 
 export default {
   name: 'Races',
   components: {
-    RaceImage
+    RaceImage: () => import('src/components/RaceImage.vue')
   },
   data: function () {
     return {

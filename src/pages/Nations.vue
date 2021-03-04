@@ -91,12 +91,10 @@
 </template>
 
 <script>
-import FlagImage from 'src/components/FlagImage'
-
 export default {
   name: 'Nations',
   components: {
-    FlagImage
+    FlagImage: () => import('src/components/FlagImage')
   },
   data: function () {
     return {

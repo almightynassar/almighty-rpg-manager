@@ -57,12 +57,11 @@
 
 <script>
 import Names from 'src/assets/data/Names'
-import MonsterImage from 'src/components/MonsterImage'
 
 export default {
   name: 'monsters',
   components: {
-    MonsterImage
+    MonsterImage: () => import('src/components/MonsterImage')
   },
   data: function () {
     return {

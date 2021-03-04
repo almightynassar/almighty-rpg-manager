@@ -32,14 +32,11 @@
 </template>
 
 <script >
-import NameGenerator from 'src/pages/Generators/NameGenerator.vue'
-import WordGenerator from 'src/pages/Generators/WordGenerator.vue'
-
 export default {
   name: 'Generators',
   components: {
-    NameGenerator,
-    WordGenerator
+    NameGenerator: () => import('src/pages/Generators/NameGenerator.vue'),
+    WordGenerator: () => import('src/pages/Generators/WordGenerator.vue')
   },
   data: function () {
     return {

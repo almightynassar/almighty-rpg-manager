@@ -100,16 +100,12 @@
 </template>
 
 <script>
-import About from 'src/components/About.vue'
-import ItemLink from 'src/components/ItemLink.vue'
-import Settings from 'src/components/Settings.vue'
-
 export default {
   name: 'MainLayout',
   components: {
-    About,
-    ItemLink,
-    Settings
+    About: () => import('src/components/About.vue'),
+    ItemLink: () => import('src/components/ItemLink.vue'),
+    Settings: () => import('src/components/Settings.vue')
   },
   data () {
     return {
