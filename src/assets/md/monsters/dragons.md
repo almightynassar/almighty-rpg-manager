@@ -11,5 +11,6 @@ Dragons were the main monstrous antagonists in the war against the ancient Gauld
 - **Gerontocracy:** Ruled by the eldest dragons in the local tribe or faction. There is no centralised authority when it comes to Dragons, as they are always fighting with each other.
 
 ## Wyverns
-Wyverns are simply the runts of a Dragon’s litter. A female Dragon can birth one full sized dragon and roughly a dozen Wyverns. A female Wyvern can birth two or three.
+
+Wyverns are simply the runts of a Dragon’s litter. A female Dragon can birth one full sized dragon and a litter of roughly a dozen Wyverns. A female Wyvern can birth two or three.
 Wyverns are less intelligent and more bestial than their larger brethren, and can still understand  and speak some Draconic. They are generally loyal to a fault to their familial clan, and are used as soldiers and workers.

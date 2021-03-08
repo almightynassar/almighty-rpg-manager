@@ -20,6 +20,8 @@ Professor Tablet 117 is the size of piece of paper and is as thick as a book. Th
 
 PT-117 has hearing and sight of up to 18m, and has no will of it's own. Knows extensive information about Dragons, Vampires, Virology, and the Aetherdeck. This means it gets a +9 bonus to areas of it's expertise. PT-117 has a limited form of movement via in-built hoverjets.
 
+PT-177 also has an extensive analysis of the ritualistic murder scene that occurred in the mines of Leadengold (where Ulrich first broke through between the realms). This can be used to gain advantage on rolls used to investigate the Blood Fang ritual.
+
 ---
 
 # Dessingrove, Orland

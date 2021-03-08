@@ -1,6 +1,7 @@
 <template>
   <div style="border: 1px grey solid;">
-    <q-img v-if="type === 'federation'" src="~assets/img/nations/federation.png" basic class="fit" />
+    <q-img v-if="type === 'drakalando'" src="~assets/img/nations/drakalando.png" basic class="fit" />
+    <q-img v-else-if="type === 'federation'" src="~assets/img/nations/federation.png" basic class="fit" />
     <q-img v-else-if="type === 'hentergrey'" src="~assets/img/nations/hentergrey.png" basic class="fit" />
     <q-img v-else-if="type === 'illuminaati'" src="~assets/img/nations/illuminaati.png" basic class="fit" />
     <q-img v-else-if="type === 'myrmiddon'" src="~assets/img/nations/myrmiddon.png" basic class="fit" />

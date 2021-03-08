@@ -1,3 +1,9 @@
+# The Party
+
+## La Orida Mesajisto
+
+An ancient Gauldian word that means *The Little Golden Messenger*. The title was uttered by the dragon Shanaphuin as once having been bestowed upon Raorik. Raorik used to be a peace broker between the Dragons and the Gauld, trying to end the war that devastated both sides.
+
 # Hentergrey
 
 ## Blood Fangs
