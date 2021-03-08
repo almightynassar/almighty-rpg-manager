@@ -2,7 +2,7 @@
 
 ## What's the deal with religion on Terrea?
 
-The [Gods](/#/cosmology/deities) of Terrea act based on their whims, and are less concerned with morality or concepts of good and evil. Mortals simply try to appease the Gods to avoid their ire, and occassionally petition their favour for a good harvest or some other boon.
+The [Gods](/#/cosmology/deities) of Terrea act based on their whims, and are less concerned with morality or concepts of good and evil. Mortals simply try to appease the Gods to avoid their ire, and occassionally petition their favour for a good harvest or some other boon. The Gods rarely intefere in the lives of mortals.
 
 ## What about magic?
 
@@ -12,7 +12,7 @@ There are three forms of [magic](/#/cosmology/magic) on Terrea:
  - **Spectral**:  The most common form of magic. Through sheer willpower, an individual can manifest a particular effect.
  - **Natural**: Because all lifeforce on Terrea originated from the Aether, some scholars are able to manipulate that energy directly.
 
-Sorcerers, Warlocks, and Wizards are not available as playable classes on Terrea. Mystics from Unearther Arcana is used to mimic Spectral abilities. Artificers use Primordial essence to power their magic-like technology. All other "magical" Class abilities can be considered Spectral in nature.
+Sorcerers, Warlocks, and Wizards are not available as playable classes on Terrea. Mystics from Unearther Arcana is used to mimic Spectral abilities. Artificers use Primordial essence to power their magic-like technology. All other "magical" Class abilities can be considered Natural in nature.
 
 ## Where can we go to buy equipment?
 
@@ -34,7 +34,9 @@ Yes, although it will draw the attention and ire of [Baltha](/#/cosmology/deitie
 
 ## Is there a cure for undeath (zombies, ghouls and vampires)?
 
-Yes, but again it will involve taking a soul back from the nether and therefore draw Baltha's attention. Baltha does not care for the undead themselves, and they can be destroyed without drawing the attention of the God.
+Yes, but again it will involve taking a soul back from the nether and therefore draw Baltha's attention. This is because when an undead is created, the original soul is seperated from the corpse and sent to the Nether. The corpse left behind is then reanimated with a twisted 'clone' of the original soul, retaining some memories and personality traits of the original. It is not known if the new soul is generated from Nether or Aether energies.
+
+Baltha does not particularly care for the undead themselves, and they can be destroyed without drawing the attention of the God.
 
 ## Are there any places where swords are illegal, magic is outlawed, or other notable hassles from the law?
 
