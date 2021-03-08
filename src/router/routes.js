@@ -14,6 +14,7 @@ const routes = [
       { path: 'hex', name: 'hex', component: () => import('pages/Hex.vue') },
       { path: 'hirelings', name: 'hirelings', component: () => import('pages/Economy/Hirelings.vue') },
       { path: 'history', name: 'history', component: () => import('pages/History.vue') },
+      { path: 'inventory', name: 'inventory', component: () => import('pages/Campaign/Inventory.vue') },
       { path: 'languages', name: 'languages', component: () => import('pages/Languages.vue') },
       { path: 'lifestyle', name: 'lifestyle', component: () => import('pages/Economy/Lifestyle.vue') },
       { path: 'maps', name: 'maps', component: () => import('pages/Maps.vue') },

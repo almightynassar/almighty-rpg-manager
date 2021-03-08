@@ -131,6 +131,11 @@ export default {
               title: 'Notes',
               icon: 'game-icon:stabbed-note',
               link: '/notes'
+            },
+            {
+              title: 'Inventory',
+              icon: 'game-icon:backpack',
+              link: '/inventory'
             }
           ]
         },
