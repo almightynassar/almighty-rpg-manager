@@ -1,6 +1,6 @@
 # Welcome to Terrea
 
-Terrea is a low-magic world that is split into three overlapping [realms](/#/cosmology/realms) known as the Aether, Nether, and Mid-Realm. Each realm is ruled over by a temperamental and fickle [God](/#/cosmology/deities), who are constantly bickering with each other. The Gods are not bound by mortal ethics and morality, and are solely concerned with protecting their realms and their power.
+Terrea is a low-magic, fantasy-punk world that is split into three overlapping [realms](/#/cosmology/realms) known as the Aether, Nether, and Mid-Realm. Each realm is ruled over by a temperamental and fickle [God](/#/cosmology/deities), who are constantly bickering with each other. The Gods are not bound by mortal ethics and morality, and are solely concerned with protecting their realms and their power. The Gods rarely intefere in the lives of mortals.
 
 The first sentient peoples were the ancient Gauld, and they were intelligent and cunning. They flourished all across Mid-Realm by creating many wonders and reaching cultural heights that drew the attention of the immortal [Primus](/#/cosmology/deities), the creator and source of magical Essence. Primus and the Gauld eventually rose up against the Gods, and the Gods retaliated by birthing the monsters that are now endemic to Terrea. The Gods eventually triumphed, and they banished the Gauld and Primus to the [Shadow Realm](/#/cosmology/realms). The ruins and technology of the Gauld remained behind, reminders of what once was.
 
