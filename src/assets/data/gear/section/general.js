@@ -146,13 +146,6 @@ export default [
     description: 'A torch burns for 1 hour, providing bright light in a 6m (4 square) radius and dim light for an additional 6m. If an attack with a torch hits, deal 1 fire damage'
   },
   {
-    name: 'Vial (empty)',
-    type: 'General',
-    cost: 100,
-    weight: 0.01,
-    description: 'An empty glass vial'
-  },
-  {
     name: 'Waterskin',
     type: 'General',
     cost: 20,

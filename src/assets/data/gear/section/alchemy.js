@@ -1,7 +1,7 @@
 export default [
   {
     name: 'Acid Vial',
-    type: 'Arcane',
+    type: 'Alchemy',
     cost: 2500,
     weight: 0.25,
     effects: [
@@ -13,7 +13,7 @@ export default [
   },
   {
     name: 'Antitoxin',
-    type: 'Arcane',
+    type: 'Alchemy',
     cost: 5000,
     weight: 0.25,
     effects: ['When consumed, gain advantage on saving throws against poison for 1 hour'],
@@ -21,27 +21,15 @@ export default [
   },
   {
     name: 'Component Pouch',
-    type: 'Arcane',
+    type: 'Alchemy',
     cost: 2500,
     weight: 0.01,
-    effects: ['Has compartments to hold all the material components and other special items you need to cast spells, except for those components that have a specific cost'],
+    effects: ['Has compartments to hold all the material components and other special items you need to make potions, except for those components that have a specific cost'],
     description: 'A small, watertight leather belt pouch'
   },
   {
-    name: 'Everlasting Lantern',
-    type: 'Arcane',
-    cost: 50000,
-    weight: 0.75,
-    effects: [
-      'Powered by a miniscule primordial shard, this lantern continually shines a bright light. It has shutters so that you can dim or cut off the light source.',
-      'The lantern sheds light in a 36m cone; the closest 18m is bright light, and the farthest 18m is dim light.',
-      'The lantern does not produce heat, and does not require oxygen'
-    ],
-    description: 'A lantern that continually shines a bright light'
-  },
-  {
     name: 'Healing Potion',
-    type: 'Arcane',
+    type: 'Alchemy',
     cost: 5000,
     weight: 0.25,
     effects: ['When consumed, regain 2d4+2 HP'],
@@ -49,7 +37,7 @@ export default [
   },
   {
     name: 'Philter of Love',
-    type: 'Arcane',
+    type: 'Alchemy',
     cost: 9000,
     weight: 0.25,
     effects: [
@@ -59,7 +47,7 @@ export default [
   },
   {
     name: 'Potion of Greater Healing',
-    type: 'Arcane',
+    type: 'Alchemy',
     cost: 15000,
     weight: 0.25,
     effects: ['When consumed, regain 4d4+4 HP'],
@@ -67,10 +55,17 @@ export default [
   },
   {
     name: 'Stimulation Potion',
-    type: 'Arcane',
+    type: 'Alchemy',
     cost: 10000,
     weight: 0.25,
     effects: ['When consumed, for the next 8 hours you cannot be magically put to sleep, and you can remain awake during a rest and still gain the benefits'],
     description: 'A bitter, dark brown brew that has no effect on creatures that do not require sleep'
+  },
+  {
+    name: 'Vial (empty)',
+    type: 'Alchemy',
+    cost: 100,
+    weight: 0.01,
+    description: 'An empty glass vial'
   }
 ]

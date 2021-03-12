@@ -91,13 +91,6 @@ export default [
     description: 'A transparent deep blue gemstone'
   },
   {
-    name: 'Canvas',
-    type: 'Textiles',
-    cost: 26,
-    weight: 0.36,
-    description: '1 square meter of canvas. An extremely durable plain-woven fabric used for making sails, tents, marquees, backpacks, shelters, and other items for which sturdiness is required'
-  },
-  {
     name: 'Carnelian',
     type: 'Mining',
     cost: 5000,
@@ -133,20 +126,6 @@ export default [
     description: 'A transparent pale yellow-brown gemstone'
   },
   {
-    name: 'Corn',
-    type: 'Farming',
-    cost: 4,
-    weight: 1,
-    description: 'Basic food product that is turned into other products. 50% of the corn is lost during the milling process'
-  },
-  {
-    name: 'Cotton Cloth',
-    type: 'Textiles',
-    cost: 40,
-    weight: 0.14,
-    description: '1 square meter of cotton. A plain woven light-weight cloth that is soft, breathable and durable.'
-  },
-  {
     name: 'Diamond',
     type: 'Mining',
     cost: 500000,
@@ -175,53 +154,11 @@ export default [
     description: 'A translucent fiery red gemstone worth'
   },
   {
-    name: 'Flour',
-    type: 'Farming',
-    cost: 4,
-    weight: 1,
-    description: 'Ground wheat, used for baking'
-  },
-  {
-    name: 'Fresh Fish',
-    type: 'Foraging',
-    cost: 2,
-    weight: 1,
-    description: 'This is a catch all for the local variety of fish native to the location. Just under half of the weight is edible '
-  },
-  {
     name: 'Garnet',
     type: 'Mining',
     cost: 10000,
     weight: 0.01,
     description: 'A transparent red, brown-green, or violet gemstone'
-  },
-  {
-    name: 'Grain - Barley',
-    type: 'Farming',
-    cost: 5,
-    weight: 1,
-    description: 'Basic food product that is turned into other beer. 30% of the grain is lost during the milling process. Will roughly create 2.5 times the amount of beer in liters'
-  },
-  {
-    name: 'Grain - Oats',
-    type: 'Farming',
-    cost: 4,
-    weight: 1,
-    description: 'Basic food product that is milled to turn into other products. 30% of the grain is lost during the milling process'
-  },
-  {
-    name: 'Grain - Wheat',
-    type: 'Farming',
-    cost: 2,
-    weight: 1,
-    description: 'Basic food product that is turned into flour, and then bread. 30% of the grain is lost during the milling process to turn it into flour'
-  },
-  {
-    name: 'Hay',
-    type: 'Farming',
-    cost: 25,
-    weight: 100,
-    description: 'Dried grass that is used as food for animals'
   },
   {
     name: 'Jade',
@@ -243,27 +180,6 @@ export default [
     cost: 1000,
     weight: 0.01,
     description: 'An opaque light and dark blue with yellow flecks gemstone'
-  },
-  {
-    name: 'Leather',
-    type: 'Textiles',
-    cost: 45,
-    weight: 0.5,
-    description: '1 square meter of leather. Leather is a thick textile made from the hide of various animals. Leather is very strong and durable.'
-  },
-  {
-    name: 'Linen',
-    type: 'Textiles',
-    cost: 40,
-    weight: 0.15,
-    description: '1 square meter of fabric. Linen is a textile made from the fibers of the flax plant. The fiber is very strong, absorbent, and dries faster than cotton. Because of these characteristics, garments made of linen are valued for being comfortable to wear in hot weather.'
-  },
-  {
-    name: 'Lumber',
-    type: 'Foraging',
-    cost: 2,
-    weight: 0.5,
-    description: 'A 1m long piece of wood that is 50mm thick and 100mm wide.'
   },
   {
     name: 'Malachite',
@@ -376,13 +292,6 @@ export default [
     cost: 5000,
     weight: 0.01,
     description: 'An opaque bands of red and white gemstone'
-  },
-  {
-    name: 'Silk',
-    type: 'Textiles',
-    cost: 1095,
-    weight: 0.08,
-    description: '1 square meter of fabric. Silk fabric is a natural fiber produced from the cocoons via a process called Sericulture. The yarns produced from the process of sericulture are used to weave a variety of textiles.'
   },
   {
     name: 'Spinel',

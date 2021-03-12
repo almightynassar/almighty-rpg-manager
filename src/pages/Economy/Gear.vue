@@ -99,7 +99,6 @@
 </template>
 
 <script>
-import Gear from 'src/assets/data/gear/list'
 export default {
   name: 'GearList',
   data: function () {
@@ -110,7 +109,7 @@ export default {
       ],
       property: [],
       type: [],
-      gear: Gear,
+      gear: this.$gear.list,
       coinage: '',
       coinageOptions: [],
       filter: '',

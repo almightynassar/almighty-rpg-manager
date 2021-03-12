@@ -15,6 +15,7 @@ module.exports = function (/* ctx */) {
     boot: [
       'axios',
       'coinage',
+      'gear',
       'generator',
       'localstorage',
       'markov',
