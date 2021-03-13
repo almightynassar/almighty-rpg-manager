@@ -162,6 +162,11 @@ export default {
               title: 'Hirelings',
               icon: 'game-icon:guards',
               link: '/hirelings'
+            },
+            {
+              title: 'Tech',
+              icon: 'game-icon:processor',
+              link: '/tech'
             }
           ]
         },

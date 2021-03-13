@@ -100,6 +100,12 @@ These Collectors were sent to Mandevrath to acertain whether it's secrets will b
 
 The leader is the Lefantian Jerts Dina, a short fellow with sunken eyes and tattered ears. The public liason is the Teztec Chu'si Nateri, who has spottled emerald green skin and she is missing part of her left thumb. Jerts is ably assisted by the Forged Seidel Iteration 3, who has a bronze-coloured chassis that is engraved with decorative patterns.
 
+### Spectrum
+
+Spectrum is the leader of the Collectors, and is visiting Dessingrove on a '*Pilgrammage*'. His chassis is a sheeming coat of chrome, but with the obvious sign of wear and tear from centuries of use. His eyes burn bright, and he is constantly looking around his environment as if he is assessing each and every thing.
+
+He has chosen to retain all of his memories instead of doing a fresh restart. This makes him seem to act slower and more lethargic than others of his kind, as his RAM and SWAP spaces are at full capacity and his memory subroutines are constantly trying to optimise his memory. To help the optimisation, he only speaks in Gauldian as most of his primary memories are in this ancient language.
+
 ---
 
 # Kobolds of Koburg
@@ -117,6 +123,14 @@ Kobolds saved from Kruxas were Mudran (leader), Praba, Vinda, and Bamo.
 ## Shanaphuin
 
 This red-coloured dragon took Sahntah away from the party outside Leadengold, looking for Mandevrath. The dragon did tell Raorik that he used to serve the Gauld as a peace emmissary.
+
+---
+
+# Legends
+
+## Sesom
+
+One of the Gauld who chose to not remain behind when the rest went into the Shadowrealm. He was based in Phalanxis and was crucial in the creation of the elderforged, and ensured that Gauldian culture lived on long past his death.
 
 ---
 

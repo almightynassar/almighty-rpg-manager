@@ -25,7 +25,8 @@ const routes = [
       { path: 'races/:id', name: 'races', component: () => import('pages/Races.vue') },
       { path: 'reference', name: 'reference', component: () => import('pages/ReferenceList.vue') },
       { path: 'resources', name: 'resources', component: () => import('pages/Resources.vue') },
-      { path: 'sessions', name: 'sessions', component: () => import('pages/Campaign/Sessions.vue') }
+      { path: 'sessions', name: 'sessions', component: () => import('pages/Campaign/Sessions.vue') },
+      { path: 'tech', name: 'tech', component: () => import('pages/Tech.vue') }
     ]
   }
 ]
