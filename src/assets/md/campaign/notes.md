@@ -4,6 +4,44 @@
 
 An ancient Gauldian word that means *The Little Golden Messenger*. The title was uttered by the dragon Shanaphuin as once having been bestowed upon Raorik. Raorik used to be a peace broker between the Dragons and the Gauld, trying to end the war that devastated both sides.
 
+## DRAVID from Mandevrath
+
+Bendris has a couple of vials of the following:
+
+### Purple Worm Poison
+
+ This poison can be ingested or injected. A creature subjected to this poison in this manner must make a DC 19 Constitution saving throw, taking 42 (12d6) poison damage on a failed save, or half as much on a successful one.
+
+### Athrakitis (Disease)
+
+This disease spreads through particles exuded from the decomposing corpses of infected animals. Infective particles can survive in the soil for decades or even centuries. The disease typically occurs when grazing mammals ingest or breathe the spores while eating ground vegetation. Anthrakitis causes a wide variety of symptoms as it attacks the skin, digestive system, or respiratory system; symptoms include fatigue, difficulty breathing, ulcers, loss of appetite, and nausea. Any victim infected with anthrakitis can also spread the disease. Those who come into contact with a victim must save versus the disease or become infected themselves. The bodies of those killed by anthrakitis are also infectious and remain so until destroyed.
+
+Type disease (contact, inhaled or ingested); Save Constitution DC 20
+
+Onset 1d6 days; Frequency 1/day
+
+Effect 21 (6d6), -1 Str; Cure –
+
+### DRAVID
+
+This disease was designed to target only dragons. It was designed by the MRT as an effective bioweapon against their enemies.
+
+Type: disease (contact or inhaled); Save Constitution DC 20
+
+Onset 1d4 days; Frequency 1/day
+
+Effect: 42 (12d6); -1 Con; Cure -
+
+### Gauld Common Fever
+
+Type disease, inhaled; Save Constitution DC 18
+
+Onset 1 day; Frequency 1/day
+
+Effect 11 (3d6); -1 Con; Cure 2 consecutive saves
+
+----
+
 # Hentergrey
 
 ## Blood Fangs
@@ -44,6 +82,8 @@ Leader of the Blood Fangs
 > Now, this bold vision of the future requires not only the service of those of immaculate reputation and consummate skill in the just exercise of power, but also the service of a vast military dedicated to upholding the laws necessary to ensure harmony. It may appear to some that the enactment of universal laws and the widespread deployment of a heavily armed military are steps toward world domination, but these actions are taken merely to protect us from those who would invade, enslave, exploit, or foment political dissent, and to punish accordingly any who engage in such acts. Look on our military not as trespassers or interlopers, but as gatekeepers, here to shore up the Emperor's vision of a prosperous world.
 > 
 > I, Magistrate Mofkeen, have been mandated by the Emperor to bring this vision to you and to help you enact it within the colonies of Orland. The Emperor does not ask for your fealty, but only a cessation of hostilities so that we may all prosper together.
+
+----
 
 # Mandevrath
 
