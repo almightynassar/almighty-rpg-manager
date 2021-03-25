@@ -61,3 +61,15 @@ The party entered the mountain cave, and discovered Krieg and his macabre work. 
 A month has passed since the party first arrived at Mandevrath, and there was some reflection as some of their friends parted ways to take care of the survivors of Krieg's experiments (promising to stay in touch using GauldMail). Perrone stayed on to keep his promise of guiding the party to the Collectors in Dessingrove. Raorik conversed with Reinhardt about the nature of Specters while reading the manuals for his droids, Bendris plied the prisoner Krieg for information about the SRD (and earned the former Inspector's professional respect), Sigmane managed to decode Sahntah's message, and Geliah dreamed of getting bigger and better weapons.
 
 However, on arrival to Dessingrove the party discovered that a small Hentergrey army was camped nearby. The camp has been set up during the week, putting the city of Dessingrove on edge. The party managed to get inside the city walls with Krieg still in custody, convincing the former Inspector that it was better to stay with the party than be turned over to the Partisans. Inside the city, the party experienced the electrifying effects of the Magistrate's speech and the range of emotions they evoked.
+
+## Session 13: Spectrum of the Collectors
+
+The group parted ways, with some exploring the Merchant Quarter of Dessingrove and the rest drinking it up in the tavern. Bendris found the Ersomheaf Tech Pty Ltd and struck a deal, while Raorik notes that the company may have some AI/MI experience. The rest of the party enjoyed many drinks at the tavern where they met Lippus Heints Godoosebrt, a Lefantian mercenary.
+
+Eventually Perrone led the party to the Collectors headquarters, an unassuming building located at the crossroads of the Lordes, Westgate and Merchant Quarter districts. The building does have an extensive underground network, which Perrone led the party through, and there were many facilities dedicated to tech research, including a device called the Replicator. The Collectors all wore lab white uniforms. Perrone left the party in a large meeting hall, leaving to go join his mercenary band. Sigmane led Krieg away to the Collectors dungeons. Bamo stayed with the party. PT-117 is recording the meeting. I am assuming J4R-J4R and C3P-D0H are watching the wagon.
+
+The large hall held the regional leader of the Collectors, a Lefantian names Jerts Dina. Jerts is aided by a bronze Forged named Seidel Iteration 3, and there is also the Collector's Public Liason Chu'si Nateri, a Teztec woman. And there was Spectrum, the worldwide leader of the Collectors.
+
+Spectrum revealed some of Raorik's past, including the plans of Sesom. Sesom was one of the few Gauld left behind, who created the Elderforged and was based in Phalanxis. Spectrum expressed regret at some of the decisions made at the time, including putting Raorik into hibernation.
+
+Then there was suddenly an explosion as the Collector's base is now under attack.

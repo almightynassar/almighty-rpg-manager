@@ -3,6 +3,7 @@
 - **Bendris Snvertson**, a Snvert Artificier looking for useful tech to take home
 - **Geliah Sivvith**, a Lacinum Specter that is running from his past
 - **Raorik**, an Elderforged Monk that is seeking clues to their past
+- **Lippus Heints Godoosebrt**, a Lefantian mercenary that didn't fit in with his kind
 - **Nekol**, a Teztec Druid with a lust for adventure and an interest in death
 - **Sigmane Clanless**, an Orc fighter that was exiled from their clan
 - **Bamo**, a Kobold that is seeking a new life outside of their small world
@@ -45,6 +46,13 @@ He is currently staying with Krist on the outskirts of Dessingrove.
 ## Krist 
 
 A healer prized for her knowledge and abilities (which are generally reserved for emergency situations). She lives on the outskirts of Dessingrove with Reinhardt and the other survivors of Krieg's experiments.
+
+## Ersomheaf Tech Pty Ltd.
+
+A family run Dwarven congolomerate located in the Merchant Quarter of Dessingrove with some excellent quality wares. The family members are:
+
+- Master Artificer Grailer Ersomheaf, a red-headed pale dwarf that looks like the dwarf equivalent of an IT professional
+- Master Blacksmith Grai Ersomheaf, a black-headed, muscular and tanned dwarf
 
 ---
 

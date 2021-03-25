@@ -21,9 +21,8 @@
 
 ## Bendris
 
+- In 1 week Grailer and Grai will make Bendris's breastplate by converting the original Gauldian Breastplate. Bendris will put down a 300 cp deposit and his box of Gauld Magazines from Mandevrath (a collectors item), and he will come back and pay 1,700 cp on pick-up. Any left over material is to be kept by the brothers.
 - Backpack x 1
-- Box of Gauld technical magazines from Mandevrath x 1
-- Breast Plate (Gauld size) x 1
 - Component pouches x 5 (for making Gauldian gear)
 - Crowbar x 1
 - Dagger x 2
@@ -60,6 +59,7 @@
 
 ## Raorik
 
+- 3 business cards with potential MI experts. One of them is for Ersomheaf Tech Pty Ltd (Dwarven family business).
 - Amulet of Dragon Hunting x 1
 - Backpack x 1
 - Bedroll x 1
