@@ -2,13 +2,13 @@
 
 ## What's the deal with religion on Terrea?
 
-The [Gods](/#/cosmology/deities) of Terrea act based on their whims, and are less concerned with morality or concepts of good and evil. Mortals simply try to appease the Gods to avoid their ire, and occassionally petition their favour for a good harvest or some other boon. The Gods rarely intefere in the lives of mortals.
+The [Gods](#/cosmology/deities) of Terrea act based on their whims, and are less concerned with morality or concepts of good and evil. Mortals simply try to appease the Gods to avoid their ire, and occassionally petition their favour for a good harvest or some other boon. The Gods rarely intefere in the lives of mortals.
 
 ## What about magic?
 
-There are three forms of [magic](/#/cosmology/magic) on Terrea:
+There are three forms of [magic](#/cosmology/magic) on Terrea:
 
- - **Primordial**: Also known as **Elemental**. Raw energy from the [Aether](/#/cosmology/realms) is manifested on Terrea as Shards, and can be used in devices to produce magical or technological effects.
+ - **Primordial**: Also known as **Elemental**. Raw energy from the [Aether](#/cosmology/realms) is manifested on Terrea as Shards, and can be used in devices to produce magical or technological effects.
  - **Spectral**:  The most common form of magic. Through sheer willpower, an individual can manifest a particular effect.
  - **Natural**: Because all lifeforce on Terrea originated from the Aether, some scholars are able to manipulate that energy directly.
 
@@ -16,21 +16,21 @@ Sorcerers, Warlocks, and Wizards are not available as playable classes on Terrea
 
 ## Where can we go to buy equipment?
 
-Most mundane piecies of equipment are available at settlements as long as an appropriate trade building is available (for example, weapons and armour require a blacksmith). The [Gear list](/#/gear) section will give you an idea of an average price for an item, but it may change depending on local factors.
+Most mundane piecies of equipment are available at settlements as long as an appropriate trade building is available (for example, weapons and armour require a blacksmith). The [Gear list](#/gear) section will give you an idea of an average price for an item, but it may change depending on local factors.
 
 For magical or technological equipment, you will only find (or sell) them in the larger settlements such as cities. You may be able to find buyers that are rich enough outside of these locations, but there is no guarantee that they will be interested in the piece that you have to offer.
 
 ## Where can we go to get armour custom fitted for this monster or beast I just befriended?
 
-You can't use any old blacksmith for highly custom pieces. You will need to seek out a master of the craft, which can usually be found in the larger settlements. The [Federation of Guilds](/#/nations/federation) in the land of Bounty are especially known for their high quality and masterwork gear.
+You can't use any old blacksmith for highly custom pieces. You will need to seek out a master of the craft, which can usually be found in the larger settlements. The [Federation of Guilds](#/nations/federation) in the land of Bounty are especially known for their high quality and masterwork gear.
 
 ## Where can we go for healing?
 
-Most settlements will have a healer (or someone who does healing part-time), but for more serious injuries you will either need to send for an experienced doctor or transport the patient to them. Most local healers should be able to deal with most common versions of poisons and dieseases. Take a look at the [healing services](/#/healing) for a rough guide on what is available.
+Most settlements will have a healer (or someone who does healing part-time), but for more serious injuries you will either need to send for an experienced doctor or transport the patient to them. Most local healers should be able to deal with most common versions of poisons and dieseases. Take a look at the [healing services](#/healing) for a rough guide on what is available.
 
 ## Is resurrection possible?
 
-Yes, although it will draw the attention and ire of [Baltha](/#/cosmology/deities). The God does not appreciate when a soul is taken from their domain. Because of this, people with the knowledge of how to resurrect the dead either need a very good reason or be very well compensated.
+Yes, although it will draw the attention and ire of [Baltha](#/cosmology/deities). The God does not appreciate when a soul is taken from their domain. Because of this, people with the knowledge of how to resurrect the dead either need a very good reason or be very well compensated.
 
 ## Is there a cure for undeath (zombies, ghouls and vampires)?
 
@@ -40,7 +40,7 @@ Baltha does not particularly care for the undead themselves, and they can be des
 
 ## Are there any places where swords are illegal, magic is outlawed, or other notable hassles from the law?
 
-Most large settlements frown on or restrict the open-carry of weapons while inside the settlement. But the only major thing is to not go into debt with a dwarf; the [Federation of Guilds](/#/nations/federation) have legalised slavery as an acceptable form of debt-recovery.
+Most large settlements frown on or restrict the open-carry of weapons while inside the settlement. But the only major thing is to not go into debt with a dwarf; the [Federation of Guilds](#/nations/federation) have legalised slavery as an acceptable form of debt-recovery.
 
 ## What monsters are terrorizing the countryside sufficiently that if I kill them I will become famous?
 
@@ -48,7 +48,7 @@ There are monsters everywhere on Terrea, but of particular note are: Aboleths, D
 
 ## Are there any wars we can fight in?
 
-The [Partisans](/#/nations/partisans) are freedom fighters trying to liberate the nations of the Lefantia, Teztec, and Azia from the expansionist [Hentergrey Empire](/#/nations/hentergrey). The Orcs are currently raiding both the Mermen of [Myrmiddon](/#/nations/myrmiddon) and the [Snvert](/#/nations/snvert), but it is not a war of conquest.
+The [Partisans](#/nations/partisans) are freedom fighters trying to liberate the nations of the Lefantia, Teztec, and Azia from the expansionist [Hentergrey Empire](#/nations/hentergrey). The Orcs are currently raiding both the Mermen of [Myrmiddon](#/nations/myrmiddon) and the [Snvert](#/nations/snvert), but it is not a war of conquest.
 
 ## How about gladitorial arenas to compete in and with glory and fabulous prizes?
 
@@ -77,7 +77,7 @@ Secret societies are secret for a reason, but there are some rumours and conspir
 
 ## What food is there to eat?
 
-Most modern food exist in Terrea, and are traded widely. It shouldn't be hard to find your favourite dish, although substitute ingredients may be used. Regional dishes can be informed by checking out what [animals](/#/ecology/animals) and [plants](/#/ecology/plants) are avialable to the region.
+Most modern food exist in Terrea, and are traded widely. It shouldn't be hard to find your favourite dish, although substitute ingredients may be used. Regional dishes can be informed by checking out what [animals](#/ecology/animals) and [plants](#/ecology/plants) are avialable to the region.
 
 ## Who is the most powerful person? The greatest warrior? The richest person?
 
