@@ -1,5 +1,5 @@
 <template>
-  <q-layout view="hHh Lpr lFf">
+  <q-layout view="lHh Lpr lFf">
     <q-header
       bordered
       elevated
@@ -14,9 +14,11 @@
           @click="leftDrawerOpen = !leftDrawerOpen"
         />
 
-        <q-toolbar-title>
+        <q-toolbar-title shrink class="text-weight-bold">
           Almighty RPG Manager
         </q-toolbar-title>
+
+        <q-space />
 
         <q-btn-dropdown flat round dense>
           <template v-slot:label>
@@ -50,35 +52,40 @@
       elevated
       content-class="bg-dark"
     >
-      <q-list
-        dark
-        separator
-      >
-        <template v-for="item in menu">
-          <item-link
-            v-if="item.link"
-            :key="item.title"
-            v-bind="item"
-          />
-          <q-expansion-item
-            v-else
-            clickable
-            :icon="item.icon"
-            :label="item.title"
-            :key="item.title"
-          >
-            <q-list
-              class="bg-grey-9"
+      <q-scroll-area class="fit">
+        <q-list
+          dark
+          separator
+          padding
+        >
+          <template v-for="item in menu">
+            <item-link
+              v-if="item.link"
+              :key="item.title"
+              v-bind="item"
+            />
+            <q-expansion-item
+              v-else
+              clickable
+              :icon="item.icon"
+              :label="item.title"
+              :key="item.title"
             >
-              <item-link v-for="sub in item.submenu" :key="sub.title" v-bind="sub" />
-            </q-list>
-          </q-expansion-item>
-        </template>
-      </q-list>
+              <q-list
+                class="bg-grey-9"
+              >
+                <item-link v-for="sub in item.submenu" :key="sub.title" v-bind="sub" />
+              </q-list>
+            </q-expansion-item>
+          </template>
+        </q-list>
+      </q-scroll-area>
     </q-drawer>
 
     <q-page-container>
-      <router-view />
+      <q-page padding>
+        <router-view />
+      </q-page>
     </q-page-container>
 
     <q-dialog v-model="dialog">
