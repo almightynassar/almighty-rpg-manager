@@ -15,19 +15,19 @@
     "test": "echo \"No test specified\" && exit 0"
   },
   "dependencies": {
-    "@quasar/extras": "^1.9.19",
+    "@quasar/extras": "^1.10.4",
     "axios": "^0.21.1",
-    "core-js": "^3.9.0",
+    "core-js": "^3.11.0",
     "hexapi": "^1.0.4",
-    "quasar": "^1.15.4",
+    "quasar": "^1.15.10",
     "v-viewer": "^1.5.1"
   },
   "devDependencies": {
-    "@quasar/app": "^2.1.15",
+    "@quasar/app": "^2.2.4",
     "@quasar/quasar-app-extension-qmarkdown": "^1.4.1",
     "babel-eslint": "^10.0.1",
     "devtron": "^1.4.0",
-    "electron": "^9.4.3",
+    "electron": "^9.4.4",
     "electron-debug": "^3.2.0",
     "electron-devtools-installer": "^2.2.4",
     "electron-installer-zip": "^0.1.2",
