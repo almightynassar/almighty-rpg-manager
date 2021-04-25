@@ -15,13 +15,13 @@ module.exports = function ( ctx ) {
     boot: [
       'axios',
       'coinage',
+      'encyclopedia',
       'gear',
       'generator',
       'localstorage',
       'markov',
       'monsters',
-      'nations',
-      'races'
+      'nations'
     ],
 
     // https://quasar.dev/quasar-cli/quasar-conf-js#Property%3A-css

@@ -1,12 +1,15 @@
-import Markdown from 'src/assets/md/races/locanth.md'
+import Markdown from './background.md'
+import Image from './locanth.jpg'
 
 export default {
-  id: 'locanth',
   singular: 'Locanth',
   adjective: 'Locanth',
   plural: 'Locanth',
-  name: 'Locanth',
   short: 'Fishfolk',
+  age: { min: 3, max: 50 },
+  height: { min: 0.8, max: 1 },
+  weight: { min: 15, max: 25 },
+  names: 'chinese',
   traits: [
     { id: 'movement+7.5', quantity: 1, overwriteName: false, name: '', overwriteDescription: false, description: '', extra: null },
     { id: 'swim+9', quantity: 1, overwriteName: false, name: '', overwriteDescription: false, description: '', extra: null },
@@ -20,11 +23,6 @@ export default {
     { id: 'expertise', quantity: 1, overwriteName: true, name: 'Natural Navigators', overwriteDescription: true, description: 'Whenever you make an Wisdom (Insight), Intelligence (Investigation) or Wisdom (Perception) check related to determining where and when your are right now, you can add twice your proficiency bonus, instead of any proficiency bonus you normally apply.', extra: null },
     { id: 'armour+13', quantity: 1, overwriteName: true, name: 'Thick Scales', overwriteDescription: false, description: '', extra: null }
   ],
-  ranges: {
-    age: { min: 3, max: 50 },
-    height: { min: 0.8, max: 1 },
-    weight: { min: 15, max: 25 },
-    names: 'chinese'
-  },
+  image: Image,
   markdown: Markdown
 }

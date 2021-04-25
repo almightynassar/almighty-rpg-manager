@@ -69,7 +69,7 @@
                                 </tr>
                                 <template v-for="(d,i) in nation.distribution">
                                 <tr v-if="d > 0" :key="nation.id + '-' + i">
-                                    <td class="vertical-top"><em class="text-primary">{{ (findRace(i)).name }}: </em></td>
+                                    <td class="vertical-top"><em class="text-primary">{{ (findRace(i)).plural }}: </em></td>
                                     <td>{{d}}% ({{ numberWithCommas(Math.round(nation.population * (d/100))) }})</td>
                                 </tr>
                                 </template>
@@ -114,7 +114,7 @@ export default {
       return this.$nations.cities.filter(t => t.owner === id)
     },
     findRace (id) {
-      return this.$races.races.find(t => t.id === id)
+      return this.$encyclopedia.peoples[id]
     },
     getOtherPop (pop, distribution) {
       let majority = 0

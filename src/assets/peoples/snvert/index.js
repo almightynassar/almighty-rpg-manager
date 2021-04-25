@@ -1,12 +1,15 @@
-import Markdown from 'src/assets/md/races/snvert.md'
+import Markdown from './background.md'
+import Image from './snvert.jpg'
 
 export default {
-  id: 'snvert',
   singular: 'Snvert',
   adjective: 'Snvert',
   plural: 'Snvert',
-  name: 'Snvert',
   short: 'Ice Gnomes',
+  age: { min: 40, max: 400 },
+  height: { min: 0.8, max: 1.1 },
+  weight: { min: 15, max: 20 },
+  names: 'welsh',
   traits: [
     { id: 'movement+7.5', quantity: 1, overwriteName: false, name: '', overwriteDescription: false, description: '', extra: null },
     { id: 'size+small', quantity: 1, overwriteName: false, name: '', overwriteDescription: false, description: '', extra: null },
@@ -17,11 +20,6 @@ export default {
     { id: 'darkvision+18', quantity: 1, overwriteName: false, name: '', overwriteDescription: false, description: '', extra: null },
     { id: 'tool+choice', quantity: 1, overwriteName: false, name: '', overwriteDescription: true, description: 'You are proficient in a tool of your choice', extra: null }
   ],
-  ranges: {
-    age: { min: 40, max: 400 },
-    height: { min: 0.8, max: 1.1 },
-    weight: { min: 15, max: 20 },
-    names: 'welsh'
-  },
+  image: Image,
   markdown: Markdown
 }

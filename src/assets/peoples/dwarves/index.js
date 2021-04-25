@@ -1,12 +1,15 @@
-import Markdown from 'src/assets/md/races/dwarves.md'
+import Markdown from './background.md'
+import Image from './dwarves.jpg'
 
 export default {
-  id: 'dwarves',
   singular: 'Dwarf',
   adjective: 'Dwarven',
   plural: 'Dwarves',
-  name: 'Dwarves',
   short: 'Short and Stocky humanoids',
+  age: { min: 50, max: 350 },
+  height: { min: 1.1, max: 1.4 },
+  weight: { min: 60, max: 105 },
+  names: 'scottish',
   traits: [
     { id: 'movement+7.5', quantity: 1, overwriteName: false, name: '', overwriteDescription: false, description: '', extra: null },
     { id: 'size+medium', quantity: 1, overwriteName: false, name: '', overwriteDescription: false, description: '', extra: null },
@@ -19,11 +22,6 @@ export default {
     { id: 'advantage+situational', quantity: 1, overwriteName: true, name: 'Poison Saving Throws', overwriteDescription: true, description: 'You have advantage on saving throws against Poison', extra: null },
     { id: 'toughness', quantity: 1, overwriteName: false, name: '', overwriteDescription: false, description: '', extra: null }
   ],
-  ranges: {
-    age: { min: 50, max: 350 },
-    height: { min: 1.1, max: 1.4 },
-    weight: { min: 60, max: 105 },
-    names: 'scottish'
-  },
+  image: Image,
   markdown: Markdown
 }

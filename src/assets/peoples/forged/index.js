@@ -1,12 +1,16 @@
-import Markdown from 'src/assets/md/races/forged.md'
+import Markdown from './background.md'
+import Image from './forged.jpg'
 
 export default {
-  id: 'forged',
   singular: 'Forged',
   adjective: 'Forged',
   plural: 'Forged',
   name: 'Forged',
   short: 'Constructed Race',
+  age: { min: 1, max: 200 },
+  height: { min: 1.7, max: 2.1 },
+  weight: { min: 120, max: 140 },
+  names: 'latin',
   traits: [
     { id: 'movement+9', quantity: 1, overwriteName: false, name: '', overwriteDescription: false, description: '', extra: null },
     { id: 'size+medium', quantity: 1, overwriteName: false, name: '', overwriteDescription: false, description: '', extra: null },
@@ -17,11 +21,6 @@ export default {
     { id: 'sentry-rest', quantity: 1, overwriteName: false, name: '', overwriteDescription: false, description: '', extra: null },
     { id: 'expertise', quantity: 1, overwriteName: true, name: 'Gauldian Experts', overwriteDescription: true, description: 'Whenever you make an Intelligence (History) check related to ancient gauldian culture, objects, or technological devices, you can add twice your proficiency bonus, instead of any proficiency bonus you normally apply.', extra: null }
   ],
-  ranges: {
-    age: { min: 1, max: 200 },
-    height: { min: 1.7, max: 2.1 },
-    weight: { min: 120, max: 140 },
-    names: 'latin'
-  },
+  image: Image,
   markdown: Markdown
 }

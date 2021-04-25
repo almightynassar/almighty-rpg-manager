@@ -1,12 +1,15 @@
-import Markdown from 'src/assets/md/races/lacerti.md'
+import Markdown from './background.md'
+import Image from './lacerti.png'
 
 export default {
-  id: 'lacerti',
   singular: 'Lacertus',
   adjective: 'Lacertan',
   plural: 'Lacerti',
-  name: 'Lacerti',
   short: 'Lizardfolk',
+  age: { min: 14, max: 60 },
+  height: { min: 1.5, max: 2 },
+  weight: { min: 55, max: 160 },
+  names: 'germanic',
   traits: [
     { id: 'movement+9', quantity: 1, overwriteName: false, name: '', overwriteDescription: false, description: '', extra: null },
     { id: 'swim+9', quantity: 1, overwriteName: false, name: '', overwriteDescription: false, description: '', extra: null },
@@ -19,11 +22,6 @@ export default {
     { id: 'armour+13', quantity: 1, overwriteName: true, name: 'Scaly Skin', overwriteDescription: false, description: '', extra: null },
     { id: 'extra-appendage', quantity: 1, overwriteName: true, name: 'Tail', overwriteDescription: false, description: '', extra: null }
   ],
-  ranges: {
-    age: { min: 14, max: 60 },
-    height: { min: 1.5, max: 2 },
-    weight: { min: 55, max: 160 },
-    names: 'germanic'
-  },
+  image: Image,
   markdown: Markdown
 }

@@ -3,7 +3,7 @@
     <div v-if="race">
         <div class="row q-col-gutter-sm">
             <div class="col col-xs-12 col-sm-9">
-                <div class="text-h4 text-primary">{{ race.name }}</div>
+                <div class="text-h4 text-primary">{{ race.plural }}</div>
                 <p><em>{{ race.short }}</em></p>
 
                 <div v-for="trait in race.traits" :key="trait.id">
@@ -21,7 +21,7 @@
 
             <div class="col col-xs-12 col-sm-3">
                 <q-card>
-                    <race-image :type="race.id" />
+                    <q-img :src="race.image" basic class="fit" />
 
                     <q-card-section>
                         <q-markup-table flat dense wrap-cells>
@@ -44,15 +44,15 @@
                                 </tr>
                                 <tr>
                                     <td><strong class="text-primary">Age: </strong></td>
-                                    <td>{{ race.ranges.age.min }} - {{ race.ranges.age.max }}</td>
+                                    <td>{{ race.age.min }} - {{ race.age.max }}</td>
                                 </tr>
                                 <tr>
                                     <td><strong class="text-primary">Height: </strong></td>
-                                    <td>{{ race.ranges.height.min }}m - {{ race.ranges.height.max }}m</td>
+                                    <td>{{ race.height.min }}m - {{ race.height.max }}m</td>
                                 </tr>
                                 <tr>
                                     <td><strong class="text-primary">Weight: </strong></td>
-                                    <td>{{ race.ranges.weight.min }}kg - {{ race.ranges.weight.max }}kg</td>
+                                    <td>{{ race.weight.min }}kg - {{ race.weight.max }}kg</td>
                                 </tr>
                             </tbody>
                         </q-markup-table>
@@ -92,9 +92,6 @@ import Names from 'src/assets/data/Names'
 
 export default {
   name: 'Races',
-  components: {
-    RaceImage: () => import('src/components/RaceImage.vue')
-  },
   data: function () {
     return {
       names: [],
@@ -103,15 +100,13 @@ export default {
   },
   methods: {
     update (id) {
-      this.race = this.$races.races.find((obj) => {
-        return obj.id === id
-      })
+      this.race = this.$encyclopedia.peoples[id]
       if (this.race) {
         this.generate()
       }
     },
     findTrait (id) {
-      return this.$races.traits.find((t) => t.id === id)
+      return this.$encyclopedia.traits.find((t) => t.id === id)
     },
     getTraitName (trait) {
       return trait.overwriteName ? trait.name : this.findTrait(trait.id).name
@@ -128,9 +123,9 @@ export default {
     },
     generate () {
       this.names = []
-      for (var key in Names[this.race.ranges.names]) {
-        this.$markov.addNameArray(this.race.ranges.names + '+' + key, Names[this.race.ranges.names][key])
-        const names = this.$markov.generateList(this.race.ranges.names + '+' + key, 10)
+      for (var key in Names[this.race.names]) {
+        this.$markov.addNameArray(this.race.names + '+' + key, Names[this.race.names][key])
+        const names = this.$markov.generateList(this.race.names + '+' + key, 10)
         names.sort()
         this.names.push({
           type: key,

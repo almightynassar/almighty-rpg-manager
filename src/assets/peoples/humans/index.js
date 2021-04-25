@@ -1,12 +1,15 @@
-import Markdown from 'src/assets/md/races/human.md'
+import Markdown from './background.md'
+import Image from './humans.jpg'
 
 export default {
-  id: 'humans',
   singular: 'Human',
   adjective: 'Human',
   plural: 'Humans',
-  name: 'Humans',
   short: 'The stock standard humanoid',
+  age: { min: 20, max: 90 },
+  height: { min: 1.4, max: 1.9 },
+  weight: { min: 50, max: 125 },
+  names: 'french',
   traits: [
     { id: 'movement+9', quantity: 1, overwriteName: false, name: '', overwriteDescription: false, description: '', extra: null },
     { id: 'size+medium', quantity: 1, overwriteName: false, name: '', overwriteDescription: false, description: '', extra: null },
@@ -15,11 +18,6 @@ export default {
     { id: 'skill+choice', quantity: 1, overwriteName: true, name: 'Ingenuity', overwriteDescription: true, description: 'You are proficient in one skill of your choice', extra: null },
     { id: 'tenacity', quantity: 1, overwriteName: false, name: '', overwriteDescription: false, description: '', extra: null }
   ],
-  ranges: {
-    age: { min: 20, max: 90 },
-    height: { min: 1.4, max: 1.9 },
-    weight: { min: 50, max: 125 },
-    names: 'french'
-  },
+  image: Image,
   markdown: Markdown
 }

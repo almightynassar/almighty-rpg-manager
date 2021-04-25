@@ -1,12 +1,15 @@
-import Markdown from 'src/assets/md/races/merfolk.md'
+import Markdown from './background.md'
+import Image from './merfolk.jpg'
 
 export default {
-  id: 'merfolk',
   singular: 'Merman',
   adjective: 'Mermish',
   plural: 'Merfolk',
-  name: 'Merfolk',
   short: 'Humanoids of the sea',
+  age: { min: 20, max: 90 },
+  height: { min: 1.3, max: 1.8 },
+  weight: { min: 40, max: 110 },
+  names: 'japanese',
   traits: [
     { id: 'movement+9', quantity: 1, overwriteName: false, name: '', overwriteDescription: false, description: '', extra: null },
     { id: 'swim+9', quantity: 1, overwriteName: false, name: '', overwriteDescription: false, description: '', extra: null },
@@ -19,11 +22,6 @@ export default {
     { id: 'advantage+common', quantity: 1, overwriteName: true, name: 'Mental Discipline', overwriteDescription: true, description: 'You have advantage on saving throws against being charmed or frightened.', extra: null },
     { id: 'skill+limited', quantity: 2, overwriteName: true, name: 'Traders', overwriteDescription: true, description: 'You are proficient in two skills from the following: Deception, Perception, Persuasion, Slight of Hand', extra: null }
   ],
-  ranges: {
-    age: { min: 20, max: 90 },
-    height: { min: 1.3, max: 1.8 },
-    weight: { min: 40, max: 110 },
-    names: 'japanese'
-  },
+  image: Image,
   markdown: Markdown
 }

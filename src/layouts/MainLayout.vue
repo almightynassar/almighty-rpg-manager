@@ -250,11 +250,12 @@ export default {
     const raceMenu = this.menu.find(obj => {
       return obj.title === 'Races'
     })
-    this.$races.races.forEach(race => {
+    Object.entries(this.$encyclopedia.peoples).forEach(people => {
+      const [key, value] = people
       raceMenu.submenu.push({
-        title: race.name,
+        title: value.plural,
         icon: '',
-        link: '/races/' + race.id
+        link: '/races/' + key
       })
     })
 

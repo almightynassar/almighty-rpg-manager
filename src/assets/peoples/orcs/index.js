@@ -1,12 +1,15 @@
-import Markdown from 'src/assets/md/races/orcs.md'
+import Markdown from './background.md'
+import Image from './orcs.jpg'
 
 export default {
-  id: 'orcs',
   singular: 'Orc',
   adjective: 'Orcish',
   plural: 'Orcs',
-  name: 'Orcs',
   short: 'Tusked humanoids',
+  age: { min: 12, max: 50 },
+  height: { min: 1.6, max: 2 },
+  weight: { min: 80, max: 150 },
+  names: 'scandinavian',
   traits: [
     { id: 'movement+9', quantity: 1, overwriteName: false, name: '', overwriteDescription: false, description: '', extra: null },
     { id: 'size+medium', quantity: 1, overwriteName: false, name: '', overwriteDescription: false, description: '', extra: null },
@@ -17,11 +20,6 @@ export default {
     { id: 'relentless-endurance', quantity: 1, overwriteName: false, name: '', overwriteDescription: false, description: '', extra: null },
     { id: 'savage-attacks', quantity: 1, overwriteName: false, name: '', overwriteDescription: false, description: '', extra: null }
   ],
-  ranges: {
-    age: { min: 12, max: 50 },
-    height: { min: 1.6, max: 2 },
-    weight: { min: 80, max: 150 },
-    names: 'scandinavian'
-  },
+  image: Image,
   markdown: Markdown
 }

@@ -1,12 +1,15 @@
-import Markdown from 'src/assets/md/races/shifters.md'
+import Markdown from './background.md'
+import Image from './shifters.jpg'
 
 export default {
-  id: 'shifters',
   singular: 'Shifter',
   adjective: 'Shifter',
   plural: 'Shifters',
-  name: 'Shifters',
   short: 'Hybrid Humanoids',
+  age: { min: 15, max: 80 },
+  height: { min: 1.3, max: 1.8 },
+  weight: { min: 40, max: 80 },
+  names: 'french',
   traits: [
     { id: 'movement+9', quantity: 1, overwriteName: false, name: '', overwriteDescription: false, description: '', extra: null },
     { id: 'size+medium', quantity: 1, overwriteName: false, name: '', overwriteDescription: false, description: '', extra: null },
@@ -18,11 +21,6 @@ export default {
     { id: 'armour+12', quantity: 1, overwriteName: true, name: 'Tough Skin', overwriteDescription: false, description: '', extra: null },
     { id: 'tool+choice', quantity: 1, overwriteName: true, name: 'Tool Diversity', overwriteDescription: false, description: '', extra: null }
   ],
-  ranges: {
-    age: { min: 15, max: 80 },
-    height: { min: 1.3, max: 1.8 },
-    weight: { min: 40, max: 80 },
-    names: 'french'
-  },
+  image: Image,
   markdown: Markdown
 }

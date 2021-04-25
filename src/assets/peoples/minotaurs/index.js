@@ -1,12 +1,15 @@
-import Markdown from 'src/assets/md/races/minotaurs.md'
+import Markdown from './background.md'
+import Image from './minotaurs.jpg'
 
 export default {
-  id: 'minotaurs',
   singular: 'Minotaur',
   adjective: 'Minotaurian',
   plural: 'Minotaurs',
-  name: 'Minotaurs',
   short: 'Bovine humanoids',
+  age: { min: 12, max: 50 },
+  height: { min: 1.7, max: 2.2 },
+  weight: { min: 90, max: 160 },
+  names: 'spanish',
   traits: [
     { id: 'movement+9', quantity: 1, overwriteName: false, name: '', overwriteDescription: false, description: '', extra: null },
     { id: 'size+medium', quantity: 1, overwriteName: false, name: '', overwriteDescription: false, description: '', extra: null },
@@ -17,11 +20,6 @@ export default {
     { id: 'powerful-build', quantity: 1, overwriteName: false, name: '', overwriteDescription: false, description: '', extra: null },
     { id: 'skill+limited', quantity: 2, overwriteName: true, name: 'Pastoral Healers', overwriteDescription: true, description: 'You are proficient in two skills of your choice from the following: Animal Handling, Athletics, Medicine, Nature, or Survival', extra: null }
   ],
-  ranges: {
-    age: { min: 12, max: 50 },
-    height: { min: 1.7, max: 2.2 },
-    weight: { min: 90, max: 160 },
-    names: 'spanish'
-  },
+  image: Image,
   markdown: Markdown
 }

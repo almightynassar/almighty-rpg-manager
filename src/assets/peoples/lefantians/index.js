@@ -1,12 +1,15 @@
-import Markdown from 'src/assets/md/races/lefantians.md'
+import Markdown from './background.md'
+import Image from './lefantians.jpg'
 
 export default {
-  id: 'lefantians',
   singular: 'Lefantian',
   adjective: 'Lefantian',
   plural: 'Lefantians',
-  name: 'Lefantians',
   short: 'Elephantfolk',
+  age: { min: 17, max: 80 },
+  height: { min: 2, max: 2.5 },
+  weight: { min: 130, max: 170 },
+  names: 'dutch',
   traits: [
     { id: 'movement+9', quantity: 1, overwriteName: false, name: '', overwriteDescription: false, description: '', extra: null },
     { id: 'size+medium', quantity: 1, overwriteName: false, name: '', overwriteDescription: false, description: '', extra: null },
@@ -19,11 +22,6 @@ export default {
     { id: 'armour+12', quantity: 1, overwriteName: true, name: 'Thick Hide', overwriteDescription: false, description: '', extra: null },
     { id: 'extra-appendage', quantity: 1, overwriteName: true, name: 'Trunk', overwriteDescription: false, description: '', extra: 'You can use your trunk as a snorkel. ' }
   ],
-  ranges: {
-    age: { min: 17, max: 80 },
-    height: { min: 2, max: 2.5 },
-    weight: { min: 130, max: 170 },
-    names: 'dutch'
-  },
+  image: Image,
   markdown: Markdown
 }

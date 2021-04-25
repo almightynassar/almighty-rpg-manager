@@ -1,12 +1,15 @@
-import Markdown from 'src/assets/md/races/avians.md'
+import Markdown from './background.md'
+import Image from './avians.png'
 
 export default {
-  id: 'avians',
   singular: 'Avian',
   adjective: 'Avian',
   plural: 'Avians',
-  name: 'Avians',
   short: 'Flightless Birdfolk',
+  age: { min: 12, max: 60 },
+  height: { min: 1.3, max: 1.7 },
+  weight: { min: 25, max: 65 },
+  names: 'italian',
   traits: [
     { id: 'movement+9', quantity: 1, overwriteName: false, name: '', overwriteDescription: false, description: '', extra: null },
     { id: 'size+medium', quantity: 1, overwriteName: false, name: '', overwriteDescription: false, description: '', extra: null },
@@ -17,11 +20,6 @@ export default {
     { id: 'mimicry', quantity: 1, overwriteName: false, name: '', overwriteDescription: false, description: '', extra: null },
     { id: 'skill+limited', quantity: 1, overwriteName: true, name: 'Skilled ambusher', overwriteDescription: true, description: 'You can choose one of the following skills: acrobatics, deception, persuasion, stealth', extra: null }
   ],
-  ranges: {
-    age: { min: 12, max: 60 },
-    height: { min: 1.3, max: 1.7 },
-    weight: { min: 25, max: 65 },
-    names: 'italian'
-  },
+  image: Image,
   markdown: Markdown
 }
