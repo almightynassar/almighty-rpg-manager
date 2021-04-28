@@ -83,8 +83,10 @@
     </q-drawer>
 
     <q-page-container>
-      <q-page padding>
-        <router-view />
+      <q-page padding class="row justify-center">
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-8">
+          <router-view />
+        </div>
       </q-page>
     </q-page-container>
 
