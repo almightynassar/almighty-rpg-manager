@@ -1,8 +1,8 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
 
-import coinage from './coinage'
 import gear from './gear'
+import settings from './settings'
 
 Vue.use(Vuex)
 
@@ -18,7 +18,7 @@ Vue.use(Vuex)
 export default function (/* { ssrContext } */) {
   const Store = new Vuex.Store({
     modules: {
-      coinage,
+      settings,
       gear
     },
 
@@ -29,9 +29,9 @@ export default function (/* { ssrContext } */) {
 
   // Hot Module updating
   if (process.env.DEV && module.hot) {
-    module.hot.accept(['./coinage'], () => {
-      const newCoinage = require('./coinage').default
-      Store.hotUpdate({ modules: { coinage: newCoinage } })
+    module.hot.accept(['./settings'], () => {
+      const newSettings = require('./settings').default
+      Store.hotUpdate({ modules: { settings: newSettings } })
     })
   }
 

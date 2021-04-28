@@ -12,6 +12,7 @@
             label="Default Coinage"
             map-options
           />
+          <q-toggle v-model="darkMode" color="black" label="Dark Mode" left-label />
         </q-card-section>
         <q-card-actions align="right" class="bg-white text-teal">
           <q-btn color="primary" label="Save" icon="save" @click="saving" />
@@ -31,10 +32,14 @@ export default {
     return {
       dialog: this.value,
       coinage: '',
-      coinageOptions: []
+      coinageOptions: [],
+      darkMode: false
     }
   },
   watch: {
+    darkMode (newValue) {
+      this.$store.dispatch('settings/updateDarkMode', newValue)
+    },
     dialog (newValue) {
       this.$emit('input', newValue)
     },
@@ -44,16 +49,15 @@ export default {
   },
   methods: {
     saving () {
-      this.$store.dispatch('coinage/updateDefaultCoinage', this.coinage.id)
+      this.$store.dispatch('settings/updateDefaultCoinage', this.coinage.id)
       this.dialog = false
     }
   },
   created () {
-    // Set our default coinage to what is set in our store
-    this.coinage = this.$coinage.find(this.$store.state.coinage.defaultCoinage)
-
-    // Grab our default coinage array
+    // Grab our values
+    this.coinage = this.$coinage.find(this.$store.state.settings.defaultCoinage)
     this.coinageOptions = this.$coinage.coins
+    this.darkMode = this.$store.state.settings.darkMode
   }
 }
 </script>

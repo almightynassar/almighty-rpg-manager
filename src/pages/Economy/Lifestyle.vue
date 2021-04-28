@@ -62,7 +62,7 @@ export default {
     // Grab our default coinage array
     this.coinageOptions = this.$coinage.coins
     // Set our default coinage to what is set in our store
-    this.coinage = this.$coinage.find(this.$store.state.coinage.defaultCoinage)
+    this.coinage = this.$coinage.find(this.$store.state.settings.defaultCoinage)
   }
 }
 </script>

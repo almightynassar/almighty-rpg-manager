@@ -29,7 +29,7 @@ const actions = {
 
 const mutations = {
   updateType: (state, type) => {
-    state.defaultCoinage = type
+    state.type = type
   }
 }
 
