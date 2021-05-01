@@ -1,5 +1,6 @@
 import Markdown from './background.md'
 import Image from './goblins.png'
+import Token from './goblins-token.jpg'
 
 export default {
   singular: 'Goblin',
@@ -20,5 +21,6 @@ export default {
     { id: 'small-fury', quantity: 1, overwriteName: false, name: '', overwriteDescription: false, description: '', extra: null }
   ],
   image: Image,
+  token: Token,
   markdown: Markdown
 }

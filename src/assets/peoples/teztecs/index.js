@@ -1,5 +1,6 @@
 import Markdown from './background.md'
 import Image from './teztecs.jpg'
+import Token from './teztecs-token.jpg'
 
 export default {
   singular: 'Teztec',
@@ -22,5 +23,6 @@ export default {
     { id: 'skill', quantity: 1, overwriteName: true, name: 'Survival Instinct', overwriteDescription: true, description: 'You are proficient in the Survival skill', extra: 'Teztecs have finely honed survival instincts.' }
   ],
   image: Image,
+  token: Token,
   markdown: Markdown
 }

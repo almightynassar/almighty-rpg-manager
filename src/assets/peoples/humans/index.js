@@ -1,11 +1,12 @@
 import Markdown from './background.md'
 import Image from './humans.jpg'
+import Token from './humans-token.jpg'
 
 export default {
   singular: 'Human',
   adjective: 'Human',
   plural: 'Humans',
-  short: 'The stock standard humanoid',
+  short: 'The stock standard',
   age: { min: 20, max: 90 },
   height: { min: 1.4, max: 1.9 },
   weight: { min: 50, max: 125 },
@@ -19,5 +20,6 @@ export default {
     { id: 'tenacity', quantity: 1, overwriteName: false, name: '', overwriteDescription: false, description: '', extra: null }
   ],
   image: Image,
+  token: Token,
   markdown: Markdown
 }

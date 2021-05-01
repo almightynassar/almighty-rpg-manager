@@ -1,5 +1,6 @@
 import Markdown from './background.md'
 import Image from './orcs.jpg'
+import Token from './orcs-token.jpg'
 
 export default {
   singular: 'Orc',
@@ -21,5 +22,6 @@ export default {
     { id: 'savage-attacks', quantity: 1, overwriteName: false, name: '', overwriteDescription: false, description: '', extra: null }
   ],
   image: Image,
+  token: Token,
   markdown: Markdown
 }

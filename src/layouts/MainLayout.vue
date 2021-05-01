@@ -190,9 +190,9 @@ export default {
           submenu: []
         },
         {
-          title: 'Races',
+          title: 'Peoples',
           icon: 'game-icon:elf-ear',
-          submenu: []
+          link: '/races'
         },
         {
           title: 'World',
@@ -249,18 +249,6 @@ export default {
     }
   },
   mounted () {
-    const raceMenu = this.menu.find(obj => {
-      return obj.title === 'Races'
-    })
-    Object.entries(this.$encyclopedia.peoples).forEach(people => {
-      const [key, value] = people
-      raceMenu.submenu.push({
-        title: value.plural,
-        icon: '',
-        link: '/races/' + key
-      })
-    })
-
     const nationMenu = this.menu.find(obj => {
       return obj.title === 'Nations'
     })

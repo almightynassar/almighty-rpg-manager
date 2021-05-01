@@ -1,5 +1,6 @@
 import Markdown from './background.md'
 import Image from './forged.jpg'
+import Token from './forged-token.jpg'
 
 export default {
   singular: 'Forged',
@@ -22,5 +23,6 @@ export default {
     { id: 'expertise', quantity: 1, overwriteName: true, name: 'Gauldian Experts', overwriteDescription: true, description: 'Whenever you make an Intelligence (History) check related to ancient gauldian culture, objects, or technological devices, you can add twice your proficiency bonus, instead of any proficiency bonus you normally apply.', extra: null }
   ],
   image: Image,
+  token: Token,
   markdown: Markdown
 }

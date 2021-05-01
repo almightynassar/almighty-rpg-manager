@@ -1,5 +1,6 @@
 import Markdown from './background.md'
 import Image from './shifters.jpg'
+import Token from './shifters-token.jpg'
 
 export default {
   singular: 'Shifter',
@@ -22,5 +23,6 @@ export default {
     { id: 'tool+choice', quantity: 1, overwriteName: true, name: 'Tool Diversity', overwriteDescription: false, description: '', extra: null }
   ],
   image: Image,
+  token: Token,
   markdown: Markdown
 }

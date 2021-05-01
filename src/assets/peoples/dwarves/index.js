@@ -1,11 +1,12 @@
 import Markdown from './background.md'
 import Image from './dwarves.jpg'
+import Token from './dwarves-token.jpg'
 
 export default {
   singular: 'Dwarf',
   adjective: 'Dwarven',
   plural: 'Dwarves',
-  short: 'Short and Stocky humanoids',
+  short: 'Short & Stocky',
   age: { min: 50, max: 350 },
   height: { min: 1.1, max: 1.4 },
   weight: { min: 60, max: 105 },
@@ -23,5 +24,6 @@ export default {
     { id: 'toughness', quantity: 1, overwriteName: false, name: '', overwriteDescription: false, description: '', extra: null }
   ],
   image: Image,
+  token: Token,
   markdown: Markdown
 }

@@ -1,5 +1,6 @@
 import Markdown from './background.md'
 import Image from './avians.png'
+import Token from './avians-token.jpg'
 
 export default {
   singular: 'Avian',
@@ -21,5 +22,6 @@ export default {
     { id: 'skill+limited', quantity: 1, overwriteName: true, name: 'Skilled ambusher', overwriteDescription: true, description: 'You can choose one of the following skills: acrobatics, deception, persuasion, stealth', extra: null }
   ],
   image: Image,
+  token: Token,
   markdown: Markdown
 }

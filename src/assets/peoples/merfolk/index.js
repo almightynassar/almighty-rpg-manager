@@ -1,5 +1,6 @@
 import Markdown from './background.md'
 import Image from './merfolk.jpg'
+import Token from './merfolk-token.jpg'
 
 export default {
   singular: 'Merman',
@@ -23,5 +24,6 @@ export default {
     { id: 'skill+limited', quantity: 2, overwriteName: true, name: 'Traders', overwriteDescription: true, description: 'You are proficient in two skills from the following: Deception, Perception, Persuasion, Slight of Hand', extra: null }
   ],
   image: Image,
+  token: Token,
   markdown: Markdown
 }

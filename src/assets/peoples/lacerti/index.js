@@ -1,5 +1,6 @@
 import Markdown from './background.md'
 import Image from './lacerti.png'
+import Token from './lacerti-token.jpg'
 
 export default {
   singular: 'Lacertus',
@@ -23,5 +24,6 @@ export default {
     { id: 'extra-appendage', quantity: 1, overwriteName: true, name: 'Tail', overwriteDescription: false, description: '', extra: null }
   ],
   image: Image,
+  token: Token,
   markdown: Markdown
 }

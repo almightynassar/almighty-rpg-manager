@@ -1,5 +1,6 @@
 import Markdown from './background.md'
 import Image from './lefantians.jpg'
+import Token from './lefantians-token.jpg'
 
 export default {
   singular: 'Lefantian',
@@ -23,5 +24,6 @@ export default {
     { id: 'extra-appendage', quantity: 1, overwriteName: true, name: 'Trunk', overwriteDescription: false, description: '', extra: 'You can use your trunk as a snorkel. ' }
   ],
   image: Image,
+  token: Token,
   markdown: Markdown
 }

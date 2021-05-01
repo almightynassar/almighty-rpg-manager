@@ -1,5 +1,6 @@
 import Markdown from './background.md'
 import Image from './locanth.jpg'
+import Token from './locanth-token.jpg'
 
 export default {
   singular: 'Locanth',
@@ -24,5 +25,6 @@ export default {
     { id: 'armour+13', quantity: 1, overwriteName: true, name: 'Thick Scales', overwriteDescription: false, description: '', extra: null }
   ],
   image: Image,
+  token: Token,
   markdown: Markdown
 }

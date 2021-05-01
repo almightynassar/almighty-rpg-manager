@@ -1,27 +1,18 @@
 <template>
   <div class="q-pa-md">
     <div v-if="race">
+        <div>
+          <div class="row q-mb-sm">
+            <q-btn color="primary" icon="arrow_back_ios" label="Back" @click="goBack" />
+          </div>
+        </div>
         <div class="row q-col-gutter-sm">
-            <div class="col col-xs-12 col-sm-9">
-                <div class="text-h4 text-primary">{{ race.plural }}</div>
-                <p><em>{{ race.short }}</em></p>
-
-                <div v-for="trait in race.traits" :key="trait.id">
-                    <div class="text-h6">{{ getTraitName(trait) }}</div>
-                    <p>{{ getTraitDescription(trait)}}<span v-if="trait.extra"><br />{{ trait.extra }}</span></p>
-                </div>
-                <p><small><em>All races are assumed to know the Common language by default.</em></small></p>
-
-                <p><small><em>This race has a power of {{ getTraitScore(race.traits) }}. Please note that power does not take into account synergy or flexibity.</em></small></p>
-
-                <q-separator />
-
-                <q-markdown :src="race.markdown" no-heading-anchor-links />
-            </div>
-
-            <div class="col col-xs-12 col-sm-3">
+            <div class="col-xs-12 col-lg-3">
                 <q-card>
-                    <q-img :src="race.image" basic class="fit" />
+                    <div class="text-h4 text-primary">{{ race.plural }}</div>
+                    <p><em>{{ race.short }}</em></p>
+
+                    <q-img v-if="race.image" :src="race.image" basic class="fit" />
 
                     <q-card-section>
                         <q-markup-table flat dense wrap-cells>
@@ -79,10 +70,36 @@
                     </q-card-section>
                 </q-card>
             </div>
+
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-9 padding">
+                <div v-for="trait in race.traits" :key="trait.id">
+                    <div class="text-h6">{{ getTraitName(trait) }}</div>
+                    <p>{{ getTraitDescription(trait)}}<span v-if="trait.extra"><br />{{ trait.extra }}</span></p>
+                </div>
+                <p><small><em>All races are assumed to know the Common language by default.</em></small></p>
+
+                <p><small><em>This race has a power of {{ getTraitScore(race.traits) }}. Please note that power does not take into account synergy or flexibity.</em></small></p>
+
+                <q-separator />
+
+                <q-markdown :src="race.markdown" no-heading-anchor-links />
+            </div>
         </div>
     </div>
     <div v-else>
-        <q-banner inline-actions class="text-white bg-red">Race could not be found</q-banner>
+      <q-list bordered separator>
+        <q-item clickable v-ripple v-for="race in races" :key="'item-' + race.id" @click="update(race.id)">
+          <q-item-section avatar>
+            <q-avatar square size="7.5em">
+              <img v-if="race.token" :src="race.token">
+            </q-avatar>
+          </q-item-section>
+          <q-item-section>
+            <q-item-label><span class="text-weight-medium">{{ race.plural }}</span></q-item-label>
+            <q-item-label>{{ race.short }}</q-item-label>
+          </q-item-section>
+        </q-item>
+      </q-list>
     </div>
   </div>
 </template>
@@ -98,7 +115,19 @@ export default {
       race: null
     }
   },
+  computed: {
+    races () {
+      return Object.keys(this.$encyclopedia.peoples).map((key) => {
+        const temp = this.$encyclopedia.peoples[key]
+        temp.id = key
+        return temp
+      })
+    }
+  },
   methods: {
+    goBack () {
+      this.race = null
+    },
     update (id) {
       this.race = this.$encyclopedia.peoples[id]
       if (this.race) {
@@ -142,11 +171,13 @@ export default {
     }
   },
   beforeRouteUpdate (to, from, next) {
-    this.update(to.params.id)
+    this.update(to.query.id)
     next()
   },
   mounted () {
-    this.update(this.$router.currentRoute.params.id)
+    if (this.$router.currentRoute.query.id) {
+      this.update(this.$router.currentRoute.query.id)
+    }
   }
 }
 </script>

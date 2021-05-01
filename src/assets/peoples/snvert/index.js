@@ -1,5 +1,6 @@
 import Markdown from './background.md'
 import Image from './snvert.jpg'
+import Token from './snvert-token.jpg'
 
 export default {
   singular: 'Snvert',
@@ -21,5 +22,6 @@ export default {
     { id: 'tool+choice', quantity: 1, overwriteName: false, name: '', overwriteDescription: true, description: 'You are proficient in a tool of your choice', extra: null }
   ],
   image: Image,
+  token: Token,
   markdown: Markdown
 }

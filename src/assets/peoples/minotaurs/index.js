@@ -1,5 +1,6 @@
 import Markdown from './background.md'
 import Image from './minotaurs.jpg'
+import Token from './minotaurs-token.jpg'
 
 export default {
   singular: 'Minotaur',
@@ -21,5 +22,6 @@ export default {
     { id: 'skill+limited', quantity: 2, overwriteName: true, name: 'Pastoral Healers', overwriteDescription: true, description: 'You are proficient in two skills of your choice from the following: Animal Handling, Athletics, Medicine, Nature, or Survival', extra: null }
   ],
   image: Image,
+  token: Token,
   markdown: Markdown
 }
