@@ -3,10 +3,7 @@
   font-family: "game-icons";
   font-style: normal;
   font-weight: 400;
-  src: url('../assets/font/game-icons/game-icons.eot');
-  src: url('../assets/font/game-icons/game-icons.eot?#iefix') format('eot'),
-	   url('../assets/font/game-icons/game-icons.woff') format('woff'),
-	   url('../assets/font/game-icons/game-icons.ttf') format('truetype')
+  src:url('../assets/font/game-icons/game-icons.woff') format('woff');
 }
 
 .game-icon:before {
