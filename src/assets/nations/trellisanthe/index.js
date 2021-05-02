@@ -1,4 +1,5 @@
-import Markdown from 'src/assets/md/nations/trellisanthe.md'
+import Markdown from './trellisanthe.md'
+import Flag from './trellisanthe.png'
 
 export default {
   id: 'trellisanthe',
@@ -33,5 +34,6 @@ export default {
     snvert: 8,
     teztecs: 10
   },
-  markdown: Markdown
+  markdown: Markdown,
+  flag: Flag
 }

@@ -1,4 +1,5 @@
-import Markdown from 'src/assets/md/nations/federation.md'
+import Markdown from './federation.md'
+import Flag from './federation.png'
 
 export default {
   id: 'federation',
@@ -26,5 +27,6 @@ export default {
     locanth: 5,
     merfolk: 2.5
   },
-  markdown: Markdown
+  markdown: Markdown,
+  flag: Flag
 }

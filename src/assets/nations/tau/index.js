@@ -1,4 +1,5 @@
-import Markdown from 'src/assets/md/nations/tau.md'
+import Markdown from './tau.md'
+import Flag from './tau.png'
 
 export default {
   id: 'tau',
@@ -37,5 +38,6 @@ export default {
     snvert: 0,
     teztecs: 0
   },
-  markdown: Markdown
+  markdown: Markdown,
+  flag: Flag
 }

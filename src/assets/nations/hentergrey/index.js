@@ -1,4 +1,5 @@
-import Markdown from 'src/assets/md/nations/hentergrey.md'
+import Markdown from './hentergrey.md'
+import Flag from './hentergrey.png'
 
 export default {
   id: 'hentergrey',
@@ -37,5 +38,6 @@ export default {
     snvert: 0,
     teztecs: 12.5
   },
-  markdown: Markdown
+  markdown: Markdown,
+  flag: Flag
 }

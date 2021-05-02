@@ -14,14 +14,14 @@ module.exports = function ( ctx ) {
     // https://quasar.dev/quasar-cli/boot-files
     boot: [
       'axios',
+      'cities',
       'coinage',
       'encyclopedia',
       'gear',
       'generator',
       'localstorage',
       'markov',
-      'monsters',
-      'nations'
+      'monsters'
     ],
 
     // https://quasar.dev/quasar-cli/quasar-conf-js#Property%3A-css

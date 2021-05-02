@@ -1,4 +1,5 @@
-import Markdown from 'src/assets/md/nations/illuminaati.md'
+import Markdown from './illuminaati.md'
+import Flag from './illuminaati.png'
 
 export default {
   id: 'illuminaati',
@@ -37,5 +38,6 @@ export default {
     snvert: 0,
     teztecs: 0
   },
-  markdown: Markdown
+  markdown: Markdown,
+  flag: Flag
 }

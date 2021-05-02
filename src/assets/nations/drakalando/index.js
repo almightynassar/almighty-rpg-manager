@@ -1,4 +1,5 @@
-import Markdown from 'src/assets/md/nations/drakalando.md'
+import Markdown from './drakalando.md'
+import Flag from './drakalando.png'
 
 export default {
   id: 'drakalando',
@@ -27,5 +28,6 @@ export default {
     merfolk: 15,
     orcs: 25
   },
-  markdown: Markdown
+  markdown: Markdown,
+  flag: Flag
 }

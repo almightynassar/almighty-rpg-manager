@@ -1,42 +1,16 @@
 <template>
   <div class="q-pa-md">
     <div v-if="nation">
+        <div>
+          <div class="row q-mb-sm">
+            <q-btn color="primary" icon="arrow_back_ios" label="Back" @click="goBack" />
+          </div>
+        </div>
         <div class="row q-col-gutter-sm">
-            <div class="col col-xs-12 col-sm-9">
-                <div class="text-h4 text-primary">{{ nation.name }}</div>
-                <p><em>{{ nation.description }}</em></p>
-                <q-markdown :src="nation.markdown" no-heading-anchor-links />
-                <q-separator />
-                <div class="text-h6 q-mb-md text-primary"><u>Urban Areas</u></div>
-                <ul>
-                    <li>There are {{ filterCities(nation.id).length }} cities.</li>
-                    <li>There are {{ nation.towns }} towns.</li>
-                    <li>There are {{ nation.ruins }} ruins.</li>
-                </ul>
-                <q-list bordered class="rounded-borders">
-                    <q-expansion-item
-                        v-for="(c,i) in filterCities(nation.id)"
-                        :key="'cities-'+i"
-                        expand-separator
-                        :label="c.name"
-                        :caption="'Population: ' + numberWithCommas(c.population)"
-                    >
-                        <q-card>
-                        <q-card-section>
-                            <div v-for="(f,i) in c.fluff" :key="'fluff-'+i">
-                            <p class="text-primary"><strong>{{ f.title }}</strong></p>
-                            <p>{{ f.description }}</p>
-                            </div>
-                        </q-card-section>
-                        </q-card>
-                    </q-expansion-item>
-                </q-list>
-            </div>
-
-            <div class="col col-xs-12 col-sm-3">
+            <div class="col-xs-12 col-lg-3">
                 <q-card>
+                    <q-img v-if="nation.flag" :src="nation.flag" basic class="fit" />
                     <q-card-section>
-                        <flag-image :type="nation.id" />
                         <q-markup-table flat dense wrap-cells>
                             <thead>
                                 <th></th>
@@ -82,10 +56,51 @@
                     </q-card-section>
                 </q-card>
             </div>
+
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-9 padding">
+                <div class="text-h4 text-primary">{{ nation.name }}</div>
+                <p><em>{{ nation.description }}</em></p>
+                <q-markdown :src="nation.markdown" no-heading-anchor-links />
+                <q-separator />
+                <div class="text-h6 q-mb-md text-primary"><u>Urban Areas</u></div>
+                <ul>
+                    <li>There are {{ filterCities(nation.id).length }} cities.</li>
+                    <li>There are {{ nation.towns }} towns.</li>
+                    <li>There are {{ nation.ruins }} ruins.</li>
+                </ul>
+                <q-list bordered class="rounded-borders">
+                    <q-expansion-item
+                        v-for="(c,i) in filterCities(nation.id)"
+                        :key="'cities-'+i"
+                        expand-separator
+                        :label="c.name"
+                        :caption="'Population: ' + numberWithCommas(c.population)"
+                    >
+                        <q-card>
+                        <q-card-section>
+                            <div v-for="(f,i) in c.fluff" :key="'fluff-'+i">
+                            <p class="text-primary"><strong>{{ f.title }}</strong></p>
+                            <p>{{ f.description }}</p>
+                            </div>
+                        </q-card-section>
+                        </q-card>
+                    </q-expansion-item>
+                </q-list>
+            </div>
         </div>
     </div>
     <div v-else>
-        <q-banner inline-actions class="text-white bg-red">Nation could not be found</q-banner>
+        <q-list bordered separator>
+          <q-item clickable v-ripple v-for="nation in nations" :key="'item-' + nation.id" @click="update(nation.id)">
+          <q-item-section avatar>
+            <img v-if="nation.flag" :src="nation.flag" width="100em">
+          </q-item-section>
+          <q-item-section>
+            <q-item-label><span class="text-weight-medium">{{ nation.name }}</span></q-item-label>
+            <q-item-label>{{ nation.description }}</q-item-label>
+          </q-item-section>
+        </q-item>
+      </q-list>
     </div>
   </div>
 </template>
@@ -93,25 +108,32 @@
 <script>
 export default {
   name: 'Nations',
-  components: {
-    FlagImage: () => import('src/components/FlagImage')
-  },
   data: function () {
     return {
       nation: null
     }
   },
-  methods: {
-    update (id) {
-      this.nation = this.$nations.nations.find((obj) => {
-        return obj.id === id
+  computed: {
+    nations () {
+      return Object.keys(this.$encyclopedia.nations).map((key) => {
+        const temp = this.$encyclopedia.nations[key]
+        temp.id = key
+        return temp
       })
+    }
+  },
+  methods: {
+    goBack () {
+      this.nation = null
+    },
+    update (id) {
+      this.nation = this.$encyclopedia.nations[id]
     },
     findCity (id) {
-      return this.$nations.cities.find(t => t.id === id)
+      return this.$cities.find(t => t.id === id)
     },
     filterCities (id) {
-      return this.$nations.cities.filter(t => t.owner === id)
+      return this.$cities.filter(t => t.owner === id)
     },
     findRace (id) {
       return this.$encyclopedia.peoples[id]
@@ -140,11 +162,11 @@ export default {
     }
   },
   beforeRouteUpdate (to, from, next) {
-    this.update(to.params.id)
+    this.update(to.query.id)
     next()
   },
   mounted () {
-    this.update(this.$router.currentRoute.params.id)
+    this.update(this.$router.currentRoute.query.id)
   }
 }
 </script>

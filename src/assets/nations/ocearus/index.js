@@ -1,4 +1,5 @@
-import Markdown from 'src/assets/md/nations/ocearus.md'
+import Markdown from './ocearus.md'
+import Flag from './ocearus.png'
 
 export default {
   id: 'ocearus',
@@ -37,5 +38,6 @@ export default {
     snvert: 0,
     teztecs: 0
   },
-  markdown: Markdown
+  markdown: Markdown,
+  flag: Flag
 }

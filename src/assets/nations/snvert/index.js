@@ -1,4 +1,5 @@
-import Markdown from 'src/assets/md/nations/snvert.md'
+import Markdown from './snvert.md'
+import Flag from './snvert-flag.png'
 
 export default {
   id: 'snvert',
@@ -36,5 +37,6 @@ export default {
     snvert: 85,
     teztecs: 0
   },
-  markdown: Markdown
+  markdown: Markdown,
+  flag: Flag
 }

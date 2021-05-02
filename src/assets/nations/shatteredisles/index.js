@@ -1,4 +1,5 @@
-import Markdown from 'src/assets/md/nations/shatteredisles.md'
+import Markdown from './shatteredisles.md'
+import Flag from './shatteredisles.png'
 
 export default {
   id: 'shatteredisles',
@@ -36,5 +37,6 @@ export default {
     snvert: 0,
     teztecs: 0
   },
-  markdown: Markdown
+  markdown: Markdown,
+  flag: Flag
 }

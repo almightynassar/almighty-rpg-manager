@@ -1,4 +1,5 @@
-import Markdown from 'src/assets/md/nations/partisans.md'
+import Markdown from './partisans.md'
+import Flag from './partisans.png'
 
 export default {
   id: 'partisans',
@@ -37,5 +38,6 @@ export default {
     snvert: 0,
     teztecs: 20
   },
-  markdown: Markdown
+  markdown: Markdown,
+  flag: Flag
 }

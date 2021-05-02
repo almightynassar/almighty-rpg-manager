@@ -1,4 +1,5 @@
-import Markdown from 'src/assets/md/nations/myrmiddon.md'
+import Markdown from './myrmiddon.md'
+import Flag from './myrmiddon.png'
 
 export default {
   id: 'myrmiddon',
@@ -37,5 +38,6 @@ export default {
     snvert: 0,
     teztecs: 0
   },
-  markdown: Markdown
+  markdown: Markdown,
+  flag: Flag
 }
