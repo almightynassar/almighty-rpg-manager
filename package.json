@@ -19,11 +19,11 @@
     "axios": "^0.21.1",
     "core-js": "^3.11.0",
     "hexapi": "^1.0.4",
-    "quasar": "^1.15.10",
+    "quasar": "^1.15.13",
     "v-viewer": "^1.5.1"
   },
   "devDependencies": {
-    "@quasar/app": "^2.2.4",
+    "@quasar/app": "^2.2.6",
     "@quasar/quasar-app-extension-qmarkdown": "^1.4.1",
     "babel-eslint": "^10.0.1",
     "devtron": "^1.4.0",

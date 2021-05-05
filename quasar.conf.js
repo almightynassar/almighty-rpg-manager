@@ -20,8 +20,7 @@ module.exports = function ( ctx ) {
       'gear',
       'generator',
       'localstorage',
-      'markov',
-      'monsters'
+      'markov'
     ],
 
     // https://quasar.dev/quasar-cli/quasar-conf-js#Property%3A-css

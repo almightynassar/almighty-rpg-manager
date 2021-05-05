@@ -20,7 +20,7 @@ context.keys().forEach(module => {
 })
 
 /**
- * Find the latest nationss for the encyclopedia
+ * Find the latest nations for the encyclopedia
  */
 context = require.context('../assets/nations/', true, /^\.\/(?!template).*\/index\.js$/, 'sync')
 const nations = {}
@@ -28,8 +28,18 @@ context.keys().forEach(module => {
   nations[splitter(module)] = context(module).default
 })
 
+/**
+ * Find the latest monsters for the encyclopedia
+ */
+context = require.context('../assets/monsters/', true, /^\.\/(?!template).*\/index\.js$/, 'sync')
+const monsters = {}
+context.keys().forEach(module => {
+  monsters[splitter(module)] = context(module).default
+})
+
 export default ({ Vue }) => {
   Vue.prototype.$encyclopedia = {
+    monsters: monsters,
     nations: nations,
     peoples: peoples,
     traits: Traits

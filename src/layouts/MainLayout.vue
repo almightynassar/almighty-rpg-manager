@@ -182,7 +182,7 @@ export default {
         {
           title: 'Monsters',
           icon: 'game-icon:fangs',
-          submenu: []
+          link: '/monsters'
         },
         {
           title: 'Nations',
@@ -247,18 +247,6 @@ export default {
         }
       ]
     }
-  },
-  mounted () {
-    const monsterMenu = this.menu.find(obj => {
-      return obj.title === 'Monsters'
-    })
-    this.$monsters.monsters.forEach(monster => {
-      monsterMenu.submenu.push({
-        title: monster.name,
-        icon: '',
-        link: '/monsters/' + monster.id
-      })
-    })
   }
 }
 </script>
