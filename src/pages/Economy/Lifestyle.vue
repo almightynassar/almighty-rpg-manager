@@ -1,29 +1,25 @@
 <template>
   <div class="q-pa-md">
     <p>The following table shows a rough approximate of the income &amp; expenses to achieve a desired lifestyle. The expenses include lodging, food, and access to facilities.</p>
-    <q-markup-table flat wrap-cells>
-      <thead>
-        <th>Name</th>
-        <th>Daily Income</th>
-        <th>Daily Expenses</th>
-        <th>Yearly Salary</th>
-        <th>Yearly Expenses</th>
-      </thead>
-      <tbody>
-        <template v-for="lifestyle in lifestyles">
-          <tr :key="lifestyle.name">
-            <td>{{ lifestyle.name }}</td>
-            <td>{{ determineIncome(lifestyle) }} {{ coinage.symbol }}</td>
-            <td>{{ determineExpenses(lifestyle) }} {{ coinage.symbol }}</td>
-            <td>{{ determineSalary(lifestyle) }} {{ coinage.symbol }}</td>
-            <td>{{ determineYearExpenses(lifestyle) }} {{ coinage.symbol }}</td>
-          </tr>
-          <tr :key="lifestyle.name + 'description'">
-            <td colspan="5">{{ lifestyle.description }}</td>
-          </tr>
-        </template>
-      </tbody>
-    </q-markup-table>
+
+    <q-list bordered separator>
+      <q-item v-for="lifestyle in lifestyles" :key="lifestyle.name">
+        <q-item-section>
+          <q-item-label><span class="text-weight-medium">{{ lifestyle.name }}</span></q-item-label>
+          <q-item-label><small>{{ lifestyle.description }}</small></q-item-label>
+        </q-item-section>
+        <q-item-section>
+          <q-item-label><strong>Daily</strong></q-item-label>
+          <q-item-label><u>Income:</u> {{ determineIncome(lifestyle) }} {{ coinage.symbol }}</q-item-label>
+          <q-item-label><u>Expenses:</u> {{ determineExpenses(lifestyle) }} {{ coinage.symbol }}</q-item-label>
+        </q-item-section>
+        <q-item-section>
+          <q-item-label><strong>Yearly</strong></q-item-label>
+          <q-item-label><u>Income:</u> {{ determineSalary(lifestyle) }} {{ coinage.symbol }}</q-item-label>
+          <q-item-label><u>Expenses:</u> {{ determineYearExpenses(lifestyle) }} {{ coinage.symbol }}</q-item-label>
+        </q-item-section>
+      </q-item>
+    </q-list>
   </div>
 </template>
 

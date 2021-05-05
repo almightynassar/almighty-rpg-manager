@@ -1,28 +1,16 @@
 <template>
   <div class="q-pa-md">
-    <q-select
-      v-model="coinage"
-      :options="coinageOptions"
-      option-label="name"
-      label="Coinage"
-      map-options
-      options-dense
-    />
-    <br />
-    <q-markup-table flat wrap-cells>
-      <thead>
-        <th>Name</th>
-        <th>Cost</th>
-        <th>Description</th>
-      </thead>
-      <tbody>
-        <tr v-for="heal in healing" :key="heal.name">
-          <td>{{ heal.name }}</td>
-          <td>{{ heal.cost / coinage.convert }} {{ coinage.symbol }}</td>
-          <td>{{ heal.description }}</td>
-        </tr>
-      </tbody>
-    </q-markup-table>
+    <q-list bordered separator>
+      <q-item v-for="heal in healing" :key="heal.name">
+        <q-item-section>
+          <q-item-label><span class="text-weight-medium">{{ heal.name }}</span></q-item-label>
+          <q-item-label><small>{{ heal.description }}</small></q-item-label>
+        </q-item-section>
+        <q-item-section side>
+          <q-item-label>{{ heal.cost / coinage.convert }} {{ coinage.symbol }}</q-item-label>
+        </q-item-section>
+      </q-item>
+    </q-list>
   </div>
 </template>
 
@@ -33,16 +21,12 @@ export default {
   data: function () {
     return {
       healing: Healing,
-      coinage: '',
-      coinageOptions: []
+      coinage: ''
     }
   },
   created () {
     // Set our default coinage to what is set in our store
     this.coinage = this.$coinage.find(this.$store.state.settings.defaultCoinage)
-
-    // Grab our default coinage array
-    this.coinageOptions = this.$coinage.coins
   }
 }
 </script>
