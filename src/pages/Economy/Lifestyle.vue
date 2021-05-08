@@ -38,12 +38,12 @@ export default {
     determineIncome (row) {
       var min = row.min / this.coinage.convert
       var max = row.max / this.coinage.convert
-      return min + ' - ' + max
+      return min.toLocaleString() + ' - ' + max.toLocaleString()
     },
     determineExpenses (row) {
       var min = Math.floor((row.min / this.coinage.convert) * 0.75)
       var max = Math.floor((row.max / this.coinage.convert) * 0.75)
-      return min + ' - ' + max
+      return min.toLocaleString() + ' - ' + max.toLocaleString()
     },
     determineSalary (row) {
       return (Math.ceil(((row.min + row.max) / 2) * 5 * 52) / this.coinage.convert).toLocaleString()

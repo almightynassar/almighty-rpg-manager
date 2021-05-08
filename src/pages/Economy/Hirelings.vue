@@ -1,91 +1,64 @@
 <template>
   <div class="q-pa-md">
-    <p>You can hire NPCs for a wide range of tasks. The costs presented here is the <em>minimum</em> cost of <strong>the labour only</strong>. Any additional material costs involved from the service will be paid by you. A working day is considered to be 8 hours (8am until 6pm, with regular breaks in between). There are 7 days of the week, but only 5 of them are designated for work. Add 50% to the cost if you want the hireling to work on their days off.</p>
-    <p>You can select the mastery level which will adjust the hirelings cost accordingly.</p>
     <ul>
-      <li><strong>Apprentice</strong> - Someone who has basic proficiency and is working towards a deeper understanding. Generally requires some supervision.</li>
-      <li><strong>Journeyman</strong> - Someone with a high degree of proficiency, and can generally make most items. They generally lack the mastery to pull off highly complex work.</li>
-      <li><strong>Master</strong> - This level implies the ability to innovate, and will use their tools and knowledge in creative ways. They are able to create masterwork items.</li>
+      <li>Costs are the <em>minimum</em> cost of <strong>the labour only</strong>. You must cover all additional costs (such as material, protection, etc).</li>
+      <li>A working day is considered to be 8 hours (8am until 6pm, with regular breaks in between).</li>
+      <li>5 out of 7 days are designated for work. Add 50% to the cost if you want the hireling to work on their days off.</li>
     </ul>
-    <p>For any service not listed, any unskilled labour will cost 20 CP / day (or 2.5 CP / hour, rounded up) while trained professionals can demand at least 100 CP / day (or 12.5 CP / hour, rounded up)</p>
-    <br />
     <q-separator />
-    <q-table
-      title="Professionals"
-      :data="service"
-      :columns="columns"
-      :pagination.sync="pagination"
-      :filter="filter"
-      row-key="name"
-      flat
-    >
-      <template v-slot:top-right>
-        <q-input dense debounce="300" v-model="filter" placeholder="Search">
-          <template v-slot:append>
-            <q-icon name="search" />
-          </template>
-        </q-input>
-        <span style="width: 1em;"></span>
-        <q-select
-          v-model="mastery"
-          :options="masteryLevels"
-          label="Mastery"
-          emit-value
-          map-options
-          dense
-          options-dense
-        />
-        &nbsp;
-        <q-select
-          v-model="rate"
-          :options="['Daily', 'Hourly']"
-          label="Rate"
-          map-options
-          dense
-          options-dense
-        />
-        &nbsp;
-        <q-select
-          v-model="coinage"
-          :options="coinageOptions"
-          option-label="name"
-          label="Coinage"
-          map-options
-          dense
-          options-dense
-        />
+    <q-select
+      v-model="mastery"
+      :options="masteryLevels"
+      label="Mastery"
+      emit-value
+      map-options
+      dense
+      options-dense
+      class="q-pb-md"
+    />
+    <q-select
+      v-model="rate"
+      :options="['Daily', 'Hourly']"
+      label="Rate"
+      map-options
+      dense
+      options-dense
+      class="q-pb-md"
+    />
+    <q-select
+      v-model="coinage"
+      :options="coinageOptions"
+      option-label="name"
+      label="Coinage"
+      map-options
+      dense
+      options-dense
+    />
+    <q-input dense debounce="300" v-model="filter" placeholder="Search">
+      <template v-slot:append>
+        <q-icon name="search" />
       </template>
+    </q-input>
+    <div class="q-pa-md">
+      <p v-if="mastery === 'apprentice'"><strong>Apprentices</strong> have a basic proficiency. They generally require supervision.</p>
+      <p v-else-if="mastery === 'journeyman'"><strong>Journeymen</strong> have a high degree of proficiency, and can generally complete most tasks. But they generally lack the mastery to pull off highly complex work.</p>
+      <p v-else><strong>Masters</strong> have an intimate level of knowledge in their field, and are able to innovate. They are able to create masterwork items.</p>
+    </div>
 
-      <template v-slot:header="props">
-        <q-tr :props="props">
-          <q-th
-            v-for="col in props.cols"
-            :key="col.name"
-            :props="props"
-          >
-            {{ col.label }}
-          </q-th>
-        </q-tr>
-      </template>
-
-      <template v-slot:body="props">
-        <q-tr :props="props">
-          <q-td v-for="col in props.cols" :key="col.name" :props="props">
-            <template v-if="col.name == 'cost'">
-                {{ determineCost(col.value / coinage.convert) }} {{ coinage.symbol }}
-            </template>
-            <template v-else-if="col.name == 'type'">
-              {{ col.value }}
-              <q-tooltip anchor="bottom left" self="bottom left">{{ getTypeDescription(col.value) }}</q-tooltip>
-            </template>
-            <template v-else>
-              {{ col.value }}
-            </template>
-          </q-td>
-        </q-tr>
-      </template>
-
-    </q-table>
+    <q-list bordered separator>
+      <q-item v-for="s in filteredSearch" :key="s.id">
+        <q-item-section>
+          <q-item-label><span class="text-weight-medium">{{ s.name }}</span> ({{ s.type }})</q-item-label>
+          <q-item-label><small>{{ s.description }}</small></q-item-label>
+        </q-item-section>
+        <q-item-section>
+          <q-item-label>{{ determineClass(s.cost).name}}</q-item-label>
+        </q-item-section>
+        <q-item-section side>
+          <q-item-label>{{ determineCost(s.cost / coinage.convert) }} {{ coinage.symbol }}</q-item-label>
+        </q-item-section>
+      </q-item>
+    </q-list>
   </div>
 </template>
 
@@ -126,6 +99,13 @@ export default {
         { name: 'class', required: true, label: 'Class', align: 'left', field: row => row.cost, format: val => `${this.determineClass(val).name}`, sortable: true },
         { name: 'description', required: true, label: 'Description', align: 'left', field: row => row.description, format: val => `${val}`, sortable: false }
       ]
+    },
+    filteredSearch () {
+      let temp = this.service
+      if (this.filter) {
+        temp = this.service.filter(e => (e.name.toLowerCase().search(this.filter.toLowerCase()) > -1) || (e.type.toLowerCase().search(this.filter.toLowerCase()) > -1))
+      }
+      return temp
     }
   },
   methods: {
@@ -142,7 +122,7 @@ export default {
     },
     determineCost (income) {
       var cost = (this.rate === 'Daily' ? income : income / 8) * this.determineMastery().multiplier
-      return +(Math.round(cost + 'e+2') + 'e-2')
+      return (+(Math.round(cost + 'e+2') + 'e-2')).toLocaleString()
     },
     getTypeDescription (type) {
       var local = this.types.find(obj => {

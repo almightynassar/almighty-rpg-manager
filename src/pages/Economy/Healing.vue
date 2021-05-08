@@ -7,7 +7,7 @@
           <q-item-label><small>{{ heal.description }}</small></q-item-label>
         </q-item-section>
         <q-item-section side>
-          <q-item-label>{{ heal.cost / coinage.convert }} {{ coinage.symbol }}</q-item-label>
+          <q-item-label>{{ (heal.cost / coinage.convert).toLocaleString() }} {{ coinage.symbol }}</q-item-label>
         </q-item-section>
       </q-item>
     </q-list>
