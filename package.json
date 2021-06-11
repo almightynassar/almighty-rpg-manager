@@ -15,16 +15,16 @@
     "test": "echo \"No test specified\" && exit 0"
   },
   "dependencies": {
-    "@quasar/extras": "^1.10.4",
+    "@quasar/extras": "^1.10.6",
     "axios": "^0.21.1",
     "core-js": "^3.11.0",
     "hexapi": "^1.0.4",
-    "quasar": "^1.15.13",
+    "quasar": "^1.15.20",
     "v-viewer": "^1.5.1"
   },
   "devDependencies": {
-    "@quasar/app": "^2.2.6",
-    "@quasar/quasar-app-extension-qmarkdown": "^1.4.1",
+    "@quasar/app": "^2.2.10",
+    "@quasar/quasar-app-extension-qmarkdown": "^1.4.3",
     "babel-eslint": "^10.0.1",
     "devtron": "^1.4.0",
     "electron": "^9.4.4",
