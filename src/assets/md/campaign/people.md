@@ -1,5 +1,4 @@
 # The Party
-
 - **Bendris Snvertson**, a Snvert Artificier looking for useful tech to take home
 - **Geliah Sivvith**, a Lacinum Specter that is running from his past
 - **Raorik**, an Elderforged Monk that is seeking clues to their past
@@ -9,14 +8,12 @@
 - **Bamo**, a Kobold that is seeking a new life outside of their small world
 
 ## Droids
-
 Droids have limited AI, and are not sentient like the Forged. They were used by the Gauld for menial labour, and many continue to serve a similar purpose today. The techniques used to create new Droids have been lost, so most Droids are heavily maintained pieces of machinery.
 
 - **C3P-D0H:** An alcohol distillery robot. Knows 6 millions forms of distillation.
 - **J4R-J4R:** Created as a child's mascot, but proved to be largely unpopular.
 
 ## PT-117
-
 Professor Tablet 117 is the size of piece of paper and is as thick as a book. This droid is powered by an Aether Shard, and contains a colour screen, speakers, microphone, and camera. It's stats are 18 INT, 10 WIS, 7 CHA. It speaks and understands Gauldish, Draconic, and Common. It can be programmed with up to 3 additional languages by undergoing a training process.
 
 PT-117 has hearing and sight of up to 18m, and has no will of it's own. Knows extensive information about Dragons, Vampires, Virology, and the Aetherdeck. This means it gets a +9 bonus to areas of it's expertise. PT-117 has a limited form of movement via in-built hoverjets.
