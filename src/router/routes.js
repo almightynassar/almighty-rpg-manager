@@ -21,6 +21,7 @@ const routes = [
       { path: 'monsters', names: 'monsters', component: () => import('pages/Monsters.vue') },
       { path: 'nations', name: 'nations', component: () => import('pages/Nations.vue') },
       { path: 'notes', name: 'notes', component: () => import('pages/Campaign/Notes.vue') },
+      { path: 'party', name: 'party', component: () => import('pages/Campaign/Party.vue') },
       { path: 'people', name: 'people', component: () => import('pages/Campaign/People.vue') },
       { path: 'races', name: 'races', component: () => import('pages/Races.vue') },
       { path: 'reference', name: 'reference', component: () => import('pages/ReferenceList.vue') },

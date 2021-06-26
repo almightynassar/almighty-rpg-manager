@@ -7,7 +7,7 @@ export default {
   adjective: 'Snvert',
   plural: 'Snvert',
   short: 'Ice Gnomes',
-  age: { min: 40, max: 400 },
+  age: { min: 40, max: 200 },
   height: { min: 0.8, max: 1.1 },
   weight: { min: 15, max: 20 },
   names: 'welsh',

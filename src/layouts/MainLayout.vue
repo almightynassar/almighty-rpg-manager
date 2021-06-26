@@ -127,6 +127,11 @@ export default {
           icon: 'game-icon:wax-tablet',
           submenu: [
             {
+              title: 'Party',
+              icon: 'game-icon:backup',
+              link: '/party'
+            },
+            {
               title: 'People',
               icon: 'game-icon:backup',
               link: '/people'

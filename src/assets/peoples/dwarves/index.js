@@ -7,7 +7,7 @@ export default {
   adjective: 'Dwarven',
   plural: 'Dwarves',
   short: 'Short & Stocky',
-  age: { min: 50, max: 350 },
+  age: { min: 50, max: 210 },
   height: { min: 1.1, max: 1.4 },
   weight: { min: 60, max: 105 },
   names: 'scottish',
