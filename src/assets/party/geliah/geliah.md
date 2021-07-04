@@ -1,12 +1,11 @@
 | Type | Proficiency |
 | :--- | :---------- |
-| Language | Common, Draconic |
 | Armour | Light | 
-| Weapon | Light Crossbow |
-| Weapon | Simple Weapons |
-| Weapon | Martial Weapons |
+| Language | Common, Draconic |
 | Tools | Carriage driver |
 | Tools | Magic: The Gauldening Card Game |
+| Weapon | Light Crossbow |
+| Weapon | Martial & Simple Weapons |
 
 Geliah Sivvith was just a young recruit to the new forces being trained in the southern city of Kelerak when his life was irrevocably changed in the space of a day. Pulled off the street by hooded thugs, inexplicably tortured to within an inch of his life seemingly solely for their pleasure, Geliah survived thanks to an unknown dormant metaphysical ability awakening from deep within him and allowing him to escape.
 

@@ -1,10 +1,10 @@
 | Type | Proficiency |
 | :--- | :---------- |
 | Language | Common, Gauldish |
-| Weapon | Shortsword |
-| Weapon | Simple Weapons |
 | Tools | Cartographer's Tools |
 | Tools | Smith's Tools |
+| Weapon | Shortsword |
+| Weapon | Simple Weapons |
 
 # Personality Traits
 

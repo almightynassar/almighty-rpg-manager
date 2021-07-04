@@ -2,11 +2,11 @@ import Markdown from './raorik.md'
 import Image from './raorik.png'
 
 export default {
-  name: 'Geliah Sivvith',
-  race: 'fprged',
+  name: 'Raorik',
+  race: 'forged',
   gender: 'Male',
   class: 'Monk',
-  age: 230,
+  age: 470,
   height: 2,
   weight: 130,
   level: 7,
@@ -35,6 +35,7 @@ export default {
   },
   ac: {
     monk_unarmoured: {
+      name: 'Monk (Unarmoured)',
       base: 10,
       dex: true,
       int: true,

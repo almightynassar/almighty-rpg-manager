@@ -3,7 +3,7 @@ import Image from './geliah.png'
 
 export default {
   name: 'Geliah Sivvith',
-  race: 'human',
+  race: 'humans',
   gender: 'Male',
   class: 'Specter',
   age: 30,
@@ -36,6 +36,7 @@ export default {
   },
   ac: {
     immortal_durability: {
+      name: 'Immortal Durability',
       base: 10,
       dex: true,
       con: true

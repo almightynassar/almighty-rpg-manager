@@ -1,15 +1,15 @@
 | Type | Proficiency |
 | :--- | :---------- |
-| Language | Common, Snvertish |
 | Armour | Light & Medium Armour | 
 | Armour | Shields |
-| Weapon | Hand & Heavy Crossbow |
-| Weapon | Simple Weapons |
-| Tools | Tinker Tools |
-| Tools | Thieves Tools |
-| Tools | Smith's Tools |
+| Language | Common, Snvertish |
 | Tools | Cartographer's Tools |
 | Tools | Jeweler's Tools |
+| Tools | Smith's Tools |
+| Tools | Thieves Tools |
+| Tools | Tinker Tools |
+| Weapon | Hand & Heavy Crossbow |
+| Weapon | Simple Weapons |
 
 # Personality Traits
 

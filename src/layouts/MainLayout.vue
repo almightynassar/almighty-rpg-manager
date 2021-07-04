@@ -132,8 +132,8 @@ export default {
               link: '/party'
             },
             {
-              title: 'People',
-              icon: 'game-icon:backup',
+              title: 'Contacts',
+              icon: 'game-icon:discussion',
               link: '/people'
             },
             {

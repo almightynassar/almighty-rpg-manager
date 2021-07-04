@@ -37,6 +37,7 @@ export default {
   },
   ac: {
     studded_leather: {
+      name: 'Studded Leather',
       base: 12,
       dex: true
     }
