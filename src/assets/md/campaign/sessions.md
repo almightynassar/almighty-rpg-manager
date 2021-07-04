@@ -73,3 +73,9 @@ The large hall held the regional leader of the Collectors, a Lefantian names Jer
 Spectrum revealed some of Raorik's past, including the plans of Sesom. Sesom was one of the few Gauld left behind, who created the Elderforged and was based in Phalanxis. Spectrum expressed regret at some of the decisions made at the time, including putting Raorik into hibernation.
 
 Then there was suddenly an explosion as the Collector's base is now under attack.
+
+## Session 14: Securing the Younglings
+
+The party escaped the Collector's base, and took the young children to the Collector's hideout in the docks distrinct. The hideout was an office space for Teztec Shell Co. Geliah was able to secure disguises for the children, while Bendris used his tech-smarts to sneak their way to the base. Raorik visited Ersomheaf and met Grailest, a researcher who could help Raorik in his quest to give machines a soul.
+
+Siedel paid out part of the parties cheque, and added 10,000 cp reward from his own savings as payment for keeping the children safe. The payment is also meant to purchase the group's silence and secrecy in regards to the younglings.

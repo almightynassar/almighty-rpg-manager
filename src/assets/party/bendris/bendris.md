@@ -11,20 +11,26 @@
 | Weapon | Hand & Heavy Crossbow |
 | Weapon | Simple Weapons |
 
-# Personality Traits
+## Personality
+
+### Traits
 
 I love to understand the nature how things work.
 
 I make friends easily, but don't expect them to stick around for long.
 
-# Ideals
+Wants to find interesting tech and go home. Has a particular interest in MI and Machine Souls. Knows that there are SNVERT bases around that can transport tech back home.
+
+Was an orphan, and didn't really fit in.
+
+### Ideals
 
 Community: We have to take care of each other, because no one else will.
 
-# Bonds
+### Bonds
 
 Snvert is my home, and I must save it.
 
-# Flaws
+### Flaws
 
 Most people fear ancient destructive technology. I stop and take notes.

@@ -1,10 +1,5 @@
-# The Party
-- **Bendris Snvertson**, a Snvert Artificier looking for useful tech to take home
-- **Geliah Sivvith**, a Lacinum Specter that is running from his past
-- **Raorik**, an Elderforged Monk that is seeking clues to their past
-- **Lippus Heints Godoosebrt**, a Lefantian mercenary that didn't fit in with his kind
-- **Nekol**, a Teztec Druid with a lust for adventure and an interest in death
-- **Sigmane Clanless**, an Orc fighter that was exiled from their clan
+- **Nekol**, a Teztec Druid with a lust for adventure and an interest in death. Pops in and out as they please.
+- **Sigmane Clanless**, an Orc fighter that was exiled from their clan. Almost died in the Collector's base in Dessingrove. MIA.
 - **Bamo**, a Kobold that is seeking a new life outside of their small world
 
 ## Droids
@@ -50,6 +45,7 @@ A family run Dwarven congolomerate located in the Merchant Quarter of Dessingrov
 
 - Master Artificer Grailer Ersomheaf, a red-headed pale dwarf that looks like the dwarf equivalent of an IT professional
 - Master Blacksmith Grai Ersomheaf, a black-headed, muscular and tanned dwarf
+- Master Researcher Grailest Ersomheaf, a scientist with an interest in spectral artifacts and gauldian technology.
 
 ---
 
@@ -110,6 +106,14 @@ The leader is the Lefantian Jerts Dina, a short fellow with sunken eyes and tatt
 Spectrum is the leader of the Collectors, and is visiting Dessingrove on a '*Pilgrammage*'. His chassis is a sheeming coat of chrome, but with the obvious sign of wear and tear from centuries of use. His eyes burn bright, and he is constantly looking around his environment as if he is assessing each and every thing.
 
 He has chosen to retain all of his memories instead of doing a fresh restart. This makes him seem to act slower and more lethargic than others of his kind, as his RAM and SWAP spaces are at full capacity and his memory subroutines are constantly trying to optimise his memory. To help the optimisation, he only speaks in Gauldian as most of his primary memories are in this ancient language.
+
+### The Youngling Specters
+
+The Younglings were saved by the Collectors in and around Orland.
+
+- **Claudine** (10yo Gauldish Female) An excavation by the archealogical company GauldOne uncovered a bunch of malfunctioning sarcophigi in one of the Orland sites. These units held Gauldish holdouts who chose to go into statis rather than the shadowrealm. Only one unit was still operational, containing a baby. The sarcophigus was labelled "Claudine". GauldOne turned the child over to the Collectors; although the company has deep ties with the Hentergrey Emprie they didn't want to risk transportation across Partisan territory. The Collectors were an acceptable neutral party, and GauldOne was able to negotiate access to formerly secret Gauld sites known only to the Collectors. Claudine is gifted in a wide-range of spectral arts, which is considered typical for a Gauld.
+- **Resbecka** (9yo Lefantian Female) An orphan & refugee from the Empire's invasion of her country, Resbecka watched her family die in front of her. Her gift manifested as a dome-like shield, so Resbecka was saved from the same fate. She is softspoken, cautious, introverted and inward. She usually defers to the headstrong Kell and confident Claudine.
+- **Kell & Letina** (11yo Orcish Male, twins) The twins accompanied their family on raids, and their raiding party was completely beaten on some unknown Orlish beach-head. Kell & Letina were "saved" by the local townsfolk, but were essentially slaves (pretty much illegal everywhere except in Dwarvish culture). During their servitude, Kell manifested body augmentation powers to protect his sister. This resulted in many fights and beatings, and Letina manifested her healing abilities to care for her brother. When Kell almost killed a local boy who tried to rape letina, the townsfolk became riled up enough to start a lynching. A travelling Collector was nearby to negotiate the release of the kids, paying a "fine" and reparations on the kid's behalf.
 
 ---
 

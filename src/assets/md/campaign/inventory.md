@@ -1,21 +1,26 @@
-# Quest Items
+# Beriah Inc Gear
 
-- A 100,000 cp cheque that can be redeemed from the Collectors (about 2.25 years wages for a middle class worker)
+- 60,000 cp
+- 50,000 cp cheque remaining that can be redeemed from the Collectors
 - A letter of introduction from Avervand & Pastance, to be used to prove an existing relationship with the Collectors
 - A copy of the *Treaty of Koburg* to be given to the Collectors, signed between the Kobolds of Koburg and the Collectors
-
-# Treasure
-
 - Azurite x 2 (2000 cp total)
 - Blue Quartz x 2(2000 cp total)
 - Carnelian (5000 cp)
 - Moonstone (5000 cp)
-
-# Unclaimed Gear (NPC)
-
 - Leather Armour x 2
 - Light Crossbows x 3
 - Scimitar x 2
+
+# GauldMail addresses
+
+Party email is accounts@beriah.inc
+
+- Ersomheaf Company email
+- Perron, Rienhardt, and Krist emails
+- Email address of Seidel and the collectors (through their front, Teztec Shell Co)
+
+Claudine has the parties email address.
 
 # Party specific
 
@@ -66,7 +71,7 @@
 - Component pouches x 8 (for making Gauldian gear)
 - Healer's kit x 1 (10 charges)
 - Hempen rope x 1
-- Mark's Helmet x 1 (Animated Armour helm)
+- Mark's Helmet x 1 (Animated Armour helm). Spectre resistant (prevents telepathy, and psychic attacks do half damage).
 - Mess kit x 1
 - Rations x 10
 - Tinderbox x 1

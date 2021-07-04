@@ -6,15 +6,17 @@
 | Weapon | Shortsword |
 | Weapon | Simple Weapons |
 
-# Personality Traits
+## Personality
+
+### Traits
 
 Humble and Information-seeking. Curious to a fault .
 
-# Ideals
+### Ideals
 
 Seeks logical outcome in all interactions and enjoys achieving balance.
 
-# Bonds
+### Bonds
 
 Bendris assisted in Raorik's reactivation after lying dormant in a lair for 400 years.
 
@@ -22,6 +24,6 @@ Raorik respects Bendris' use of ancient artifacts.
 
 Geliah found 
 
-# Flaws
+### Flaws
 
 Machines are flawless lifeforms
