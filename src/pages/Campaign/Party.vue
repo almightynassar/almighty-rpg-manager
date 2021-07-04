@@ -207,7 +207,7 @@ export default {
     },
     maxHealth (health, con) {
       const conMod = this.modifier(con)
-      return (health.dice + conMod) + (((health.dice / 2) + 0.5) * (health.hitdice - 1)) + (conMod * (health.hitdice - 1))
+      return Math.floor((health.dice + conMod) + (((health.dice / 2) + 0.5) * (health.hitdice - 1)) + (conMod * (health.hitdice - 1)))
     },
     speedInM (speed) {
       return speed * 1.5
