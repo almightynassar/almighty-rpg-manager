@@ -5,6 +5,10 @@
 | Language | Common, Gauldish |
 | Weapon | Martial & Simple Weapons |
 
-# Personality Traits
+# Background
 
 Short for his race, but very sneaky
+
+## Notable Connections
+
+*N/A*

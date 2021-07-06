@@ -48,7 +48,7 @@ There are monsters everywhere on Terrea, but of particular note are: Aboleths, D
 
 ## Are there any wars we can fight in?
 
-The [Partisans](#/nations/partisans) are freedom fighters trying to liberate the nations of the Lefantia, Teztec, and Azia from the expansionist [Hentergrey Empire](#/nations/hentergrey). The Orcs are currently raiding both the Mermen of [Myrmiddon](#/nations/myrmiddon) and the [Snvert](#/nations/snvert), but it is not a war of conquest.
+The [Partisans](#/nations/partisans) are freedom fighters trying to liberate the nations of the Lefantia, Teztec, and Azia from the expansionist [Hentergrey Empire](#/nations/hentergrey). The Orcs are currently raiding both the Merfolk of [Myrmiddon](#/nations/myrmiddon) and the [Snvert](#/nations/snvert), but it is not a war of conquest.
 
 ## How about gladitorial arenas to compete in and with glory and fabulous prizes?
 
@@ -83,7 +83,7 @@ Most modern food exist in Terrea, and are traded widely. It shouldn't be hard to
 
 The Hentergrey Emperor is the most politically powerful person in Terrea, commanding the largest continent, the largest armies, and the largest cities.
 
-The richest person is an ongoing competition between the Mermen and the Dwarves. Currently the fortunes of the Mermen are waning as the Orcs raid their trade fleets, but this has also disrupted the trade routes of the Dwarves.
+The richest person is an ongoing competition between the Merfolk and the Dwarves. Currently the fortunes of the Merfolk are waning as the Orcs raid their trade fleets, but this has also disrupted the trade routes of the Dwarves.
 
 The greatest warriors are to be found among the Hentergrey Empire's troops, although the Partisans have many warriors that have gain reknown by standing against the Empire. The Orcs can also lay claim to the title, as their constant raiding provides fertile ground for warrior training.
 

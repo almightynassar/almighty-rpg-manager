@@ -74,8 +74,16 @@ Spectrum revealed some of Raorik's past, including the plans of Sesom. Sesom was
 
 Then there was suddenly an explosion as the Collector's base is now under attack.
 
-## Session 14: Securing the Younglings
+## Session 14: The Younglings
+
+The Collector's base was attacked by members of the SRD, and it was later learned that the attackers helped Krieg out of prison. Siedel quickly hired the group for a secret task, which was to save 4 young spectral users. One of these users was a Gauld child named Claudine.
+
+During the escape, Sigmane opted for a kamikaze run to stop the SRD from attacking the party with rockets. However, the party was able to give enough assistance that Sigmane was able to survive, although trapped on the other side of a collapse corridoor.
+
+The party was able to secure an exit from the Collector's base, and were able to learn that the attack was actually undertaken by disguised members of the Blood Fangs.
+
+## Session 15: Beriah Inc.
 
 The party escaped the Collector's base, and took the young children to the Collector's hideout in the docks distrinct. The hideout was an office space for Teztec Shell Co. Geliah was able to secure disguises for the children, while Bendris used his tech-smarts to sneak their way to the base. Raorik visited Ersomheaf and met Grailest, a researcher who could help Raorik in his quest to give machines a soul.
 
-Siedel paid out part of the parties cheque, and added 10,000 cp reward from his own savings as payment for keeping the children safe. The payment is also meant to purchase the group's silence and secrecy in regards to the younglings.
+Siedel paid out part of the parties cheque, and added 10,000 cp reward from his own savings as payment for keeping the children safe. The payment is also meant to purchase the group's silence and secrecy in regards to the younglings. This payment was paid out to the newly formed Beriah Inc, a newly formed adventuring company.

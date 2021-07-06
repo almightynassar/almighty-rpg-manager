@@ -2,47 +2,29 @@
   <div class="q-pa-md">
     <q-input v-model="size" type="number" label="Example Text font size (px)" />
     <q-input v-model="example" label="Example Text" />
-    <q-table
-      title="Languages"
-      :data="languages"
-      :columns="columns"
-      :pagination.sync="pagination"
-      :filter="filter"
-      row-key="id"
-      flat
-    >
-
-      <template v-slot:top-right>
-        <q-input dense debounce="300" v-model="filter" placeholder="Search">
-          <template v-slot:append>
-            <q-icon name="search" />
-          </template>
-        </q-input>
-      </template>
-
-      <template v-slot:header="props">
-        <q-tr :props="props">
-          <q-th
-            v-for="col in props.cols"
-            :key="col.name"
-            :props="props"
-          >
-            {{ col.label }}
-          </q-th>
-          <q-th auto-width />
-        </q-tr>
-      </template>
-
-      <template v-slot:body="props">
-        <q-tr :props="props">
-          <q-td v-for="col in props.cols" :key="col.name" :props="props" >
-            <span v-if="col.name === 'example'" :class="col.value" :style="'font-size: ' + size + 'px'">{{ example }}</span>
-            <span v-else>{{ col.value }}</span>
-          </q-td>
-        </q-tr>
-      </template>
-
-    </q-table>
+    <q-markup-table flat dense wrap-cells>
+        <thead>
+            <th>Name</th>
+            <th>Rarity</th>
+            <th>Spoken by</th>
+            <th>Description</th>
+        </thead>
+        <tbody>
+            <template v-for="l in languages">
+              <tr :key="l.name">
+                  <td>{{ l.name }}</td>
+                  <td>{{ l.rarity }}</td>
+                  <td>{{ l.spoken }}</td>
+                  <td>{{ l.description }}</td>
+              </tr>
+              <tr :key="l.name + '-example'">
+                <td colspan=4>
+                  <span :class="l.script" :style="'font-size: ' + size + 'px'">{{ example }}</span>
+                </td>
+              </tr>
+            </template>
+        </tbody>
+    </q-markup-table>
   </div>
 </template>
 

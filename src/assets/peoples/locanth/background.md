@@ -4,7 +4,7 @@ Legends state that Locanth were created when Baltha, in the form of different fi
 
 ### Conformists
 
-The Locanth are noted to be generally conformist and do not go out of their way to cause a fuss. Both the Mermen and Dwarves employ Locanth on their trading ships as reliable labour.
+The Locanth are noted to be generally conformist and do not go out of their way to cause a fuss. Both the Merfolk and Dwarves employ Locanth on their trading ships as reliable labour.
 
 ### Tireless Navigators
 

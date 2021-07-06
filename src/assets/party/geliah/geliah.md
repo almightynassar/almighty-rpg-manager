@@ -11,25 +11,16 @@ Geliah Sivvith was just a young recruit to the new forces being trained in the s
 
 He now travels the world in search of life and adventure beyond the provincial, as well as to seek further information about his newfound ability, and justice for his suffering.
 
-## Personality
+## Background
 
-### Traits
+- Has trauma from their torture
+- Believes that spectral users die younger due to their use as weapons of war
+- Looking to exonerate himself from their discharge from the Hentergrey armed forces
+- **Ideals: Might**. In life as in war, the stronger force wins. (Evil) Lawful adherence.
+- **Bonds**. I would still lay down my life for the people I served with.
+- **Flaws**. I have little respect for anyone who is not a proven warrior.
 
-Has trauma from their torture, and believes that spectral users die younger due to their use as weapons of war. Looking to exonerate himself.
-
-### Ideals
-
-Might. In life as in war, the stronger force wins. (Evil) Lawful adherence.
-
-### Bonds
-
-I would still lay down my life for the people I served with.
-
-### Flaws
-
-I have little respect for anyone who is not a proven warrior.
-
-## Friends & Family
+## Notable Connections
 
 - Keka "Rivergrip": Gelish fished his friend out of a river, and joined the army with Geliah.
 - Sgt Bril "Chest Eye": Eye-like scar on his chest due to an arrow wound, and was Geliah's commanding officer

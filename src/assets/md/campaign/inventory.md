@@ -71,7 +71,7 @@ Claudine has the parties email address.
 - Component pouches x 8 (for making Gauldian gear)
 - Healer's kit x 1 (10 charges)
 - Hempen rope x 1
-- Mark's Helmet x 1 (Animated Armour helm). Spectre resistant (prevents telepathy, and psychic attacks do half damage).
+- Mark's Helmet x 1 (Animated Armour helm). Spectre resistant (prevents telepathy, and psychic attacks do half damage). Given to Ersomheaf for study into MI.
 - Mess kit x 1
 - Rations x 10
 - Tinderbox x 1
