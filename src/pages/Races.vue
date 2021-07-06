@@ -1,20 +1,14 @@
 <template>
   <div class="q-pa-md">
     <div v-if="race">
-        <div>
-          <div class="row q-mb-sm">
-            <q-btn color="primary" icon="arrow_back_ios" label="Back" @click="goBack" />
-          </div>
-        </div>
         <div class="row q-col-gutter-sm">
             <div class="col-xs-12 col-lg-3">
                 <q-card>
-                    <div class="text-h4 text-primary">{{ race.plural }}</div>
-                    <p><em>{{ race.short }}</em></p>
-
-                    <q-img v-if="race.image" :src="race.image" basic class="fit" />
-
                     <q-card-section>
+                        <q-btn flat color="primary" icon="arrow_back_ios" label="Back" @click="goBack" />
+                        <q-img v-if="race.image" :src="race.image" basic class="fit" />
+                        <div class="text-h4 text-primary">{{ race.plural }}</div>
+                        <p><em>{{ race.short }}</em></p>
                         <q-markup-table flat dense wrap-cells>
                             <thead>
                                 <th></th>

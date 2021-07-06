@@ -1,21 +1,11 @@
 <template>
   <div class="q-pa-md">
     <div v-if="monster">
-        <div>
-          <div class="row q-mb-sm">
-            <q-btn color="primary" icon="arrow_back_ios" label="Back" @click="goBack" />
-          </div>
-        </div>
         <div class="row q-col-gutter-sm">
-            <div class="col col-xs-12 col-sm-9">
-                <div class="text-h4 text-primary">{{ monster.name }}</div>
-                <p><em>{{ monster.description }}</em></p>
-                <q-markdown :src="monster.markdown" no-heading-anchor-links />
-            </div>
-
             <div class="col col-xs-12 col-sm-3">
                 <q-card>
                     <q-card-section>
+                        <q-btn flat color="primary" icon="arrow_back_ios" label="Back" @click="goBack" />
                         <q-img :src="monster.image" basic class="fit" />
                         <q-markup-table flat dense wrap-cells>
                             <thead>
@@ -51,6 +41,12 @@
                         </div>
                     </q-card-section>
                 </q-card>
+            </div>
+
+            <div class="col col-xs-12 col-sm-9">
+                <div class="text-h4 text-primary">{{ monster.name }}</div>
+                <p><em>{{ monster.description }}</em></p>
+                <q-markdown :src="monster.markdown" no-heading-anchor-links />
             </div>
         </div>
     </div>

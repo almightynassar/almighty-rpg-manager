@@ -1,14 +1,10 @@
 <template>
   <div class="q-pa-md">
     <div v-if="member">
-        <div>
-          <div class="row q-mb-sm">
-            <q-btn color="primary" icon="arrow_back_ios" label="Back" @click="goBack" />
-          </div>
-        </div>
         <div class="row q-col-gutter-sm">
             <div class="col-xs-12 col-sm-6 col-lg-3">
                 <q-card>
+                    <q-btn flat color="primary" icon="arrow_back_ios" label="Back" @click="goBack" />
                     <q-img v-if="member.image" :src="member.image" basic class="fit" />
                     <q-card-section>
                         <strong class="text-primary">{{ member.name }}</strong>
@@ -29,11 +25,11 @@
                                 </tr>
                                 <tr>
                                     <td><strong class="text-primary">Speed: </strong></td>
-                                    <td>{{ member.speed }} spaces / {{ speedInM(member.speed) }} m / {{speedInFt(member.speed)}} ft</td>
+                                    <td>{{ member.speed }} spaces <br /> {{ speedInM(member.speed) }} m <br /> {{speedInFt(member.speed)}} ft</td>
                                 </tr>
                                 <tr>
-                                    <td><strong class="text-primary">Carrying Capacity: </strong></td>
-                                    <td>{{(member.attributes['str'] * 5) * 0.5}} kg / {{member.attributes['str'] * 5}} lbs</td>
+                                    <td><strong class="text-primary">Encumbrance: </strong></td>
+                                    <td>{{(member.attributes['str'] * 5) * 0.5}} kg <br /> {{member.attributes['str'] * 5}} lbs</td>
                                 </tr>
                                 <tr>
                                     <td><strong class="text-primary">Age: </strong></td>

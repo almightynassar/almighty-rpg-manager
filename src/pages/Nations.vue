@@ -1,14 +1,10 @@
 <template>
   <div class="q-pa-md">
     <div v-if="nation">
-        <div>
-          <div class="row q-mb-sm">
-            <q-btn color="primary" icon="arrow_back_ios" label="Back" @click="goBack" />
-          </div>
-        </div>
         <div class="row q-col-gutter-sm">
             <div class="col-xs-12 col-lg-3">
                 <q-card>
+                    <q-btn flat color="primary" icon="arrow_back_ios" label="Back" @click="goBack" />
                     <q-img v-if="nation.flag" :src="nation.flag" basic class="fit" />
                     <q-card-section>
                         <q-markup-table flat dense wrap-cells>
