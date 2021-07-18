@@ -87,3 +87,17 @@ The party was able to secure an exit from the Collector's base, and were able to
 The party escaped the Collector's base, and took the young children to the Collector's hideout in the docks distrinct. The hideout was an office space for Teztec Shell Co. Geliah was able to secure disguises for the children, while Bendris used his tech-smarts to sneak their way to the base. Raorik visited Ersomheaf and met Grailest, a researcher who could help Raorik in his quest to give machines a soul.
 
 Siedel paid out part of the parties cheque, and added 10,000 cp reward from his own savings as payment for keeping the children safe. The payment is also meant to purchase the group's silence and secrecy in regards to the younglings. This payment was paid out to the newly formed Beriah Inc, a newly formed adventuring company.
+
+## Session 16: On the hunt for Krieg
+
+After a day resting in the warehouse, the calm was interrupted by a dozen Collector's carrying in a malfunctioning Spectrum. The droid leader had damaged their memory by operating in an unsafe manner to protect his fellow Collectors. A brief moment of lucidity allowed Spectrum to warn Raorik not to trust Sesom, the former Gauldian boss of the two forged over 500 years ago (Raorik was a diplomat, and Spectrum worked in Security).
+
+Seidel and Jerts reunited, and planned with Inspector-General Basmus Staartij (Lefantian male, Dessingrove Police) and Detective Xingbo Rengling (Locanth male) about recapturing Krieg. Basmus and Xingbo recruit the party to carry out the investigation for them, and gave the party an official Dessingrove warrant.
+
+The start of the investigation took the party to Siliano's Tavern in the Beggars Bit, where the party met a goblin representative of the Thieve's Guild named simply Yoto. There was a trade in secrets, where the party told Yoto a little bit about their adventures while Yoto told the party that if he was going to smuggle something into the city, he would do it via the docks. Also, a local tailor supplied the Blood Fang disguises.
+
+The next step was to the West Gate guard tower, where they met Sargeant Lucchio Giandrazio. The overworked man was extremely co-operative, and supplied information that matched up with what Yoto said. The third stop was to the tailor, a sweet old woman who again corroborated the other statements.
+
+The party then confronted the Harbour Master, a Merfolk bureaucrat name Norochi Kento. Norochi admitted that the security of the docks was lacklustre to encourage more free trade, and that he hired out the warehouses to practically anyone who could pay. The party was able to get information about the potential Blood Fang hideout, and left to investigate. While conducting a stakeout they saw the red-headed, bearded man that the tailor described as buying the uniforms.
+
+The party had find out where the Blood Fangs were hiding out....
