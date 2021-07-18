@@ -19,7 +19,7 @@
     "axios": "^0.21.1",
     "core-js": "^3.15.2",
     "hexapi": "^1.0.4",
-    "quasar": "^1.15.21",
+    "quasar": "^1.15.22",
     "v-viewer": "^1.6.3"
   },
   "devDependencies": {
