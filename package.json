@@ -15,11 +15,11 @@
     "test": "echo \"No test specified\" && exit 0"
   },
   "dependencies": {
-    "@quasar/extras": "^1.10.8",
+    "@quasar/extras": "^1.10.9",
     "axios": "^0.21.1",
     "core-js": "^3.15.2",
     "hexapi": "^1.0.4",
-    "quasar": "^1.15.22",
+    "quasar": "^1.15.23",
     "v-viewer": "^1.6.3"
   },
   "devDependencies": {
