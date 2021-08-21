@@ -100,4 +100,10 @@ The next step was to the West Gate guard tower, where they met Sargeant Lucchio 
 
 The party then confronted the Harbour Master, a Merfolk bureaucrat name Norochi Kento. Norochi admitted that the security of the docks was lacklustre to encourage more free trade, and that he hired out the warehouses to practically anyone who could pay. The party was able to get information about the potential Blood Fang hideout, and left to investigate. While conducting a stakeout they saw the red-headed, bearded man that the tailor described as buying the uniforms.
 
-The party had find out where the Blood Fangs were hiding out....
+The party had found out where the Blood Fangs were hiding out....
+
+## Session 17: A Tale of Two Kriegs
+
+The party left Lippus behind while they reported their findings. Inspector-General Basmus ordered the warehouse to be surrounded, but Detective Xingbo had ideas to stealthily enter the warehouse through the sewers. The party countered all the traps they managed to find, climbing up to see a Blood Fang commander having an argument with a robotic version of Krieg. The argument became heated, until another Krieg robot uncloaked and murdered the Blood Fang commander.
+
+The party revealed themselves, fighting and defeating the two Krieg robots.
