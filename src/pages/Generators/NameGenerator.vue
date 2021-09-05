@@ -67,7 +67,7 @@ export default {
       name = name.replace(/[A-Z]/g, letter => ` ${letter.toLowerCase()}`)
       return name.charAt(0).toUpperCase() + name.slice(1)
     },
-    makeSetName (name, set) {
+    makeSetName (name) {
       return this.convertName(name)
     },
     generate () {
@@ -104,14 +104,14 @@ export default {
     setOptions () {
       var options = []
       for (var key in Names) {
-        var setName = this.makeSetName(key, Names[key])
+        var setName = this.makeSetName(key)
         options.push({ value: key, label: setName })
       }
       return options
     }
   },
   watch: {
-    selected (newS, oldS) {
+    selected () {
       this.generate()
     }
   },

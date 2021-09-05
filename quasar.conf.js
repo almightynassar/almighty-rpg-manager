@@ -9,6 +9,9 @@
 
 module.exports = function (ctx) {
   return {
+    supportIE: false,
+    supportTS: false,
+
     // app boot file (/src/boot)
     // --> boot files are part of "main.js"
     // https://quasar.dev/quasar-cli/boot-files
@@ -30,28 +33,14 @@ module.exports = function (ctx) {
 
     // https://github.com/quasarframework/quasar/tree/dev/extras
     extras: [
-      // 'ionicons-v4',
-      // 'mdi-v5',
-      // 'fontawesome-v5',
-      // 'eva-icons',
-      // 'themify',
-      // 'line-awesome',
-      'roboto-font', // optional, you are not bound to it
-      'material-icons' // optional, you are not bound to it
+      'roboto-font',
+      'material-icons'
     ],
 
     // https://quasar.dev/quasar-cli/quasar-conf-js#Property%3A-framework
     framework: {
-      iconSet: 'material-icons', // Quasar icon set
-      lang: 'en-us', // Quasar language pack
-
-      // Possible values for "all":
-      // * 'auto' - Auto-import needed Quasar components & directives
-      //            (slightly higher compile time; next to minimum bundle size; most convenient)
-      // * false  - Manually specify what to import
-      //            (fastest compile time; minimum bundle size; most tedious)
-      // * true   - Import everything from Quasar
-      //            (not treeshaking Quasar; biggest bundle size; convenient)
+      iconSet: 'material-icons',
+      lang: 'en-us',
       importStrategy: 'auto',
 
       components: [
@@ -78,21 +67,10 @@ module.exports = function (ctx) {
       ]
     },
 
-    // https://quasar.dev/quasar-cli/cli-documentation/supporting-ts
-    supportTS: false,
-
     // Full list of options: https://quasar.dev/quasar-cli/quasar-conf-js#Property%3A-build
     build: {
       vueRouterMode: 'hash', // available values: 'hash', 'history'
       publicPath: ctx.dev ? '/' : 'almighty-rpg-manager',
-
-      // rtl: false, // https://quasar.dev/options/rtl-support
-      // showProgress: false,
-      // gzip: true,
-      // analyze: true,
-
-      // Options below are automatically set depending on the env, set them if you want to override
-      // extractCSS: false,
 
       // https://quasar.dev/quasar-cli/cli-documentation/handling-webpack
       extendWebpack (cfg) {

@@ -27,30 +27,19 @@ module.exports = {
   ],
 
   globals: {
-    'ga': false, // Google Analytics
-    'cordova': true,
-    '__statics': true,
-    'process': true,
-    'Capacitor': true,
-    'chrome': true
+    __statics: true,
+    Capacitor: true,
+    chrome: true,
+    cordova: true,
+    ga: false, // Google Analytics
+    module: true,
+    process: true,
+    process: true,
+    require: true
   },
 
   // add your custom rules here
   rules: {
-    // allow async-await
-    'generator-star-spacing': 'off',
-    // allow paren-less arrow functions
-    'arrow-parens': 'off',
-    'one-var': 'off',
-
-    'import/first': 'off',
-    'import/named': 'off',
-    'import/namespace': 'off',
-    'import/default': 'off',
-    'import/export': 'off',
-    'import/extensions': 'off',
-    'import/no-unresolved': 'off',
-    'import/no-extraneous-dependencies': 'off',
     'prefer-promise-reject-errors': 'off',
 
     // allow debugger during development only

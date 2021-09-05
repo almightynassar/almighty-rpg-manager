@@ -20,12 +20,13 @@
     "core-js": "^3.16.2",
     "hexapi": "^1.0.4",
     "quasar": "^1.15.23",
-    "v-viewer": "^1.6.4"
+    "v-viewer": "^1.6.4",
+    "vuex": "^3.6.2"
   },
   "devDependencies": {
     "@quasar/app": "^2.2.10",
     "@quasar/quasar-app-extension-qmarkdown": "^1.4.3",
-    "babel-eslint": "^10.0.1",
+    "babel-eslint": "^10.1.0",
     "devtron": "^1.4.0",
     "electron": "^9.4.4",
     "electron-debug": "^3.2.0",
@@ -33,16 +34,11 @@
     "electron-installer-zip": "^0.1.2",
     "electron-packager": "^14.2.1",
     "eslint": "^6.8.0",
-    "eslint-config-standard": "^14.1.0",
     "eslint-loader": "^3.0.3",
-    "eslint-plugin-import": "^2.24.1",
-    "eslint-plugin-node": "^11.0.0",
-    "eslint-plugin-promise": "^4.3.1",
-    "eslint-plugin-standard": "^4.1.0",
     "eslint-plugin-vue": "^6.1.2"
   },
   "engines": {
-    "node": ">= 10.18.1",
+    "node": ">= 12.22.1",
     "npm": ">= 6.13.4",
     "yarn": ">= 1.21.1"
   },

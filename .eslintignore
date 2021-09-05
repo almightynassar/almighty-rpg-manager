@@ -3,5 +3,8 @@
 /dist
 /docs
 /node_modules
+/src-capacitor
+/src-cordova
 /src-electron
+.eslintrc.js
 babel.config.js
