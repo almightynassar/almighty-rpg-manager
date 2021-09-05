@@ -16,14 +16,8 @@ module.exports = {
 
   // Rules order is important, please avoid shuffling them
   extends: [
-    // Base ESLint recommended rules
     'eslint:recommended',
-
-    // Uncomment any of the lines below to choose desired strictness, but leave only one uncommented!
-    // See https://eslint.vuejs.org/rules/#available-rules
-    'plugin:vue/essential',
-
-    'standard'
+    'plugin:vue/essential'
   ],
 
   plugins: [
@@ -50,10 +44,10 @@ module.exports = {
     'one-var': 'off',
 
     'import/first': 'off',
-    'import/named': 'error',
-    'import/namespace': 'error',
-    'import/default': 'error',
-    'import/export': 'error',
+    'import/named': 'off',
+    'import/namespace': 'off',
+    'import/default': 'off',
+    'import/export': 'off',
     'import/extensions': 'off',
     'import/no-unresolved': 'off',
     'import/no-extraneous-dependencies': 'off',

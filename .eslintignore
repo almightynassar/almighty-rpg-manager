@@ -1,5 +1,7 @@
 /.github
 /.quasar
 /dist
+/docs
 /node_modules
 /src-electron
+babel.config.js
