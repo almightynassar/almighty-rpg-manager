@@ -1,8 +1,16 @@
 # FAQ
 
+## What's the Sundering?
+
+The Sundering was the monumental event where the Gauld fashioned the Shadowrealm and permenantly left Mid-Realm. Common mythology tells that the Gauld did this because they were too proud to accept defeat at the hands of the [gods](#/cosmology/deities) and their monsters, and so sulked and took their toys with them. Other myths state that the gods played dirty and created a genocidal virus that would have wiped out the Gauld, and so the Gauld escaped to the Shadowrealm to ensure their survival. The exact truth is hard to determine, since the Gauld in the Shadowrealm are notoriously obtuse.
+
+The fact is that the Sundering left only Gauldish technology, monsters and the Forged behind. The new sentient races entered a Terrea that was already developed, and used this to jumpstart their civilisiation in less than 500 years.
+
 ## What's the deal with religion on Terrea?
 
-The [Gods](#/cosmology/deities) of Terrea act based on their whims, and are less concerned with morality or concepts of good and evil. Mortals simply try to appease the Gods to avoid their ire, and occassionally petition their favour for a good harvest or some other boon. The Gods rarely intefere in the lives of mortals.
+There is only one dominate religion on Terrea, but there are many branches of doctrine (and levels of belief). The only common theme is that if the [gods](#/cosmology/deities) of Terrea exist then they do not interfere with mortal affairs, or at least do not provide tangible and objective evidence of their existence. Believers surmise that the gods have resolved to butt out of mortal affairs after the Sundering, while non-believers claim that the absence of evidence is proof enough.
+
+In short, mortals simply try to appease the gods to avoid their ire and occassionally petition their favour for a good harvest or some other boon. There are also some cults and "prophets" that claim that they have met the divine, but their influence is generally localised to a specific area.
 
 ## What about magic?
 
