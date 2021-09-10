@@ -2,7 +2,7 @@
 
 ## What's the Sundering?
 
-The Sundering was the monumental event where the Gauld fashioned the Shadowrealm and permenantly left Mid-Realm. Common mythology tells that the Gauld did this because they were too proud to accept defeat at the hands of the [gods](#/cosmology/deities) and their monsters, and so sulked and took their toys with them. Other myths state that the gods played dirty and created a genocidal virus that would have wiped out the Gauld, and so the Gauld escaped to the Shadowrealm to ensure their survival. The exact truth is hard to determine, since the Gauld in the Shadowrealm are notoriously obtuse.
+The Sundering was the monumental event where the Gauld fashioned the Shadowrealm and permenantly left Mid-Realm. Common mythology tells that the Gauld did this because they were too proud to accept defeat at the hands of the [gods](#/cosmology/deities) and their monsters, and so sulked and took their toys with them. Other myths state that the gods played dirty and created a genocidal virus that would have wiped out the Gauld, and so the Gauld escaped to the Shadowrealm to ensure their survival. The exact truth is hard to determine since the Gauld in the Shadowrealm are notoriously obtuse, the dragons are too arrogant and proud, and the gods simply don't talk to mortals.
 
 The fact is that the Sundering left only Gauldish technology, monsters and the Forged behind. The new sentient races entered a Terrea that was already developed, and used this to jumpstart their civilisiation in less than 500 years.
 
@@ -14,13 +14,14 @@ In short, mortals simply try to appease the gods to avoid their ire and occassio
 
 ## What about magic?
 
-There are three forms of [magic](#/cosmology/magic) on Terrea:
+All [magic](#/cosmology/magic) on Terrea is sourced from the [Aether](#/cosmology/realms) itself. This magical energy can be harnessed and used, and so it also a critical part of technology. Most scholars classify magic into four forms:
 
- - **Primordial**: Also known as **Elemental**. Raw energy from the [Aether](#/cosmology/realms) is manifested on Terrea as Shards, and can be used in devices to produce magical or technological effects.
- - **Spectral**:  The most common form of magic. Through sheer willpower, an individual can manifest a particular effect.
- - **Natural**: Because all lifeforce on Terrea originated from the Aether, some scholars are able to manipulate that energy directly.
+ - **Primordial**: An individual uses their physical presence in Mid-Realm as a conduit to harness the raw energy directly from the Aether. This is a rare form that hasn't been seen since the Gauld, as most mortals expire when exposed to raw Aether energy. Also known as **Elemental** magic.
+ - **Technological**: Includes all forms of artificial and mechanical means of harnessing Aether energy. A common way that this is accomplished is by refining pure Aether energy into Shards, which is then used as 'batteries' to power devices that produce magical or technological effects.
+ - **Spectral**: A form that traces it's history back to the Gauld, it requires that an individual manifests an 'avatar' in the Aether realm through sheer willpower. This spectral avatar is then used as a conduit, allowing the individual to manifest magical effects in Mid-Realm. The secrets of Spectral power is jealously guarded by it's practitioners.
+ - **Natural**: The most common form of magic, but the least potent. All life on Terrea is distantly linked to the Aether, and some individuals have been able to leverage this link to gain limited abilities. These abilities generally relate to the individual's experience, such as a soldier gaining super reflexes or a thief gaining increased agaility.
 
-Sorcerers, Warlocks, and Wizards are not available as playable classes on Terrea. Mystics from Unearther Arcana is used to mimic Spectral abilities. Artificers use Primordial essence to power their magic-like technology. All other "magical" Class abilities can be considered Natural in nature.
+Sorcerers, Warlocks, and Wizards do not exist in the world of Terrea, and are not available as playable classes. Mystics from Unearther Arcana is used to mimic Spectral abilities. Artificers use Shards to power their magic-like technology. All other "magical" class abilities can be considered as Natural magic.
 
 ## Where can we go to buy equipment?
 
