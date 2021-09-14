@@ -25,39 +25,47 @@ Sorcerers, Warlocks, and Wizards do not exist in the world of Terrea, and are no
 
 ## Where can we go to buy equipment?
 
-Most mundane piecies of equipment are available at settlements as long as an appropriate trade building is available (for example, weapons and armour require a blacksmith). The [Gear list](#/gear) section will give you an idea of an average price for an item, but it may change depending on local factors.
+Adventuring equipment can be bought in most settlements, as long as an appropriate trade building is available. For example, weapons and armour require a blacksmith while clothing requires a tailor. The [Gear list](#/gear) section will give you an idea of an average price for an item, but this value is dependent on local factors.
 
-For magical or technological equipment, you will only find (or sell) them in the larger settlements such as cities. You may be able to find buyers that are rich enough outside of these locations, but there is no guarantee that they will be interested in the piece that you have to offer.
+You will only find Aether-powered equipment and Gauld artifacts in larger settlements such as cities.
 
-## Where can we go to get armour custom fitted for this monster or beast I just befriended?
+There is never a guarantee that shopkeepers will be interested in the goods, equipment, or junk that you have to offer.
 
-You can't use any old blacksmith for highly custom pieces. You will need to seek out a master of the craft, which can usually be found in the larger settlements. The [Federation of Guilds](#/nations/federation) in the land of Bounty are especially known for their high quality and masterwork gear.
+## Where can we go to get armour custom fitted for this beast I just befriended?
+
+You will need to seek out a master of the craft to make highly custom gear, which can usually be found in larger settlements. The [Federation of Guilds](#/nations?id=federation) in the land of Bounty are known for their high quality and masterwork gear, while the [Snvert](#/nations?id=snvert) specialise in mechanical and clockwork gear. If you just want to browse, then travelling to the trading nation of [Myrmiddon](#/nations?id=myrmiddon) and frequenting their colourful bazaars is for you.
 
 ## Where can we go for healing?
 
-Most settlements will have a healer (or someone who does healing part-time), but for more serious injuries you will either need to send for an experienced doctor or transport the patient to them. Most local healers should be able to deal with most common versions of poisons and dieseases. Take a look at the [healing services](#/healing) for a rough guide on what is available.
+Most settlements should have a healer (or someone who does healing part-time), and they should be able to deal with the most common versions of poisons and dieseases. For more serious injuries you will either need a medical specialist. Take a look at the [healing services](#/healing) for a rough guide on what is available.
 
 ## Is resurrection possible?
 
-Yes, although it will draw the attention and ire of [Baltha](#/cosmology/deities). The God does not appreciate when a soul is taken from their domain. Because of this, people with the knowledge of how to resurrect the dead either need a very good reason or be very well compensated.
+Yes, although it is said that this will draw the attention and ire of [Baltha](#/cosmology/deities), as the god does not appreciate when a soul is taken from their domain. Because of this, people with the knowledge of how to resurrect the dead either need a very good reason or be very well compensated.
 
 ## Is there a cure for undeath (zombies, ghouls and vampires)?
 
-Yes, but again it will involve taking a soul back from the nether and therefore draw Baltha's attention. This is because when an undead is created, the original soul is seperated from the corpse and sent to the Nether. The corpse left behind is then reanimated with a twisted 'clone' of the original soul, retaining some memories and personality traits of the original. It is not known if the new soul is generated from Nether or Aether energies.
+Yes, but again it will involve taking a soul back from the Nether and therefore draw Baltha's attention. This is because when an undead is created, the original soul is seperated from the corpse and sent to the Nether. The corpse left behind is then reanimated with a twisted 'clone' of the original soul, retaining some memories and personality traits of the original. It is not known if the new soul is generated from Nether or Aether energies, or if the new soul is actually an offshoot of the old soul.
 
-Baltha does not particularly care for the undead themselves, and they can be destroyed without drawing the attention of the God.
+Baltha does not particularly care for the undead themselves, and they can be destroyed without drawing their attention.
 
 ## Are there any places where swords are illegal, magic is outlawed, or other notable hassles from the law?
 
-Most large settlements frown on or restrict the open-carry of weapons while inside the settlement. But the only major thing is to not go into debt with a dwarf; the [Federation of Guilds](#/nations/federation) have legalised slavery as an acceptable form of debt-recovery.
+Most large settlements frown on or restrict the open-carry of weapons while inside the settlement. However, weapons are generally only confiscated in emergency situations.
+
+Magic is generally freely practiced in Terrea (and sometimes encouraged) as long as it is not used for violence.
+
+Something to avoid is going into debt with a dwarf; the [Federation of Guilds](#/nations?id=federation) have legalised slavery as an acceptable form of debt-recovery. The Federation have standarised the rates of endentured servitude, allowing slaves to pay back their debt with their labour.
+
+Most legal issues in Terrea is handled by a court-like system with minor differences in the composition of judges, jury, prosecutors and defenders. Legal proceedings generally involve the presentation of evidence, vigorous debate on the case, followed by a judgement. A court case can sometimes be supplemented by undertaking an ordeal, judicial combat between the parties or their champions, or finding enough people who were willing to swear oaths to the uprightness of either party.
 
 ## What monsters are terrorizing the countryside sufficiently that if I kill them I will become famous?
 
-There are monsters everywhere on Terrea, but of particular note are: Aboleths, Dragons, Krakens, Remorhazes', Vampires
+There are monsters everywhere on Terrea, but of particular note are: Aboleths, Dragons, Krakens, Remorhazes', and Vampires
 
 ## Are there any wars we can fight in?
 
-The [Partisans](#/nations/partisans) are freedom fighters trying to liberate the nations of the Lefantia, Teztec, and Azia from the expansionist [Hentergrey Empire](#/nations/hentergrey). The Orcs are currently raiding both the Merfolk of [Myrmiddon](#/nations/myrmiddon) and the [Snvert](#/nations/snvert), but it is not a war of conquest.
+The [Partisans](#/nations?id=partisans) are freedom fighters trying to liberate the nations of the Lefantia, Teztec, and Azia from the expansionist [Hentergrey Empire](#/nations?id=hentergrey). The Orcs are currently raiding both the Merfolk of [Myrmiddon](#/nations?id=myrmiddon) and the [Snvert](#/nations?id=snvert), but it is not a war of conquest.
 
 ## How about gladitorial arenas to compete in and with glory and fabulous prizes?
 
