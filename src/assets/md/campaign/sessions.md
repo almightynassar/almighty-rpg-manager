@@ -107,3 +107,15 @@ The party had found out where the Blood Fangs were hiding out....
 The party left Lippus behind while they reported their findings. Inspector-General Basmus ordered the warehouse to be surrounded, but Detective Xingbo had ideas to stealthily enter the warehouse through the sewers. The party countered all the traps they managed to find, climbing up to see a Blood Fang commander having an argument with a robotic version of Krieg. The argument became heated, until another Krieg robot uncloaked and murdered the Blood Fang commander.
 
 The party revealed themselves, fighting and defeating the two Krieg robots.
+
+## Session 18: An unexpected visit
+
+Underneath the warehouse the party found Cavill Henryson, a captive dwarf that was tasked with making components for the Blood Fangs. The party freed Cavill and discovered that he had apprentice named Gorog that was captured by the Blood Fangs as well. Gorog was sickly, and Cavill believes that his apprenticed may have been turned into a Kriegbot.
+
+During a quick investigation of the warehouse, Geliah found an encrypted letter while Bendris discovered a working pair of Aether-goggles. A goblin sidled up to Geliah and handed over a written request to meet Yoto, the leader of the Thieves Guild in Dessingrove. Geliah, Bendris and Cavill made their way to Siliano's Tavern and had a few drinks while they waited for the meeting.
+
+Eventually Yoto summoned the party to an upstairs room, where the party were confronted by the vampire, Vivirane. The vampire seemed to have something over Yoto, as the Goblinoid mobster is cowed in her presence. Vivirane revealed that she works for Malfium, the vampire that caused so much trouble in Mandevrath and is now the leader of the Blood Fangs. She also coyly revealed that the Blood Fangs had Rivergrip in custody, Geliah's childhood friend and army buddy, as well as Gorog the apprentice.
+
+Vivirane demands that the party find Krieg (alive!) or his bots (Cavill suggested there could be up to 12 out there), and gave the party of list of 3 locations where the eccentric artificer could be hiding. She offered that the hostages will be released safely if the party could follow through. The party offered a single Kriegbot head in return for at least some proof that the hostages are still alive. Vivirane agreed and promptly left.
+
+After the meeting, Yoto silently motioned for the party to stick around. His goons quickly surveiled the room to make sure Vivirane wasn't hiding, and then revealed that he doesn't like being forced into service with the Blood Fangs. Yoto proposed a plan to ambush Vivirane during the handover of Krieg and potentially kill her and maybe her boss, Malfium.
