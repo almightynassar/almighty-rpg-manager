@@ -61,7 +61,13 @@ Most legal issues in Terrea is handled by a court-like system with minor differe
 
 ## What monsters are terrorizing the countryside sufficiently that if I kill them I will become famous?
 
-There are monsters everywhere on Terrea, but of particular note are: Aboleths, Dragons, Krakens, Remorhazes', and Vampires
+There are monsters everywhere on Terrea, but of particular note are: 
+
+ - [Daemons](#/monsters?id=daemons) are the what the Gauld turned into after they passed into the Shadowrealm. They are almost immortal creatures that serve a similar mythological niche as angels, devils and demons.
+ - [Dragons](#/monsters?id=dragons) are giant flying serpentine monsters that are long-lived and sentient. They are prideful creatures that harbour a deep-seated hatred of the Gauld.
+ - [Krakens](#/monsters?id=dragons) are giant squid-like sea monsters that lurk the deep seas.
+ - [Primordials](#/monsters?id=primordials) are elemental creatures that reside in the Shadowrealm. They were Gauld that have been touched by Primus, and are distinct beings to the Daemons.
+ - [Vampires](#/monsters?id=vampires) are undead monsters that use their cunning and intelligence to entrap their prey.
 
 ## Are there any wars we can fight in?
 

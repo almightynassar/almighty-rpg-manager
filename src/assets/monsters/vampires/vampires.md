@@ -1,5 +1,5 @@
-# Vampires
+In mythology, the Vampires were created by the Gods as stealthy assassins to silently exterminate powerful Gauldan Specters. It is possible that due to their clandestine nature that Vampires generally take on a secondary role in most Terrean myths and lore.
 
-Vampires were created by the Gods to assassinate powerful Gauldan Specters, as their powers mirror and counter the average Specter. They are able to blend into society easily, and use the Nether-sourced powers to drain the lifeforce and willpower of their targets. Vampires are considered to be undead monsters.
+The powers of a Vampire largely mirror and counter the abilities of a Specter, although their abilities draw upon the Nether instead of the Aether. They are able to blend into society easily using their ability to shape-shift, a power that requires the Vampire to taste the blood of their target. They can also drain the lifeforce and willpower of their prey, and propagate their species by "turning" living creatures. Because of their link to the Nether, Vampires are considered to be undead monsters.
 
-The party encountered and defeated two Vampires in the secret underground facility of Mandevrath (**Kruxas** and **Moixa**). However the head vampire, **Drafus Malfium**, is still at large.
+The party encountered and defeated two Vampires in the secret underground facility of Mandevrath (**Kruxas** and **Moixa**). However the head vampire, **Drafus Malfium**, is still at large, and the Vampire lord has recruited another Vampire named **Vivirane**.

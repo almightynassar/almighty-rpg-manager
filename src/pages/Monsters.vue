@@ -6,7 +6,10 @@
                 <q-card>
                     <q-card-section>
                         <q-btn flat color="primary" icon="arrow_back_ios" label="Back" @click="goBack" />
-                        <q-img :src="monster.image" basic class="fit" />
+                        <template v-if="monster.image">
+                          <q-img :src="monster.image" basic class="fit" />
+                          <p class="text-center"><small><em>Art by <a :href="monster.src.url">{{ monster.src.artist }}</a></em></small></p>
+                        </template>
                         <q-markup-table flat dense wrap-cells>
                             <thead>
                                 <th></th>
@@ -19,7 +22,7 @@
                                 </tr>
                             </tbody>
                         </q-markup-table>
-                        <div class="q-mt-sm">
+                        <div v-if="monster.names" class="q-mt-sm">
                           <div v-for="name in names" :key="name.type">
                             <p><strong>{{name.type | capitalize}} names:</strong></p>
                             <p>

@@ -1,0 +1,3 @@
+The Kraken are huge sea-monsters that lurk the open seas, causing havoc to sea merchants plying their trade. They rarely come close to shore, as they can more freely move in the deep ocean.
+
+The Krakens are semi-intelligent creatures in the way that octupuses or dolphins are. They are able to remember interactions and solve puzzles, but they cannot communicate and do not show any deep logical thought. If the Krakens have a language or some sort of formal communication it is completely alien to the denizens of Terrea.

@@ -8,5 +8,9 @@ export default {
   sentient: true,
   names: 'latin',
   markdown: Markdown,
-  image: Image
+  image: Image,
+  src: {
+    artist: 'Nino Is',
+    url: 'https://www.artstation.com/artwork/q9OQN2'
+  }
 }

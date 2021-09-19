@@ -8,5 +8,9 @@ export default {
   sentient: true,
   names: 'akkadian',
   markdown: Markdown,
-  image: Image
+  image: Image,
+  src: {
+    artist: 'VampirePrincess007',
+    url: 'https://www.deviantart.com/vampireprincess007/art/Storm-lords-161032162'
+  }
 }

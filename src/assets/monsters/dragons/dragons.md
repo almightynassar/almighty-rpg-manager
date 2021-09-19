@@ -1,6 +1,4 @@
-# Dragons
-
-Dragons were the main monstrous antagonists in the war against the ancient Gauld. They are large-to-gigantic flying reptilian mammals that can breathe out various elemental energies, and are very difficult to kill. They are also extremely cunning and intelligent. They only thing keeping Dragons from ruling the world of Terrea are Dragons themselves; Dragons are constantly fighting each other. Dragons do not die of old age and so live on indefinitely, barring violence or old age. They also continually grow, meaning the oldest Dragons are also the largest.
+Dragons were the main monstrous antagonists in the mythological war against the ancient Gauld. They are large-to-gigantic flying reptilian mammals that can breathe out various elemental energies, and are very difficult to kill. They are also extremely cunning and intelligent. They only thing keeping Dragons from ruling the world of Terrea are Dragons themselves; Dragons are constantly fighting each other. Dragons do not die of old age and so live on indefinitely, barring violence or old age. They also continually grow, meaning the oldest Dragons are also the largest.
 
 - **Effectively Immortal:** Dragons do not die of old age but can succumb to disease, wounds, poor health, and other causes.
 - **Egotistical:** Dragons believe that they are the natural rulers of Terrea, and are superior than all mortals (including the Gauld)
