@@ -88,6 +88,10 @@ The party escaped the Collector's base, and took the young children to the Colle
 
 Siedel paid out part of the parties cheque, and added 10,000 cp reward from his own savings as payment for keeping the children safe. The payment is also meant to purchase the group's silence and secrecy in regards to the younglings. This payment was paid out to the newly formed Beriah Inc, a newly formed adventuring company.
 
+---
+
+# Krieg arc
+
 ## Session 16: On the hunt for Krieg
 
 After a day resting in the warehouse, the calm was interrupted by a dozen Collector's carrying in a malfunctioning Spectrum. The droid leader had damaged their memory by operating in an unsafe manner to protect his fellow Collectors. A brief moment of lucidity allowed Spectrum to warn Raorik not to trust Sesom, the former Gauldian boss of the two forged over 500 years ago (Raorik was a diplomat, and Spectrum worked in Security).
