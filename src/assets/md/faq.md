@@ -79,11 +79,17 @@ The Orc Tribes and Goblin city-states love their combat games (especially those 
 
 ## Where can I hire mercenaries? Or find sages and other knowledge specialists?
 
-Mercenaries can be found almost anywhere, since wandering monsters are a constant threat. Orcish pirates also terrorize the seas. As for knowledge experts, it will depend on the rarity of the knowledge. But it should be safe to assume that nation capitals are sufficiently large enough to support these types of experts.
+Mercenaries can be found almost anywhere on the Terrea. A lot of these "mercenary" bands are veterans from the decades long war between the Empire and the 3 Kingdoms. They grew up with the war and have virtually no other skills, so they ply their trade of violence in legal and not-so-legal ways.
+
+Many of these mercenaries subscribe to the idea of a "Guild", an institution that supposedly regulates the conduct of sellswords. Many think that the loose idea of a "guild" is used to help the veterans be more comfortable with being sellswords, to soften the blow of the realisation that they no longer fight for their honour or their country but for mere gold. Others believe that the "guild rules" allow some scrupulous mercenary captins to charge extra, as they are able to charge specific prices for special services.
+
+As you can expect, competition is tough and there are not a lot of contracts, so some bands have resorted to unsavourey means such as demanding protection money from sjop-keeps.
+
+As for knowledge experts, it will depend on the rarity of the knowledge. But it should be safe to assume that nation capitals are sufficiently large enough to support these types of experts.
 
 ## Is there any magic guilds or orders that we can join to get more spells/artifacts?
 
-The Academy is the most pervasive institution in Terrea, as it is decentralised and focuses on sharing knowledge. Members of the academy constantly submit papers on magic theory (whether it is spectral-, primordial-, or nature-based) and try to increase the shared knowledge pool.
+The Academy is the most pervasive institution in Terrea, as it is decentralised and focuses on sharing knowledge. Members of the academy constantly submit papers on new theories and try to increase the progress technical and magical knowledge.
 
 For spectral-based magic there are some scattered schools that teach a specific form of harnessing spectral powers, but they guard their secrets zealously. To gain their knowledge, you will need to earn their trust and keep secret any knowledge gained. These schools are generally reclusive and avoided by the general populace because of the rumours surrounding the initiation to become a spectre-user.
 
@@ -111,3 +117,20 @@ The richest person is an ongoing competition between the Merfolk and the Dwarves
 The greatest warriors are to be found among the Hentergrey Empire's troops, although the Partisans have many warriors that have gain reknown by standing against the Empire. The Orcs can also lay claim to the title, as their constant raiding provides fertile ground for warrior training.
 
 The most powerful specter user is unknown, since many of the schools are secretive and avoid displaying their prowess so that their enemies cannot learn their secrets.
+
+
+## Any interesting rumours?
+
+The 3 "pods" are largely reported to have landed in the island continent of Orland, which is where you find it's southern-most city of Dessingrove (where the party are currently located).
+
+But where exactly is hard to pinpoint, as every country hamlet claims that it landed near them. There's little evidence of any foreign activity, other than crushed trees and singed bushes. Most people are writing it off as a mischievous young Dragon causing grief.
+
+But there are fervent and enthusiastic rumours that the 3 pods are symbols of the Gods themselves, finally making their first contact with mortal since the Sundering.
+
+Others, usually cultists of the Gauldish Daemons, believe that it is the wrathful arrival of Kennodox, Invidia and Orgia. The Gauld are preparing to take back what was once theirs.
+
+Still others postulate that it is the elemental Primus, who is ready to once again test their strength against the gods.
+
+And yet still there are even more crazy rumours, that the "pods" created rifts in our reality and portals to new worlds. A whole damn cult pretty much sprung out of nowhere and claimed that this was the start of a new beginning.
+
+Whatever the cause behind the phenomenon,  one thing that everyone agrees on is the new name for it: The Allbright.
